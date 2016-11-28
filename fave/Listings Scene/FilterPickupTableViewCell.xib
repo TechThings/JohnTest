@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="KGk-i7-Jjw" customClass="FilterPickupTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="338" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tdw-97-kE0">
+                        <rect key="frame" x="15" y="10" width="171" height="45"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.54117647058823526" green="0.60392156862745094" blue="0.66274509803921566" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A75-IQ-c66">
+                        <rect key="frame" x="196" y="10" width="142" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="142" id="K6c-o0-us5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="35" maxY="0.0"/>
+                        <state key="normal" title="Sort by Distance ">
+                            <color key="titleColor" red="0.54117647058823526" green="0.60392156862745094" blue="0.66274509803921566" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahT-KU-r5R" userLabel="Separator">
+                        <rect key="frame" x="0.0" y="64" width="338" height="1"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94509803921568625" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="1zQ-pB-EaU"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ui-arrow-down" translatesAutoresizingMaskIntoConstraints="NO" id="ujQ-vs-91X">
+                        <rect key="frame" x="311" y="28" width="12" height="9"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="E5y-qQ-8Ux"/>
+                            <constraint firstAttribute="height" constant="9" id="vf7-Fy-fL9"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ahT-KU-r5R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="0mO-bo-KEY"/>
+                    <constraint firstItem="Tdw-97-kE0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="7fz-B1-tN9"/>
+                    <constraint firstAttribute="bottom" secondItem="Tdw-97-kE0" secondAttribute="bottom" constant="10" id="BEU-iA-2ey"/>
+                    <constraint firstAttribute="trailing" secondItem="ahT-KU-r5R" secondAttribute="trailing" id="HG3-gE-r8B"/>
+                    <constraint firstItem="Tdw-97-kE0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Mhr-qJ-vNk"/>
+                    <constraint firstAttribute="bottom" secondItem="ahT-KU-r5R" secondAttribute="bottom" id="Qkb-1K-aoI"/>
+                    <constraint firstAttribute="bottom" secondItem="A75-IQ-c66" secondAttribute="bottom" constant="10" id="S8Q-I2-JUI"/>
+                    <constraint firstAttribute="trailing" secondItem="ujQ-vs-91X" secondAttribute="trailing" constant="15" id="WGQ-dd-3BX"/>
+                    <constraint firstAttribute="trailing" secondItem="A75-IQ-c66" secondAttribute="trailing" id="XPw-Rw-Qnb"/>
+                    <constraint firstItem="A75-IQ-c66" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="cgF-Eb-SVu"/>
+                    <constraint firstItem="A75-IQ-c66" firstAttribute="leading" secondItem="Tdw-97-kE0" secondAttribute="trailing" constant="10" id="tG4-3v-zTS"/>
+                    <constraint firstItem="ujQ-vs-91X" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="yZE-sF-KkS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="orderButton" destination="A75-IQ-c66" id="lnb-Cv-xsa"/>
+                <outlet property="titleLabel" destination="Tdw-97-kE0" id="9UF-4T-FML"/>
+            </connections>
+            <point key="canvasLocation" x="228" y="156.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ui-arrow-down" width="12" height="9"/>
+    </resources>
+</document>

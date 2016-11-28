@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Location Permission View Controller-->
+        <scene sceneID="cx4-ed-mOi">
+            <objects>
+                <viewController storyboardIdentifier="LocationPermissionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jna-OM-6Hx" customClass="LocationPermissionViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dXP-7Q-ooh"/>
+                        <viewControllerLayoutGuide type="bottom" id="hXE-xl-Qci"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nsZ-vQ-OmZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QSN-sK-guh">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn on your location to see what’s trending nearby and receive offers you might love." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNJ-24-nYm" customClass="KFITLabel">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="280" id="o1d-cs-wLD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="turn_on_location_description"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTx-zb-vRU">
+                                        <color key="backgroundColor" red="0.18461816012859344" green="0.67964828014373779" blue="0.93489491939544678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="137" id="nr2-5H-U3w"/>
+                                            <constraint firstAttribute="height" constant="50" id="oCd-k1-bek"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Okay">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapOKButton:" destination="jna-OM-6Hx" eventType="touchUpInside" id="XzG-Ol-nPy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7S-RU-pZa">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="1FJ-sw-8yX"/>
+                                            <constraint firstAttribute="height" constant="44" id="25S-Ri-zgl"/>
+                                        </constraints>
+                                        <state key="normal" title="Not now">
+                                            <color key="titleColor" red="0.20000000300000001" green="0.65882354970000001" blue="0.81960785390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapCancelButton:" destination="jna-OM-6Hx" eventType="touchUpInside" id="wyW-SX-aSO"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtn-ho-jTh">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="v7u-6D-wtd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="location_permission_prompt_enable_location_text"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="v7u-6D-wtd"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YTx-zb-vRU" firstAttribute="top" secondItem="dNJ-24-nYm" secondAttribute="bottom" constant="25" id="0Un-A6-mXm"/>
+                                    <constraint firstItem="P7S-RU-pZa" firstAttribute="centerX" secondItem="QSN-sK-guh" secondAttribute="centerX" id="7nh-Zu-RqZ"/>
+                                    <constraint firstItem="YTx-zb-vRU" firstAttribute="centerX" secondItem="QSN-sK-guh" secondAttribute="centerX" id="Pbz-Rt-f7a"/>
+                                    <constraint firstItem="P7S-RU-pZa" firstAttribute="top" secondItem="YTx-zb-vRU" secondAttribute="bottom" constant="11" id="TYu-Y3-En7"/>
+                                    <constraint firstItem="dNJ-24-nYm" firstAttribute="centerX" secondItem="QSN-sK-guh" secondAttribute="centerX" id="UpJ-9C-4Fm"/>
+                                    <constraint firstAttribute="bottom" secondItem="P7S-RU-pZa" secondAttribute="bottom" constant="20" id="ctU-LO-UrV"/>
+                                    <constraint firstItem="mtn-ho-jTh" firstAttribute="centerX" secondItem="QSN-sK-guh" secondAttribute="centerX" id="jqo-Pb-NKI"/>
+                                    <constraint firstItem="dNJ-24-nYm" firstAttribute="top" secondItem="mtn-ho-jTh" secondAttribute="bottom" constant="10" id="miQ-MR-1iI"/>
+                                    <constraint firstItem="dNJ-24-nYm" firstAttribute="top" secondItem="mtn-ho-jTh" secondAttribute="bottom" constant="39" id="u0D-IA-ozt"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="u0D-IA-ozt"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location-permission-bg" translatesAutoresizingMaskIntoConstraints="NO" id="5Y3-O4-Men">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="206" id="Oed-JI-76U"/>
+                                    <constraint firstAttribute="width" constant="180" id="fSI-5f-TSl"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Oed-JI-76U"/>
+                                        <exclude reference="fSI-5f-TSl"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QSN-sK-guh" firstAttribute="top" secondItem="5Y3-O4-Men" secondAttribute="bottom" id="2RL-pb-26U"/>
+                            <constraint firstItem="5Y3-O4-Men" firstAttribute="top" secondItem="nsZ-vQ-OmZ" secondAttribute="topMargin" id="7Rn-bv-93i"/>
+                            <constraint firstItem="QSN-sK-guh" firstAttribute="height" secondItem="5Y3-O4-Men" secondAttribute="height" id="BME-6N-Rzi"/>
+                            <constraint firstItem="5Y3-O4-Men" firstAttribute="centerX" secondItem="nsZ-vQ-OmZ" secondAttribute="centerX" id="DSa-RL-qhM"/>
+                            <constraint firstItem="5Y3-O4-Men" firstAttribute="leading" secondItem="nsZ-vQ-OmZ" secondAttribute="leading" id="G0f-JO-kv5"/>
+                            <constraint firstItem="QSN-sK-guh" firstAttribute="leading" secondItem="nsZ-vQ-OmZ" secondAttribute="leading" id="Rna-dE-yks"/>
+                            <constraint firstItem="hXE-xl-Qci" firstAttribute="top" secondItem="QSN-sK-guh" secondAttribute="bottom" id="W7c-4W-HGo"/>
+                            <constraint firstAttribute="trailing" secondItem="5Y3-O4-Men" secondAttribute="trailing" id="YuO-4q-mxg"/>
+                            <constraint firstItem="5Y3-O4-Men" firstAttribute="top" secondItem="dXP-7Q-ooh" secondAttribute="bottom" id="sIK-t6-LCF"/>
+                            <constraint firstItem="5Y3-O4-Men" firstAttribute="top" secondItem="dXP-7Q-ooh" secondAttribute="bottom" id="uke-6L-gbr"/>
+                            <constraint firstAttribute="trailing" secondItem="QSN-sK-guh" secondAttribute="trailing" id="w2h-3t-b9h"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="sIK-t6-LCF"/>
+                                <exclude reference="uke-6L-gbr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="P7S-RU-pZa" id="JCi-EK-SAm"/>
+                        <outlet property="descriptionLabel" destination="dNJ-24-nYm" id="kCM-jJ-npc"/>
+                        <outlet property="okButton" destination="YTx-zb-vRU" id="Iy2-sL-DhK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e0v-Tv-eTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5750" y="1075"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="location-permission-bg" width="450" height="350"/>
+    </resources>
+</document>

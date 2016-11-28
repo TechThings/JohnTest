@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chat Container View Controller-->
+        <scene sceneID="h6w-pT-44A">
+            <objects>
+                <viewController restorationIdentifier="ChatContainerViewController" storyboardIdentifier="ChatContainerViewController" id="gd6-Fl-Bxo" customClass="ChatContainerViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eh9-im-g6b"/>
+                        <viewControllerLayoutGuide type="bottom" id="fcZ-XA-JV9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JyL-aN-xAI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o30-hp-Arm">
+                                <connections>
+                                    <segue destination="zeR-CZ-ZgM" kind="embed" id="NvP-tK-NYp"/>
+                                </connections>
+                            </containerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="itG-qk-LMP" customClass="ChatOfferView" customModule="Fave" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="MtR-3G-4t0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="itG-qk-LMP" firstAttribute="leading" secondItem="JyL-aN-xAI" secondAttribute="leading" id="GzE-3z-PlJ"/>
+                            <constraint firstItem="o30-hp-Arm" firstAttribute="leading" secondItem="JyL-aN-xAI" secondAttribute="leading" id="KM8-Yb-GEZ"/>
+                            <constraint firstItem="itG-qk-LMP" firstAttribute="top" secondItem="Eh9-im-g6b" secondAttribute="bottom" id="Lkm-VN-VbP"/>
+                            <constraint firstItem="o30-hp-Arm" firstAttribute="top" secondItem="Eh9-im-g6b" secondAttribute="bottom" id="R1b-KD-y8K"/>
+                            <constraint firstAttribute="trailing" secondItem="itG-qk-LMP" secondAttribute="trailing" id="VAN-lD-Rbw"/>
+                            <constraint firstItem="fcZ-XA-JV9" firstAttribute="top" secondItem="o30-hp-Arm" secondAttribute="bottom" id="a6b-dJ-cfP"/>
+                            <constraint firstAttribute="trailing" secondItem="o30-hp-Arm" secondAttribute="trailing" id="eAT-LW-Usd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JR0-oc-Gxb">
+                        <barButtonItem key="backBarButtonItem" title=" " id="mbq-ZF-GGq"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="chatOfferView" destination="itG-qk-LMP" id="tc6-M4-5Sv"/>
+                        <outlet property="offerHeightConstraint" destination="MtR-3G-4t0" id="beZ-9d-duU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5J1-db-9H2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="11"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="SIK-3c-6rD">
+            <objects>
+                <viewController storyboardIdentifier="ChatViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zeR-CZ-ZgM" customClass="ChatViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qxV-he-c0T"/>
+                        <viewControllerLayoutGuide type="bottom" id="1br-88-UX0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BBd-UH-VfE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Fj-WD-cjg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1899" y="-29"/>
+        </scene>
+    </scenes>
+</document>

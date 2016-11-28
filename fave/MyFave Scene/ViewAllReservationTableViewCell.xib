@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="53" id="pw1-rm-UJx" customClass="ViewAllReservationTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="62"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pw1-rm-UJx" id="D44-AU-F7q">
+                <frame key="frameInset" width="327" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYe-5O-ewn">
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_disclosure_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Ueu-bR-4S3">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="Nyt-eK-Cxl"/>
+                                    <constraint firstAttribute="height" constant="12" id="n1V-wa-XPR"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View all past purchases" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-XV-ssJ">
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.20000000298023224" green="0.65882354974746704" blue="0.81960785388946533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="view_past_purchases"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ueu-bR-4S3" firstAttribute="leading" secondItem="5rj-XV-ssJ" secondAttribute="trailing" constant="10" id="69o-1L-fph"/>
+                            <constraint firstAttribute="bottom" secondItem="5rj-XV-ssJ" secondAttribute="bottom" id="FGk-iG-hbR"/>
+                            <constraint firstItem="Ueu-bR-4S3" firstAttribute="centerY" secondItem="oYe-5O-ewn" secondAttribute="centerY" id="NJk-gm-hJe"/>
+                            <constraint firstItem="5rj-XV-ssJ" firstAttribute="leading" secondItem="oYe-5O-ewn" secondAttribute="leading" constant="15" id="RMu-NZ-Jb0"/>
+                            <constraint firstItem="5rj-XV-ssJ" firstAttribute="top" secondItem="oYe-5O-ewn" secondAttribute="top" id="foO-yL-29n"/>
+                            <constraint firstAttribute="trailing" secondItem="Ueu-bR-4S3" secondAttribute="trailing" constant="10" id="qZb-Y9-HaR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oYe-5O-ewn" firstAttribute="top" secondItem="D44-AU-F7q" secondAttribute="top" constant="10" id="0WX-CR-vne"/>
+                    <constraint firstItem="oYe-5O-ewn" firstAttribute="leading" secondItem="D44-AU-F7q" secondAttribute="leading" constant="10" id="Kbm-Vk-Am8"/>
+                    <constraint firstAttribute="trailing" secondItem="oYe-5O-ewn" secondAttribute="trailing" constant="10" id="gpY-Ed-0t8"/>
+                    <constraint firstAttribute="bottom" secondItem="oYe-5O-ewn" secondAttribute="bottom" constant="10" id="m6o-aW-bZQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="pastPurchaseView" destination="oYe-5O-ewn" id="Whm-lK-FPP"/>
+                <outlet property="pastPurchasesTitle" destination="5rj-XV-ssJ" id="inA-bA-gmu"/>
+            </connections>
+            <point key="canvasLocation" x="202.5" y="125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_disclosure_arrow" width="15" height="15"/>
+    </resources>
+</document>

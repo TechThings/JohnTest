@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Bold.otf">
+            <string>CircularStd-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Help Center-->
+        <scene sceneID="pJr-nw-hJD">
+            <objects>
+                <viewController storyboardIdentifier="SupportViewController" title="Help Center" id="pCI-x5-tEf" customClass="SupportViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n08-7p-9q1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ydw-S1-blV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cJy-aT-D3N" userLabel="Container View">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gyh-FY-PeU" userLabel="FAQ and Terms Button">
+                                <color key="backgroundColor" red="0.87058823529411766" green="0.12549019607843137" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="iBO-9Y-wf4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="16"/>
+                                <state key="normal" title="FAQ and Terms">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="viewFAQ:" destination="pCI-x5-tEf" eventType="touchUpInside" id="jbz-qL-PPa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1A-6s-VkQ" userLabel="Talk To Us Button">
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.12549019610000001" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0Bl-T0-7yq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="16"/>
+                                <state key="normal" title="My Tickets">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openMyTickets:" destination="pCI-x5-tEf" eventType="touchUpInside" id="akT-b9-aDZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VX-v5-v9h" userLabel="My Tickets Button">
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.12549019610000001" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="K6X-eK-FZV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="16"/>
+                                <state key="normal" title="Talk To Us">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openChat:" destination="pCI-x5-tEf" eventType="touchUpInside" id="Pw7-EP-pra"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0VX-v5-v9h" firstAttribute="leading" secondItem="cJy-aT-D3N" secondAttribute="leading" constant="20" id="4Tm-JP-02n"/>
+                            <constraint firstItem="0VX-v5-v9h" firstAttribute="top" secondItem="p1A-6s-VkQ" secondAttribute="bottom" constant="20" id="COC-iz-oeZ"/>
+                            <constraint firstItem="p1A-6s-VkQ" firstAttribute="top" secondItem="Gyh-FY-PeU" secondAttribute="bottom" constant="20" id="H2g-r3-CjS"/>
+                            <constraint firstAttribute="trailing" secondItem="Gyh-FY-PeU" secondAttribute="trailing" constant="20" id="TpR-8m-dyX"/>
+                            <constraint firstAttribute="trailing" secondItem="0VX-v5-v9h" secondAttribute="trailing" constant="20" id="WIN-J8-Q6d"/>
+                            <constraint firstItem="Gyh-FY-PeU" firstAttribute="leading" secondItem="cJy-aT-D3N" secondAttribute="leading" constant="20" id="f0B-jx-Ygo"/>
+                            <constraint firstAttribute="trailing" secondItem="p1A-6s-VkQ" secondAttribute="trailing" constant="20" id="lRI-mJ-bA8"/>
+                            <constraint firstItem="Gyh-FY-PeU" firstAttribute="top" secondItem="n08-7p-9q1" secondAttribute="bottom" constant="20" id="s96-5r-9ND"/>
+                            <constraint firstItem="p1A-6s-VkQ" firstAttribute="leading" secondItem="cJy-aT-D3N" secondAttribute="leading" constant="20" id="wIO-0A-S6n"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Help Center" id="xRM-Ig-bSM">
+                        <barButtonItem key="backBarButtonItem" title=" " id="ZEp-Pk-xTS"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="faqButton" destination="Gyh-FY-PeU" id="ldY-gc-DFF"/>
+                        <outlet property="talkUsButton" destination="0VX-v5-v9h" id="anr-qg-zOn"/>
+                        <outlet property="ticketButton" destination="p1A-6s-VkQ" id="Z7y-EN-sTb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8P-x3-uEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-295" y="199"/>
+        </scene>
+    </scenes>
+</document>

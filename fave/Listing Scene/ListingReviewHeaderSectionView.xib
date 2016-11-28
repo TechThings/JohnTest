@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ListingReviewHeaderSectionView" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTh-SO-iYc" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="10" width="371" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeM-2J-wEQ">
+                            <rect key="frame" x="15" y="15" width="59" height="20.5"/>
+                            <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFV-Y5-itU">
+                            <rect key="frame" x="291" y="0.0" width="80" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="wDw-H6-hlZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                            <state key="normal" title="View all">
+                                <color key="titleColor" red="0.20000000000000001" green="0.6588235294" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KGD-8A-tfz" userLabel="Separator">
+                            <rect key="frame" x="0.0" y="49" width="371" height="1"/>
+                            <color key="backgroundColor" red="0.92144894599914551" green="0.9206315279006958" blue="0.9457707405090332" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="0dA-mL-v7A"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="HFV-Y5-itU" secondAttribute="bottom" id="Dj7-Dr-JRY"/>
+                        <constraint firstItem="HFV-Y5-itU" firstAttribute="leading" secondItem="KGD-8A-tfz" secondAttribute="trailing" id="Voz-IA-x3q"/>
+                        <constraint firstItem="KGD-8A-tfz" firstAttribute="leading" secondItem="yTh-SO-iYc" secondAttribute="leading" id="Xds-kH-OlV"/>
+                        <constraint firstAttribute="bottom" secondItem="KGD-8A-tfz" secondAttribute="bottom" id="Xo6-Yp-GnC"/>
+                        <constraint firstAttribute="trailing" secondItem="HFV-Y5-itU" secondAttribute="trailing" id="sKw-BG-cmB"/>
+                        <constraint firstItem="yeM-2J-wEQ" firstAttribute="leading" secondItem="yTh-SO-iYc" secondAttribute="leading" constant="15" id="sTh-8A-WCK"/>
+                        <constraint firstItem="HFV-Y5-itU" firstAttribute="top" secondItem="yTh-SO-iYc" secondAttribute="top" id="u6C-IK-VZT"/>
+                        <constraint firstItem="yeM-2J-wEQ" firstAttribute="centerY" secondItem="yTh-SO-iYc" secondAttribute="centerY" id="ucl-Z5-cAl"/>
+                        <constraint firstAttribute="trailing" secondItem="KGD-8A-tfz" secondAttribute="trailing" id="xR8-qo-949"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Voz-IA-x3q"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yTh-SO-iYc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1So-b6-hnZ"/>
+                <constraint firstAttribute="trailing" secondItem="yTh-SO-iYc" secondAttribute="trailing" id="MeZ-K4-L7D"/>
+                <constraint firstItem="yTh-SO-iYc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="u85-r5-Atz"/>
+                <constraint firstAttribute="bottom" secondItem="yTh-SO-iYc" secondAttribute="bottom" id="ugJ-dZ-IDf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="reviewsButton" destination="HFV-Y5-itU" id="bbd-Yo-CPW"/>
+                <outlet property="separatorHeightConstraint" destination="0dA-mL-v7A" id="myq-1B-zUO"/>
+            </connections>
+            <point key="canvasLocation" x="218.5" y="-107.5"/>
+        </view>
+    </objects>
+</document>

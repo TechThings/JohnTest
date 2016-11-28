@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FaveContactHeaderTableViewCell" id="sFo-PJ-crp" customClass="FaveContactHeaderTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sFo-PJ-crp" id="XIi-Td-bN5">
+                <frame key="frameInset" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dSi-tn-Fub">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FRIENDS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpf-bP-vWJ">
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.66274509803921566" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oKm-Rq-2u8">
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.90196078430000004" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="eFG-fM-Q5U"/>
+                            <constraint firstAttribute="height" constant="1" id="qgh-Sf-KfD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="qgh-Sf-KfD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="oKm-Rq-2u8" secondAttribute="trailing" id="7aA-7z-pP9"/>
+                    <constraint firstAttribute="trailing" secondItem="dSi-tn-Fub" secondAttribute="trailing" constant="15" id="JA0-7m-dPV"/>
+                    <constraint firstItem="dSi-tn-Fub" firstAttribute="leading" secondItem="XIi-Td-bN5" secondAttribute="leading" id="WhE-vt-78P"/>
+                    <constraint firstItem="dSi-tn-Fub" firstAttribute="top" secondItem="XIi-Td-bN5" secondAttribute="top" constant="15" id="YCS-VK-3pF"/>
+                    <constraint firstItem="oKm-Rq-2u8" firstAttribute="leading" secondItem="XIi-Td-bN5" secondAttribute="leading" id="czv-SK-Rte"/>
+                    <constraint firstItem="dSi-tn-Fub" firstAttribute="leading" secondItem="XIi-Td-bN5" secondAttribute="leading" constant="15" id="gv6-Y8-5Bi"/>
+                    <constraint firstAttribute="trailing" secondItem="dSi-tn-Fub" secondAttribute="trailing" id="iGb-AQ-fWu"/>
+                    <constraint firstAttribute="bottom" secondItem="dSi-tn-Fub" secondAttribute="bottom" constant="10" id="pyF-cy-d7Z"/>
+                    <constraint firstItem="dSi-tn-Fub" firstAttribute="top" secondItem="XIi-Td-bN5" secondAttribute="top" id="qs7-A1-77Y"/>
+                    <constraint firstAttribute="bottom" secondItem="dSi-tn-Fub" secondAttribute="bottom" id="xeg-YV-O6X"/>
+                    <constraint firstAttribute="bottom" secondItem="oKm-Rq-2u8" secondAttribute="bottom" id="zxP-qz-Loo"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="WhE-vt-78P"/>
+                        <exclude reference="iGb-AQ-fWu"/>
+                        <exclude reference="qs7-A1-77Y"/>
+                        <exclude reference="xeg-YV-O6X"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="title" destination="Kpf-bP-vWJ" id="foh-fc-CDg"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

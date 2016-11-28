@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NextSessionsTimeSlotTableViewCell" rowHeight="55" id="KGk-i7-Jjw" customClass="NextSessionsTimeSlotTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="54.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMx-2H-IAw" customClass="Button" customModule="Fave" customModuleProvider="target">
+                        <rect key="frame" x="282" y="9" width="85" height="36"/>
+                        <color key="backgroundColor" red="0.2823529541" green="0.69019609689999994" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="Esf-I6-clA"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="G7P-NU-61t"/>
+                            <constraint firstAttribute="width" constant="86" id="Xn1-yM-bIE"/>
+                            <constraint firstAttribute="height" constant="36" id="w4c-v2-Wsq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <state key="normal" title="BUY">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="G7P-NU-61t"/>
+                                <exclude reference="Xn1-yM-bIE"/>
+                            </mask>
+                        </variation>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zBN-fL-7pr" userLabel="Separator">
+                        <rect key="frame" x="15" y="54" width="360" height="1"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="XWr-dJ-zD9"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="5:30 PM - 6:30 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acT-tn-5Io">
+                        <rect key="frame" x="10" y="18" width="118" height="18"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="3 slots left" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9y-ZF-BrP" customClass="KFITBoxedLabel">
+                        <rect key="frame" x="221" y="17" width="51" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="SVQ-4l-oZ6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.96078431610000004" green="0.14509804549999999" blue="0.24313725529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.96078431606292725" green="0.14509804546833038" blue="0.24313725531101227" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="JMx-2H-IAw" secondAttribute="trailing" constant="8" id="1ut-TV-dF9"/>
+                    <constraint firstItem="zBN-fL-7pr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Bwn-Ff-9S3"/>
+                    <constraint firstItem="acT-tn-5Io" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="HHk-y8-2f7"/>
+                    <constraint firstItem="f9y-ZF-BrP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="JAJ-Qk-31U"/>
+                    <constraint firstAttribute="bottom" secondItem="zBN-fL-7pr" secondAttribute="bottom" id="M87-Eo-DjB"/>
+                    <constraint firstItem="JMx-2H-IAw" firstAttribute="leading" secondItem="f9y-ZF-BrP" secondAttribute="trailing" constant="10" id="T19-HP-ffQ"/>
+                    <constraint firstAttribute="trailing" secondItem="zBN-fL-7pr" secondAttribute="trailing" id="pk1-sk-gR7"/>
+                    <constraint firstItem="acT-tn-5Io" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="tgI-k2-9mL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="JMx-2H-IAw" firstAttribute="centerY" secondItem="KGk-i7-Jjw" secondAttribute="centerY" id="Czg-wz-xfv"/>
+            </constraints>
+            <inset key="separatorInset" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="bookButton" destination="JMx-2H-IAw" id="g85-it-DqQ"/>
+                <outlet property="slotLabel" destination="f9y-ZF-BrP" id="CJJ-Ag-7wy"/>
+                <outlet property="timeLabel" destination="acT-tn-5Io" id="CQT-Xo-OQE"/>
+            </connections>
+            <point key="canvasLocation" x="255" y="245.5"/>
+        </tableViewCell>
+    </objects>
+</document>

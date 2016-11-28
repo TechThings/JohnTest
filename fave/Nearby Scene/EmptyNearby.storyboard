@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Empty Nearby View Controller-->
+        <scene sceneID="TX8-F2-OqG">
+            <objects>
+                <viewController storyboardIdentifier="EmptyNearbyViewController" id="KeR-fX-JNF" customClass="EmptyNearbyViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="liU-UO-Sq4"/>
+                        <viewControllerLayoutGuide type="bottom" id="1NP-OP-DXe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oxz-gt-74j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDC-DW-W1y">
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DTR-Rj-2mw" userLabel="Empty View">
+                                        <frame key="frameInset" minY="237" width="375" height="173"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_emoji_error" translatesAutoresizingMaskIntoConstraints="NO" id="cYc-WC-joP">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="64" id="GBm-Qi-rrb"/>
+                                                    <constraint firstAttribute="height" constant="75" id="MS8-bE-Izq"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Something went wrong" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3S-6a-033">
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="Iso-C9-9cI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="msg_error_title"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkt-Xt-cWG">
+                                                <color key="backgroundColor" red="0.73725490196078436" green="0.76470588235294112" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="36" id="os6-dE-Te6"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                                <inset key="contentEdgeInsets" minX="25" minY="15" maxX="25" maxY="15"/>
+                                                <state key="normal" title="Try Again">
+                                                    <color key="titleColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="didTapTryAgainButton:" destination="KeR-fX-JNF" eventType="touchUpInside" id="lmf-0e-FJN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="mkt-Xt-cWG" secondAttribute="bottom" constant="8" id="TTP-cH-HqI"/>
+                                            <constraint firstItem="cYc-WC-joP" firstAttribute="top" secondItem="DTR-Rj-2mw" secondAttribute="top" constant="15" id="U3d-Th-9Bf"/>
+                                            <constraint firstItem="mkt-Xt-cWG" firstAttribute="centerX" secondItem="DTR-Rj-2mw" secondAttribute="centerX" id="eMK-jJ-d4g"/>
+                                            <constraint firstItem="cYc-WC-joP" firstAttribute="centerX" secondItem="DTR-Rj-2mw" secondAttribute="centerX" id="iQQ-yI-qpR"/>
+                                            <constraint firstItem="mkt-Xt-cWG" firstAttribute="top" secondItem="M3S-6a-033" secondAttribute="bottom" constant="8" id="icp-2v-BIT"/>
+                                            <constraint firstItem="M3S-6a-033" firstAttribute="top" secondItem="cYc-WC-joP" secondAttribute="bottom" constant="10" id="nhk-vi-2fZ"/>
+                                            <constraint firstItem="M3S-6a-033" firstAttribute="centerX" secondItem="DTR-Rj-2mw" secondAttribute="centerX" id="tIB-Gu-Pec"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="DTR-Rj-2mw" firstAttribute="leading" secondItem="MDC-DW-W1y" secondAttribute="leading" id="42N-hW-bxZ"/>
+                                    <constraint firstItem="DTR-Rj-2mw" firstAttribute="centerX" secondItem="MDC-DW-W1y" secondAttribute="centerX" id="ZE8-xE-Yri"/>
+                                    <constraint firstItem="DTR-Rj-2mw" firstAttribute="centerY" secondItem="MDC-DW-W1y" secondAttribute="centerY" id="aZe-L4-ujz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MDC-DW-W1y" firstAttribute="leading" secondItem="oxz-gt-74j" secondAttribute="leading" id="3uR-8a-98S"/>
+                            <constraint firstItem="MDC-DW-W1y" firstAttribute="top" secondItem="oxz-gt-74j" secondAttribute="top" id="F4w-O1-fUh"/>
+                            <constraint firstAttribute="trailing" secondItem="MDC-DW-W1y" secondAttribute="trailing" id="bCS-fH-ScW"/>
+                            <constraint firstItem="1NP-OP-DXe" firstAttribute="top" secondItem="MDC-DW-W1y" secondAttribute="bottom" id="mLB-nw-zSx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tryAgainButton" destination="mkt-Xt-cWG" id="G3G-jM-J91"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n90-QB-zTl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-292" y="93.103448275862078"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_emoji_error" width="105" height="105"/>
+    </resources>
+</document>

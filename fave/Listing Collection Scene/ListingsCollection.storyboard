@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Listings Collection View Controller-->
+        <scene sceneID="hyE-e5-QAd">
+            <objects>
+                <viewController restorationIdentifier="ListingsCollectionViewController" storyboardIdentifier="ListingsCollectionViewController" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="0xh-GX-s31" customClass="ListingsCollectionViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4XH-Ef-ZOJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Vt-HK-TQq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MAa-jd-1Mk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ListingsCollectionViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iDs-SM-qYH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iDs-SM-qYH" firstAttribute="top" secondItem="MAa-jd-1Mk" secondAttribute="top" id="4Ay-I1-Inn"/>
+                            <constraint firstItem="iDs-SM-qYH" firstAttribute="top" secondItem="4XH-Ef-ZOJ" secondAttribute="bottom" id="7Af-aa-7nx"/>
+                            <constraint firstItem="7Vt-HK-TQq" firstAttribute="top" secondItem="iDs-SM-qYH" secondAttribute="bottom" id="BRD-Yi-0gc"/>
+                            <constraint firstItem="iDs-SM-qYH" firstAttribute="top" secondItem="4XH-Ef-ZOJ" secondAttribute="bottom" id="IzQ-5h-Dha"/>
+                            <constraint firstItem="7Vt-HK-TQq" firstAttribute="top" secondItem="iDs-SM-qYH" secondAttribute="bottom" id="RKD-rO-GQp"/>
+                            <constraint firstAttribute="trailing" secondItem="iDs-SM-qYH" secondAttribute="trailing" id="Zbr-0n-afC"/>
+                            <constraint firstItem="iDs-SM-qYH" firstAttribute="leading" secondItem="MAa-jd-1Mk" secondAttribute="leading" id="riy-Jc-wTX"/>
+                            <constraint firstItem="iDs-SM-qYH" firstAttribute="top" secondItem="MAa-jd-1Mk" secondAttribute="top" id="yZD-yc-Ok7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7Af-aa-7nx"/>
+                                <exclude reference="IzQ-5h-Dha"/>
+                                <exclude reference="yZD-yc-Ok7"/>
+                                <exclude reference="RKD-rO-GQp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="h9v-95-uYL">
+                        <barButtonItem key="backBarButtonItem" title=" " id="0AN-kA-7n1"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="iDs-SM-qYH" id="2Le-B0-qhX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="id7-2K-brN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82" y="160"/>
+        </scene>
+    </scenes>
+</document>

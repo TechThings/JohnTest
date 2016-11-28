@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CreditShareInviteTableViewCell" rowHeight="218" id="An1-x2-S0R" customClass="CreditShareInviteTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="218"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="An1-x2-S0R" id="DOZ-7H-RH8">
+                <frame key="frameInset" width="320" height="217"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share your referral code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cP8-8G-DB8">
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="credit_share_code_text"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="AFWEF3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E66-GK-esN">
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="19"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ccg-h7-bhR">
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbD-Bg-f1S" userLabel="fbButton">
+                                <color key="backgroundColor" red="0.14959460496902466" green="0.24162736535072327" blue="0.5246422290802002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gDj-QB-qg2"/>
+                                    <constraint firstAttribute="width" constant="85" id="hhl-gd-5hR"/>
+                                </constraints>
+                                <state key="normal" image="fb-share"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="hhl-gd-5hR"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="shareFacebookDidTap:" destination="An1-x2-S0R" eventType="touchUpInside" id="n6q-fm-nBm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ye-aq-JkC" userLabel="twButton">
+                                <color key="backgroundColor" red="0.097851112484931946" green="0.4208793044090271" blue="0.8291429877281189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hL2-hq-g66"/>
+                                    <constraint firstAttribute="width" constant="85" id="mNk-rz-urw"/>
+                                </constraints>
+                                <state key="normal" image="tw-share"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mNk-rz-urw"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="shareTwitterDidTap:" destination="An1-x2-S0R" eventType="touchUpInside" id="pc6-pZ-Ji2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYB-F5-kYe" userLabel="smsButton">
+                                <color key="backgroundColor" red="0.093910358846187592" green="0.69813710451126099" blue="0.051419064402580261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="nWe-jv-Hgn"/>
+                                    <constraint firstAttribute="width" constant="85" id="xDD-eU-rni"/>
+                                </constraints>
+                                <state key="normal" image="sms-share"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="xDD-eU-rni"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="shareSMSDidTap:" destination="An1-x2-S0R" eventType="touchUpInside" id="s03-W7-2R9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bK4-gj-yFC" userLabel="emailButton">
+                                <color key="backgroundColor" red="0.76382184028625488" green="0.11722943931818008" blue="0.15613298118114471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="Hs8-Z8-weT"/>
+                                    <constraint firstAttribute="height" constant="50" id="pE0-00-OGc"/>
+                                </constraints>
+                                <state key="normal" image="email-share"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Hs8-Z8-weT"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="shareEmailDidTap:" destination="An1-x2-S0R" eventType="touchUpInside" id="QnZ-IV-oIv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8w-W9-sQp" userLabel="waButton">
+                                <color key="backgroundColor" red="0.28187295794487" green="0.64082783460617065" blue="0.15542089939117432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="16s-iH-CoN"/>
+                                    <constraint firstAttribute="height" constant="50" id="b4G-9V-YKf"/>
+                                </constraints>
+                                <state key="normal" image="wh-share"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="16s-iH-CoN"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="shareWhatsappDidTap:" destination="An1-x2-S0R" eventType="touchUpInside" id="Zjk-UL-ntj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZT4-l2-Neg" userLabel="linkButton">
+                                <color key="backgroundColor" red="0.76393407583236694" green="0.14563426375389099" blue="0.29736673831939697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="DfN-Mw-PVP"/>
+                                    <constraint firstAttribute="width" constant="85" id="qdP-QZ-tCc"/>
+                                </constraints>
+                                <state key="normal" image="link-share"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="qdP-QZ-tCc"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="shareLinkDidTap:" destination="An1-x2-S0R" eventType="touchUpInside" id="fgr-jH-OJW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZT4-l2-Neg" firstAttribute="width" secondItem="bK4-gj-yFC" secondAttribute="width" id="1fo-Pe-Ax3"/>
+                            <constraint firstItem="ZT4-l2-Neg" firstAttribute="width" secondItem="zbD-Bg-f1S" secondAttribute="width" id="7y9-Yx-Xcj"/>
+                            <constraint firstItem="b8w-W9-sQp" firstAttribute="leading" secondItem="bK4-gj-yFC" secondAttribute="trailing" constant="12" id="8fp-su-8WD"/>
+                            <constraint firstItem="b8w-W9-sQp" firstAttribute="width" secondItem="bK4-gj-yFC" secondAttribute="width" id="9S8-jD-pjX"/>
+                            <constraint firstItem="oYB-F5-kYe" firstAttribute="width" secondItem="zbD-Bg-f1S" secondAttribute="width" id="9nB-ly-ANu"/>
+                            <constraint firstItem="oYB-F5-kYe" firstAttribute="top" secondItem="1Ye-aq-JkC" secondAttribute="top" id="BD2-Hb-DgA"/>
+                            <constraint firstItem="b8w-W9-sQp" firstAttribute="leading" secondItem="1Ye-aq-JkC" secondAttribute="leading" id="Bxn-Ni-b4J"/>
+                            <constraint firstItem="bK4-gj-yFC" firstAttribute="width" secondItem="zbD-Bg-f1S" secondAttribute="width" id="FNu-rF-oXL"/>
+                            <constraint firstItem="zbD-Bg-f1S" firstAttribute="top" secondItem="Ccg-h7-bhR" secondAttribute="top" id="FOj-zG-w9d"/>
+                            <constraint firstItem="bK4-gj-yFC" firstAttribute="centerY" secondItem="b8w-W9-sQp" secondAttribute="centerY" id="IKB-sj-Osc"/>
+                            <constraint firstItem="1Ye-aq-JkC" firstAttribute="top" secondItem="Ccg-h7-bhR" secondAttribute="top" id="Jbf-4u-gGd"/>
+                            <constraint firstItem="1Ye-aq-JkC" firstAttribute="width" secondItem="zbD-Bg-f1S" secondAttribute="width" id="K7L-Aq-puT"/>
+                            <constraint firstItem="b8w-W9-sQp" firstAttribute="width" secondItem="zbD-Bg-f1S" secondAttribute="width" id="MLG-Py-wOu"/>
+                            <constraint firstItem="ZT4-l2-Neg" firstAttribute="centerY" secondItem="b8w-W9-sQp" secondAttribute="centerY" id="Ml5-YX-Ztz"/>
+                            <constraint firstItem="zbD-Bg-f1S" firstAttribute="top" secondItem="Ccg-h7-bhR" secondAttribute="top" id="OmR-F6-UIU"/>
+                            <constraint firstItem="oYB-F5-kYe" firstAttribute="width" secondItem="zbD-Bg-f1S" secondAttribute="width" id="Vbu-eU-Whd"/>
+                            <constraint firstItem="1Ye-aq-JkC" firstAttribute="top" secondItem="Ccg-h7-bhR" secondAttribute="top" constant="44" id="YbJ-7k-97U"/>
+                            <constraint firstItem="1Ye-aq-JkC" firstAttribute="width" secondItem="zbD-Bg-f1S" secondAttribute="width" id="aFs-U5-JC4"/>
+                            <constraint firstItem="zbD-Bg-f1S" firstAttribute="width" secondItem="Ccg-h7-bhR" secondAttribute="height" multiplier="17:25" id="cOB-bD-eaH"/>
+                            <constraint firstItem="1Ye-aq-JkC" firstAttribute="centerX" secondItem="Ccg-h7-bhR" secondAttribute="centerX" id="cih-tI-JSr"/>
+                            <constraint firstItem="b8w-W9-sQp" firstAttribute="centerX" secondItem="Ccg-h7-bhR" secondAttribute="centerX" id="e8o-MP-KMX"/>
+                            <constraint firstItem="ZT4-l2-Neg" firstAttribute="leading" secondItem="b8w-W9-sQp" secondAttribute="trailing" constant="12" id="eBi-IM-alR"/>
+                            <constraint firstItem="oYB-F5-kYe" firstAttribute="top" secondItem="Ccg-h7-bhR" secondAttribute="top" id="f9h-Na-38c"/>
+                            <constraint firstItem="bK4-gj-yFC" firstAttribute="top" secondItem="b8w-W9-sQp" secondAttribute="top" id="hRJ-pt-0Eb"/>
+                            <constraint firstItem="oYB-F5-kYe" firstAttribute="leading" secondItem="1Ye-aq-JkC" secondAttribute="trailing" constant="12" id="jGR-7i-0oI"/>
+                            <constraint firstAttribute="bottom" secondItem="b8w-W9-sQp" secondAttribute="bottom" id="jQT-wc-8fA"/>
+                            <constraint firstItem="zbD-Bg-f1S" firstAttribute="top" secondItem="1Ye-aq-JkC" secondAttribute="top" id="joD-f3-D1D"/>
+                            <constraint firstItem="zbD-Bg-f1S" firstAttribute="width" secondItem="Ccg-h7-bhR" secondAttribute="width" multiplier="1:3.5" constant="1" id="ko4-h3-ElJ"/>
+                            <constraint firstItem="zbD-Bg-f1S" firstAttribute="width" secondItem="Ccg-h7-bhR" secondAttribute="width" id="lJd-SO-rxd"/>
+                            <constraint firstItem="1Ye-aq-JkC" firstAttribute="leading" secondItem="zbD-Bg-f1S" secondAttribute="trailing" constant="12" id="pKn-fK-oLv"/>
+                            <constraint firstAttribute="bottom" secondItem="bK4-gj-yFC" secondAttribute="bottom" id="qdb-cc-J4w"/>
+                            <constraint firstAttribute="height" constant="125" id="sKN-Fc-Qj9"/>
+                            <constraint firstItem="zbD-Bg-f1S" firstAttribute="leading" secondItem="Ccg-h7-bhR" secondAttribute="leading" id="uTS-dc-hzB"/>
+                            <constraint firstItem="zbD-Bg-f1S" firstAttribute="leading" secondItem="bK4-gj-yFC" secondAttribute="leading" id="ufc-0S-ehZ"/>
+                            <constraint firstItem="b8w-W9-sQp" firstAttribute="top" secondItem="1Ye-aq-JkC" secondAttribute="bottom" constant="12" id="v6E-vZ-aMQ"/>
+                            <constraint firstItem="ZT4-l2-Neg" firstAttribute="top" secondItem="b8w-W9-sQp" secondAttribute="top" id="wiZ-0j-7zd"/>
+                            <constraint firstItem="bK4-gj-yFC" firstAttribute="leading" secondItem="zbD-Bg-f1S" secondAttribute="leading" id="y4M-bz-O71"/>
+                            <constraint firstItem="zbD-Bg-f1S" firstAttribute="leading" secondItem="Ccg-h7-bhR" secondAttribute="leading" constant="12" id="z1e-FE-lYw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="sKN-Fc-Qj9"/>
+                                <exclude reference="FOj-zG-w9d"/>
+                                <exclude reference="OmR-F6-UIU"/>
+                                <exclude reference="cOB-bD-eaH"/>
+                                <exclude reference="ko4-h3-ElJ"/>
+                                <exclude reference="lJd-SO-rxd"/>
+                                <exclude reference="uTS-dc-hzB"/>
+                                <exclude reference="ufc-0S-ehZ"/>
+                                <exclude reference="FNu-rF-oXL"/>
+                                <exclude reference="IKB-sj-Osc"/>
+                                <exclude reference="qdb-cc-J4w"/>
+                                <exclude reference="YbJ-7k-97U"/>
+                                <exclude reference="aFs-U5-JC4"/>
+                                <exclude reference="MLG-Py-wOu"/>
+                                <exclude reference="e8o-MP-KMX"/>
+                                <exclude reference="Vbu-eU-Whd"/>
+                                <exclude reference="f9h-Na-38c"/>
+                                <exclude reference="7y9-Yx-Xcj"/>
+                                <exclude reference="Ml5-YX-Ztz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Nb-qK-CZI" userLabel="Fake copy button">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="FPh-3h-cJO"/>
+                            <constraint firstAttribute="width" constant="105" id="TEL-n3-EIU"/>
+                        </constraints>
+                        <connections>
+                            <action selector="shareLinkDidTap:" destination="An1-x2-S0R" eventType="touchUpInside" id="i30-L5-EWp"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Ccg-h7-bhR" secondAttribute="bottom" constant="15" id="2bs-eO-orV"/>
+                    <constraint firstItem="cP8-8G-DB8" firstAttribute="centerX" secondItem="DOZ-7H-RH8" secondAttribute="centerX" id="CIN-h0-xsy"/>
+                    <constraint firstItem="1Nb-qK-CZI" firstAttribute="top" secondItem="DOZ-7H-RH8" secondAttribute="topMargin" constant="34" id="GR2-Qe-wDt"/>
+                    <constraint firstItem="Ccg-h7-bhR" firstAttribute="centerX" secondItem="cP8-8G-DB8" secondAttribute="centerX" id="Gdq-ZV-WhR"/>
+                    <constraint firstItem="E66-GK-esN" firstAttribute="top" secondItem="cP8-8G-DB8" secondAttribute="bottom" constant="12" id="Kce-Am-rpf"/>
+                    <constraint firstItem="cP8-8G-DB8" firstAttribute="top" secondItem="DOZ-7H-RH8" secondAttribute="topMargin" constant="10" id="WlT-w7-jHn"/>
+                    <constraint firstItem="Ccg-h7-bhR" firstAttribute="leading" secondItem="DOZ-7H-RH8" secondAttribute="leading" id="YX4-6U-qUW"/>
+                    <constraint firstItem="cP8-8G-DB8" firstAttribute="top" secondItem="DOZ-7H-RH8" secondAttribute="top" constant="18" id="bk4-P4-s7Y"/>
+                    <constraint firstItem="Ccg-h7-bhR" firstAttribute="top" secondItem="E66-GK-esN" secondAttribute="bottom" constant="18" id="cIs-Aj-ESq"/>
+                    <constraint firstItem="Ccg-h7-bhR" firstAttribute="leading" secondItem="DOZ-7H-RH8" secondAttribute="leadingMargin" id="h4Q-vi-bvU"/>
+                    <constraint firstItem="1Nb-qK-CZI" firstAttribute="centerX" secondItem="DOZ-7H-RH8" secondAttribute="centerX" id="lgb-RK-7QD"/>
+                    <constraint firstAttribute="trailing" secondItem="Ccg-h7-bhR" secondAttribute="trailing" id="pCe-YM-18K"/>
+                    <constraint firstItem="E66-GK-esN" firstAttribute="centerX" secondItem="DOZ-7H-RH8" secondAttribute="centerX" id="psH-ec-SYR"/>
+                    <constraint firstAttribute="bottom" secondItem="Ccg-h7-bhR" secondAttribute="bottom" constant="15" id="rtB-av-kzN"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="WlT-w7-jHn"/>
+                        <exclude reference="2bs-eO-orV"/>
+                        <exclude reference="h4Q-vi-bvU"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="codeLabel" destination="E66-GK-esN" id="T32-hN-57V"/>
+            </connections>
+            <point key="canvasLocation" x="121" y="154"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="email-share" width="38" height="34"/>
+        <image name="fb-share" width="38" height="34"/>
+        <image name="link-share" width="38" height="34"/>
+        <image name="sms-share" width="38" height="34"/>
+        <image name="tw-share" width="38" height="34"/>
+        <image name="wh-share" width="38" height="34"/>
+    </resources>
+</document>

@@ -1,0 +1,1914 @@
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: Fave iOS
+ * Release: Working copy
+ * Locale: zh-HK, Chinese (Hong Kong)
+ * Exported by: Michael Cheah
+ * Exported at: Tue, 22 Nov 2016 07:52:55 +0000
+ */
+
+/* loco:57e0fd3614d72543418b4567 */
+"available_text" = "可用信息";
+
+/* loco:57e0fd3614d72543418b4568 */
+"sold_out_text" = "已售完訊息";
+
+/* loco:57e0fd3614d72543418b4569 */
+"sort_by_trending_option" = "尋找熱門";
+
+/* loco:57e0fd3614d72543418b456a */
+"no_activities_available" = "無相關活動";
+
+/* loco:57e0fd3614d72543418b456b */
+"all" = "全部";
+
+/* loco:57e0fd3614d72543418b456c */
+"sort_by_distance_option_for_discovery" = "尋找附近商戶";
+
+/* loco:57e0fd3614d72543418b456d */
+"transaction_reserve_for_text" = "交易進行中";
+
+/* loco:57e0fd3614d72543418b456e */
+"transaction_confirm_reservation_description_text" = "交易已被確認";
+
+/* loco:57e0fd3614d72543418b456f */
+"filter_other_header_text" = "過濾其他題目";
+
+/* loco:57e0fd3614d72543418b4570 */
+"filter_only_fitpass" = "僅有fitpass";
+
+/* loco:57e0fd3614d72543418b4571 */
+"km_text" = "千米";
+
+/* loco:57e0fd3614d72543418b4572 */
+"gps_unavailable_text" = "gps無法連接";
+
+/* loco:57e0fd3614d72543418b4573 */
+"gps_unavailable_button_text" = "gps無法連接";
+
+/* loco:57e0fd3614d72543418b4574 */
+"launch_description_array_1" = "登入介紹";
+
+/* loco:57e0fd3614d72543418b4575 */
+"launch_description_array_2" = "登入介紹";
+
+/* loco:57e0fd3614d72543418b4576 */
+"launch_description_array_3" = "登入介紹";
+
+/* loco:57e0fd3614d72543418b4577 */
+"launch_description_array_4" = "登入介紹";
+
+/* loco:57e0fd3614d72543418b4578 */
+"launch_description_array_5" = "登入介紹";
+
+/* loco:57e0fd3614d72543418b4579 */
+"launch_description_array_6" = "登入介紹";
+
+/* loco:57e0fd3614d72543418b457a */
+"enable" = "使用";
+
+/* loco:57e0fd3614d72543418b457c */
+"promo_code_successfully_added" = "優惠碼成功鍵入";
+
+/* loco:57e0fd3614d72543418b457d */
+"enter_promo_code" = "請輸入優惠碼promo code";
+
+/* loco:57e0fd3614d72543418b457e */
+"promo_code_header_text" = "優惠碼 promo code";
+
+/* loco:57e0fd3614d72543418b457f */
+"active_promo_codes_count" = "有效的優惠碼promo code";
+
+/* loco:57e0fd3614d72543418b4580 */
+"expires_on" = "過期";
+
+/* loco:57e0fd3614d72543418b4581 */
+"amount" = "數額";
+
+/* loco:57e0fd3614d72543418b4582
+ * Shown in the Promo Code screen when the user does not have any active promo codes */
+"no_active_promo_codes" = "優惠碼無效";
+
+/* loco:57e0fd3614d72543418b4583
+ * Search bar at the top of Discovery page */
+"my_current_location" = "現在地址";
+
+/* loco:57e0fd3614d72543418b4584
+ * Status message for cases where class is booked but payment is not received */
+"schedule_reservation_payment_pending" = "時間表 預定 付款 待定";
+
+/* loco:57e0fd3614d72543418b4585
+ * Status message for cases where class is booked but payment is not received */
+"title_reservation_pending_payment" = "題目 預定 付款待定";
+
+/* loco:57e0fd3614d72543418b4586 */
+"schedule_reservation_payment_pay_now" = "時間表 預定 現在付款";
+
+/* loco:57e0fd3614d72543418b4587 */
+"logout_failed_message" = "登出 訊息無法寄出";
+
+/* loco:57e0fd3614d72543418b4588 */
+"promo_code_first_time_text" = "首次登記 優惠碼";
+
+/* loco:57e0fd3614d72543418b4589 */
+"promo_code_view_details_button_text" = "優惠碼 瀏覽細節";
+
+/* loco:57e0fd3614d72543418b458a */
+"promo_code_apply_failed_text" = "優惠碼 無法使用";
+
+/* loco:57e0fd3614d72543418b458b
+ * Shown in the Promo Code screen when the user does not have any active promo codes */
+"promo_code_tip" = "優惠碼";
+
+/* loco:57e0fd3614d72543418b458c
+ * Generic error dialog messages */
+"oops" = "出現錯誤";
+
+/* loco:57e0fd3614d72543418b458d */
+"try_again" = "請再試";
+
+/* loco:57e0fd3614d72543418b458e */
+"cancel" = "取消";
+
+/* loco:57e0fd3614d72543418b458f */
+"generic_error" = "普通錯誤";
+
+/* loco:57e0fd3614d72543418b4590
+ * Home Screens */
+"fave_count" = "Fave數據";
+
+/* loco:57e0fd3614d72543418b4591 */
+"latest_specials" = "最新優惠";
+
+/* loco:57e0fd3614d72543418b4592
+ * Activity Details Screen */
+"info" = "信息";
+
+/* loco:57e0fd3614d72543418b4593 */
+"things_to_know" = "須知信息";
+
+/* loco:57e0fd3614d72543418b4594 */
+"about" = "相關資料";
+
+/* loco:57e0fd3614d72543418b4595 */
+"outlet" = "商戶";
+
+/* loco:57e0fd3614d72543418b4596 */
+"amenities" = "設施";
+
+/* loco:57e0fd3614d72543418b4597 */
+"tips" = "建議";
+
+/* loco:57e0fd3614d72543418b4598 */
+"location" = "地址";
+
+/* loco:57e0fd3614d72543418b4599 */
+"photos" = "相片";
+
+/* loco:57e0fd3614d72543418b459a */
+"cancellation_policy" = "取消條款";
+
+/* loco:57e0fd3614d72543418b459b */
+"slot_count" = "空位";
+
+/* loco:57e0fd3614d72543418b459c */
+"slots_count" = "空位";
+
+/* loco:57e0fd3614d72543418b459d
+ * Nearby Screens */
+"current_location" = "現在地址";
+
+/* loco:57e0fd3614d72543418b459e */
+"nearby_things_to_do" = "附近活動";
+
+/* loco:57e0fd3614d72543418b459f
+ * Chat Screen */
+"chat_info" = "聊天信息";
+
+/* loco:57e0fd3614d72543418b45a0 */
+"chat_load_fail" = "聊天無法開啟";
+
+/* loco:57e0fd3614d72543418b45a1 */
+"chat_connecting" = "聊天聯繫";
+
+/* loco:57e0fd3614d72543418b45a2 */
+"chat_type_something" = "聊天 請輸入";
+
+/* loco:57e0fd3614d72543418b45a3
+ * Channel Info Screen */
+"channel_info_everyone_left" = "大家都已離開";
+
+/* loco:57e0fd3614d72543418b45a4 */
+"chat_with" = "和誰聊天";
+
+/* loco:57e0fd3614d72543418b45a5
+ * Offer Screen */
+"promo_description" = "優惠介紹";
+
+/* loco:57e0fd3614d72543418b45a6 */
+"offer_photo_count" = "優惠照片";
+
+/* loco:57eb46ee52e1a18a3f8b4568 */
+"chat_start_now_iOS" = "聊天現在開始";
+
+/* loco:57eb47e552e1a18f3f8b4567 */
+"chat_invitations" = "聊天邀請";
+
+/* loco:57f6337352e1a1f1428b45dc */
+"view" = "瀏覽";
+
+/* loco:57f6337352e1a1f1428b45dd
+ * Added all missing localize string */
+"want_to_cancel_purchase" = "想取消購買";
+
+/* loco:57f6337352e1a1f1428b45de */
+"received_refund_in_fave_credits" = "退款，獲得fave點數";
+
+/* loco:57f6337352e1a1f1428b45df */
+"chat_get_cachback_for_each_friend" = "聊天邀請朋友獲得更多點數";
+
+/* loco:57f6337352e1a1f1428b45e0 */
+"terms" = "條款";
+
+/* loco:57f6337352e1a1f1428b45e1 */
+"chat_fave_credit_friends_redeemed_offer" = "聊天 fave點數可給好友兌換";
+
+/* loco:57f6337352e1a1f1428b45e2 */
+"change_status" = "更換狀態";
+
+/* loco:57f6337352e1a1f1428b45e3 */
+"cancel_before" = "取消之前";
+
+/* loco:57f6337352e1a1f1428b45e4 */
+"at" = "在";
+
+/* loco:57f6337352e1a1f1428b45e6 */
+"faves" = "收藏";
+
+/* loco:57f6337352e1a1f1428b45e7 */
+"eat" = "餐飲";
+
+/* loco:57f6337352e1a1f1428b45e8 */
+"pamper" = "美容";
+
+/* loco:57f6337352e1a1f1428b45e9 */
+"fit" = "健身";
+
+/* loco:57f6337352e1a1f1428b45ea */
+"outlet_have't_phone" = "商戶電話";
+
+/* loco:57f6337352e1a1f1428b45eb */
+"name" = "名字";
+
+/* loco:57f6337352e1a1f1428b45ec */
+"redeem_now" = "現在兌換";
+
+/* loco:57f6337352e1a1f1428b45ed */
+"redeem_on" = "正在兌換";
+
+/* loco:57f6337352e1a1f1428b45ee */
+"cant_redeem_yet" = "現在無法兌換";
+
+/* loco:57f6337352e1a1f1428b45ef */
+"pax" = "人數";
+
+/* loco:57f6337352e1a1f1428b45f0 */
+"redeem" = "兌換";
+
+/* loco:57f6337352e1a1f1428b45f1 */
+"error_on_phone_validation" = "有錯誤，需電話確認";
+
+/* loco:57f6354b52e1a161438b456a */
+"decide" = "決定";
+
+/* loco:57ff626e52e1a1f0518b4576 */
+"enable_notifications" = "開啓通知功能";
+
+/* loco:57ff626e52e1a1f0518b4577 */
+"enable_notifications_description" = "開啓通知功能介紹";
+
+/* loco:57ff626e52e1a1f0518b4578 */
+"turn_on_location_description" = "獲取地址介紹";
+
+/* loco:57ff626e52e1a1f0518b4579 */
+"account_setting" = "賬戶設定";
+
+/* loco:57ff626e52e1a1f0518b457a */
+"view_your_account_details" = "瀏覽賬戶細節";
+
+/* loco:57ff626e52e1a1f0518b457b */
+"credits" = "點數";
+
+/* loco:57ff626e52e1a1f0518b457c */
+"get_extra_credits" = "獲得額外點數";
+
+/* loco:57ff626e52e1a1f0518b457d */
+"add_credit_or_debit_card" = "增設銀行卡";
+
+/* loco:57ff626e52e1a1f0518b457e */
+"name_on_card" = "銀行卡登記姓名";
+
+/* loco:57ff626e52e1a1f0518b457f */
+"cvv" = "cvv號碼";
+
+/* loco:57ff626e52e1a1f0518b4580 */
+"send_your_discount_to_friend" = "推薦給好友，你將獲得fave折扣";
+
+/* loco:57ff626e52e1a1f0518b4581 */
+"credit" = "點數";
+
+/* loco:57ff626e52e1a1f0518b4582 */
+"failed_to_get_your_balances" = "無法瀏覽餘額";
+
+/* loco:57ff626e52e1a1f0518b4583 */
+"your_active_promo_codes" = "你的有效promo code";
+
+/* loco:57ff626e52e1a1f0518b4584 */
+"you_almost_there" = "手續即將完成";
+
+/* loco:57ff715652e1a106548b4567 */
+"logout" = "登出";
+
+/* loco:58008f0152e1a1c4658b4568 */
+"call" = "撥出";
+
+/* loco:58008f0152e1a1c4658b4569 */
+"you_not_add_faves" = "尚未添加收藏";
+
+/* loco:58008f0152e1a1c4658b456a */
+"show_more" = "顯示更多";
+
+/* loco:58008f0152e1a1c4658b456b */
+"show_less" = "隱藏";
+
+/* loco:58008f0152e1a1c4658b456c */
+"no_results_found_for" = "無相關結果";
+
+/* loco:58008f0152e1a1c4658b456d */
+"add_place_to_fave" = "新加地方為收藏";
+
+/* loco:58008f0152e1a1c4658b456e */
+"redeem_until_today" = "可於今日前兌換";
+
+/* loco:58008f0152e1a1c4658b456f */
+"left" = "剩餘";
+
+/* loco:58008f0152e1a1c4658b4570 */
+"filter_is_on" = "正在使用過濾標簽";
+
+/* loco:58008f0152e1a1c4658b4571 */
+"filter_is_off" = "過濾標簽已關閉";
+
+/* loco:58009ef352e1a1ce678b4587 */
+"choose_another_category" = "選擇其他類別";
+
+/* loco:58009ef352e1a1ce678b4588 */
+"receive_full_refund_in_fave_credit" = "獲得全數Fave點數退款";
+
+/* loco:58009ef352e1a1ce678b4589 */
+"select_friends" = "選擇好友";
+
+/* loco:58009ef352e1a1ce678b458a */
+"Hey_workout_together" = "嘿喂！起做運動吖";
+
+/* loco:58009ef352e1a1ce678b458b */
+"there" = "那裏";
+
+/* loco:58009ef352e1a1ce678b458c */
+"hi" = "嘿喂";
+
+/* loco:58009ef352e1a1ce678b458d */
+"view_past_purchases" = "瀏覽過往消費";
+
+/* loco:5800afd252e1a10a6a8b456a */
+"no_offers" = "無相關優惠";
+
+/* loco:5804888a52e1a1a0248b4569 */
+"receipt_id" = "收據編號";
+
+/* loco:5804888a52e1a1a0248b456a */
+"confirm" = "確認";
+
+/* loco:5804888a52e1a1a0248b456b */
+"redeem_from" = "兌換始於";
+
+/* loco:5804888a52e1a1a0248b456c */
+"redeem_at" = "兌換於";
+
+/* loco:5804888a52e1a1a0248b456d */
+"cancel_this_purchase" = "取消今次購買";
+
+/* loco:5804a53452e1a1ad288b4568 */
+"make_sure_only_you_swipe" = "確認你要兌換";
+
+/* loco:5804a53452e1a1ad288b4569 */
+"sub_categories" = "分類";
+
+/* loco:5804a53452e1a1ad288b456a */
+"filter_results" = "過濾結果";
+
+/* loco:58086cad52e1a17c048b4569 */
+"offer" = "優惠";
+
+/* loco:58086cad52e1a17c048b456a */
+"please_complete_your_payment" = "請完成付款";
+
+/* loco:58086cad52e1a17c048b456b */
+"to_confirm_your_purchase" = "確認你的購買";
+
+/* loco:58086cad52e1a17c048b456c */
+"voucher" = "現金券";
+
+/* loco:58086cad52e1a17c048b456d */
+"vouchers" = "現金券";
+
+/* loco:5808704c52e1a105058b456a */
+"Save_more_on_next_purchase_by_inviting" = "邀請朋友下次消費即有優惠";
+
+/* loco:5808704c52e1a105058b456b */
+"guest" = "客人";
+
+/* loco:5809d02152e1a1022a8b456a */
+"view_your_receipts" = "瀏覽賬單";
+
+/* loco:5809d02152e1a1022a8b456b */
+"view_all_locations_details" = "瀏覽所有地址";
+
+/* loco:5809d02152e1a1022a8b456c */
+"you_must_be_at_right_and_time_to_redeem" = "必須於相應時間兌換";
+
+/* loco:5809d02152e1a1022a8b456d */
+"locations" = "位置";
+
+/* loco:5809d02152e1a1022a8b456e */
+"also_redemmable_in" = "可兌換";
+
+/* loco:5809d02152e1a1022a8b456f */
+"more_location" = "更多地點";
+
+/* loco:5809d02152e1a1022a8b4570 */
+"more_locations" = "更多位置";
+
+/* loco:580f20b352e1a1be6e8b4573 */
+"use_this_code_to_redeem" = "用這優惠代碼兌換";
+
+/* loco:580f20b352e1a1be6e8b4574 */
+"expiry_date" = "信用卡有效期";
+
+/* loco:580f20b352e1a1be6e8b4575 */
+"card_number" = "信用卡號碼";
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: Fave Commons
+ * Release: Working copy
+ * Locale: zh-HK, Chinese (Hong Kong)
+ * Exported by: Michael Cheah
+ * Exported at: Tue, 22 Nov 2016 07:52:52 +0000
+ */
+
+/* loco:57dfc1aa14d725455b8b4567 */
+"msg_error_title" = "系統產生錯誤";
+
+/* loco:57dfc1aa14d725455b8b4568 */
+"msg_loading_please_wait" = "載入中，請稍候";
+
+/* loco:57dfc1aa14d725455b8b4569 */
+"msg_error_button" = "重試";
+
+/* loco:57dfc1aa14d725455b8b456a */
+"msg_something_wrong" = "抱歉，系統產生錯誤，我們正在修復！請再試一次 或 重新開啟Fave";
+
+/* loco:57dfc1aa14d725455b8b456b */
+"title_share_via" = "分享於";
+
+/* loco:57dfc1aa14d725455b8b456c */
+"msg_invalid_link" = "連結無效";
+
+/* loco:57dfc1aa14d725455b8b456d */
+"invalid_deep_linking" = "抱歉，你所搜尋的連結不存在";
+
+/* loco:57dfc1aa14d725455b8b456e */
+"today" = "即日";
+
+/* loco:57dfc1aa14d725455b8b456f */
+"empty_offers" = "未有任何優惠提供";
+
+/* loco:57dfc1aa14d725455b8b4570 */
+"enable_location_title" = "開啟你的手機定位功能";
+
+/* loco:57dfc1aa14d725455b8b4571 */
+"enable_location_content" = "我們無法取得你的位置，請開啟手機定位功能";
+
+/* loco:57dfc1aa14d725455b8b4572
+ * Dialog */
+"msg_dialog_cancel" = "取消";
+
+/* loco:57dfc1aa14d725455b8b4573 */
+"msg_dialog_ok" = "確認";
+
+/* loco:57dfc1aa14d725455b8b4574 */
+"msg_dialog_yes" = "是";
+
+/* loco:57dfc1aa14d725455b8b4575 */
+"msg_dialog_no" = "否";
+
+/* loco:57dfc1aa14d725455b8b4576 */
+"msg_dialog_maybe" = "或許";
+
+/* loco:57dfc1aa14d725455b8b4577 */
+"next" = "下一步";
+
+/* loco:57dfc1aa14d725455b8b4578 */
+"done" = "完成";
+
+/* loco:57dfc1aa14d725455b8b4579 */
+"dialog_exit_message" = "請先按返回鍵再退出";
+
+/* loco:57dfc1aa14d725455b8b457a
+ * Splash */
+"splash_title_1_text" = "歡迎使用Fave!";
+
+/* loco:57dfc1aa14d725455b8b457b */
+"splash_title_2_text" = "計劃";
+
+/* loco:57dfc1aa14d725455b8b457c */
+"splash_title_3_text" = "節省";
+
+/* loco:57dfc1aa14d725455b8b457d */
+"splash_title_4_text" = "隨心選擇";
+
+/* loco:57dfc1aa14d725455b8b457e */
+"splash_title_5_text" = "探索";
+
+/* loco:57dfc1aa14d725455b8b457f */
+"splash_sign_up_text" = "登記";
+
+/* loco:57dfc1aa14d725455b8b4580 */
+"splash_skip_text" = "跳過，直接開始";
+
+/* loco:57dfc1aa14d725455b8b4581
+ * Getting Started */
+"getting_started_title_text" = "快完成了!";
+
+/* loco:57dfc1aa14d725455b8b4582 */
+"getting_started_description_text" = "請提供你的個人資料以取得你城市的最新優惠";
+
+/* loco:57dfc1aa14d725455b8b4583 */
+"getting_started_name_text" = "你的名字是?";
+
+/* loco:57dfc1aa14d725455b8b4584 */
+"getting_started_email_text" = "你的電郵地址是?";
+
+/* loco:57dfc1aa14d725455b8b4585 */
+"getting_started_auto_fill" = "自動填寫";
+
+/* loco:57dfc1aa14d725455b8b4586 */
+"getting_started_promo_code_text" = "優惠代碼";
+
+/* loco:57dfc1aa14d725455b8b4587 */
+"getting_started_have_promo_code_text" = "要使用優惠代碼嗎?";
+
+/* loco:57dfc1aa14d725455b8b4588 */
+"getting_started_continue_button_text" = "繼續";
+
+/* loco:57dfc1aa14d725455b8b4589 */
+"getting_started_back_pressed_text" = "名字及電郵為必須填寫項目";
+
+/* loco:57dfc1aa14d725455b8b458a */
+"getting_started_authenticate_failed_text" = "無法認證，請再試一次";
+
+/* loco:57dfc1aa14d725455b8b458b */
+"getting_started_update_user_failed_text" = "無法更新個人資料，請再試一次";
+
+/* loco:57dfc1aa14d725455b8b458c
+ * Location Permission Prompt */
+"location_permission_prompt_enable_location_text" = "開啟定位功能";
+
+/* loco:57dfc1aa14d725455b8b458d */
+"location_permission_prompt_description_text" = "開啟手機定位功能 瀏覽附近熱門優惠 找尋我的喜愛";
+
+/* loco:57dfc1aa14d725455b8b458e */
+"location_permission_prompt_not_now_button_text" = "稍後再定";
+
+/* loco:57dfc1aa14d725455b8b458f */
+"location_permission_prompt_okay_button_text" = "可以";
+
+/* loco:57dfc1aa14d725455b8b4590
+ * Guest */
+"guest_description_text" = "建立屬於你的Fave帳戶，更新個人資訊，評論體驗，取得優惠代碼，及了解更多";
+
+/* loco:57dfc1aa14d725455b8b4591
+ * Main Tabs */
+"main_tab_home_text" = "主目錄";
+
+/* loco:57dfc1aa14d725455b8b4592 */
+"main_tab_nearby_text" = "附近";
+
+/* loco:57dfc1aa14d725455b8b4593 */
+"main_tab_chat_text" = "聊天";
+
+/* loco:57dfc1aa14d725455b8b4594 */
+"main_tab_my_fave_text" = "我的Fave";
+
+/* loco:57dfc1aa14d725455b8b4595 */
+"main_tab_more_text" = "更多";
+
+/* loco:57dfc1aa14d725455b8b4596
+ * Search bar */
+"my_current_location" = "我的位置";
+
+/* loco:57dfc1aa14d725455b8b4597 */
+"location_search_change_city_title" = "更新身處城市";
+
+/* loco:57dfc1aa14d725455b8b4598
+ * Home */
+"home_i_want_to_text" = "你想要做什麼?";
+
+/* loco:57dfc1aa14d725455b8b4599 */
+"home_with_my_friend_text" = "選擇好友";
+
+/* loco:57dfc1aa14d725455b8b459a */
+"home_at_a_place_text" = "搜尋優惠";
+
+/* loco:57dfc1aa14d725455b8b459b */
+"home_do_button_text" = "開始!";
+
+/* loco:57dfc1aa14d725455b8b459c */
+"home_welcome_guest_text" = "歡迎使用Fave!";
+
+/* loco:57dfc1aa14d725455b8b459d */
+"home_welcome_subtitle_text" = "你想要做什麼?";
+
+/* loco:57dfc1aa14d725455b8b459e */
+"home_search_my_fave_text" = "搜尋你喜愛的地點";
+
+/* loco:57dfc1aa14d725455b8b459f */
+"home_popular_place_text" = "熱門Fave地點";
+
+/* loco:57dfc1aa14d725455b8b45a0 */
+"home_view_all_button_text" = "查看全部";
+
+/* loco:57dfc1aa14d725455b8b45a1 */
+"home_add_to_my_fave_button_text" = "收藏於 我的Fave";
+
+/* loco:57dfc1aa14d725455b8b45a2 */
+"home_added_to_my_fave_button_text" = "已加到 我的Fave";
+
+/* loco:57dfc1aa14d725455b8b45a3 */
+"home_collection_for_you_text" = "精選優惠";
+
+/* loco:57dfc1aa14d725455b8b45a4 */
+"home_more_collection_for_you_text" = "更多精選優惠";
+
+/* loco:57dfc1aa14d725455b8b45a5 */
+"home_offer_my_fave_text" = "瀏覽我的Fave內的最新優惠";
+
+/* loco:57dfc1aa14d725455b8b45a6 */
+"home_start_chat" = "透過Fave與你的愛人好友共享更多快樂時刻";
+
+/* loco:57dfc1aa14d725455b8b45a7 */
+"home_start_chat_now" = "開始聊天";
+
+/* loco:57dfc1aa14d725455b8b45a8 */
+"home_invite_friends" = "邀請好友";
+
+/* loco:57dfc1aa14d725455b8b45a9 */
+"home_invite_friends_description" = "介紹朋友用Fave同時賺得Fave積分，1分 =＄1。了解更多";
+
+/* loco:57dfc1aa14d725455b8b45aa */
+"home_send_an_invite_now" = "發送邀請";
+
+/* loco:57dfc1aa14d725455b8b45ab */
+"home_featured" = "推薦";
+
+/* loco:57dfc1aa14d725455b8b45ac */
+"home_more_offers_for_you" = "更多優惠";
+
+/* loco:57dfc1aa14d725455b8b45ad */
+"home_more_recently_viewed" = "最近瀏覽";
+
+/* loco:57dfc1aa14d725455b8b45ae */
+"home_find_more_thing_to_do" = "或搜尋更多活動";
+
+/* loco:57dfc1aa14d725455b8b45af */
+"nearby_next_session_text" = "下一節";
+
+/* loco:57dfc1aa14d725455b8b45b0 */
+"nearby_sorting_title_text" = "排序方式";
+
+/* loco:57dfc1aa14d725455b8b45b1 */
+"nearby_preference_title_text" = "選擇你的喜好";
+
+/* loco:57dfc1aa14d725455b8b45b2 */
+"nearby_your_location_text" = "你的位置";
+
+/* loco:57dfc1aa14d725455b8b45b3
+ * What To Do */
+"what_to_do_reset_text" = "重設篩選";
+
+/* loco:57dfc1aa14d725455b8b45b4 */
+"what_to_do_empty_category_text" = "點選類別以作進階搜尋";
+
+/* loco:57dfc1aa14d725455b8b45b5
+ * What To Eat */
+"what_to_eat_pax_text" = "人數";
+
+/* loco:57dfc1aa14d725455b8b45b6 */
+"what_to_eat_empty_preference_text" = "喜好";
+
+/* loco:57dfc1aa14d725455b8b45b7
+ * Activity Detail */
+"activity_detail_view_more_text" = "瀏覽更多";
+
+/* loco:57dfc1aa14d725455b8b45b8 */
+"activity_detail_view_less_text" = "瀏覽較少";
+
+/* loco:57dfc1aa14d725455b8b45b9 */
+"activity_detail_buy_now_button_text" = "立即購買";
+
+/* loco:57dfc1aa14d725455b8b45ba */
+"activity_detail_available_date_time_text" = "適用日期和時間";
+
+/* loco:57dfc1aa14d725455b8b45bb */
+"activity_detail_buy_button_text" = "購買";
+
+/* loco:57dfc1aa14d725455b8b45bc */
+"activity_detail_view_more_sessions_button_text" = "更多可用日期和時間";
+
+/* loco:57dfc1aa14d725455b8b45bd */
+"activity_detail_about_text" = "關於我們";
+
+/* loco:57dfc1aa14d725455b8b45be */
+"activity_detail_add_to_chat_text" = "加入聊天對話";
+
+/* loco:57dfc1aa14d725455b8b45bf */
+"activity_detail_featured_collection_text" = "精選推薦";
+
+/* loco:57dfc1aa14d725455b8b45c0 */
+"activity_detail_redeem_offer_text" = "兌換優惠於";
+
+/* loco:57dfc1aa14d725455b8b45c1 */
+"activity_detail_things_to_know_text" = "了解更多";
+
+/* loco:57dfc1aa14d725455b8b45c2 */
+"activity_detail_things_to_know_description_text" = "輕易透過你的手機換購 毋須列印優惠券。了解更多";
+
+/* loco:57dfc1aa14d725455b8b45c4 */
+"activity_detail_cancellation_policy_text" = "取消購買";
+
+/* loco:57dfc1aa14d725455b8b45c5 */
+"activity_detail_cancellation_policy_description_text" = "未來7日內取消將退全額退款至你的Fave積分";
+
+/* loco:57dfc1aa14d725455b8b45c6 */
+"activity_detail_promise_text" = "承諾";
+
+/* loco:57dfc1aa14d725455b8b45c7 */
+"activity_detail_cancellation_policy_detail_1_text" = "無法確認優惠";
+
+/* loco:57dfc1aa14d725455b8b45c8 */
+"activity_detail_cancellation_policy_detail_2_text" = "票券已過期";
+
+/* loco:57dfc1aa14d725455b8b45c9 */
+"activity_detail_cancellation_policy_detail_3_text" = "不同於預期";
+
+/* loco:57dfc1aa14d725455b8b45ca */
+"activity_detail_cancellation_policy_detail_4_text" = "通知我們，我們將為你跟進";
+
+/* loco:57dfc1aa14d725455b8b45cb */
+"activity_detail_view_all_text" = "瀏覽全部";
+
+/* loco:57dfc1aa14d725455b8b45cc */
+"activity_detail_info_text" = "詳情";
+
+/* loco:57dfc1aa14d725455b8b45cd */
+"activity_detail_photos_text" = "相片";
+
+/* loco:57dfc1aa14d725455b8b45ce */
+"activity_detail_reviews_text" = "顧客評語";
+
+/* loco:57dfc1aa14d725455b8b45cf */
+"activity_detail_amenities_text" = "設施";
+
+/* loco:57dfc1aa14d725455b8b45d0 */
+"activity_detail_tips_text" = "小提示";
+
+/* loco:57dfc1aa14d725455b8b45d1 */
+"activity_detail_similar_offers_text" = "其他相似優惠";
+
+/* loco:57dfc1aa14d725455b8b45d2
+ * Partner Detail */
+"partner_detail_offers_text" = "優惠";
+
+/* loco:57dfc1aa14d725455b8b45d3 */
+"partner_detail_empty_offer_text" = "暫無更新，請留意最新Fave商戶優惠";
+
+/* loco:57dfc1aa14d725455b8b45d4 */
+"partner_detail_location_text" = "地點";
+
+/* loco:57dfc1aa14d725455b8b45d5 */
+"partner_detail_call_outlet_text" = "聯絡商戶";
+
+/* loco:57dfc1aa14d725455b8b45d6 */
+"partner_detail_get_direction_text" = "詳細地址";
+
+/* loco:57dfc1aa14d725455b8b45d7 */
+"partner_detail_outlet_title_text" = "瀏覽其他地點";
+
+/* loco:57dfc1aa14d725455b8b45d8 */
+"confirmation_title_text" = "確認細節";
+
+/* loco:57dfc1aa14d725455b8b45d9 */
+"confirmation_redeem_from_text" = "由此兌換";
+
+/* loco:57dfc1aa14d725455b8b45da */
+"confirmation_redeem_on_text" = "兌換於";
+
+/* loco:57dfc1aa14d725455b8b45db */
+"confirmation_quantity_text" = "數量";
+
+/* loco:57dfc1aa14d725455b8b45dc */
+"confirmation_total_price_text" = "總金額";
+
+/* loco:57dfc1aa14d725455b8b45dd */
+"confirmation_credit_used_text" = "已使用的Fave積分";
+
+/* loco:57dfc1aa14d725455b8b45de */
+"confirmation_amount_payable_text" = "支付款項";
+
+/* loco:57dfc1aa14d725455b8b45df */
+"confirmation_amount_free_text" = "免費";
+
+/* loco:57dfc1aa14d725455b8b45e0 */
+"confirmation_confirm_button_text" = "確認購買";
+
+/* loco:57dfc1aa14d725455b8b45e1 */
+"confirmation_sold_out_button_text" = "已經賣完";
+
+/* loco:57dfc1aa14d725455b8b45e2 */
+"confirmation_failed_reserve_text" = "購買未完成";
+
+/* loco:57dfc1aa14d725455b8b45e3 */
+"confirmation_promo_code_empty_text" = "必須輸入優惠代碼";
+
+/* loco:57dfc1aa14d725455b8b45e4 */
+"confirmation_apply_promo_code_success_text" = "金額已更新";
+
+/* loco:57dfc1aa14d725455b8b45e5
+ * Purchase Detail */
+"purchase_detail_title_text" = "你的消費";
+
+/* loco:57dfc1aa14d725455b8b45e6
+ * Purchase Detail */
+"purchase_detail_quantity_text" = "數量";
+
+/* loco:57dfc1aa14d725455b8b45e7 */
+"purchase_detail_name_text" = "名字";
+
+/* loco:57dfc1aa14d725455b8b45e8 */
+"purchase_detail_date_text" = "日期";
+
+/* loco:57dfc1aa14d725455b8b45e9 */
+"purchase_detail_time_text" = "時間";
+
+/* loco:57dfc1aa14d725455b8b45ea */
+"purchase_detail_location_text" = "地點";
+
+/* loco:57dfc1aa14d725455b8b45eb */
+"purchase_detail_redeem_from_text" = "由此兌換";
+
+/* loco:57dfc1aa14d725455b8b45ec */
+"purchase_detail_swipe_to_redeem_text" = "滑動螢幕兌換";
+
+/* loco:57dfc1aa14d725455b8b45ed */
+"purchase_detail_cannot_redeem_now" = "目前無法兌換";
+
+/* loco:57dfc1aa14d725455b8b45ee */
+"purchase_detail_calendar_text" = "加入我的日曆";
+
+/* loco:57dfc1aa14d725455b8b45ef */
+"purchase_detail_direction_text" = "前往方向";
+
+/* loco:57dfc1aa14d725455b8b45f0 */
+"purchase_detail_call_text" = "聯絡商戶";
+
+/* loco:57dfc1aa14d725455b8b45f1 */
+"purchase_detail_cancel_button_text" = "取消購買";
+
+/* loco:57dfc1aa14d725455b8b45f2 */
+"purchase_detail_cancel_confirm" = "確定取消購買？\n將退款於你的Fave積分";
+
+/* loco:57dfc1aa14d725455b8b45f3 */
+"purchase_detail_cancellation_dialog_title_text" = "請告訴我們原因，以便我們改善服務質素";
+
+/* loco:57dfc1aa14d725455b8b45f4 */
+"purchase_detail_more_offer_text" = "更多附近優惠";
+
+/* loco:57dfc1aa14d725455b8b45f5 */
+"purchase_detail_add_calendar_successful_text" = "成功加入日曆";
+
+/* loco:57dfc1aa14d725455b8b45f6 */
+"purchase_detail_add_calendar_failed_text" = "無法加入日曆";
+
+/* loco:57dfc1aa14d725455b8b45f7 */
+"purchase_detail_redemption_code_text" = "兌換代碼";
+
+/* loco:57dfc1aa14d725455b8b45f8 */
+"purchase_detail_redeem_on_text" = "兌換時限";
+
+/* loco:57dfc1aa14d725455b8b45f9 */
+"purchase_detail_for_partner_reference" = "商戶偏好";
+
+/* loco:57dfc1aa14d725455b8b45fa */
+"purchase_detail_description" = "購買已";
+
+/* loco:57dfc1aa14d725455b8b45fb */
+"purchase_detail_cannot_connect_server" = "偵測不到網絡連結";
+
+/* loco:57dfc1aa14d725455b8b45fc */
+"purchase_detail_cannot_connect_server_details" = "網絡連接後，兌換會被確認。請參考商戶確認碼。";
+
+/* loco:57dfc1aa14d725455b8b45fd */
+"purchase_detail_try_again" = "請再試";
+
+/* loco:57dfc1aa14d725455b8b45fe */
+"purchase_detail_first_redeem_congratulation_title" = "恭喜！";
+
+/* loco:57dfc1aa14d725455b8b45ff */
+"purchase_detail_first_redeem_congratulation_description" = "首次購買成功。現在請盡情享受！";
+
+/* loco:57dfc1aa14d725455b8b4600 */
+"purchase_detail_how_to_redeem" = "如何兌換";
+
+/* loco:57dfc1aa14d725455b8b4601 */
+"purchase_detail_are_you_sure_you_want_to_redeem_now" = "確認現在兌換？";
+
+/* loco:57dfc1aa14d725455b8b4603 */
+"purchase_detail_check_nearby" = "請務必於兌換優惠前，確認商戶地點";
+
+/* loco:57dfc1aa14d725455b8b4604 */
+"purchase_detail_others_text" = "其他";
+
+/* loco:57dfc1aa14d725455b8b4605
+ * How To Redeem */
+"how_to_redeem_title_text" = "如何兌換?";
+
+/* loco:57dfc1aa14d725455b8b4606 */
+"how_to_redeem_step_1_text" = "第一步";
+
+/* loco:57dfc1aa14d725455b8b4607 */
+"how_to_redeem_step_2_text" = "第二步";
+
+/* loco:57dfc1aa14d725455b8b4608 */
+"how_to_redeem_step_3_text" = "第三步";
+
+/* loco:57dfc1aa14d725455b8b4609 */
+"how_to_redeem_step_1_description_text" = "前往已購買優惠券的商戶";
+
+/* loco:57dfc1aa14d725455b8b460a */
+"how_to_redeem_step_2_description_text" = "向服務員顯示手機內已購買的優惠券";
+
+/* loco:57dfc1aa14d725455b8b460b */
+"how_to_redeem_step_3_description_text" = "滑動螢幕兌換優惠券，享受優惠";
+
+/* loco:57dfc1aa14d725455b8b460c
+ * More */
+"more_profile_title_text" = "用戶";
+
+/* loco:57dfc1aa14d725455b8b460d */
+"more_payment_title_text" = "款項";
+
+/* loco:57dfc1aa14d725455b8b460e */
+"more_credit_title_text" = "Fave 積分";
+
+/* loco:57dfc1aa14d725455b8b460f */
+"more_promo_code_title_text" = "優惠代碼";
+
+/* loco:57dfc1aa14d725455b8b4610 */
+"more_faq_title_text" = "協助";
+
+/* loco:57dfc1aa14d725455b8b4611 */
+"more_about_title_text" = "關於我們";
+
+/* loco:57dfc1aa14d725455b8b4612 */
+"more_profile_description_text" = "更新你的個人資料";
+
+/* loco:57dfc1aa14d725455b8b4613 */
+"more_payment_description_text" = "查看收據; 付款細節";
+
+/* loco:57dfc1aa14d725455b8b4614 */
+"more_credit_description_text" = "邀請朋友, 賺取Fave積分";
+
+/* loco:57dfc1aa14d725455b8b4615 */
+"more_promo_code_description_text" = "獲得Fave折扣及積分";
+
+/* loco:57dfc1aa14d725455b8b4616 */
+"more_faq_description_text" = "需要協助嗎?";
+
+/* loco:57dfc1aa14d725455b8b4617 */
+"more_about_description_text" = "更多關於Fave";
+
+/* loco:57dfc1aa14d725455b8b4618
+ * Review */
+"review_rated_text" = "評價";
+
+/* loco:57dfc1aa14d725455b8b4619
+ * Past Activities */
+"past_activities_title_text" = "購買記錄";
+
+/* loco:57dfc1aa14d725455b8b461a
+ * Payment Receipt */
+"payment_receipt_payment_method_text" = "付款方式";
+
+/* loco:57dfc1aa14d725455b8b461b */
+"payment_receipt_add_payment_method_text" = "+ 新增付款方式";
+
+/* loco:57dfc1aa14d725455b8b461c */
+"payment_receipt_change_text" = "更改";
+
+/* loco:57dfc1aa14d725455b8b461d */
+"payment_receipt_history_text" = "付款紀錄";
+
+/* loco:57dfc1aa14d725455b8b461e */
+"payment_receipt_empty_text" = "無付款紀錄";
+
+/* loco:57dfc1aa14d725455b8b461f */
+"receipt_detail_payment_method_text" = "付款方式";
+
+/* loco:57dfc1aa14d725455b8b4620 */
+"receipt_detail_quantity_text" = "數量";
+
+/* loco:57dfc1aa14d725455b8b4621 */
+"receipt_detail_price_text" = "價錢";
+
+/* loco:57dfc1aa14d725455b8b4622 */
+"receipt_detail_discount_text" = "折扣";
+
+/* loco:57dfc1aa14d725455b8b4623 */
+"receipt_detail_promo_code_discount_text" = "優惠代碼折扣";
+
+/* loco:57dfc1aa14d725455b8b4624 */
+"receipt_detail_fave_credit_used_text" = "使用了Fave積分";
+
+/* loco:57dfc1aa14d725455b8b4625 */
+"receipt_detail_total_paid_text" = "總金額";
+
+/* loco:57dfc1aa14d725455b8b4626
+ * Payment Method */
+"add_payment_title" = "新增付款方式";
+
+/* loco:57dfc1aa14d725455b8b4627 */
+"add_payment_card_holder_name_text" = "持卡人姓名";
+
+/* loco:57dfc1aa14d725455b8b4628 */
+"add_payment_card_number_text" = "信用卡號碼";
+
+/* loco:57dfc1aa14d725455b8b4629 */
+"add_payment_expiration_text" = "過期日";
+
+/* loco:57dfc1aa14d725455b8b462a */
+"add_payment_cvv_text" = "CVV 信用卡驗證碼";
+
+/* loco:57dfc1aa14d725455b8b462b */
+"add_payment_done_text" = "完成";
+
+/* loco:57dfc1aa14d725455b8b462c */
+"add_payment_others_text" = "其他付款方式";
+
+/* loco:57dfc1aa14d725455b8b462d */
+"add_payment_invalid_cardholder_name_msg" = "輸入持卡人姓名";
+
+/* loco:57dfc1aa14d725455b8b462e */
+"add_payment_invalid_card_number_msg" = "信用卡號碼無效";
+
+/* loco:57dfc1aa14d725455b8b462f */
+"add_payment_invalid_expiry_date_msg" = "信用卡之有效期無效";
+
+/* loco:57dfc1aa14d725455b8b4630 */
+"add_payment_invalid_cvv_msg" = "CVV 格式錯誤";
+
+/* loco:57dfc1aa14d725455b8b4631 */
+"add_payment_successful_msg" = "成功新增信用卡";
+
+/* loco:57dfc1aa14d725455b8b4632 */
+"add_payment_empty_method_nonce_text" = "無法連結支付網";
+
+/* loco:57dfc1aa14d725455b8b4633
+ * Tooltips */
+"tooltip_change_your_location" = "你可以更改地點定位搜尋更多附近的優惠";
+
+/* loco:57dfc1aa14d725455b8b4634 */
+"tooltip_3_things" = "點入類別選項篩選以下優惠";
+
+/* loco:57dfc1aa14d725455b8b4635 */
+"tooltip_favorite" = "點擊圖樣以新增至 我的Fave";
+
+/* loco:57dfc1aa14d725455b8b4636
+ * Account settings */
+"profile_setting_name_text" = "姓名";
+
+/* loco:57dfc1aa14d725455b8b4637 */
+"profile_setting_email_text" = "電郵";
+
+/* loco:57dfc1aa14d725455b8b4638 */
+"profile_setting_location_text" = "地點";
+
+/* loco:57dfc1aa14d725455b8b4639 */
+"profile_setting_phone_text" = "電話";
+
+/* loco:57dfc1aa14d725455b8b463a */
+"profile_setting_gender_text" = "性別";
+
+/* loco:57dfc1aa14d725455b8b463b */
+"profile_setting_birthday_text" = "生日";
+
+/* loco:57dfc1aa14d725455b8b463c */
+"profile_setting_phone_description_text" = "我們僅為你的消費事宜和你聯繫";
+
+/* loco:57dfc1aa14d725455b8b463d */
+"profile_setting_push_notification_text" = "推送通知";
+
+/* loco:57dfc1aa14d725455b8b463e */
+"profile_setting_push_purchases_text" = "更新你的購買紀錄";
+
+/* loco:57dfc1aa14d725455b8b463f */
+"profile_setting_push_latest_text" = "最新推介，資訊及優惠";
+
+/* loco:57dfc1aa14d725455b8b4640 */
+"profile_setting_logout_text" = "登出";
+
+/* loco:57dfc1aa14d725455b8b4641 */
+"profile_setting_image_upload_title_text" = "上載圖片";
+
+/* loco:57dfc1aa14d725455b8b4642 */
+"profile_setting_image_upload_description_text" = "你希望重新上傳此圖片嗎？";
+
+/* loco:57dfc1aa14d725455b8b4643 */
+"profile_setting_country_code_text" = "國家代碼";
+
+/* loco:57dfc1aa14d725455b8b4644 */
+"profile_setting_phone_title_text" = "請輸入電話號碼";
+
+/* loco:57dfc1aa14d725455b8b4645 */
+"profile_setting_invalid_phone_text" = "電話號碼無效";
+
+/* loco:57dfc1aa14d725455b8b4646 */
+"profile_setting_empty_phone_text" = "必須輸入電話號碼";
+
+/* loco:57dfc1aa14d725455b8b4647 */
+"profile_setting_country_title_text" = "選擇國家代碼";
+
+/* loco:57dfc1aa14d725455b8b4648 */
+"profile_setting_empty_country_text" = "必須選擇國家代碼";
+
+/* loco:57dfc1aa14d725455b8b4649 */
+"profile_setting_city_title_text" = "選擇城市";
+
+/* loco:57dfc1aa14d725455b8b464a */
+"profile_setting_gender_title_text" = "選擇性別";
+
+/* loco:57dfc1aa14d725455b8b464b */
+"profile_setting_male_text" = "男";
+
+/* loco:57dfc1aa14d725455b8b464c */
+"profile_setting_female_text" = "女";
+
+/* loco:57dfc1aa14d725455b8b464d */
+"profile_setting_not_specify_text" = "未註明";
+
+/* loco:57dfc1aa14d725455b8b464e */
+"profile_setting_add_profile_title_text" = "由此新增圖片";
+
+/* loco:57dfc1aa14d725455b8b464f */
+"profile_setting_gallery_text" = "相簿";
+
+/* loco:57dfc1aa14d725455b8b4650 */
+"profile_setting_camera_text" = "相機";
+
+/* loco:57dfc1aa14d725455b8b4651 */
+"profile_setting_update_failed_text" = "無法更新個人資料";
+
+/* loco:57dfc1aa14d725455b8b4652 */
+"profile_setting_update_success_text" = "成功更新個人資料";
+
+/* loco:57dfc1aa14d725455b8b4653
+ * Promo Code */
+"promo_code_apply_button_text" = "使用";
+
+/* loco:57dfc1aa14d725455b8b4654 */
+"promo_code_successfully_added_text" = "成功新增優惠代碼";
+
+/* loco:57dfc1aa14d725455b8b4655 */
+"promo_code_input_hint" = "輸入優惠代碼";
+
+/* loco:57dfc1aa14d725455b8b4656 */
+"promo_code_header_text" = "輸入優惠代碼以享受額外折扣優惠";
+
+/* loco:57dfc1aa14d725455b8b4657 */
+"promo_code_expire_text" = "優惠有效期至";
+
+/* loco:57dfc1aa14d725455b8b4658 */
+"promo_code_amount_text" = "價值";
+
+/* loco:57dfc1aa14d725455b8b4659 */
+"promo_code_empty_text" = "你目前沒有任何優惠代碼";
+
+/* loco:57dfc1aa14d725455b8b465a */
+"promo_code_first_time_text" = "只限首次用戶使用";
+
+/* loco:57dfc1aa14d725455b8b465b */
+"promo_code_view_details_button_text" = "查看詳情";
+
+/* loco:57dfc1aa14d725455b8b465c
+ * Search Map */
+"search_map_most_faves_text" = "最多人喜愛";
+
+/* loco:57dfc1aa14d725455b8b465d */
+"search_map_ratings_text" = "總評分";
+
+/* loco:57dfc1aa14d725455b8b465e */
+"search_map_distance_text" = "距離";
+
+/* loco:57dfc1aa14d725455b8b465f
+ * Offer */
+"offer_title_text" = "最新推出優惠";
+
+/* loco:57dfc1aa14d725455b8b4660
+ * Rating Dialog */
+"rating_title_text" = "評分剛才的體驗";
+
+/* loco:57dfc1aa14d725455b8b4661 */
+"rating_label_text" = "評分";
+
+/* loco:57dfc1aa14d725455b8b4662 */
+"rating_label_description_text" = "請按以下評分欄";
+
+/* loco:57dfc1aa14d725455b8b4663 */
+"rating_review_label_text" = "評語";
+
+/* loco:57dfc1aa14d725455b8b4664 */
+"rating_feedback_empty_text" = "你的評語對我們很重要";
+
+/* loco:57dfc1aa14d725455b8b4665 */
+"rating_submit_failed_text" = "未能成功提交評分 請再試一次";
+
+/* loco:57dfc1aa14d725455b8b4666 */
+"rating_submit_button_text" = "提交";
+
+/* loco:57dfc1aa14d725455b8b4667 */
+"rating_submit_success_text" = "成功完成評分 期待你下次評分";
+
+/* loco:57dfc1aa14d725455b8b4668 */
+"rating_submit_success_last_text" = "多謝你的評分";
+
+/* loco:57dfc1aa14d725455b8b4669 */
+"rating_5_text" = "你最喜歡哪一部分？";
+
+/* loco:57dfc1aa14d725455b8b466a */
+"rating_4_text" = "你感覺如何？";
+
+/* loco:57dfc1aa14d725455b8b466b */
+"rating_3_text" = "小提示給其他Fave用家";
+
+/* loco:57dfc1aa14d725455b8b466c */
+"rating_2_text" = "留下評語";
+
+/* loco:57dfc1aa14d725455b8b466d */
+"rating_1_text" = "任何可改善地方？";
+
+/* loco:57dfc1aa14d725455b8b466e
+ * City Selection */
+"city_selection_no_location" = "我們無法確認你的位置";
+
+/* loco:57dfc1aa14d725455b8b466f */
+"city_selection_enable_location_permission" = "允許取得位置";
+
+/* loco:57dfc1aa14d725455b8b4670 */
+"city_selection_fallback_instruction" = "或從以下選擇城市以繼續";
+
+/* loco:57dfc1aa14d725455b8b4671 */
+"city_selection_permission_for_autodetect" = "請允許位置設定自動確認你的所在城市";
+
+/* loco:57dfc1aa14d725455b8b4672 */
+"city_selection_auto_detect" = "未能自動確認你的所在城市。請選擇。";
+
+/* loco:57dfc1aa14d725455b8b4673
+ * My Faves */
+"my_fave_tab_title_1" = "我喜愛的";
+
+/* loco:57dfc1aa14d725455b8b4674 */
+"my_fave_tab_title_2" = "已購買項目";
+
+/* loco:57dfc1aa14d725455b8b4675 */
+"my_fave_no_purchases" = "沒有選購項目";
+
+/* loco:57dfc1aa14d725455b8b4676 */
+"my_fave_no_purchases_instruction" = "你尚未選購。查看附近優惠。";
+
+/* loco:57dfc1aa14d725455b8b4677 */
+"my_fave_no_purchases_action" = "我的附近";
+
+/* loco:57dfc1aa14d725455b8b4678 */
+"my_fave_favorites_search_text" = "搜尋我最喜愛地點";
+
+/* loco:57dfc1aa14d725455b8b4679 */
+"my_fave_no_favorites" = "暫時未有最愛";
+
+/* loco:57dfc1aa14d725455b8b467a */
+"my_fave_no_favorites_instruction" = "熱門地點";
+
+/* loco:57dfc1aa14d725455b8b467b */
+"my_fave_offers_list" = "查看最新優惠";
+
+/* loco:57dfc1aa14d725455b8b467c */
+"my_fave_date_text" = "日期";
+
+/* loco:57dfc1aa14d725455b8b467d */
+"my_fave_time_text" = "時間";
+
+/* loco:57dfc1aa14d725455b8b467e */
+"my_fave_redeem_from_text" = "兌換於";
+
+/* loco:57dfc1aa14d725455b8b467f */
+"my_fave_you" = "你";
+
+/* loco:57dfc1aa14d725455b8b4680
+ * Faq */
+"faq_text" = "常見問題 及 條款細則";
+
+/* loco:57dfc1aa14d725455b8b4681 */
+"faq_my_tickets_text" = "查詢個案編號";
+
+/* loco:57dfc1aa14d725455b8b4682 */
+"faq_start_chat_text" = "與專人對話";
+
+/* loco:57dfc1aa14d725455b8b4683 */
+"faq_activity_overlay_permission" = "我們需要取得允許以縮小對話窗口";
+
+/* loco:57dfc1aa14d725455b8b4684
+ * About */
+"about_description_text" = "Fave助你同朋友共同探索更多。計劃活動，討論安排，一齊享受餐飲、運動及美容優惠 － 盡在一個Fave手機應用程式";
+
+/* loco:57dfc1aa14d725455b8b4685 */
+"about_like_us_on_facebook_text" = "讚Fave的Facebook";
+
+/* loco:57dfc1aa14d725455b8b4686 */
+"about_follow_twitter_text" = "跟隨Fave的Twitter";
+
+/* loco:57dfc1aa14d725455b8b4687 */
+"about_follow_instagram_text" = "跟隨Fave的Instagram";
+
+/* loco:57dfc1aa14d725455b8b4688 */
+"about_terms_of_use_text" = "使用條款";
+
+/* loco:57dfc1aa14d725455b8b4689 */
+"about_privacy_policy_text" = "私隱條款";
+
+/* loco:57dfc1aa14d725455b8b468a */
+"about_open_source_licenses_text" = "公開訊息牌照";
+
+/* loco:57dfc1aa14d725455b8b468b */
+"search_outlet_title_text" = "搜尋你最喜愛地點";
+
+/* loco:57dfc1aa14d725455b8b468c
+ * Search Outlet */
+"search_outlet_add_custom" = "將這些地點加入Fave";
+
+/* loco:57dfc1aa14d725455b8b468d */
+"sort_by_distance_option" = "距離";
+
+/* loco:57dfc1aa14d725455b8b468e */
+"sort_by_trending_option" = "流行";
+
+/* loco:57dfc1aa14d725455b8b468f */
+"sort_by_price_option" = "價格";
+
+/* loco:57dfc1aa14d725455b8b4690 */
+"sort_by_time_option" = "時間";
+
+/* loco:57dfc1aa14d725455b8b4691
+ * Contacts */
+"contact_title_text" = "聯絡人";
+
+/* loco:57dfc1aa14d725455b8b4692 */
+"contact_search_hint" = "尋找聯絡人";
+
+/* loco:57dfc1aa14d725455b8b4693 */
+"contact_permission_denied_text" = "未經你的許可，我們無法列出用戶姓名";
+
+/* loco:57dfc1aa14d725455b8b4694 */
+"contact_friends_text" = "朋友";
+
+/* loco:57dfc1aa14d725455b8b4695 */
+"contact_invite_friends_text" = "邀請朋友";
+
+/* loco:57dfc1aa14d725455b8b4696 */
+"chat_are_you_interested" = "你有興趣嗎？";
+
+/* loco:57dfc1aa14d725455b8b4697 */
+"participation_header" = "你要參與嗎？";
+
+/* loco:57dfc1aa14d725455b8b4698 */
+"chats" = "聊天";
+
+/* loco:57dfc1aa14d725455b8b4699 */
+"chat_info" = "聊天內容";
+
+/* loco:57dfc1aa14d725455b8b469a */
+"info" = "內容";
+
+/* loco:57dfc1aa14d725455b8b469b */
+"chat_with" = "與";
+
+/* loco:57dfc1aa14d725455b8b469c */
+"buy" = "購買";
+
+/* loco:57dfc1aa14d725455b8b469d */
+"and" = "以及";
+
+/* loco:57dfc1aa14d725455b8b469e */
+"add_contacts_disable" = "請選擇朋友";
+
+/* loco:57dfc1aa14d725455b8b469f */
+"add_contacts_enable" = "繼續";
+
+/* loco:57dfc1aa14d725455b8b46a0 */
+"chat_everybody_left" = "所有人已離開";
+
+/* loco:57dfc1aa14d725455b8b46a1 */
+"getting_started" = "明白";
+
+/* loco:57dfc1aa14d725455b8b46a2 */
+"chat_onboarding2" = "查詢請點擊這裡";
+
+/* loco:57dfc1aa14d725455b8b46a3 */
+"chat_onboarding1" = "誰已經參與？幾時見面？\n怎樣到達目的地？";
+
+/* loco:57dfc1aa14d725455b8b46a4 */
+"type_something" = "請輸入...";
+
+/* loco:57dfc1aa14d725455b8b46a5 */
+"beta" = "初版";
+
+/* loco:57dfc1aa14d725455b8b46a6
+ * For display */
+"display_status_going" = "確認";
+
+/* loco:57dfc1aa14d725455b8b46a7 */
+"display_status_may_be" = "也許";
+
+/* loco:57dfc1aa14d725455b8b46a8 */
+"display_status_not_going" = "去不了";
+
+/* loco:57dfc1aa14d725455b8b46a9
+ * For backend */
+"status_going" = "是的";
+
+/* loco:57dfc1aa14d725455b8b46aa */
+"status_may_be" = "可能";
+
+/* loco:57dfc1aa14d725455b8b46ab */
+"status_not_going" = "不是";
+
+/* loco:57dfc1aa14d725455b8b46ac */
+"chat_empty_chat" = "與朋友同事計劃、討論、購買優惠，共同享受更多活動：食飯、飲野、運動、美容";
+
+/* loco:57dfc1aa14d725455b8b46ad */
+"chat_start_now" = "開始聊天！";
+
+/* loco:57dfc1aa14d725455b8b46ae */
+"leave_chat" = "離開對話";
+
+/* loco:57dfc1aa14d725455b8b46af */
+"are_you_sure" = "你確認？";
+
+/* loco:57dfc1aa14d725455b8b46b0 */
+"yes" = "是的";
+
+/* loco:57dfc1aa14d725455b8b46b1 */
+"cancel" = "取消";
+
+/* loco:57dfc1aa14d725455b8b46b2 */
+"invite_more" = "邀請更多朋友";
+
+/* loco:57dfc1aa14d725455b8b46b3 */
+"chat_do_more" = "全新";
+
+/* loco:57dfc1aa14d725455b8b46b4 */
+"chat_plan" = "Fave聊天";
+
+/* loco:57dfc1aa14d725455b8b46b5 */
+"chat_do_more_together" = "一起體驗更多生活享受";
+
+/* loco:57dfc1aa14d725455b8b46b6 */
+"chat_plan_to_go_with_friends" = "同朋友計劃活動";
+
+/* loco:57dfc1aa14d725455b8b46b7
+ * Social */
+"credit_total_text" = "你的Fave餘額";
+
+/* loco:57dfc1aa14d725455b8b46b8 */
+"credit_description_text" = "餘額將于下次購買時自動扣除";
+
+/* loco:57dfc1aa14d725455b8b46b9 */
+"credit_empty_text" = "暫時沒有積分";
+
+/* loco:57dfc1aa14d725455b8b46ba */
+"credit_empty_description_text" = "介紹朋友賺取更多Fave積分";
+
+/* loco:57dfc1aa14d725455b8b46bb */
+"credit_detail_text" = "傳你的Fave用戶個人折扣給朋友！當朋友使用你的個人優惠代碼折扣，在完成首次購買，你會即時在你的個人帳戶收到Fave積分。";
+
+/* loco:57dfc1aa14d725455b8b46bc */
+"credit_earn_more_text" = "賺取更多Fave積分";
+
+/* loco:57dfc1aa14d725455b8b46bd */
+"credit_how_it_work_text" = "如何運作";
+
+/* loco:57dfc1aa14d725455b8b46be */
+"credit_share_code_text" = "推薦朋友，賺取Fave積分";
+
+/* loco:57dfc1aa14d725455b8b46bf */
+"credit_email_title_text" = "透過Fave來一起做運動！";
+
+/* loco:57dfc1aa14d725455b8b46c0 */
+"credit_no_whatsapp_text" = "尚未安裝WhatsApp";
+
+/* loco:57dfc1aa14d725455b8b46c1 */
+"credit_no_twitter_text" = "尚未安裝Twitter";
+
+/* loco:57dfc1aa14d725455b8b46c2 */
+"credit_no_facebook_text" = "尚未安裝Facebook";
+
+/* loco:57dfc1aa14d725455b8b46c3 */
+"credit_dialog_title_text" = "關於Fave積分";
+
+/* loco:57dfc1aa14d725455b8b46c4 */
+"filter_reset_text" = "重新設定";
+
+/* loco:57dfc1aa14d725455b8b46c5 */
+"filter_apply_text" = "使用";
+
+/* loco:57dfc1aa14d725455b8b46c6 */
+"filter_reset_filter_text" = "重設篩選";
+
+/* loco:57dfc1aa14d725455b8b46c7
+ * Phone Signup */
+"signup_title_text" = "輸入你的電話號碼";
+
+/* loco:57dfc1aa14d725455b8b46c8 */
+"signup_description_text1" = "請輸入你的手提電話號碼以確認用戶賬號。我們將用SMS傳送確認碼給你。";
+
+/* loco:57dfc1aa14d725455b8b46c9 */
+"signup_description_text2" = "請放心。你的資料全經加密保護，絕對保密，不會被透露給任何人。";
+
+/* loco:57dfc1aa14d725455b8b46ca */
+"invalid_number" = "抱歉，你的電話號碼無效";
+
+/* loco:57dfc1aa14d725455b8b46cb
+ * Verify PIN */
+"verify_title_text" = "請確認你的電話號碼";
+
+/* loco:57dfc1aa14d725455b8b46cc */
+"verify_description_text" = "請於五分鐘內，輸入剛從SMS收到的確認碼。不然你將會收到自動來電提示。";
+
+/* loco:57dfc1aa14d725455b8b46cd */
+"verify_no_sms_text" = "沒有收到SMS確認碼？";
+
+/* loco:57dfc1aa14d725455b8b46ce */
+"verify_send_new_code_text" = "重新傳送確認碼";
+
+/* loco:57dfc1aa14d725455b8b46cf */
+"verify_failed_text" = "剛才輸入的確認碼不正確";
+
+/* loco:57dfc1aa14d725455b8b46d0 */
+"chat_on_boarding_desc" = "有好野點可以唔同朋友分享？而家你仲可以邀請朋友一齊享受優惠！即時邀請";
+
+/* loco:57dfc1aa14d725455b8b46d1 */
+"chat_on_boarding_title" = "同朋友一齊體驗";
+
+/* loco:57dfc1aa14d725455b8b46d2 */
+"chat_button_on_boarding_action_text" = "OK，明白晒！";
+
+/* loco:57e0de4514d725b30b8b4569 */
+"nearby_view_all_offer_text" = "瀏覽全部優惠";
+
+/* loco:57e1fff114d7251f458b4569 */
+"msg_dialog_redemption_yes" = "是的，確定現在領取優惠";
+
+/* loco:57e20b0c14d725bf4d8b4569 */
+"activity_detail_what_you_get_text" = "你將得到";
+
+/* loco:57e3537514d7252b1f8b456c */
+"purchase_detail_check_before_redeem_title" = "睇黎你就快要確認兌換優惠！";
+
+/* loco:57e3537514d7252b1f8b456d */
+"purchase_detail_check_before_redeem_description" = "你是否在正確商戶及地點，準備好享受已購優惠？";
+
+/* loco:57eb46c552e1a1903f8b4567 */
+"msg_dialog_redemption_no" = "不，我未準備兌換優惠";
+
+/* loco:57eb46c552e1a1903f8b4568 */
+"purchase_detail_check_before_redeem" = "睇黎你就快要確認兌換優惠！你檢查清楚是正確的地點還有優惠嗎？";
+
+/* loco:57eb46c552e1a1903f8b4569
+ * Chat */
+"chat_you_have_invitation" = "你有一個Fave邀請";
+
+/* loco:57eccdab52e1a1756f8b4569 */
+"not_available_text" = "暫時未有提供";
+
+/* loco:57ed00b352e1a183768b457c */
+"splash_title_6_text" = "享受";
+
+/* loco:57ed35cb52e1a1657b8b4569
+ * Search Outlet */
+"search_hint" = "搜索不同的地方，優惠和更多";
+
+/* loco:57ed35cb52e1a1657b8b456a */
+"search_recent_text" = "最近搜尋";
+
+/* loco:57ed35cb52e1a1657b8b456b */
+"search_empty_recent_text" = "沒有最近搜尋";
+
+/* loco:57ed35cb52e1a1657b8b456c */
+"search_popular_text" = "熱門搜尋";
+
+/* loco:57ed66c752e1a16e108b456b */
+"purchase_detail_invite_more_friends" = "邀請更多好友";
+
+/* loco:57edd8fb52e1a1b8188b456b */
+"purchase_detail_chat_description_text" = "邀請好友吧！每一個朋友從你的聊天室內購買優惠，你將會得到 %1$d﹪ Fave積分回贈。";
+
+/* loco:57f47dd152e1a161148b4567
+ * Chat credit */
+"chat_cashback_text" = "做好朋友仲有回報？每一個朋友從你的聊天室內購買優惠，你將會得到 %1$d﹪ Fave積分回贈。";
+
+/* loco:57f47dd152e1a161148b4568 */
+"but_wait" = "請等等！";
+
+/* loco:57f47dd152e1a161148b4569 */
+"chat_cashback_dialog_description" = "1. 現金將以Fave積分方式回贈\n2. 用戶必須於好友兌換優惠後才能獲得Fave積分";
+
+/* loco:57f47dd152e1a161148b456a */
+"chat_cashback_dialog_title" = "條款";
+
+/* loco:57f47dd152e1a161148b456c */
+"save" = "保存";
+
+/* loco:57f47dd152e1a161148b456d */
+"ind_save_90_on_favourite" = "在您最愛的城市做您最愛的活動。低於一折優惠，每天更新過百精選折扣!";
+
+/* loco:57f47dd152e1a161148b456e */
+"enjoy" = "享受";
+
+/* loco:57f47dd152e1a161148b456f */
+"ind_convenient_user_experience" = "簡易快捷的用戶體驗。點擊購買，毋須再列印優惠券!";
+
+/* loco:57f47dd152e1a161148b4570 */
+"discover" = "發掘搜尋";
+
+/* loco:57f47dd152e1a161148b4571 */
+"ind_find_deals_you_love" = "輕鬆搜尋適用的優惠。瀏覽各類別或探索最近流行的優惠!";
+
+/* loco:57f47dd152e1a161148b4572 */
+"plan" = "計劃";
+
+/* loco:57f47dd152e1a161148b4574 */
+"ind_about" = "Groupon Indonesia 為您帶來全新的手機平台－Fave By Groupon。更多優惠，令你更愛! 低於一折優惠，簡易操作，電子兌換，毋須列印優惠券。透過Fave by Groupon，用另一種方式重新愛上您的城市!";
+
+/* loco:57f47dd152e1a161148b4576 */
+"fave_save_70_on_favourite" = "更抵價錢，5星級的享受，低至3折。";
+
+/* loco:57f47dd152e1a161148b4577 */
+"latest_offers_at_your_fingertips" = "在你最喜愛的地方的最新優惠";
+
+/* loco:57f47dd152e1a161148b4578 */
+"explore_hundreds_on_restaurants" = "發掘在你附近過百間餐廳，健身室，美容院及更多";
+
+/* loco:57f4851552e1a193148b4567 */
+"better_mobile_platform_groupon" = "Groupon Indonesia為您帶來全新的手機平台－更多優惠，令你更愛。";
+
+/* loco:57f485a852e1a195148b4567 */
+"organise_activities_with_chat" = "用聊天功能，輕鬆計劃活動行程。快邀請你的好友加入吧!";
+
+/* loco:57f48d7652e1a193148b4569
+ * Groupon Indonesia on boarding */
+"ind_welcome_text" = "歡迎來到Fave By Groupon";
+
+/* loco:57f48d7652e1a193148b456a
+ * Fave on boarding */
+"fave_welcome_text" = "Fave令你跟你的朋友愛人，在你喜愛的地方，體驗及享受更多優惠。";
+
+/* loco:57f4a27f52e1a17f168b4567 */
+"fave_about" = "透過Fave與您喜愛的人在您的城市體驗更多，製造更多美好回憶。由搜尋活動，計劃約人，購買多元化美食、健身、美容、SPA等更多優質生活品味優惠，只需一個最方便的手機程式 - Fave";
+
+/* loco:57f6334c52e1a1f1428b4569 */
+"activity_detail_also_redeemable_text" = "可於以下地點兌換";
+
+/* loco:57f6334c52e1a1f1428b456a */
+"activity_detail_view_all_locations_text" = "查看所有地點";
+
+/* loco:57f6334c52e1a1f1428b456b */
+"activity_detail_all_outlet_title_text" = "此優惠可於以下地點兌換";
+
+/* loco:57f6334c52e1a1f1428b456c */
+"confirmation_more_than_3_title_text" = "同時購買多張優惠券？";
+
+/* loco:57f6334c52e1a1f1428b456d */
+"confirmation_more_than_3_description_text" = "友情提示：多張優惠券僅能一次性兌換。如須分開兌換，請重新單獨購買單張優惠券。";
+
+/* loco:57f6334c52e1a1f1428b456e */
+"purchase_detail_amount_paid_text" = "總付款";
+
+/* loco:57f6334c52e1a1f1428b456f */
+"purchase_detail_pending_amount_text" = "尚欠款項";
+
+/* loco:57f6334c52e1a1f1428b4571 */
+"purchase_detail_payment_pending_title_text" = "等待付款中";
+
+/* loco:57f6334c52e1a1f1428b4572 */
+"purchase_detail_pay_now_text" = "現在付款";
+
+/* loco:57f6334c52e1a1f1428b4573 */
+"purchase_detail_view_all_location_detail_text" = "查看所有地點詳情";
+
+/* loco:57f6334c52e1a1f1428b4574 */
+"purchase_detail_enjoy_session_text" = "成功兌換！";
+
+/* loco:57f6334c52e1a1f1428b4575 */
+"purchase_detail_available_outlets_text" = "適用於";
+
+/* loco:57f6334c52e1a1f1428b4576 */
+"purchase_detail_cancelled" = "此交易已被取消";
+
+/* loco:57f6334c52e1a1f1428b4577 */
+"purchase_detail_expired" = "此交易已經無效";
+
+/* loco:57f6334c52e1a1f1428b4578 */
+"check_right_time_and_place_to_redeem" = "兌換前請檢查你是否於正確的地點及優惠適用時段";
+
+/* loco:57f6334c52e1a1f1428b4579 */
+"display_status_may_be_going" = "未能確定";
+
+/* loco:57f6334c52e1a1f1428b457a */
+"purchase_detail_check_before_redeem_description_outlet" = "選擇地點";
+
+/* loco:57f6334c52e1a1f1428b457b
+ * Added all missing localize string */
+"purchase_cancelled" = "此交易已被取消";
+
+/* loco:57f6334c52e1a1f1428b457c */
+"cancelled" = "已被取消";
+
+/* loco:57f6334c52e1a1f1428b457d */
+"purchase_cancelled_by_partner" = "商戶已取消此項交易";
+
+/* loco:57f6334c52e1a1f1428b457e */
+"expired" = "已過期";
+
+/* loco:57f6334c52e1a1f1428b457f */
+"purchase_expired" = "此項優惠已過期";
+
+/* loco:57f6334c52e1a1f1428b4580 */
+"sure_want_to_leave" = "確認要離開?";
+
+/* loco:57f6334c52e1a1f1428b4581 */
+"plan_with_friends" = "喺呢度同朋友計劃安排";
+
+/* loco:57f6334c52e1a1f1428b4582 */
+"date" = "日期";
+
+/* loco:57f6334c52e1a1f1428b4583 */
+"error" = "錯誤";
+
+/* loco:57f6334c52e1a1f1428b4584 */
+"error_fetching_results" = "搜尋程序出現錯誤";
+
+/* loco:57f6334c52e1a1f1428b4585 */
+"let_do_it" = "心動不如行動";
+
+/* loco:57f6334c52e1a1f1428b4586 */
+"choose_some_friend" = "選擇朋友";
+
+/* loco:57f6334c52e1a1f1428b4587 */
+"find_place_offer_to_go" = "搜尋地方及優惠";
+
+/* loco:57f6334c52e1a1f1428b4588 */
+"no_WhatsApp_available" = "未有提供Whatsapp";
+
+/* loco:57f6334c52e1a1f1428b4589 */
+"dont_have_WhatsApp_setup" = "你的手機未有安裝Whatsapp";
+
+/* loco:57f6334c52e1a1f1428b458a */
+"no_facebook_available" = "未有提供Facebook";
+
+/* loco:57f6334c52e1a1f1428b458b */
+"dont_have_facebook_setup" = "你的手機未有安裝Facebook";
+
+/* loco:57f6334c52e1a1f1428b458c */
+"cannot_send_sms" = "未能發出短訊";
+
+/* loco:57f6334c52e1a1f1428b458d */
+"unavailable_to_send_sms" = "你的手機沒有發短訊的功能";
+
+/* loco:57f6334c52e1a1f1428b458e */
+"friends" = "朋友";
+
+/* loco:57f6334c52e1a1f1428b458f */
+"offers_available" = "現在可用的優惠";
+
+/* loco:57f6334c52e1a1f1428b4590 */
+"unknown_error" = "不明的錯誤";
+
+/* loco:57f6334c52e1a1f1428b4591 */
+"open_in_maps" = "在地圖開啓";
+
+/* loco:57f6334c52e1a1f1428b4592 */
+"open_in_google_map" = "在Google Maps開啓";
+
+/* loco:57f6334c52e1a1f1428b4593 */
+"open_in_waze" = "在Waze開啓";
+
+/* loco:57f6334c52e1a1f1428b4594 */
+"retry" = "重試";
+
+/* loco:57f6334c52e1a1f1428b4595 */
+"couldnt_obtain_location" = "未能找到你的位置";
+
+/* loco:57f6334c52e1a1f1428b4596 */
+"view_in_list" = "查看目錄";
+
+/* loco:57f6334c52e1a1f1428b4597 */
+"view_in_map" = "查看地圖";
+
+/* loco:57f6334c52e1a1f1428b4598 */
+"search_favorite_place" = "尋找最喜愛的地方";
+
+/* loco:57f6334c52e1a1f1428b4599 */
+"take_photo" = "拍照";
+
+/* loco:57f6334c52e1a1f1428b459a */
+"choose_photo" = "選擇圖片";
+
+/* loco:57f6334c52e1a1f1428b459b */
+"learn_more" = "了解更多";
+
+/* loco:57f6334c52e1a1f1428b459c */
+"request_list_activity_title" = "查詢個案編號";
+
+/* loco:57fb326e52e1a142418b4569 */
+"purchase_detail_view_payment_detail_text" = "查閱付款詳情";
+
+/* loco:57fbb21b52e1a169588b456a */
+"purchase_detail_payment_failed_title_text" = "未能成功付款";
+
+/* loco:580dbaf052e1a1de458b456b */
+"enter_cvc_title" = "請輸入VISA ···%1$s 信用卡驗證碼（CVC）";
+
+/* loco:580dbaf052e1a1de458b456c */
+"enter_cvc_description" = "於信用卡背面簽名位置的三位或四位數字";
+
+/* loco:580dbaf052e1a1de458b456d */
+"confirm" = "確定";
+
+/* loco:5811a5fa52e1a1073a8b4569 */
+"nearby_search_location_title_text" = "瀏覽以下地區優惠";
+
+/* loco:5811c26b52e1a1023d8b4569 */
+"search" = "搜尋";
+
+/* loco:5811cb4052e1a1953e8b4567 */
+"search_location_input_hint" = "搜尋地點";
+
+/* loco:5811dd1152e1a1a7408b4569 */
+"purchase_detail_scan_barcode_text" = "購買_細節_掃描_條碼_內容";
+
+/* loco:581af9bc52e1a1d4038b457b */
+"search_recommendation_initial_title_1_text" = "搜索_推薦_最初_題目_1_內容";
+
+/* loco:581af9bc52e1a1d4038b457c */
+"search_recommendation_initial_title_2_text" = "搜索_推薦_最初_題目_2_內容";
+
+/* loco:581af9bc52e1a1d4038b457d */
+"search_recommendation_empty_title_text" = "搜索_推薦_空白_題目_內容";
+
+/* loco:581c5e8b52e1a16b348b4571 */
+"purchase_detail_payment_processing_title_text" = "Processing Your Payment";
+
+/* loco:581c5e8b52e1a16b348b4572 */
+"purchase_detail_payment_processing_description_text" = "Your payment is being processed.\nPlease check again later.";
+
+/* loco:581c5e8b52e1a16b348b4573 */
+"refresh" = "REFRESH";
+
+/* loco:582451a152e1a1ad618b456a */
+"purchase_detail_payment_failed" = "Your payment could not be processed.\nPlease try again.";
+
+/* loco:58245ef452e1a13b638b456c */
+"use_my_location_text" = "Use my current location";
+
+/* loco:58314dc252e1a1ea318b4567 */
+"add_payment_verification_charges_warning" = "For your security, we will make a verification transaction. It will be reversed automatically, and you will not be charged this amount.";
+
+/* loco:5833f89752e1a10a678b4569 */
+"fave" = "fave";

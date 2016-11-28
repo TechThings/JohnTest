@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Multiple Outlets View Controller-->
+        <scene sceneID="8pG-vJ-aTN">
+            <objects>
+                <viewController storyboardIdentifier="MultipleOutletsViewController" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="bbA-Z7-qaG" customClass="MultipleOutletsViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LFE-L8-JVf"/>
+                        <viewControllerLayoutGuide type="bottom" id="An1-zj-mmY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R40-yY-zhW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="l1D-2K-T38" customClass="MultipleOutletsTableView" customModule="Fave" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.95075207949999996" green="0.95072358850000005" blue="0.95073974130000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="An1-zj-mmY" firstAttribute="top" secondItem="l1D-2K-T38" secondAttribute="bottom" id="6Qm-Lc-dgh"/>
+                            <constraint firstItem="l1D-2K-T38" firstAttribute="top" secondItem="R40-yY-zhW" secondAttribute="top" id="7Sp-2l-oXC"/>
+                            <constraint firstItem="l1D-2K-T38" firstAttribute="top" secondItem="LFE-L8-JVf" secondAttribute="bottom" id="CBG-Tl-4aE"/>
+                            <constraint firstItem="l1D-2K-T38" firstAttribute="leading" secondItem="R40-yY-zhW" secondAttribute="leading" id="SmD-ur-y8o"/>
+                            <constraint firstAttribute="trailing" secondItem="l1D-2K-T38" secondAttribute="trailing" id="U35-nu-jcO"/>
+                            <constraint firstItem="l1D-2K-T38" firstAttribute="top" secondItem="R40-yY-zhW" secondAttribute="top" id="WNJ-Qc-eMW"/>
+                            <constraint firstItem="l1D-2K-T38" firstAttribute="top" secondItem="LFE-L8-JVf" secondAttribute="bottom" id="kDh-U0-SXt"/>
+                            <constraint firstItem="An1-zj-mmY" firstAttribute="top" secondItem="l1D-2K-T38" secondAttribute="bottom" id="l09-aG-pgP"/>
+                            <constraint firstItem="l1D-2K-T38" firstAttribute="top" secondItem="LFE-L8-JVf" secondAttribute="bottom" id="ly2-ub-fsg"/>
+                            <constraint firstItem="l1D-2K-T38" firstAttribute="top" secondItem="LFE-L8-JVf" secondAttribute="bottom" id="wLr-Pr-vwe"/>
+                            <constraint firstItem="l1D-2K-T38" firstAttribute="top" secondItem="R40-yY-zhW" secondAttribute="top" id="zb8-8R-zGN"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7Sp-2l-oXC"/>
+                                <exclude reference="CBG-Tl-4aE"/>
+                                <exclude reference="WNJ-Qc-eMW"/>
+                                <exclude reference="ly2-ub-fsg"/>
+                                <exclude reference="wLr-Pr-vwe"/>
+                                <exclude reference="zb8-8R-zGN"/>
+                                <exclude reference="l09-aG-pgP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="multipleOutletsTableView" destination="l1D-2K-T38" id="iD8-U5-heJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="arv-XJ-m7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55.200000000000003" y="-293.70314842578711"/>
+        </scene>
+    </scenes>
+</document>

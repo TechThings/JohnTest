@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification Permission View Controller-->
+        <scene sceneID="2mZ-bj-Gal">
+            <objects>
+                <viewController storyboardIdentifier="NotificationPermissionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ygo-bP-3gy" customClass="NotificationPermissionViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KSv-Az-iqn"/>
+                        <viewControllerLayoutGuide type="bottom" id="IcE-KR-e5w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hwE-Dr-mpL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notification-permission-bg" translatesAutoresizingMaskIntoConstraints="NO" id="off-AD-zJN">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="206" id="OoT-0k-60n"/>
+                                    <constraint firstAttribute="width" constant="180" id="knh-ju-Yhh"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="350" id="o7y-gD-v6C"/>
+                                    <constraint firstAttribute="height" constant="350" id="yNC-4R-Kpl"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OoT-0k-60n"/>
+                                        <exclude reference="knh-ju-Yhh"/>
+                                        <exclude reference="o7y-gD-v6C"/>
+                                        <exclude reference="yNC-4R-Kpl"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZE-Dz-bEd">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don’t miss out! You’ll only be notified about your favourite spots and occasional offers available near you." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMA-by-qw3" customClass="KFITLabel">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="280" id="29o-LK-Iay"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="enable_notifications_description"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlW-9Z-Pjh">
+                                        <color key="backgroundColor" red="0.18461816012859344" green="0.67964828014373779" blue="0.93489491939544678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="1O1-AP-lpc"/>
+                                            <constraint firstAttribute="width" constant="137" id="Udt-lg-ftm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Okay">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapOKButton:" destination="ygo-bP-3gy" eventType="touchUpInside" id="ni1-X7-bPo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0D-k9-ykO">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="1gl-xT-Xi7"/>
+                                            <constraint firstAttribute="width" constant="300" id="h1c-ox-4kx"/>
+                                        </constraints>
+                                        <state key="normal" title="Not now">
+                                            <color key="titleColor" red="0.20000000298023224" green="0.65882354974746704" blue="0.81960785388946533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapCancelButton:" destination="ygo-bP-3gy" eventType="touchUpInside" id="8St-LF-FeE"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable notifications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="149.5" translatesAutoresizingMaskIntoConstraints="NO" id="Et7-98-KKi">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="Wak-Lk-cGx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="enable_notifications"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Wak-Lk-cGx"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tMA-by-qw3" firstAttribute="centerX" secondItem="eZE-Dz-bEd" secondAttribute="centerX" id="11C-wm-R9z"/>
+                                    <constraint firstAttribute="bottom" secondItem="r0D-k9-ykO" secondAttribute="bottom" constant="20" id="3Yz-XU-L6y"/>
+                                    <constraint firstItem="r0D-k9-ykO" firstAttribute="centerX" secondItem="eZE-Dz-bEd" secondAttribute="centerX" id="3fl-t9-Ig1"/>
+                                    <constraint firstItem="r0D-k9-ykO" firstAttribute="top" secondItem="mlW-9Z-Pjh" secondAttribute="bottom" constant="11" id="CLy-Ee-pm5"/>
+                                    <constraint firstItem="Et7-98-KKi" firstAttribute="centerX" secondItem="eZE-Dz-bEd" secondAttribute="centerX" id="Q1S-lo-rnS"/>
+                                    <constraint firstItem="tMA-by-qw3" firstAttribute="top" secondItem="Et7-98-KKi" secondAttribute="bottom" constant="10" id="VEB-Ra-0MD"/>
+                                    <constraint firstItem="tMA-by-qw3" firstAttribute="top" secondItem="Et7-98-KKi" secondAttribute="bottom" constant="39" id="YTL-1U-hJv"/>
+                                    <constraint firstItem="mlW-9Z-Pjh" firstAttribute="top" secondItem="tMA-by-qw3" secondAttribute="bottom" constant="25" id="fHR-Te-8OT"/>
+                                    <constraint firstItem="mlW-9Z-Pjh" firstAttribute="centerX" secondItem="eZE-Dz-bEd" secondAttribute="centerX" id="tai-HU-Rvg"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="YTL-1U-hJv"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IcE-KR-e5w" firstAttribute="top" secondItem="eZE-Dz-bEd" secondAttribute="bottom" id="0UJ-Wn-Xqs"/>
+                            <constraint firstItem="off-AD-zJN" firstAttribute="top" secondItem="KSv-Az-iqn" secondAttribute="bottom" id="0bc-Cx-DRG"/>
+                            <constraint firstItem="eZE-Dz-bEd" firstAttribute="width" secondItem="off-AD-zJN" secondAttribute="height" multiplier="12:7" id="4Lb-wV-DdE"/>
+                            <constraint firstItem="eZE-Dz-bEd" firstAttribute="height" secondItem="off-AD-zJN" secondAttribute="height" id="AUw-4R-hcL"/>
+                            <constraint firstItem="eZE-Dz-bEd" firstAttribute="top" secondItem="off-AD-zJN" secondAttribute="bottom" id="Bdf-El-R2S"/>
+                            <constraint firstItem="off-AD-zJN" firstAttribute="top" secondItem="hwE-Dr-mpL" secondAttribute="topMargin" id="CtF-7b-r24"/>
+                            <constraint firstItem="off-AD-zJN" firstAttribute="top" secondItem="KSv-Az-iqn" secondAttribute="bottom" id="Fm6-dB-hZH"/>
+                            <constraint firstItem="off-AD-zJN" firstAttribute="centerX" secondItem="hwE-Dr-mpL" secondAttribute="centerX" id="Ixe-5L-VnV"/>
+                            <constraint firstAttribute="trailing" secondItem="off-AD-zJN" secondAttribute="trailing" id="MHN-Gt-oBx"/>
+                            <constraint firstItem="off-AD-zJN" firstAttribute="width" secondItem="hwE-Dr-mpL" secondAttribute="height" multiplier="1:1" id="OSl-Cb-Urf"/>
+                            <constraint firstItem="eZE-Dz-bEd" firstAttribute="width" secondItem="off-AD-zJN" secondAttribute="height" multiplier="12:7" id="USy-jP-CAw"/>
+                            <constraint firstAttribute="trailing" secondItem="eZE-Dz-bEd" secondAttribute="trailing" id="UZH-aK-uG9"/>
+                            <constraint firstItem="eZE-Dz-bEd" firstAttribute="leading" secondItem="hwE-Dr-mpL" secondAttribute="leading" id="m2e-xR-DSn"/>
+                            <constraint firstItem="off-AD-zJN" firstAttribute="leading" secondItem="hwE-Dr-mpL" secondAttribute="leading" id="oOI-Z8-G8H"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4Lb-wV-DdE"/>
+                                <exclude reference="USy-jP-CAw"/>
+                                <exclude reference="0bc-Cx-DRG"/>
+                                <exclude reference="Fm6-dB-hZH"/>
+                                <exclude reference="OSl-Cb-Urf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="r0D-k9-ykO" id="c5e-dq-DJm"/>
+                        <outlet property="descriptionLabel" destination="tMA-by-qw3" id="Z4Q-Wc-kpd"/>
+                        <outlet property="notificationLabel" destination="Et7-98-KKi" id="8he-Yg-dkD"/>
+                        <outlet property="okButton" destination="mlW-9Z-Pjh" id="l3I-W4-yLw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qvR-0r-ygH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6382" y="1075"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="notification-permission-bg" width="450" height="350"/>
+    </resources>
+</document>

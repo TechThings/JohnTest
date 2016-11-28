@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RedeemMultipleOutletView" customModule="Fave" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="bgD-7j-ozQ" id="7B5-9d-tdD"/>
+                <outlet property="contentView" destination="1XW-UR-BKB" id="NHl-7R-cNm"/>
+                <outlet property="descriptionLabel" destination="bgS-Me-hV1" id="icv-aV-mqg"/>
+                <outlet property="redeemButton" destination="I3n-bW-Zio" id="dQX-Mk-tDV"/>
+                <outlet property="tableView" destination="ilp-aZ-hIa" id="EMt-Fm-kla"/>
+                <outlet property="tableViewHeight" destination="dn7-CE-wJU" id="HOa-5x-Hjf"/>
+                <outlet property="tableViewTop" destination="obd-iY-rvZ" id="nFE-7Z-piI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wnk-yq-Amr" userLabel="Opacity Background View">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1XW-UR-BKB">
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_outlets" translatesAutoresizingMaskIntoConstraints="NO" id="yFz-B8-8wO">
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="36" id="Pxq-o1-s05"/>
+                                        <constraint firstAttribute="height" constant="36" id="fEI-Zr-Ucz"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you sure you want to redeem this now?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JU-c6-MSX">
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="purchase_detail_are_you_sure_you_want_to_redeem_now"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make sure you are at the right place, at the right time before redeeming." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgS-Me-hV1" customClass="KFITLabel">
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.59999999999999998" green="0.66274509800000003" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="you_must_be_at_right_and_time_to_redeem"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ilp-aZ-hIa">
+                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="250" id="dn7-CE-wJU"/>
+                                    </constraints>
+                                </tableView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgD-7j-ozQ">
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="iUI-Xh-Wu8"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="17"/>
+                                    <state key="normal" title="Cancel">
+                                        <color key="titleColor" red="0.59999999999999998" green="0.66274509800000003" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="defaultTitleKey" value="cancel"/>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3n-bW-Zio">
+                                    <color key="backgroundColor" red="0.86274509799999999" green="0.14901960780000001" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="17"/>
+                                    <state key="normal" title="Redeem now">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="defaultTitleKey" value="redeem_now"/>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="9JU-c6-MSX" firstAttribute="top" secondItem="yFz-B8-8wO" secondAttribute="bottom" constant="12" id="07C-Rp-sLx"/>
+                                <constraint firstAttribute="trailing" secondItem="bgS-Me-hV1" secondAttribute="trailing" constant="15" id="4IZ-4U-aKx"/>
+                                <constraint firstItem="yFz-B8-8wO" firstAttribute="centerX" secondItem="1XW-UR-BKB" secondAttribute="centerX" id="5XC-CK-yRM"/>
+                                <constraint firstItem="bgS-Me-hV1" firstAttribute="leading" secondItem="1XW-UR-BKB" secondAttribute="leading" constant="15" id="7Zo-LX-JaJ"/>
+                                <constraint firstItem="bgD-7j-ozQ" firstAttribute="leading" secondItem="1XW-UR-BKB" secondAttribute="leading" constant="15" id="AVB-La-Fth"/>
+                                <constraint firstItem="ilp-aZ-hIa" firstAttribute="leading" secondItem="1XW-UR-BKB" secondAttribute="leading" id="Ada-GD-xP7"/>
+                                <constraint firstItem="I3n-bW-Zio" firstAttribute="width" secondItem="bgD-7j-ozQ" secondAttribute="width" multiplier="1.2:1" id="Aya-AE-4np"/>
+                                <constraint firstItem="9JU-c6-MSX" firstAttribute="leading" secondItem="1XW-UR-BKB" secondAttribute="leading" constant="60" id="DVu-B7-uki"/>
+                                <constraint firstItem="I3n-bW-Zio" firstAttribute="centerY" secondItem="bgD-7j-ozQ" secondAttribute="centerY" id="Icz-qn-zHL"/>
+                                <constraint firstAttribute="trailing" secondItem="ilp-aZ-hIa" secondAttribute="trailing" id="KOs-um-Gnz"/>
+                                <constraint firstItem="bgD-7j-ozQ" firstAttribute="top" secondItem="ilp-aZ-hIa" secondAttribute="bottom" constant="15" id="U29-8m-4qh"/>
+                                <constraint firstAttribute="trailing" secondItem="I3n-bW-Zio" secondAttribute="trailing" constant="15" id="UQQ-Aj-4Jh"/>
+                                <constraint firstItem="bgS-Me-hV1" firstAttribute="top" secondItem="9JU-c6-MSX" secondAttribute="bottom" constant="8" id="Vh7-M4-cKc"/>
+                                <constraint firstAttribute="bottom" secondItem="bgD-7j-ozQ" secondAttribute="bottom" constant="15" id="YDl-eF-8uj"/>
+                                <constraint firstItem="yFz-B8-8wO" firstAttribute="top" secondItem="1XW-UR-BKB" secondAttribute="top" constant="20" id="cva-GL-6UJ"/>
+                                <constraint firstItem="I3n-bW-Zio" firstAttribute="leading" secondItem="bgD-7j-ozQ" secondAttribute="trailing" constant="10" id="gQa-go-evj"/>
+                                <constraint firstItem="I3n-bW-Zio" firstAttribute="height" secondItem="bgD-7j-ozQ" secondAttribute="height" id="ljW-C8-tuH"/>
+                                <constraint firstItem="ilp-aZ-hIa" firstAttribute="top" secondItem="bgS-Me-hV1" secondAttribute="bottom" constant="15" id="obd-iY-rvZ"/>
+                                <constraint firstAttribute="trailing" secondItem="9JU-c6-MSX" secondAttribute="trailing" constant="60" id="vWC-3P-yO4"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="1XW-UR-BKB" firstAttribute="centerY" secondItem="wnk-yq-Amr" secondAttribute="centerY" id="0s2-Gq-dZB"/>
+                        <constraint firstAttribute="trailing" secondItem="1XW-UR-BKB" secondAttribute="trailing" constant="10" id="Uno-5m-KA1"/>
+                        <constraint firstItem="1XW-UR-BKB" firstAttribute="leading" secondItem="wnk-yq-Amr" secondAttribute="leading" constant="10" id="laU-SC-6wr"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="wnk-yq-Amr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HOK-n2-XFG"/>
+                <constraint firstItem="wnk-yq-Amr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PFa-1Q-KeT"/>
+                <constraint firstAttribute="trailing" secondItem="wnk-yq-Amr" secondAttribute="trailing" id="keg-UJ-ce1"/>
+                <constraint firstAttribute="bottom" secondItem="wnk-yq-Amr" secondAttribute="bottom" id="naM-vp-1y6"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-172.5" y="22.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_outlets" width="36" height="36"/>
+    </resources>
+</document>

@@ -1,0 +1,1914 @@
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: Fave iOS
+ * Release: Working copy
+ * Locale: id, Indonesian
+ * Exported by: Michael Cheah
+ * Exported at: Tue, 22 Nov 2016 07:52:55 +0000
+ */
+
+/* loco:57e0fd3614d72543418b4567 */
+"available_text" = "Tersedia";
+
+/* loco:57e0fd3614d72543418b4568 */
+"sold_out_text" = "Habis";
+
+/* loco:57e0fd3614d72543418b4569 */
+"sort_by_trending_option" = "Sedang Tren";
+
+/* loco:57e0fd3614d72543418b456a */
+"no_activities_available" = "Tidak ada aktivitas yang tersedia\nGeser ke kiri atau kanan untuk melihat kategori lain";
+
+/* loco:57e0fd3614d72543418b456b */
+"all" = "Semua";
+
+/* loco:57e0fd3614d72543418b456c */
+"sort_by_distance_option_for_discovery" = "Penawaran di sekitarmu";
+
+/* loco:57e0fd3614d72543418b456d */
+"transaction_reserve_for_text" = "Dipesan untuk";
+
+/* loco:57e0fd3614d72543418b456e */
+"transaction_confirm_reservation_description_text" = "%@ akan dikenakan biaya pada %@";
+
+/* loco:57e0fd3614d72543418b456f */
+"filter_other_header_text" = "Lainnya";
+
+/* loco:57e0fd3614d72543418b4570 */
+"filter_only_fitpass" = "Hanya tunjukkan aktivitas Fitness Pass";
+
+/* loco:57e0fd3614d72543418b4571 */
+"km_text" = "%@ km";
+
+/* loco:57e0fd3614d72543418b4572 */
+"gps_unavailable_text" = "Mohon aktifkan perijinan lokasi untuk melihat hasil yang lebih baik";
+
+/* loco:57e0fd3614d72543418b4573 */
+"gps_unavailable_button_text" = "Aktifkan lokasi";
+
+/* loco:57e0fd3614d72543418b4574 */
+"launch_description_array_1" = "Olah raga dan bersantai di kotamu sambil hemat hingga 70%. Mulai dari yoga, kickboxing, pusat kebugaran, tarian, pijat, spa dan facial, pilih dari ratusan aktivitas setiap harinya.";
+
+/* loco:57e0fd3614d72543418b4575 */
+"launch_description_array_2" = "Temukan aktivitas di sekitarmu\ndan masukkan ke dalam jadwal";
+
+/* loco:57e0fd3614d72543418b4576 */
+"launch_description_array_3" = "Gunakan penyaringan atau pilih\naktivitas yang sedang tren di sekitarmu";
+
+/* loco:57e0fd3614d72543418b4577 */
+"launch_description_array_4" = "Pesan aktivitas favoritmu\ndalam beberapa langkah mudah";
+
+/* loco:57e0fd3614d72543418b4578 */
+"launch_description_array_5" = "Jelajahi beragam aktivitas\ndi kotamu.";
+
+/* loco:57e0fd3614d72543418b4579 */
+"launch_description_array_6" = "Bagikan pengalamanmu\ndengan pengguna KFit lain.";
+
+/* loco:57e0fd3614d72543418b457a */
+"enable" = "Aktifkan";
+
+/* loco:57e0fd3614d72543418b457c */
+"promo_code_successfully_added" = "Kode promo berhasil ditambahkan";
+
+/* loco:57e0fd3614d72543418b457d */
+"enter_promo_code" = "Masukkan kode promo";
+
+/* loco:57e0fd3614d72543418b457e */
+"promo_code_header_text" = "Gunakan kode promo dibawah ini untuk menikmati potongan pada pembelianmu";
+
+/* loco:57e0fd3614d72543418b457f */
+"active_promo_codes_count" = "Kamu mempunyai %@ kode promo aktif";
+
+/* loco:57e0fd3614d72543418b4580 */
+"expires_on" = "Kadaluarsa pada";
+
+/* loco:57e0fd3614d72543418b4581 */
+"amount" = "Jumlah";
+
+/* loco:57e0fd3614d72543418b4582
+ * Shown in the Promo Code screen when the user does not have any active promo codes */
+"no_active_promo_codes" = "Kamu tidak mempunyai kode promo aktif";
+
+/* loco:57e0fd3614d72543418b4583
+ * Search bar at the top of Discovery page */
+"my_current_location" = "Lokasi saya sekarang";
+
+/* loco:57e0fd3614d72543418b4584
+ * Status message for cases where class is booked but payment is not received */
+"schedule_reservation_payment_pending" = "Pembayaran Tertunda";
+
+/* loco:57e0fd3614d72543418b4585
+ * Status message for cases where class is booked but payment is not received */
+"title_reservation_pending_payment" = "PEMBAYARAN TERTUNDA";
+
+/* loco:57e0fd3614d72543418b4586 */
+"schedule_reservation_payment_pay_now" = "Bayar Sekarang";
+
+/* loco:57e0fd3614d72543418b4587 */
+"logout_failed_message" = "Tidak dapat keluar, mohon coba lagi nanti";
+
+/* loco:57e0fd3614d72543418b4588 */
+"promo_code_first_time_text" = "Hanya untuk penggunaan pertama";
+
+/* loco:57e0fd3614d72543418b4589 */
+"promo_code_view_details_button_text" = "Lihat rincian";
+
+/* loco:57e0fd3614d72543418b458a */
+"promo_code_apply_failed_text" = "Terdapat permasalahan saat menggunakan kode promo. Mohon cek koneksimu dan coba lagi.";
+
+/* loco:57e0fd3614d72543418b458b
+ * Shown in the Promo Code screen when the user does not have any active promo codes */
+"promo_code_tip" = "Tips: Like kita di Facebook untuk mendapatkan infromasi promosi terbaru kami";
+
+/* loco:57e0fd3614d72543418b458c
+ * Generic error dialog messages */
+"oops" = "Ups";
+
+/* loco:57e0fd3614d72543418b458d */
+"try_again" = "Coba Lagi";
+
+/* loco:57e0fd3614d72543418b458e */
+"cancel" = "Batal";
+
+/* loco:57e0fd3614d72543418b458f */
+"generic_error" = "Terdapat permasalahan koneksi ke server.\nMohon periksa jaringan kamu";
+
+/* loco:57e0fd3614d72543418b4590
+ * Home Screens */
+"fave_count" = "%d fave";
+
+/* loco:57e0fd3614d72543418b4591 */
+"latest_specials" = "Menunjukkan %d Penawaran Spesial Terbaru di %@";
+
+/* loco:57e0fd3614d72543418b4592
+ * Activity Details Screen */
+"info" = "Informasi";
+
+/* loco:57e0fd3614d72543418b4593 */
+"things_to_know" = "Hal-hal yang harus diketahui";
+
+/* loco:57e0fd3614d72543418b4594 */
+"about" = "Tentang";
+
+/* loco:57e0fd3614d72543418b4595 */
+"outlet" = "Tukarkan penawaran pada";
+
+/* loco:57e0fd3614d72543418b4596 */
+"amenities" = "Layanan";
+
+/* loco:57e0fd3614d72543418b4597 */
+"tips" = "Tips";
+
+/* loco:57e0fd3614d72543418b4598 */
+"location" = "Lokasi";
+
+/* loco:57e0fd3614d72543418b4599 */
+"photos" = "Foto";
+
+/* loco:57e0fd3614d72543418b459a */
+"cancellation_policy" = "Kebijakan Pembatalan";
+
+/* loco:57e0fd3614d72543418b459b */
+"slot_count" = "Tersisa %d slot";
+
+/* loco:57e0fd3614d72543418b459c */
+"slots_count" = "Tersisa %d slot";
+
+/* loco:57e0fd3614d72543418b459d
+ * Nearby Screens */
+"current_location" = "Lokasi Saat Ini";
+
+/* loco:57e0fd3614d72543418b459e */
+"nearby_things_to_do" = "%d aktivitas untuk dilakukan di sekitarmu";
+
+/* loco:57e0fd3614d72543418b459f
+ * Chat Screen */
+"chat_info" = "Informasi";
+
+/* loco:57e0fd3614d72543418b45a0 */
+"chat_load_fail" = "Gagal mengeluarkan percakapan. Mohon coba lagi nanti";
+
+/* loco:57e0fd3614d72543418b45a1 */
+"chat_connecting" = "Menyambungkan...";
+
+/* loco:57e0fd3614d72543418b45a2 */
+"chat_type_something" = "Katakan sesuatu...";
+
+/* loco:57e0fd3614d72543418b45a3
+ * Channel Info Screen */
+"channel_info_everyone_left" = "Tidak ada orang lagi di grup ini :(";
+
+/* loco:57e0fd3614d72543418b45a4 */
+"chat_with" = "dengan";
+
+/* loco:57e0fd3614d72543418b45a5
+ * Offer Screen */
+"promo_description" = "Kode promo %1$s sudah digunakan. Kamu akan mendapat potongan %2$s saat membayar :)";
+
+/* loco:57e0fd3614d72543418b45a6 */
+"offer_photo_count" = "%d foto";
+
+/* loco:57eb46ee52e1a18a3f8b4568 */
+"chat_start_now_iOS" = "YUK, PERGI!";
+
+/* loco:57eb47e552e1a18f3f8b4567 */
+"chat_invitations" = "Kamu punya %@ undangan";
+
+/* loco:57f6337352e1a1f1428b45dc */
+"view" = "Lihat";
+
+/* loco:57f6337352e1a1f1428b45dd
+ * Added all missing localize string */
+"want_to_cancel_purchase" = "Apakah kamu yakin ingin membatalkan pembelian ini?";
+
+/* loco:57f6337352e1a1f1428b45de */
+"received_refund_in_fave_credits" = "Kamu akan menerima refund dalam bentuk Kredit Fave";
+
+/* loco:57f6337352e1a1f1428b45df */
+"chat_get_cachback_for_each_friend" = "Jadilah teman yang baik. Dapatkan cashback %@%@ untuk setiap teman yang membeli penawaran lewat chatmu.";
+
+/* loco:57f6337352e1a1f1428b45e0 */
+"terms" = "Persyaratan";
+
+/* loco:57f6337352e1a1f1428b45e1 */
+"chat_fave_credit_friends_redeemed_offer" = "1. Cashback diberikan dalam bentuk Kredit Fave\n2. Kredit hanya akan diberikan setelah temanmu menukarkan penawarannya.\n\nSemakin banyak teman yang kamu undang, semakin banyak cashback yang akan kamu dapatkan. Setuju?";
+
+/* loco:57f6337352e1a1f1428b45e2 */
+"change_status" = "Rubah status";
+
+/* loco:57f6337352e1a1f1428b45e3 */
+"cancel_before" = "Batalkan sebelum";
+
+/* loco:57f6337352e1a1f1428b45e4 */
+"at" = "di";
+
+/* loco:57f6337352e1a1f1428b45e6 */
+"faves" = "Fave";
+
+/* loco:57f6337352e1a1f1428b45e7 */
+"eat" = "Makan";
+
+/* loco:57f6337352e1a1f1428b45e8 */
+"pamper" = "Memanjakan Diri";
+
+/* loco:57f6337352e1a1f1428b45e9 */
+"fit" = "Sehat";
+
+/* loco:57f6337352e1a1f1428b45ea */
+"outlet_have't_phone" = "Sepertinya cabang ini tidak memiliki nomor telepon";
+
+/* loco:57f6337352e1a1f1428b45eb */
+"name" = "NAMA";
+
+/* loco:57f6337352e1a1f1428b45ec */
+"redeem_now" = "Tukarkan sekarang";
+
+/* loco:57f6337352e1a1f1428b45ed */
+"redeem_on" = "DITUKARKAN PADA";
+
+/* loco:57f6337352e1a1f1428b45ee */
+"cant_redeem_yet" = "Belum bisa ditukar";
+
+/* loco:57f6337352e1a1f1428b45ef */
+"pax" = "UNIT";
+
+/* loco:57f6337352e1a1f1428b45f0 */
+"redeem" = "TUKAR";
+
+/* loco:57f6337352e1a1f1428b45f1 */
+"error_on_phone_validation" = "Ada error saat validasi nomor telepon";
+
+/* loco:57f6354b52e1a161438b456a */
+"decide" = "TENTUKAN";
+
+/* loco:57ff626e52e1a1f0518b4576 */
+"enable_notifications" = "Aktifkan notifikasi";
+
+/* loco:57ff626e52e1a1f0518b4577 */
+"enable_notifications_description" = "Jangan ketinggalan! Kamu hanya akan diberikan notifikasi tentang tempat favoritmu dan beberapa penawaran yang tersedia di sekitarmu.";
+
+/* loco:57ff626e52e1a1f0518b4578 */
+"turn_on_location_description" = "Aktikan lokasimu untuk melihat apa yang sedang populer di dekatmu dan menerima penawaran yang mungkin kamu sukai.";
+
+/* loco:57ff626e52e1a1f0518b4579 */
+"account_setting" = "Pengaturan Akun";
+
+/* loco:57ff626e52e1a1f0518b457a */
+"view_your_account_details" = "Lihat rincian akunmu";
+
+/* loco:57ff626e52e1a1f0518b457b */
+"credits" = "Kredit";
+
+/* loco:57ff626e52e1a1f0518b457c */
+"get_extra_credits" = "Dapatkan Kredit Fave tambahan";
+
+/* loco:57ff626e52e1a1f0518b457d */
+"add_credit_or_debit_card" = "Tambahkan kartu kredit atau kartu debit";
+
+/* loco:57ff626e52e1a1f0518b457e */
+"name_on_card" = "Nama di kartu";
+
+/* loco:57ff626e52e1a1f0518b457f */
+"cvv" = "CVV";
+
+/* loco:57ff626e52e1a1f0518b4580 */
+"send_your_discount_to_friend" = "Kirimkan potongan harga untuk temanmu agar mereka bisa mencoba Fave dan kamu akan mendapatkan kredit untuk setiap teman yang kamu referensikan.";
+
+/* loco:57ff626e52e1a1f0518b4581 */
+"credit" = "Kredit";
+
+/* loco:57ff626e52e1a1f0518b4582 */
+"failed_to_get_your_balances" = "Gagal mendapatkan saldo Kredit Favemu. Silakan coba lagi nanti.";
+
+/* loco:57ff626e52e1a1f0518b4583 */
+"your_active_promo_codes" = "Kamu 2 kode promo aktif";
+
+/* loco:57ff626e52e1a1f0518b4584 */
+"you_almost_there" = "Hampir selesai!";
+
+/* loco:57ff715652e1a106548b4567 */
+"logout" = "Keluar";
+
+/* loco:58008f0152e1a1c4658b4568 */
+"call" = "Telepon";
+
+/* loco:58008f0152e1a1c4658b4569 */
+"you_not_add_faves" = "Kamu belum mempunyai fave.\nTekan ikon hati untuk menambahkannya sekarang!\n";
+
+/* loco:58008f0152e1a1c4658b456a */
+"show_more" = "Tunjukkan lebih banyak";
+
+/* loco:58008f0152e1a1c4658b456b */
+"show_less" = "Tunjukkan lebih sedikit";
+
+/* loco:58008f0152e1a1c4658b456c */
+"no_results_found_for" = "Tidak ada hasil untuk";
+
+/* loco:58008f0152e1a1c4658b456d */
+"add_place_to_fave" = "Tambahkan tempat ini ke Fave";
+
+/* loco:58008f0152e1a1c4658b456e */
+"redeem_until_today" = "Tukarkan dari hari ini sampai %@";
+
+/* loco:58008f0152e1a1c4658b456f */
+"left" = "tersisa";
+
+/* loco:58008f0152e1a1c4658b4570 */
+"filter_is_on" = "penyaringan dinyalakan";
+
+/* loco:58008f0152e1a1c4658b4571 */
+"filter_is_off" = "penyaringan dimatikan";
+
+/* loco:58009ef352e1a1ce678b4587 */
+"choose_another_category" = "Pilih kategori lain untuk menemukan lebih banyak penawaran menarik";
+
+/* loco:58009ef352e1a1ce678b4588 */
+"receive_full_refund_in_fave_credit" = "Dapatkan refund penuh dalam bentuk Kredit Fava apabila kamu membatalkan sebelum";
+
+/* loco:58009ef352e1a1ce678b4589 */
+"select_friends" = "Pilih teman";
+
+/* loco:58009ef352e1a1ce678b458a */
+"Hey_workout_together" = "Ayo berolah raga bersama!";
+
+/* loco:58009ef352e1a1ce678b458b */
+"there" = "di sana";
+
+/* loco:58009ef352e1a1ce678b458c */
+"hi" = "Hai";
+
+/* loco:58009ef352e1a1ce678b458d */
+"view_past_purchases" = "Lihat semua pembelian yang lama";
+
+/* loco:5800afd252e1a10a6a8b456a */
+"no_offers" = "Tidak ada penawaran";
+
+/* loco:5804888a52e1a1a0248b4569 */
+"receipt_id" = "ID Tanda Terima";
+
+/* loco:5804888a52e1a1a0248b456a */
+"confirm" = "Konfirmasi";
+
+/* loco:5804888a52e1a1a0248b456b */
+"redeem_from" = "Periode penukaran";
+
+/* loco:5804888a52e1a1a0248b456c */
+"redeem_at" = "Lokasi penukaran";
+
+/* loco:5804888a52e1a1a0248b456d */
+"cancel_this_purchase" = "Batalkan pembelian ini";
+
+/* loco:5804a53452e1a1ad288b4568 */
+"make_sure_only_you_swipe" = "Pastikan kamu sudah berada di %1$s sebelum menukar";
+
+/* loco:5804a53452e1a1ad288b4569 */
+"sub_categories" = "Subkategori";
+
+/* loco:5804a53452e1a1ad288b456a */
+"filter_results" = "Hasil penyaringan";
+
+/* loco:58086cad52e1a17c048b4569 */
+"offer" = "penawaran";
+
+/* loco:58086cad52e1a17c048b456a */
+"please_complete_your_payment" = "Silakan selesaikan pembayaranmu sebelum";
+
+/* loco:58086cad52e1a17c048b456b */
+"to_confirm_your_purchase" = "untuk mengkonfirmasi pembelianmu";
+
+/* loco:58086cad52e1a17c048b456c */
+"voucher" = "voucher";
+
+/* loco:58086cad52e1a17c048b456d */
+"vouchers" = "vouchers";
+
+/* loco:5808704c52e1a105058b456a */
+"Save_more_on_next_purchase_by_inviting" = "Dapatkan potongan tambahan untuk pembelian selanjutnya dengan mengundang temanmu bergabung di Fave.";
+
+/* loco:5808704c52e1a105058b456b */
+"guest" = "Tamu";
+
+/* loco:5809d02152e1a1022a8b456a */
+"view_your_receipts" = "Lihat bukti pembayaranmu";
+
+/* loco:5809d02152e1a1022a8b456b */
+"view_all_locations_details" = "Lihat semua rincian lokasi";
+
+/* loco:5809d02152e1a1022a8b456c */
+"you_must_be_at_right_and_time_to_redeem" = "Pastikan kamu sudah berada di waktu dan tempat yang tepat sebelum menukar.";
+
+/* loco:5809d02152e1a1022a8b456d */
+"locations" = "lokasi";
+
+/* loco:5809d02152e1a1022a8b456e */
+"also_redemmable_in" = "Dapat juga ditukar di ";
+
+/* loco:5809d02152e1a1022a8b456f */
+"more_location" = "lokasi lainnya";
+
+/* loco:5809d02152e1a1022a8b4570 */
+"more_locations" = "lokasi lainnya";
+
+/* loco:580f20b352e1a1be6e8b4573 */
+"use_this_code_to_redeem" = "Gunakan kode ini untuk menukar";
+
+/* loco:580f20b352e1a1be6e8b4574 */
+"expiry_date" = "Tanggal kadaluarsa";
+
+/* loco:580f20b352e1a1be6e8b4575 */
+"card_number" = "Nomor kartu";
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: Fave Commons
+ * Release: Working copy
+ * Locale: id, Indonesian (Indonesia)
+ * Exported by: Michael Cheah
+ * Exported at: Tue, 22 Nov 2016 07:52:52 +0000
+ */
+
+/* loco:57dfc1aa14d725455b8b4567 */
+"msg_error_title" = "Terjadi kesalahan";
+
+/* loco:57dfc1aa14d725455b8b4568 */
+"msg_loading_please_wait" = "Memuat. Harap menunggu...";
+
+/* loco:57dfc1aa14d725455b8b4569 */
+"msg_error_button" = "COBA LAGI";
+
+/* loco:57dfc1aa14d725455b8b456a */
+"msg_something_wrong" = "Ada kesalahan dan kami sedang berusaha memperbaikinya. Silakan buka ulang aplikasi, atau coba lagi";
+
+/* loco:57dfc1aa14d725455b8b456b */
+"title_share_via" = "Bagikan melalui";
+
+/* loco:57dfc1aa14d725455b8b456c */
+"msg_invalid_link" = "Tautan salah";
+
+/* loco:57dfc1aa14d725455b8b456d */
+"invalid_deep_linking" = "Maaf, tautan yang kamu cari tidak ditemukan.";
+
+/* loco:57dfc1aa14d725455b8b456e */
+"today" = "Hari ini";
+
+/* loco:57dfc1aa14d725455b8b456f */
+"empty_offers" = "Belum ada penawaran";
+
+/* loco:57dfc1aa14d725455b8b4570 */
+"enable_location_title" = "Aktifkan lokasimu";
+
+/* loco:57dfc1aa14d725455b8b4571 */
+"enable_location_content" = "Kami tidak bisa mendapatkan lokasimu, aktifkan lokasimu sekarang";
+
+/* loco:57dfc1aa14d725455b8b4572
+ * Dialog */
+"msg_dialog_cancel" = "Batalkan";
+
+/* loco:57dfc1aa14d725455b8b4573 */
+"msg_dialog_ok" = "OK";
+
+/* loco:57dfc1aa14d725455b8b4574 */
+"msg_dialog_yes" = "Ya";
+
+/* loco:57dfc1aa14d725455b8b4575 */
+"msg_dialog_no" = "Tidak";
+
+/* loco:57dfc1aa14d725455b8b4576 */
+"msg_dialog_maybe" = "Mungkin";
+
+/* loco:57dfc1aa14d725455b8b4577 */
+"next" = "SELANJUTNYA";
+
+/* loco:57dfc1aa14d725455b8b4578 */
+"done" = "Selesai";
+
+/* loco:57dfc1aa14d725455b8b4579 */
+"dialog_exit_message" = "Tekan KEMBALI lagi untuk keluar";
+
+/* loco:57dfc1aa14d725455b8b457a
+ * Splash */
+"splash_title_1_text" = "Selamat datang di\nFave by Groupon!";
+
+/* loco:57dfc1aa14d725455b8b457b */
+"splash_title_2_text" = "Atur";
+
+/* loco:57dfc1aa14d725455b8b457c */
+"splash_title_3_text" = "Hemat";
+
+/* loco:57dfc1aa14d725455b8b457d */
+"splash_title_4_text" = "Putuskan";
+
+/* loco:57dfc1aa14d725455b8b457e */
+"splash_title_5_text" = "Temukan";
+
+/* loco:57dfc1aa14d725455b8b457f */
+"splash_sign_up_text" = "MENDAFTAR";
+
+/* loco:57dfc1aa14d725455b8b4580 */
+"splash_skip_text" = "Lewati dan lanjutkan";
+
+/* loco:57dfc1aa14d725455b8b4581
+ * Getting Started */
+"getting_started_title_text" = "Kamu hampir selesai";
+
+/* loco:57dfc1aa14d725455b8b4582 */
+"getting_started_description_text" = "Lengkapi profil untuk mengakses penawaran yang ada di kotamu.";
+
+/* loco:57dfc1aa14d725455b8b4583 */
+"getting_started_name_text" = "Siapa namamu?";
+
+/* loco:57dfc1aa14d725455b8b4584 */
+"getting_started_email_text" = "Apa alamat emailmu?";
+
+/* loco:57dfc1aa14d725455b8b4585 */
+"getting_started_auto_fill" = "Pengisian otomatis";
+
+/* loco:57dfc1aa14d725455b8b4586 */
+"getting_started_promo_code_text" = "Kode promo";
+
+/* loco:57dfc1aa14d725455b8b4587 */
+"getting_started_have_promo_code_text" = "Apakah kamu memiliki kode promo?";
+
+/* loco:57dfc1aa14d725455b8b4588 */
+"getting_started_continue_button_text" = "LANJUTKAN";
+
+/* loco:57dfc1aa14d725455b8b4589 */
+"getting_started_back_pressed_text" = "Kamu harus memasukkan nama dan email";
+
+/* loco:57dfc1aa14d725455b8b458a */
+"getting_started_authenticate_failed_text" = "Gagal melakukan otentikasi, harap mencoba kembali";
+
+/* loco:57dfc1aa14d725455b8b458b */
+"getting_started_update_user_failed_text" = "Gagal memperbarui profil, harap mencoba kembali";
+
+/* loco:57dfc1aa14d725455b8b458c
+ * Location Permission Prompt */
+"location_permission_prompt_enable_location_text" = "Aktifkan Lokasi";
+
+/* loco:57dfc1aa14d725455b8b458d */
+"location_permission_prompt_description_text" = "Aktifkan lokasimu untuk melihat tren di sekitarmu dan menerima penawaran yang mungkin kamu sukai.";
+
+/* loco:57dfc1aa14d725455b8b458e */
+"location_permission_prompt_not_now_button_text" = "Tidak sekarang";
+
+/* loco:57dfc1aa14d725455b8b458f */
+"location_permission_prompt_okay_button_text" = "Baik";
+
+/* loco:57dfc1aa14d725455b8b4590
+ * Guest */
+"guest_description_text" = "Buat akun Fave kamu untuk memperbarui rincian, meninjau pembelian, mengakses kode promo, dan membaca FAQ kami.";
+
+/* loco:57dfc1aa14d725455b8b4591
+ * Main Tabs */
+"main_tab_home_text" = "BERANDA";
+
+/* loco:57dfc1aa14d725455b8b4592 */
+"main_tab_nearby_text" = "SEKITARMU";
+
+/* loco:57dfc1aa14d725455b8b4593 */
+"main_tab_chat_text" = "CHAT";
+
+/* loco:57dfc1aa14d725455b8b4594 */
+"main_tab_my_fave_text" = "MY FAVE";
+
+/* loco:57dfc1aa14d725455b8b4595 */
+"main_tab_more_text" = "LAINNYA";
+
+/* loco:57dfc1aa14d725455b8b4596
+ * Search bar */
+"my_current_location" = "Lokasi saya sekarang";
+
+/* loco:57dfc1aa14d725455b8b4597 */
+"location_search_change_city_title" = "Ganti Kota";
+
+/* loco:57dfc1aa14d725455b8b4598
+ * Home */
+"home_i_want_to_text" = "Apa yang ingin kamu lakukan?";
+
+/* loco:57dfc1aa14d725455b8b4599 */
+"home_with_my_friend_text" = "Pilih beberapa teman";
+
+/* loco:57dfc1aa14d725455b8b459a */
+"home_at_a_place_text" = "Temukan penawaran";
+
+/* loco:57dfc1aa14d725455b8b459b */
+"home_do_button_text" = "MARI KITA LAKUKAN!";
+
+/* loco:57dfc1aa14d725455b8b459c */
+"home_welcome_guest_text" = "Selamat datang di Fave!";
+
+/* loco:57dfc1aa14d725455b8b459d */
+"home_welcome_subtitle_text" = "Apa yang ingin kamu lakukan?";
+
+/* loco:57dfc1aa14d725455b8b459e */
+"home_search_my_fave_text" = "Cari tempat favorit kamu";
+
+/* loco:57dfc1aa14d725455b8b459f */
+"home_popular_place_text" = "Tempat Fave Populer";
+
+/* loco:57dfc1aa14d725455b8b45a0 */
+"home_view_all_button_text" = "Lihat semua";
+
+/* loco:57dfc1aa14d725455b8b45a1 */
+"home_add_to_my_fave_button_text" = "Tambah ke MyFave";
+
+/* loco:57dfc1aa14d725455b8b45a2 */
+"home_added_to_my_fave_button_text" = "Ditambahkan ke MyFave";
+
+/* loco:57dfc1aa14d725455b8b45a3 */
+"home_collection_for_you_text" = "Koleksi untukmu";
+
+/* loco:57dfc1aa14d725455b8b45a4 */
+"home_more_collection_for_you_text" = "Lebih banyak koleksi untukmu";
+
+/* loco:57dfc1aa14d725455b8b45a5 */
+"home_offer_my_fave_text" = "Lihat tawaran terakhir dari tempat MyFave";
+
+/* loco:57dfc1aa14d725455b8b45a6 */
+"home_start_chat" = "Lakukan lebih banyak hal bersama sahabat & keluargamu di Fave";
+
+/* loco:57dfc1aa14d725455b8b45a7 */
+"home_start_chat_now" = "Mulai obrolan sekarang";
+
+/* loco:57dfc1aa14d725455b8b45a8 */
+"home_invite_friends" = "Undang teman";
+
+/* loco:57dfc1aa14d725455b8b45a9 */
+"home_invite_friends_description" = "Ajak temanmu dan dapatkan Kredit Fave. Cari tahu lebih lanjut.";
+
+/* loco:57dfc1aa14d725455b8b45aa */
+"home_send_an_invite_now" = "Kirim undangan sekarang";
+
+/* loco:57dfc1aa14d725455b8b45ab */
+"home_featured" = "Ditampilkan";
+
+/* loco:57dfc1aa14d725455b8b45ac */
+"home_more_offers_for_you" = "Penawaran lainnya untukmu";
+
+/* loco:57dfc1aa14d725455b8b45ad */
+"home_more_recently_viewed" = "Baru saja dilihat";
+
+/* loco:57dfc1aa14d725455b8b45ae */
+"home_find_more_thing_to_do" = " Atau temukan hal menarik lain untuk dilakukan";
+
+/* loco:57dfc1aa14d725455b8b45af */
+"nearby_next_session_text" = "Sesi selanjutnya";
+
+/* loco:57dfc1aa14d725455b8b45b0 */
+"nearby_sorting_title_text" = "Urutkan berdasarkan";
+
+/* loco:57dfc1aa14d725455b8b45b1 */
+"nearby_preference_title_text" = "Pilih preferensimu";
+
+/* loco:57dfc1aa14d725455b8b45b2 */
+"nearby_your_location_text" = "Lokasimu";
+
+/* loco:57dfc1aa14d725455b8b45b3
+ * What To Do */
+"what_to_do_reset_text" = "Setel ulang penyaringan";
+
+/* loco:57dfc1aa14d725455b8b45b4 */
+"what_to_do_empty_category_text" = "Tekan pada kategori untuk menyaring";
+
+/* loco:57dfc1aa14d725455b8b45b5
+ * What To Eat */
+"what_to_eat_pax_text" = "Berapa banyak orang";
+
+/* loco:57dfc1aa14d725455b8b45b6 */
+"what_to_eat_empty_preference_text" = "Preferensi";
+
+/* loco:57dfc1aa14d725455b8b45b7
+ * Activity Detail */
+"activity_detail_view_more_text" = "Lihat lebih banyak";
+
+/* loco:57dfc1aa14d725455b8b45b8 */
+"activity_detail_view_less_text" = "Lihat lebih sedikit";
+
+/* loco:57dfc1aa14d725455b8b45b9 */
+"activity_detail_buy_now_button_text" = "BELI SEKARANG";
+
+/* loco:57dfc1aa14d725455b8b45ba */
+"activity_detail_available_date_time_text" = "Lihat tanggal & waktu yang tersedia";
+
+/* loco:57dfc1aa14d725455b8b45bb */
+"activity_detail_buy_button_text" = "BELI";
+
+/* loco:57dfc1aa14d725455b8b45bc */
+"activity_detail_view_more_sessions_button_text" = "Lihat lebih banyak slot tanggal & waktu";
+
+/* loco:57dfc1aa14d725455b8b45bd */
+"activity_detail_about_text" = "TENTANG";
+
+/* loco:57dfc1aa14d725455b8b45be */
+"activity_detail_add_to_chat_text" = "TAMBAHKAN KE CHAT";
+
+/* loco:57dfc1aa14d725455b8b45bf */
+"activity_detail_featured_collection_text" = "Ditampilkan di koleksi";
+
+/* loco:57dfc1aa14d725455b8b45c0 */
+"activity_detail_redeem_offer_text" = "Tukarkan penawaran di";
+
+/* loco:57dfc1aa14d725455b8b45c1 */
+"activity_detail_things_to_know_text" = "Hal-hal yang perlu diketahui";
+
+/* loco:57dfc1aa14d725455b8b45c2 */
+"activity_detail_things_to_know_description_text" = "Kamu dapat dengan mudah menukar dari telepon seluler. Tidak perlu dicetak. Lihat caranya";
+
+/* loco:57dfc1aa14d725455b8b45c4 */
+"activity_detail_cancellation_policy_text" = "Kebijakan pembatalan";
+
+/* loco:57dfc1aa14d725455b8b45c5 */
+"activity_detail_cancellation_policy_description_text" = "Batalkan dalam kurun waktu 7 hari ke depan dan dapatkan refund penuh dalam bentuk Kredit Fave";
+
+/* loco:57dfc1aa14d725455b8b45c6 */
+"activity_detail_promise_text" = "Janji";
+
+/* loco:57dfc1aa14d725455b8b45c7 */
+"activity_detail_cancellation_policy_detail_1_text" = "Tidak sempat mendapatkan penawaran?";
+
+/* loco:57dfc1aa14d725455b8b45c8 */
+"activity_detail_cancellation_policy_detail_2_text" = "Voucher kadaluarsa baru-baru ini?";
+
+/* loco:57dfc1aa14d725455b8b45c9 */
+"activity_detail_cancellation_policy_detail_3_text" = "Tidak mendapatkan apa yang dijanjikan?";
+
+/* loco:57dfc1aa14d725455b8b45ca */
+"activity_detail_cancellation_policy_detail_4_text" = "Beri tahu kami agar dapat kami perbaiki untukmu";
+
+/* loco:57dfc1aa14d725455b8b45cb */
+"activity_detail_view_all_text" = "Lihat semua";
+
+/* loco:57dfc1aa14d725455b8b45cc */
+"activity_detail_info_text" = "Info";
+
+/* loco:57dfc1aa14d725455b8b45cd */
+"activity_detail_photos_text" = "Foto";
+
+/* loco:57dfc1aa14d725455b8b45ce */
+"activity_detail_reviews_text" = "Ulasan";
+
+/* loco:57dfc1aa14d725455b8b45cf */
+"activity_detail_amenities_text" = "Layanan";
+
+/* loco:57dfc1aa14d725455b8b45d0 */
+"activity_detail_tips_text" = "Tips";
+
+/* loco:57dfc1aa14d725455b8b45d1 */
+"activity_detail_similar_offers_text" = "Penawaran serupa";
+
+/* loco:57dfc1aa14d725455b8b45d2
+ * Partner Detail */
+"partner_detail_offers_text" = "Penawaran";
+
+/* loco:57dfc1aa14d725455b8b45d3 */
+"partner_detail_empty_offer_text" = "Saat ini tidak ada penawaran yang sedang berjalan, favoritkan mitra ini untuk mendapatkan kabar terbaru";
+
+/* loco:57dfc1aa14d725455b8b45d4 */
+"partner_detail_location_text" = "Lokasi";
+
+/* loco:57dfc1aa14d725455b8b45d5 */
+"partner_detail_call_outlet_text" = "Hubungi outlet";
+
+/* loco:57dfc1aa14d725455b8b45d6 */
+"partner_detail_get_direction_text" = "Dapatkan arah";
+
+/* loco:57dfc1aa14d725455b8b45d7 */
+"partner_detail_outlet_title_text" = "Pilih lokasi lain untuk melihat";
+
+/* loco:57dfc1aa14d725455b8b45d8 */
+"confirmation_title_text" = "Konfirmasi rincian";
+
+/* loco:57dfc1aa14d725455b8b45d9 */
+"confirmation_redeem_from_text" = "Tukar dari";
+
+/* loco:57dfc1aa14d725455b8b45da */
+"confirmation_redeem_on_text" = "Tukar pada";
+
+/* loco:57dfc1aa14d725455b8b45db */
+"confirmation_quantity_text" = "Kuantitas";
+
+/* loco:57dfc1aa14d725455b8b45dc */
+"confirmation_total_price_text" = "Harga total";
+
+/* loco:57dfc1aa14d725455b8b45dd */
+"confirmation_credit_used_text" = "Kredit Fave yang digunakan";
+
+/* loco:57dfc1aa14d725455b8b45de */
+"confirmation_amount_payable_text" = "Biaya yang dibayarkan";
+
+/* loco:57dfc1aa14d725455b8b45df */
+"confirmation_amount_free_text" = "GRATIS";
+
+/* loco:57dfc1aa14d725455b8b45e0 */
+"confirmation_confirm_button_text" = "KONFIRMASI PEMBELIAN";
+
+/* loco:57dfc1aa14d725455b8b45e1 */
+"confirmation_sold_out_button_text" = "HABIS TERJUAL";
+
+/* loco:57dfc1aa14d725455b8b45e2 */
+"confirmation_failed_reserve_text" = "Pembelian gagal!";
+
+/* loco:57dfc1aa14d725455b8b45e3 */
+"confirmation_promo_code_empty_text" = "Kode promo harus ada";
+
+/* loco:57dfc1aa14d725455b8b45e4 */
+"confirmation_apply_promo_code_success_text" = "Harga telah diperbarui!";
+
+/* loco:57dfc1aa14d725455b8b45e5
+ * Purchase Detail */
+"purchase_detail_title_text" = "PEMBELIANMU";
+
+/* loco:57dfc1aa14d725455b8b45e6
+ * Purchase Detail */
+"purchase_detail_quantity_text" = "Kuantitas";
+
+/* loco:57dfc1aa14d725455b8b45e7 */
+"purchase_detail_name_text" = "NAMA";
+
+/* loco:57dfc1aa14d725455b8b45e8 */
+"purchase_detail_date_text" = "TANGGAL";
+
+/* loco:57dfc1aa14d725455b8b45e9 */
+"purchase_detail_time_text" = "JAM";
+
+/* loco:57dfc1aa14d725455b8b45ea */
+"purchase_detail_location_text" = "LOKASI";
+
+/* loco:57dfc1aa14d725455b8b45eb */
+"purchase_detail_redeem_from_text" = "TUKAR DARI";
+
+/* loco:57dfc1aa14d725455b8b45ec */
+"purchase_detail_swipe_to_redeem_text" = "Geser untuk menukar";
+
+/* loco:57dfc1aa14d725455b8b45ed */
+"purchase_detail_cannot_redeem_now" = "Belum bisa menukar";
+
+/* loco:57dfc1aa14d725455b8b45ee */
+"purchase_detail_calendar_text" = "Tambahkan ke kalender";
+
+/* loco:57dfc1aa14d725455b8b45ef */
+"purchase_detail_direction_text" = "Dapatkan arah";
+
+/* loco:57dfc1aa14d725455b8b45f0 */
+"purchase_detail_call_text" = "Hubungi outlet";
+
+/* loco:57dfc1aa14d725455b8b45f1 */
+"purchase_detail_cancel_button_text" = "Batalkan pembelian ini";
+
+/* loco:57dfc1aa14d725455b8b45f2 */
+"purchase_detail_cancel_confirm" = "Apakah kamu yakin ingin membatalkan pembelian ini?\nKamu akan menerima refund dalam bentuk Kredit Fave";
+
+/* loco:57dfc1aa14d725455b8b45f3 */
+"purchase_detail_cancellation_dialog_title_text" = "Dapatkah kamu memberi tahu kami alasannya?";
+
+/* loco:57dfc1aa14d725455b8b45f4 */
+"purchase_detail_more_offer_text" = "Lebih banyak penawaran di sekitarmu";
+
+/* loco:57dfc1aa14d725455b8b45f5 */
+"purchase_detail_add_calendar_successful_text" = "Berhasil menambahkan ke kalender";
+
+/* loco:57dfc1aa14d725455b8b45f6 */
+"purchase_detail_add_calendar_failed_text" = "Gagal menambahkan ke kalender";
+
+/* loco:57dfc1aa14d725455b8b45f7 */
+"purchase_detail_redemption_code_text" = "Kode Penukaran";
+
+/* loco:57dfc1aa14d725455b8b45f8 */
+"purchase_detail_redeem_on_text" = "DITUKARKAN PADA";
+
+/* loco:57dfc1aa14d725455b8b45f9 */
+"purchase_detail_for_partner_reference" = "Untuk referensi mitra";
+
+/* loco:57dfc1aa14d725455b8b45fa */
+"purchase_detail_description" = "Pembelian ini telah";
+
+/* loco:57dfc1aa14d725455b8b45fb */
+"purchase_detail_cannot_connect_server" = "Tidak ada koneksi internet";
+
+/* loco:57dfc1aa14d725455b8b45fc */
+"purchase_detail_cannot_connect_server_details" = "Penukaran akan ditangkap setelah terhubung. Gunakan kode referensi mitra untuk verifikasi";
+
+/* loco:57dfc1aa14d725455b8b45fd */
+"purchase_detail_try_again" = "Coba lagi";
+
+/* loco:57dfc1aa14d725455b8b45fe */
+"purchase_detail_first_redeem_congratulation_title" = "Selamat!";
+
+/* loco:57dfc1aa14d725455b8b45ff */
+"purchase_detail_first_redeem_congratulation_description" = "Kamu baru saja melakukan pembelian pertama.\nKami harap kamu puas!";
+
+/* loco:57dfc1aa14d725455b8b4600 */
+"purchase_detail_how_to_redeem" = "Cara menukar";
+
+/* loco:57dfc1aa14d725455b8b4601 */
+"purchase_detail_are_you_sure_you_want_to_redeem_now" = "Apakah kamu yakin ingin menukar sekarang?";
+
+/* loco:57dfc1aa14d725455b8b4603 */
+"purchase_detail_check_nearby" = "Pastikan kamu berada di tempat yang tepat sebelum menukar!";
+
+/* loco:57dfc1aa14d725455b8b4604 */
+"purchase_detail_others_text" = "Lainnya";
+
+/* loco:57dfc1aa14d725455b8b4605
+ * How To Redeem */
+"how_to_redeem_title_text" = "Bagaimana caranya menukar?";
+
+/* loco:57dfc1aa14d725455b8b4606 */
+"how_to_redeem_step_1_text" = "Langkah 1";
+
+/* loco:57dfc1aa14d725455b8b4607 */
+"how_to_redeem_step_2_text" = "Langkah 2";
+
+/* loco:57dfc1aa14d725455b8b4608 */
+"how_to_redeem_step_3_text" = "Langkah 3";
+
+/* loco:57dfc1aa14d725455b8b4609 */
+"how_to_redeem_step_1_description_text" = "Temui petugas toko ketika kamu sampai di lokasi";
+
+/* loco:57dfc1aa14d725455b8b460a */
+"how_to_redeem_step_2_description_text" = "Perlihatkan voucher penukaran yang ada di teleponmu";
+
+/* loco:57dfc1aa14d725455b8b460b */
+"how_to_redeem_step_3_description_text" = "Geser untuk menukar vouchermu";
+
+/* loco:57dfc1aa14d725455b8b460c
+ * More */
+"more_profile_title_text" = "Profil";
+
+/* loco:57dfc1aa14d725455b8b460d */
+"more_payment_title_text" = "Pembayaran";
+
+/* loco:57dfc1aa14d725455b8b460e */
+"more_credit_title_text" = "Kredit Fave";
+
+/* loco:57dfc1aa14d725455b8b460f */
+"more_promo_code_title_text" = "Kode Promo";
+
+/* loco:57dfc1aa14d725455b8b4610 */
+"more_faq_title_text" = "Pusat Bantuan";
+
+/* loco:57dfc1aa14d725455b8b4611 */
+"more_about_title_text" = "Tentang Kami";
+
+/* loco:57dfc1aa14d725455b8b4612 */
+"more_profile_description_text" = "Perbarui rincian profilmu";
+
+/* loco:57dfc1aa14d725455b8b4613 */
+"more_payment_description_text" = "Lihat tanda terima & rincian pembayaranmu";
+
+/* loco:57dfc1aa14d725455b8b4614 */
+"more_credit_description_text" = "Undang teman, dapatkan Kredit Fave";
+
+/* loco:57dfc1aa14d725455b8b4615 */
+"more_promo_code_description_text" = "Dapatkan Kredit Fave";
+
+/* loco:57dfc1aa14d725455b8b4616 */
+"more_faq_description_text" = "Perlu bantuan?";
+
+/* loco:57dfc1aa14d725455b8b4617 */
+"more_about_description_text" = "Pelajari lebih lanjut tentang Fave";
+
+/* loco:57dfc1aa14d725455b8b4618
+ * Review */
+"review_rated_text" = "Dinilai";
+
+/* loco:57dfc1aa14d725455b8b4619
+ * Past Activities */
+"past_activities_title_text" = "Pembelian yang lalu";
+
+/* loco:57dfc1aa14d725455b8b461a
+ * Payment Receipt */
+"payment_receipt_payment_method_text" = "METODE PEMBAYARAN";
+
+/* loco:57dfc1aa14d725455b8b461b */
+"payment_receipt_add_payment_method_text" = "+ Tambah metode pembayaran";
+
+/* loco:57dfc1aa14d725455b8b461c */
+"payment_receipt_change_text" = "Ubah";
+
+/* loco:57dfc1aa14d725455b8b461d */
+"payment_receipt_history_text" = "RIWAYAT PEMBAYARAN";
+
+/* loco:57dfc1aa14d725455b8b461e */
+"payment_receipt_empty_text" = "Tidak ada riwayat pembayaran";
+
+/* loco:57dfc1aa14d725455b8b461f */
+"receipt_detail_payment_method_text" = "Metode Pembayaran";
+
+/* loco:57dfc1aa14d725455b8b4620 */
+"receipt_detail_quantity_text" = "Kuantitas";
+
+/* loco:57dfc1aa14d725455b8b4621 */
+"receipt_detail_price_text" = "Harga";
+
+/* loco:57dfc1aa14d725455b8b4622 */
+"receipt_detail_discount_text" = "Diskon";
+
+/* loco:57dfc1aa14d725455b8b4623 */
+"receipt_detail_promo_code_discount_text" = "Diskon Kode Promo";
+
+/* loco:57dfc1aa14d725455b8b4624 */
+"receipt_detail_fave_credit_used_text" = "Kredit Fave yang digunakan";
+
+/* loco:57dfc1aa14d725455b8b4625 */
+"receipt_detail_total_paid_text" = "Jumlah yang Dibayar";
+
+/* loco:57dfc1aa14d725455b8b4626
+ * Payment Method */
+"add_payment_title" = "Tambah metode pembayaran";
+
+/* loco:57dfc1aa14d725455b8b4627 */
+"add_payment_card_holder_name_text" = "NAMA PEMEGANG KARTU";
+
+/* loco:57dfc1aa14d725455b8b4628 */
+"add_payment_card_number_text" = "NOMOR KARTU";
+
+/* loco:57dfc1aa14d725455b8b4629 */
+"add_payment_expiration_text" = "KADALUARSA";
+
+/* loco:57dfc1aa14d725455b8b462a */
+"add_payment_cvv_text" = "CVV";
+
+/* loco:57dfc1aa14d725455b8b462b */
+"add_payment_done_text" = "SELESAI";
+
+/* loco:57dfc1aa14d725455b8b462c */
+"add_payment_others_text" = "Metode Pembayaran Lain";
+
+/* loco:57dfc1aa14d725455b8b462d */
+"add_payment_invalid_cardholder_name_msg" = "Masukkan nama pemegang kartu";
+
+/* loco:57dfc1aa14d725455b8b462e */
+"add_payment_invalid_card_number_msg" = "Nomor Kartu Kredit Salah";
+
+/* loco:57dfc1aa14d725455b8b462f */
+"add_payment_invalid_expiry_date_msg" = "Tanggal Kadaluarsa Salah";
+
+/* loco:57dfc1aa14d725455b8b4630 */
+"add_payment_invalid_cvv_msg" = "Format CVV Salah";
+
+/* loco:57dfc1aa14d725455b8b4631 */
+"add_payment_successful_msg" = "Berhasil menambahkan kartu kredit baru";
+
+/* loco:57dfc1aa14d725455b8b4632 */
+"add_payment_empty_method_nonce_text" = "Terdapat kesalahan ketika terhubung dengan gerbang pembayaran";
+
+/* loco:57dfc1aa14d725455b8b4633
+ * Tooltips */
+"tooltip_change_your_location" = "Kamu dapat mengubah lokasi untuk mendapatkan penawaran terbaik di sekitarmu";
+
+/* loco:57dfc1aa14d725455b8b4634 */
+"tooltip_3_things" = "Tekan pada kategori untuk menyaring penawaran berikut";
+
+/* loco:57dfc1aa14d725455b8b4635 */
+"tooltip_favorite" = "Tekan ikon untuk menambahkan tempat ini ke MyFave";
+
+/* loco:57dfc1aa14d725455b8b4636
+ * Account settings */
+"profile_setting_name_text" = "Nama";
+
+/* loco:57dfc1aa14d725455b8b4637 */
+"profile_setting_email_text" = "Email";
+
+/* loco:57dfc1aa14d725455b8b4638 */
+"profile_setting_location_text" = "Lokasi";
+
+/* loco:57dfc1aa14d725455b8b4639 */
+"profile_setting_phone_text" = "Telepon";
+
+/* loco:57dfc1aa14d725455b8b463a */
+"profile_setting_gender_text" = "Jenis kelamin";
+
+/* loco:57dfc1aa14d725455b8b463b */
+"profile_setting_birthday_text" = "Ulang tahun";
+
+/* loco:57dfc1aa14d725455b8b463c */
+"profile_setting_phone_description_text" = "Kami hanya akan menghubungi kamu tentang pembelian yang kamu lakukan";
+
+/* loco:57dfc1aa14d725455b8b463d */
+"profile_setting_push_notification_text" = "NOTIFIKASI PUSH";
+
+/* loco:57dfc1aa14d725455b8b463e */
+"profile_setting_push_purchases_text" = "Pembaruan tentang pembelian yang kamu lakukan";
+
+/* loco:57dfc1aa14d725455b8b463f */
+"profile_setting_push_latest_text" = "Rekomendasi, berita & promosi terbaru";
+
+/* loco:57dfc1aa14d725455b8b4640 */
+"profile_setting_logout_text" = "Keluar";
+
+/* loco:57dfc1aa14d725455b8b4641 */
+"profile_setting_image_upload_title_text" = "Unggah gambar";
+
+/* loco:57dfc1aa14d725455b8b4642 */
+"profile_setting_image_upload_description_text" = "Apakah kamu ingin mengunggah gambar ini lagi?";
+
+/* loco:57dfc1aa14d725455b8b4643 */
+"profile_setting_country_code_text" = "Kode Negara";
+
+/* loco:57dfc1aa14d725455b8b4644 */
+"profile_setting_phone_title_text" = "Masukkan nomor telepon kamu";
+
+/* loco:57dfc1aa14d725455b8b4645 */
+"profile_setting_invalid_phone_text" = "Nomor telepon salah";
+
+/* loco:57dfc1aa14d725455b8b4646 */
+"profile_setting_empty_phone_text" = "Nomor telepon harus ada";
+
+/* loco:57dfc1aa14d725455b8b4647 */
+"profile_setting_country_title_text" = "Pilih kode negara kamu";
+
+/* loco:57dfc1aa14d725455b8b4648 */
+"profile_setting_empty_country_text" = "Harus memilih kode negara";
+
+/* loco:57dfc1aa14d725455b8b4649 */
+"profile_setting_city_title_text" = "Pilih kota";
+
+/* loco:57dfc1aa14d725455b8b464a */
+"profile_setting_gender_title_text" = "Pilih jenis kelamin kamu";
+
+/* loco:57dfc1aa14d725455b8b464b */
+"profile_setting_male_text" = "Pria";
+
+/* loco:57dfc1aa14d725455b8b464c */
+"profile_setting_female_text" = "Wanita";
+
+/* loco:57dfc1aa14d725455b8b464d */
+"profile_setting_not_specify_text" = "Tidak Ditentukan";
+
+/* loco:57dfc1aa14d725455b8b464e */
+"profile_setting_add_profile_title_text" = "Tambah foto dari";
+
+/* loco:57dfc1aa14d725455b8b464f */
+"profile_setting_gallery_text" = "Galeri";
+
+/* loco:57dfc1aa14d725455b8b4650 */
+"profile_setting_camera_text" = "Kamera";
+
+/* loco:57dfc1aa14d725455b8b4651 */
+"profile_setting_update_failed_text" = "Gagal memperbarui profil";
+
+/* loco:57dfc1aa14d725455b8b4652 */
+"profile_setting_update_success_text" = "Berhasil memperbarui profil";
+
+/* loco:57dfc1aa14d725455b8b4653
+ * Promo Code */
+"promo_code_apply_button_text" = "GUNAKAN";
+
+/* loco:57dfc1aa14d725455b8b4654 */
+"promo_code_successfully_added_text" = "Kode promo berhasil ditambahkan";
+
+/* loco:57dfc1aa14d725455b8b4655 */
+"promo_code_input_hint" = "Masukkan kode promo di sini";
+
+/* loco:57dfc1aa14d725455b8b4656 */
+"promo_code_header_text" = "Gunakan kode promo baru di bawah ini untuk mendapat potongan pada pembelian kamu";
+
+/* loco:57dfc1aa14d725455b8b4657 */
+"promo_code_expire_text" = "KADALUARSA PADA";
+
+/* loco:57dfc1aa14d725455b8b4658 */
+"promo_code_amount_text" = "JUMLAH";
+
+/* loco:57dfc1aa14d725455b8b4659 */
+"promo_code_empty_text" = "Kamu tidak memiliki kode promo aktif";
+
+/* loco:57dfc1aa14d725455b8b465a */
+"promo_code_first_time_text" = "Hanya untuk pengguna pertama";
+
+/* loco:57dfc1aa14d725455b8b465b */
+"promo_code_view_details_button_text" = "Lihat rincian";
+
+/* loco:57dfc1aa14d725455b8b465c
+ * Search Map */
+"search_map_most_faves_text" = "Fave terbanyak";
+
+/* loco:57dfc1aa14d725455b8b465d */
+"search_map_ratings_text" = "Nilai";
+
+/* loco:57dfc1aa14d725455b8b465e */
+"search_map_distance_text" = "Jarak";
+
+/* loco:57dfc1aa14d725455b8b465f
+ * Offer */
+"offer_title_text" = "Penawaran Terbaru";
+
+/* loco:57dfc1aa14d725455b8b4660
+ * Rating Dialog */
+"rating_title_text" = "NILAI PENGALAMANMU";
+
+/* loco:57dfc1aa14d725455b8b4661 */
+"rating_label_text" = "NILAI";
+
+/* loco:57dfc1aa14d725455b8b4662 */
+"rating_label_description_text" = "Tekan kotak penilaian di bawah ini";
+
+/* loco:57dfc1aa14d725455b8b4663 */
+"rating_review_label_text" = "ULASAN";
+
+/* loco:57dfc1aa14d725455b8b4664 */
+"rating_feedback_empty_text" = "Umpan balik harus diberikan";
+
+/* loco:57dfc1aa14d725455b8b4665 */
+"rating_submit_failed_text" = "Tidak bisa mengajukan penilaian, harap mencoba kembali";
+
+/* loco:57dfc1aa14d725455b8b4666 */
+"rating_submit_button_text" = "AJUKAN";
+
+/* loco:57dfc1aa14d725455b8b4667 */
+"rating_submit_success_text" = "Penilaian berhasil, silakan memberikan nilai lagi untuk yang lainnya";
+
+/* loco:57dfc1aa14d725455b8b4668 */
+"rating_submit_success_last_text" = "Terima kasih telah memberikan penilaian";
+
+/* loco:57dfc1aa14d725455b8b4669 */
+"rating_5_text" = "Apa yang kamu sukai?";
+
+/* loco:57dfc1aa14d725455b8b466a */
+"rating_4_text" = "Bagaimana perasaanmu sekarang?";
+
+/* loco:57dfc1aa14d725455b8b466b */
+"rating_3_text" = "Apakah kamu memiliki tips untuk pengguna Fave?";
+
+/* loco:57dfc1aa14d725455b8b466c */
+"rating_2_text" = "Tinggalkan komentar";
+
+/* loco:57dfc1aa14d725455b8b466d */
+"rating_1_text" = "Apa yang bisa ditingkatkan?";
+
+/* loco:57dfc1aa14d725455b8b466e
+ * City Selection */
+"city_selection_no_location" = "Kami tidak bisa mendapatkan posisi kamu";
+
+/* loco:57dfc1aa14d725455b8b466f */
+"city_selection_enable_location_permission" = "AKTIFKAN PERIJINAN LOKASI";
+
+/* loco:57dfc1aa14d725455b8b4670 */
+"city_selection_fallback_instruction" = "Atau pilih dari kota-kota di bawah untuk melanjutkan";
+
+/* loco:57dfc1aa14d725455b8b4671 */
+"city_selection_permission_for_autodetect" = "Mohon aktifkan perijinan lokasi untuk mendeteksi secara otomatis kota kamu";
+
+/* loco:57dfc1aa14d725455b8b4672 */
+"city_selection_auto_detect" = "Tidak dapat mendeteksi kota kamu secara otomatis. Silakan pilih dari daftar";
+
+/* loco:57dfc1aa14d725455b8b4673
+ * My Faves */
+"my_fave_tab_title_1" = "Fave";
+
+/* loco:57dfc1aa14d725455b8b4674 */
+"my_fave_tab_title_2" = "Pembelian";
+
+/* loco:57dfc1aa14d725455b8b4675 */
+"my_fave_no_purchases" = "Tidak ada pembelian";
+
+/* loco:57dfc1aa14d725455b8b4676 */
+"my_fave_no_purchases_instruction" = "Kamu belum melakukan pembelian apa pun. Lihat apa yang tersedia di sekitarmu";
+
+/* loco:57dfc1aa14d725455b8b4677 */
+"my_fave_no_purchases_action" = "Ke tempat di sekitarmu";
+
+/* loco:57dfc1aa14d725455b8b4678 */
+"my_fave_favorites_search_text" = "Cari tempat favoritmu";
+
+/* loco:57dfc1aa14d725455b8b4679 */
+"my_fave_no_favorites" = "Belum ada Fave";
+
+/* loco:57dfc1aa14d725455b8b467a */
+"my_fave_no_favorites_instruction" = "Berikut beberapa tempat yang populer";
+
+/* loco:57dfc1aa14d725455b8b467b */
+"my_fave_offers_list" = "Lihat penawaran terakhir";
+
+/* loco:57dfc1aa14d725455b8b467c */
+"my_fave_date_text" = "Tanggal";
+
+/* loco:57dfc1aa14d725455b8b467d */
+"my_fave_time_text" = "Jam";
+
+/* loco:57dfc1aa14d725455b8b467e */
+"my_fave_redeem_from_text" = "Tukarkan Dari";
+
+/* loco:57dfc1aa14d725455b8b467f */
+"my_fave_you" = "Kamu";
+
+/* loco:57dfc1aa14d725455b8b4680
+ * Faq */
+"faq_text" = "FAQ dan Ketentuan";
+
+/* loco:57dfc1aa14d725455b8b4681 */
+"faq_my_tickets_text" = "Tiket Saya";
+
+/* loco:57dfc1aa14d725455b8b4682 */
+"faq_start_chat_text" = "Hubungi Kami";
+
+/* loco:57dfc1aa14d725455b8b4683 */
+"faq_activity_overlay_permission" = "Kami memerlukan perijinan tambahan agar dapat me-minimimize-kan jendela percakapan";
+
+/* loco:57dfc1aa14d725455b8b4684
+ * About */
+"about_description_text" = "Fave by Groupon merupakan platform ponsel yang lebih baik dari Groupon Indonesia. Nikmati semua yang kamu sukai dari Groupon serta lebih banyak hal menarik lainnya! Fave by Groupon menyediakan berbagai penawaran seru dengan potongan hingga 90﹪ dan proses pembelian serta penukaran yang mudah tanpa perlu mencetak apapun. Jelajahi kotamu dengan cara baru yang lebih asik!";
+
+/* loco:57dfc1aa14d725455b8b4685 */
+"about_like_us_on_facebook_text" = "Sukai kami di Facebook";
+
+/* loco:57dfc1aa14d725455b8b4686 */
+"about_follow_twitter_text" = "Ikuti kami di Twitter";
+
+/* loco:57dfc1aa14d725455b8b4687 */
+"about_follow_instagram_text" = "Ikuti kami di Instagram";
+
+/* loco:57dfc1aa14d725455b8b4688 */
+"about_terms_of_use_text" = "Ketentuan Penggunaan";
+
+/* loco:57dfc1aa14d725455b8b4689 */
+"about_privacy_policy_text" = "Kebijakan Privasi";
+
+/* loco:57dfc1aa14d725455b8b468a */
+"about_open_source_licenses_text" = "Lisensi Open Source";
+
+/* loco:57dfc1aa14d725455b8b468b */
+"search_outlet_title_text" = "Cari dan tambahkan tempat-tempat favoritmu";
+
+/* loco:57dfc1aa14d725455b8b468c
+ * Search Outlet */
+"search_outlet_add_custom" = "Tambahkan tempat-tempat ini ke Fave";
+
+/* loco:57dfc1aa14d725455b8b468d */
+"sort_by_distance_option" = "Jarak";
+
+/* loco:57dfc1aa14d725455b8b468e */
+"sort_by_trending_option" = "Sedang Tren";
+
+/* loco:57dfc1aa14d725455b8b468f */
+"sort_by_price_option" = "Harga";
+
+/* loco:57dfc1aa14d725455b8b4690 */
+"sort_by_time_option" = "Waktu";
+
+/* loco:57dfc1aa14d725455b8b4691
+ * Contacts */
+"contact_title_text" = "Daftar Kontak";
+
+/* loco:57dfc1aa14d725455b8b4692 */
+"contact_search_hint" = "Cari kontakmu";
+
+/* loco:57dfc1aa14d725455b8b4693 */
+"contact_permission_denied_text" = "Kami tidak dapat menampilkan nama sebelum kamu memberikan izin";
+
+/* loco:57dfc1aa14d725455b8b4694 */
+"contact_friends_text" = "Teman";
+
+/* loco:57dfc1aa14d725455b8b4695 */
+"contact_invite_friends_text" = "Undang Teman";
+
+/* loco:57dfc1aa14d725455b8b4696 */
+"chat_are_you_interested" = "Apakah kamu tertarik?";
+
+/* loco:57dfc1aa14d725455b8b4697 */
+"participation_header" = "Apakah kamu akan pergi?";
+
+/* loco:57dfc1aa14d725455b8b4698 */
+"chats" = "Obrolan";
+
+/* loco:57dfc1aa14d725455b8b4699 */
+"chat_info" = "Informasi Obrolan";
+
+/* loco:57dfc1aa14d725455b8b469a */
+"info" = "Informasi";
+
+/* loco:57dfc1aa14d725455b8b469b */
+"chat_with" = "dengan";
+
+/* loco:57dfc1aa14d725455b8b469c */
+"buy" = "BELI";
+
+/* loco:57dfc1aa14d725455b8b469d */
+"and" = "dan";
+
+/* loco:57dfc1aa14d725455b8b469e */
+"add_contacts_disable" = "PILIH TEMAN";
+
+/* loco:57dfc1aa14d725455b8b469f */
+"add_contacts_enable" = "LANJUTKAN";
+
+/* loco:57dfc1aa14d725455b8b46a0 */
+"chat_everybody_left" = "Tidak ada orang lagi di grup :(";
+
+/* loco:57dfc1aa14d725455b8b46a1 */
+"getting_started" = "Dapat";
+
+/* loco:57dfc1aa14d725455b8b46a2 */
+"chat_onboarding2" = "Bercakap-cakap di sini untuk mengetahui.";
+
+/* loco:57dfc1aa14d725455b8b46a3 */
+"chat_onboarding1" = "Siapa yang ikut? Kapan kita bertemu?\nBagaimana caranya ke sana?";
+
+/* loco:57dfc1aa14d725455b8b46a4 */
+"type_something" = "Ketik sesuatu…";
+
+/* loco:57dfc1aa14d725455b8b46a5 */
+"beta" = "BETA";
+
+/* loco:57dfc1aa14d725455b8b46a6
+ * For display */
+"display_status_going" = "Pergi";
+
+/* loco:57dfc1aa14d725455b8b46a7 */
+"display_status_may_be" = "Mungkin";
+
+/* loco:57dfc1aa14d725455b8b46a8 */
+"display_status_not_going" = "Tidak pergi";
+
+/* loco:57dfc1aa14d725455b8b46a9
+ * For backend */
+"status_going" = "ya";
+
+/* loco:57dfc1aa14d725455b8b46aa */
+"status_may_be" = "mungkin";
+
+/* loco:57dfc1aa14d725455b8b46ab */
+"status_not_going" = "tidak";
+
+/* loco:57dfc1aa14d725455b8b46ac */
+"chat_empty_chat" = "Cara baru yang menyenangkan untuk mengundang temanmu saat ingin pergi bersama. Bersenang-senang atau sekadar makan malam akan menjadi lebih seru!\n";
+
+/* loco:57dfc1aa14d725455b8b46ad */
+"chat_start_now" = "YUK, PERGI!";
+
+/* loco:57dfc1aa14d725455b8b46ae */
+"leave_chat" = "Tinggalkan obrolan ini";
+
+/* loco:57dfc1aa14d725455b8b46af */
+"are_you_sure" = "Apakah kamu yakin?";
+
+/* loco:57dfc1aa14d725455b8b46b0 */
+"yes" = "Ya";
+
+/* loco:57dfc1aa14d725455b8b46b1 */
+"cancel" = "Batalkan";
+
+/* loco:57dfc1aa14d725455b8b46b2 */
+"invite_more" = "Undang lebih banyak teman";
+
+/* loco:57dfc1aa14d725455b8b46b3 */
+"chat_do_more" = "Memperkenalkan";
+
+/* loco:57dfc1aa14d725455b8b46b4 */
+"chat_plan" = "Fave Chat";
+
+/* loco:57dfc1aa14d725455b8b46b5 */
+"chat_do_more_together" = "Lakukan lebih banyak hal bersama";
+
+/* loco:57dfc1aa14d725455b8b46b6 */
+"chat_plan_to_go_with_friends" = "Rencanakan bersama dengan temanmu";
+
+/* loco:57dfc1aa14d725455b8b46b7
+ * Social */
+"credit_total_text" = "TOTAL KREDIT FAVE KAMU";
+
+/* loco:57dfc1aa14d725455b8b46b8 */
+"credit_description_text" = "Saldo kredit akan dikurangi secara otomatis untuk pembelian kamu berikutnya";
+
+/* loco:57dfc1aa14d725455b8b46b9 */
+"credit_empty_text" = "Tidak ada kredit tersedia";
+
+/* loco:57dfc1aa14d725455b8b46ba */
+"credit_empty_description_text" = "Undang temanmu dan dapatkan Kredit Fave";
+
+/* loco:57dfc1aa14d725455b8b46bb */
+"credit_detail_text" = "Kirimkan potongan harga untuk temanmu! Dapatkan Kredit Fave setelah mereka melakukan pembelian pertama";
+
+/* loco:57dfc1aa14d725455b8b46bc */
+"credit_earn_more_text" = "Dapatkan lebih banyak Kredit Fave";
+
+/* loco:57dfc1aa14d725455b8b46bd */
+"credit_how_it_work_text" = "Bagaimana cara kerjanya?";
+
+/* loco:57dfc1aa14d725455b8b46be */
+"credit_share_code_text" = "Bagikan kode referensimu";
+
+/* loco:57dfc1aa14d725455b8b46bf */
+"credit_email_title_text" = "Mari berolah raga bersama dengan Fave!";
+
+/* loco:57dfc1aa14d725455b8b46c0 */
+"credit_no_whatsapp_text" = "WhatsApp tidak dipasang.";
+
+/* loco:57dfc1aa14d725455b8b46c1 */
+"credit_no_twitter_text" = "Aplikasi Twitter tidak dipasang.";
+
+/* loco:57dfc1aa14d725455b8b46c2 */
+"credit_no_facebook_text" = "Aplikasi Facebook tidak dipasang.";
+
+/* loco:57dfc1aa14d725455b8b46c3 */
+"credit_dialog_title_text" = "Tentang Kredit Fave";
+
+/* loco:57dfc1aa14d725455b8b46c4 */
+"filter_reset_text" = "Reset";
+
+/* loco:57dfc1aa14d725455b8b46c5 */
+"filter_apply_text" = "Terapkan";
+
+/* loco:57dfc1aa14d725455b8b46c6 */
+"filter_reset_filter_text" = "Reset penyaringan";
+
+/* loco:57dfc1aa14d725455b8b46c7
+ * Phone Signup */
+"signup_title_text" = "Masukkan nomor telepon kamu";
+
+/* loco:57dfc1aa14d725455b8b46c8 */
+"signup_description_text1" = "Silakan masukkan nomor telepon kamu untuk verifikasi. Kami akan mengirimkan kode verifikasi ke nomor ini lewat SMS.";
+
+/* loco:57dfc1aa14d725455b8b46c9 */
+"signup_description_text2" = "Dapat dipastikan kami tidak akan membagikan data pribadi kamu dengan siapapun. Semua data dienkripsi untuk melindungi privasimu.";
+
+/* loco:57dfc1aa14d725455b8b46ca */
+"invalid_number" = "Maaf, nomor telepon kamu tidak sah";
+
+/* loco:57dfc1aa14d725455b8b46cb
+ * Verify PIN */
+"verify_title_text" = "Verifikasi nomor teleponmu.";
+
+/* loco:57dfc1aa14d725455b8b46cc */
+"verify_description_text" = "Silakan masukkan kode yang telah kami kirim lewat SMS dalam 5 menit ke depan, atau kamu akan menerima peringatan otomatis lewat panggilan telepon.";
+
+/* loco:57dfc1aa14d725455b8b46cd */
+"verify_no_sms_text" = "Tidak menerima SMS?";
+
+/* loco:57dfc1aa14d725455b8b46ce */
+"verify_send_new_code_text" = "Kirimkan kode baru";
+
+/* loco:57dfc1aa14d725455b8b46cf */
+"verify_failed_text" = "Kamu telah memasukkan kode yang salah";
+
+/* loco:57dfc1aa14d725455b8b46d0 */
+"chat_on_boarding_desc" = "Kenapa pergi sendiri bila bisa mengajak temanmu? Coba sekarang!";
+
+/* loco:57dfc1aa14d725455b8b46d1 */
+"chat_on_boarding_title" = "Pergi bersama teman";
+
+/* loco:57dfc1aa14d725455b8b46d2 */
+"chat_button_on_boarding_action_text" = "Saya mengerti!";
+
+/* loco:57e0de4514d725b30b8b4569 */
+"nearby_view_all_offer_text" = "Lihat semua penawaran";
+
+/* loco:57e1fff114d7251f458b4569 */
+"msg_dialog_redemption_yes" = "Ya, layani saya sekarang";
+
+/* loco:57e20b0c14d725bf4d8b4569 */
+"activity_detail_what_you_get_text" = "Yang kamu dapatkan";
+
+/* loco:57e3537514d7252b1f8b456c */
+"purchase_detail_check_before_redeem_title" = "Sepertinya kamu akan menukar penawaran!";
+
+/* loco:57e3537514d7252b1f8b456d */
+"purchase_detail_check_before_redeem_description" = "Apa kamu berada di lokasi yang tepat dan siap untuk dilayani?";
+
+/* loco:57eb46c552e1a1903f8b4567 */
+"msg_dialog_redemption_no" = "Tidak, saya belum siap menukarkannya";
+
+/* loco:57eb46c552e1a1903f8b4568 */
+"purchase_detail_check_before_redeem" = "Sepertinya kamu ingin menukarkan penawaran! Apakah kamu sudah ada di tempat yang tepat dan siap untuk dilayani?";
+
+/* loco:57eb46c552e1a1903f8b4569
+ * Chat */
+"chat_you_have_invitation" = "Kamu mempunyai undangan";
+
+/* loco:57eccdab52e1a1756f8b4569 */
+"not_available_text" = "BELUM TERSEDIA";
+
+/* loco:57ed00b352e1a183768b457c */
+"splash_title_6_text" = "Nikmati";
+
+/* loco:57ed35cb52e1a1657b8b4569
+ * Search Outlet */
+"search_hint" = "Temukan tempat, penawaran, dan masih banyak lagi";
+
+/* loco:57ed35cb52e1a1657b8b456a */
+"search_recent_text" = "Pencarian Terakhir";
+
+/* loco:57ed35cb52e1a1657b8b456b */
+"search_empty_recent_text" = "Tidak Ada Pencarian Terakhir";
+
+/* loco:57ed35cb52e1a1657b8b456c */
+"search_popular_text" = "Pencarian Terpopuler";
+
+/* loco:57ed66c752e1a16e108b456b */
+"purchase_detail_invite_more_friends" = "Undang lebih banyak teman";
+
+/* loco:57edd8fb52e1a1b8188b456b */
+"purchase_detail_chat_description_text" = "Undang teman dan dapatkan cashback %d﹪ untuk setiap teman yang membeli penawaran dari chatmu.";
+
+/* loco:57f47dd152e1a161148b4567
+ * Chat credit */
+"chat_cashback_text" = "Jadilah teman yang baik. Dapatkan %1$d﹪ untuk setiap teman yang membeli penawaran lewat chatmu.";
+
+/* loco:57f47dd152e1a161148b4568 */
+"but_wait" = "Tapi tunggu!";
+
+/* loco:57f47dd152e1a161148b4569 */
+"chat_cashback_dialog_description" = "1. Cashback diberikan dalam bentuk Kredit Fave.\n2. Kredit hanya diberikan setelah temanmu menukarkan penawaran.";
+
+/* loco:57f47dd152e1a161148b456a */
+"chat_cashback_dialog_title" = "Persyaratan";
+
+/* loco:57f47dd152e1a161148b456c */
+"save" = "SIMPAN";
+
+/* loco:57f47dd152e1a161148b456d */
+"ind_save_90_on_favourite" = "Hemat hingga 90﹪ untuk aktivitas di sekitarmu. Ratusan penawaran tersedia setiap harinya!";
+
+/* loco:57f47dd152e1a161148b456e */
+"enjoy" = "NIKMATI";
+
+/* loco:57f47dd152e1a161148b456f */
+"ind_convenient_user_experience" = "Proses penggunaan yang sangat mudah. Hanya perlu tekan untuk membeli. Tidak perlu cetak lagi!\n";
+
+/* loco:57f47dd152e1a161148b4570 */
+"discover" = "TEMUKAN";
+
+/* loco:57f47dd152e1a161148b4571 */
+"ind_find_deals_you_love" = "Proses penggunaan yang sangat mudah. Hanya perlu tekan untuk membeli. Tidak perlu cetak lagi!";
+
+/* loco:57f47dd152e1a161148b4572 */
+"plan" = "RENCANAKAN";
+
+/* loco:57f47dd152e1a161148b4574 */
+"ind_about" = "Fave by Groupon merupakan platform ponsel yang lebih baik dari Groupon Indonesia. Nikmati semua yang kamu sukai dari Groupon serta lebih banyak hal menarik lainnya! Fave by Groupon menyediakan berbagai penawaran seru dengan potongan hingga 90﹪ dan proses pembelian serta penukaran yang mudah tanpa perlu mencetak apapun. Jelajahi kotamu dengan cara baru yang lebih asik!";
+
+/* loco:57f47dd152e1a161148b4576 */
+"fave_save_70_on_favourite" = "Nikmati lebih banyak hal menarik tanpa mengeluarkan banyak uang, hemat hingga 70﹪";
+
+/* loco:57f47dd152e1a161148b4577 */
+"latest_offers_at_your_fingertips" = "Penawaran terbaru dari tempat favorit di ujung jarimu";
+
+/* loco:57f47dd152e1a161148b4578 */
+"explore_hundreds_on_restaurants" = "Jelajahi ratusan restoran, pusat kebugaran dan kecantikan, dan masih banyak lagi, di sekitarmu";
+
+/* loco:57f4851552e1a193148b4567 */
+"better_mobile_platform_groupon" = "Platform ponsel yang lebih baik dari Groupon Indonesia, menampilkan semua yang kamu sukai dari Groupon serta lebih banyak hal menarik lainnya!";
+
+/* loco:57f485a852e1a195148b4567 */
+"organise_activities_with_chat" = "Rencanakan aktivitas melalui fitur chat. Hanya perlu mengundang teman untuk memulai.";
+
+/* loco:57f48d7652e1a193148b4569
+ * Groupon Indonesia on boarding */
+"ind_welcome_text" = "SELAMAT DATANG DI FAVE BY GROUPON!";
+
+/* loco:57f48d7652e1a193148b456a
+ * Fave on boarding */
+"fave_welcome_text" = "Rencanakan aktivitas bersama teman & nikmati ratusan penawaran";
+
+/* loco:57f4a27f52e1a17f168b4567 */
+"fave_about" = "Fave dapat membantumu melakukan lebih banyak hal seru bersama orang-orang favoritmu di tempat yang kamu sukai. Rencanakan aktivitas bersama teman dan beli beragam penawaran menarik untuk restoran, pusat kebugaran dan kecantikan - semua dari satu aplikasi yang mudah.";
+
+/* loco:57f6334c52e1a1f1428b4569 */
+"activity_detail_also_redeemable_text" = "Dapat juga ditukar di";
+
+/* loco:57f6334c52e1a1f1428b456a */
+"activity_detail_view_all_locations_text" = "Lihat semua lokasi";
+
+/* loco:57f6334c52e1a1f1428b456b */
+"activity_detail_all_outlet_title_text" = "Penawaran ini dapat ditukar di cabang berikut";
+
+/* loco:57f6334c52e1a1f1428b456c */
+"confirmation_more_than_3_title_text" = "Membeli lebih dari satu voucher?";
+
+/* loco:57f6334c52e1a1f1428b456d */
+"confirmation_more_than_3_description_text" = "Ingat, kamu hanya dapat menukarkan semua voucher ini dalam satu kali penggunaan. Apabila kamu tidak ingin menukarkan semua voucher sekaligus, silakan lakukan transaksi terpisah.";
+
+/* loco:57f6334c52e1a1f1428b456e */
+"purchase_detail_amount_paid_text" = "Jumlah Dibayarkan";
+
+/* loco:57f6334c52e1a1f1428b456f */
+"purchase_detail_pending_amount_text" = "Jumlah Pembayaran Tertunda";
+
+/* loco:57f6334c52e1a1f1428b4571 */
+"purchase_detail_payment_pending_title_text" = "Pembayaran Tertunda";
+
+/* loco:57f6334c52e1a1f1428b4572 */
+"purchase_detail_pay_now_text" = "BAYAR SEKARANG";
+
+/* loco:57f6334c52e1a1f1428b4573 */
+"purchase_detail_view_all_location_detail_text" = "Lihat rincian semua lokasi";
+
+/* loco:57f6334c52e1a1f1428b4574 */
+"purchase_detail_enjoy_session_text" = "Penukaran berhasil!";
+
+/* loco:57f6334c52e1a1f1428b4575 */
+"purchase_detail_available_outlets_text" = "Tersedia di";
+
+/* loco:57f6334c52e1a1f1428b4576 */
+"purchase_detail_cancelled" = "Pembelian ini sudah dibatalkan";
+
+/* loco:57f6334c52e1a1f1428b4577 */
+"purchase_detail_expired" = "Pembelian ini sudah tidak berlaku";
+
+/* loco:57f6334c52e1a1f1428b4578 */
+"check_right_time_and_place_to_redeem" = "Pastikan kamu sudah berada di tempat dan waktu yang tepat sebelum menukar";
+
+/* loco:57f6334c52e1a1f1428b4579 */
+"display_status_may_be_going" = "Mungkin";
+
+/* loco:57f6334c52e1a1f1428b457a */
+"purchase_detail_check_before_redeem_description_outlet" = "Pilih cabang";
+
+/* loco:57f6334c52e1a1f1428b457b
+ * Added all missing localize string */
+"purchase_cancelled" = "Pembelian ini sudah dibatalkan";
+
+/* loco:57f6334c52e1a1f1428b457c */
+"cancelled" = "Dibatalkan";
+
+/* loco:57f6334c52e1a1f1428b457d */
+"purchase_cancelled_by_partner" = "Pembelian ini sudah dibatalkan oleh mitra";
+
+/* loco:57f6334c52e1a1f1428b457e */
+"expired" = "Kadaluarsa";
+
+/* loco:57f6334c52e1a1f1428b457f */
+"purchase_expired" = "Pembelian ini sudah kadaluarsa";
+
+/* loco:57f6334c52e1a1f1428b4580 */
+"sure_want_to_leave" = "Apa kamu yakin ingin pergi?";
+
+/* loco:57f6334c52e1a1f1428b4581 */
+"plan_with_friends" = "Rencanakan bersama temanmu di sini";
+
+/* loco:57f6334c52e1a1f1428b4582 */
+"date" = "Tanggal";
+
+/* loco:57f6334c52e1a1f1428b4583 */
+"error" = "Eror";
+
+/* loco:57f6334c52e1a1f1428b4584 */
+"error_fetching_results" = "Gagal mengambil hasil";
+
+/* loco:57f6334c52e1a1f1428b4585 */
+"let_do_it" = "MARI KITA LAKUKAN";
+
+/* loco:57f6334c52e1a1f1428b4586 */
+"choose_some_friend" = "Pilih beberapa teman";
+
+/* loco:57f6334c52e1a1f1428b4587 */
+"find_place_offer_to_go" = "Temukan tempat/penawaran";
+
+/* loco:57f6334c52e1a1f1428b4588 */
+"no_WhatsApp_available" = "Tidak ada WhatsApp yang tersedia";
+
+/* loco:57f6334c52e1a1f1428b4589 */
+"dont_have_WhatsApp_setup" = "Kamu tidak memiliki setelan WhatsApp di perangkat ini.";
+
+/* loco:57f6334c52e1a1f1428b458a */
+"no_facebook_available" = "Tidak ada Facebook yang tersedia";
+
+/* loco:57f6334c52e1a1f1428b458b */
+"dont_have_facebook_setup" = "Kamu tidak memiliki setelan Facebook di perangkat ini.";
+
+/* loco:57f6334c52e1a1f1428b458c */
+"cannot_send_sms" = "Tidak bisa mengirim SMS";
+
+/* loco:57f6334c52e1a1f1428b458d */
+"unavailable_to_send_sms" = "Perangkat kamu tidak dapat mengirim SMS";
+
+/* loco:57f6334c52e1a1f1428b458e */
+"friends" = "Teman";
+
+/* loco:57f6334c52e1a1f1428b458f */
+"offers_available" = "penawaran tersedia";
+
+/* loco:57f6334c52e1a1f1428b4590 */
+"unknown_error" = "Eror yang Tidak Diketahui";
+
+/* loco:57f6334c52e1a1f1428b4591 */
+"open_in_maps" = "Lihat di Peta";
+
+/* loco:57f6334c52e1a1f1428b4592 */
+"open_in_google_map" = "Lihat di Google Maps";
+
+/* loco:57f6334c52e1a1f1428b4593 */
+"open_in_waze" = "Lihat di Waze";
+
+/* loco:57f6334c52e1a1f1428b4594 */
+"retry" = "ULANG";
+
+/* loco:57f6334c52e1a1f1428b4595 */
+"couldnt_obtain_location" = "Kami tidak dapat mengambil lokasimu";
+
+/* loco:57f6334c52e1a1f1428b4596 */
+"view_in_list" = "Lihat dalam daftar";
+
+/* loco:57f6334c52e1a1f1428b4597 */
+"view_in_map" = "Lihat di peta";
+
+/* loco:57f6334c52e1a1f1428b4598 */
+"search_favorite_place" = "Cari tempat favoritmu";
+
+/* loco:57f6334c52e1a1f1428b4599 */
+"take_photo" = "Ambil foto";
+
+/* loco:57f6334c52e1a1f1428b459a */
+"choose_photo" = "Pilih Foto";
+
+/* loco:57f6334c52e1a1f1428b459b */
+"learn_more" = "Pelajari Lebih Lanjut";
+
+/* loco:57f6334c52e1a1f1428b459c */
+"request_list_activity_title" = "Tiket saya";
+
+/* loco:57fb326e52e1a142418b4569 */
+"purchase_detail_view_payment_detail_text" = "Lihat rincian pembayaran";
+
+/* loco:57fbb21b52e1a169588b456a */
+"purchase_detail_payment_failed_title_text" = "Pembayaran Gagal";
+
+/* loco:580dbaf052e1a1de458b456b */
+"enter_cvc_title" = "Masukkan CVC untuk Visa ···%1$s";
+
+/* loco:580dbaf052e1a1de458b456c */
+"enter_cvc_description" = "CVC adalah 3-4 angka di belakang kartumu";
+
+/* loco:580dbaf052e1a1de458b456d */
+"confirm" = "Konfirmasi";
+
+/* loco:5811a5fa52e1a1073a8b4569 */
+"nearby_search_location_title_text" = "Tunjukkan penawaran di sekitar";
+
+/* loco:5811c26b52e1a1023d8b4569 */
+"search" = "Cari";
+
+/* loco:5811cb4052e1a1953e8b4567 */
+"search_location_input_hint" = "Cari lokasi";
+
+/* loco:5811dd1152e1a1a7408b4569 */
+"purchase_detail_scan_barcode_text" = "Pindai barcode untuk melacak";
+
+/* loco:581af9bc52e1a1d4038b457b */
+"search_recommendation_initial_title_1_text" = "Bingung ingin mencari apa?";
+
+/* loco:581af9bc52e1a1d4038b457c */
+"search_recommendation_initial_title_2_text" = "Jelajahi koleksi kami";
+
+/* loco:581af9bc52e1a1d4038b457d */
+"search_recommendation_empty_title_text" = "Kenapa tidak jelajahi koleksi kami saja?";
+
+/* loco:581c5e8b52e1a16b348b4571 */
+"purchase_detail_payment_processing_title_text" = "Memproses Pembayaranmu";
+
+/* loco:581c5e8b52e1a16b348b4572 */
+"purchase_detail_payment_processing_description_text" = "Pembayaranmu sedang diproses.\nMohon tunggu.";
+
+/* loco:581c5e8b52e1a16b348b4573 */
+"refresh" = "PERBARUI";
+
+/* loco:582451a152e1a1ad618b456a */
+"purchase_detail_payment_failed" = "Pembayaranmu tidak dapat diproses.\nSilakan coba lagi.";
+
+/* loco:58245ef452e1a13b638b456c */
+"use_my_location_text" = "Gunakan lokasi saya saat ini";
+
+/* loco:58314dc252e1a1ea318b4567 */
+"add_payment_verification_charges_warning" = "For your security, we will make a verification transaction. It will be reversed automatically, and you will not be charged this amount.";
+
+/* loco:5833f89752e1a10a678b4569 */
+"fave" = "fave";

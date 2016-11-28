@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="139" id="iJZ-i6-8rw" customClass="PendingPaymentReservationViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="510" height="139"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iJZ-i6-8rw" id="wkR-5a-wDH">
+                <rect key="frame" x="0.0" y="0.0" width="510" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q8g-Ff-sI7" customClass="PendingPaymentReservationView" customModule="Fave" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="510" height="138.5"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="q8g-Ff-sI7" firstAttribute="top" secondItem="wkR-5a-wDH" secondAttribute="top" id="7vX-pC-q1L"/>
+                    <constraint firstItem="q8g-Ff-sI7" firstAttribute="leading" secondItem="wkR-5a-wDH" secondAttribute="leading" id="QTn-iF-ztT"/>
+                    <constraint firstAttribute="bottom" secondItem="q8g-Ff-sI7" secondAttribute="bottom" priority="750" id="VMN-BN-gIF"/>
+                    <constraint firstAttribute="trailing" secondItem="q8g-Ff-sI7" secondAttribute="trailing" id="zeK-Uy-wId"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="pendingPaymentReservationView" destination="q8g-Ff-sI7" id="qGD-IX-MNS"/>
+            </connections>
+            <point key="canvasLocation" x="290" y="640.5"/>
+        </tableViewCell>
+    </objects>
+</document>

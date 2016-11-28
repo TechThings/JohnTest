@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChannelInfoInviteFriendsTableViewCell" rowHeight="60" id="tS1-Ty-yn4" customClass="ChannelInfoInviteFriendsTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="556" height="62"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tS1-Ty-yn4" id="fHt-ZM-wNH">
+                <frame key="frameInset" width="556" height="61.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="zdy-Qa-bMp">
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_chat_invite_friends" translatesAutoresizingMaskIntoConstraints="NO" id="NM2-YL-ick">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="QUK-DG-dbh"/>
+                                    <constraint firstAttribute="height" constant="40" id="ooz-aR-dbt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invite more friends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Au-Mm-UC8">
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="14"/>
+                                <color key="textColor" red="0.23137255012989044" green="0.66274511814117432" blue="0.81176471710205078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="invite_more"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="62" id="YCk-uv-hoz"/>
+                        </constraints>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p2D-wa-eoH">
+                        <color key="backgroundColor" red="0.94509804249999996" green="0.94901961089999998" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="iao-xP-q7q"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8L-Do-5Gv">
+                        <connections>
+                            <action selector="addFriendsButtonDidTap:" destination="tS1-Ty-yn4" eventType="touchUpInside" id="PfQ-ex-E23"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="b8L-Do-5Gv" firstAttribute="width" secondItem="fHt-ZM-wNH" secondAttribute="width" id="0hv-Iv-L84"/>
+                    <constraint firstAttribute="bottom" secondItem="p2D-wa-eoH" secondAttribute="bottom" id="4lD-hw-zIJ"/>
+                    <constraint firstItem="zdy-Qa-bMp" firstAttribute="top" secondItem="fHt-ZM-wNH" secondAttribute="top" id="8Bm-bc-JQd"/>
+                    <constraint firstAttribute="trailing" secondItem="zdy-Qa-bMp" secondAttribute="trailing" constant="15" id="AR5-IL-j51"/>
+                    <constraint firstAttribute="trailing" secondItem="p2D-wa-eoH" secondAttribute="trailing" id="EQu-9A-sH8"/>
+                    <constraint firstAttribute="bottom" secondItem="zdy-Qa-bMp" secondAttribute="bottom" id="GZG-YD-0TW"/>
+                    <constraint firstItem="b8L-Do-5Gv" firstAttribute="centerX" secondItem="fHt-ZM-wNH" secondAttribute="centerX" id="OrS-oU-I0b"/>
+                    <constraint firstItem="p2D-wa-eoH" firstAttribute="leading" secondItem="fHt-ZM-wNH" secondAttribute="leading" constant="15" id="Rap-Sp-qhc"/>
+                    <constraint firstItem="b8L-Do-5Gv" firstAttribute="height" secondItem="fHt-ZM-wNH" secondAttribute="height" id="cra-VG-XMY"/>
+                    <constraint firstItem="b8L-Do-5Gv" firstAttribute="centerY" secondItem="fHt-ZM-wNH" secondAttribute="centerY" id="lPF-BA-0wL"/>
+                    <constraint firstItem="zdy-Qa-bMp" firstAttribute="leading" secondItem="fHt-ZM-wNH" secondAttribute="leading" constant="15" id="tha-Yc-wpe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="520" y="407"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_chat_invite_friends" width="54" height="54"/>
+    </resources>
+</document>

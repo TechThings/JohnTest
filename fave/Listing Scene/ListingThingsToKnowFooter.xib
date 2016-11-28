@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="ListingThingsToKnowFooter" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1r1-BJ-2sw">
+                    <rect key="frame" x="0.0" y="0.0" width="415" height="0.5"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="Jlt-pG-YCQ"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rsm-ml-PRH">
+                    <rect key="frame" x="0.0" y="0.5" width="385" height="69.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_details_redeem" translatesAutoresizingMaskIntoConstraints="NO" id="f3d-9O-v4M">
+                            <rect key="frame" x="15" y="19" width="32" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="052-in-Anx"/>
+                                <constraint firstAttribute="width" constant="32" id="0m8-o7-wvA"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can easily redeem from your phone. No printout required. " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3m-aU-4WJ" customClass="KFITLabel">
+                            <rect key="frame" x="59" y="17" width="306" height="36"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="activity_detail_things_to_know_description_text"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <edgeInsets key="layoutMargins" top="15" left="15" bottom="15" right="20"/>
+                </stackView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_disclosure_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="os5-iK-ZTI">
+                    <rect key="frame" x="385" y="27.5" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="jqi-AC-HA2"/>
+                        <constraint firstAttribute="height" constant="15" id="mu5-tS-DSc"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Cb-eh-GWO">
+                    <rect key="frame" x="0.0" y="0.0" width="415" height="70"/>
+                    <connections>
+                        <action selector="didTapHowToRedeemButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="oXe-bR-Zxw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8Cb-eh-GWO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1nW-Qv-Qwx"/>
+                <constraint firstAttribute="trailing" secondItem="os5-iK-ZTI" secondAttribute="trailing" constant="15" id="36X-QN-2UF"/>
+                <constraint firstItem="rsm-ml-PRH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3i7-Gp-W8I"/>
+                <constraint firstAttribute="bottom" secondItem="rsm-ml-PRH" secondAttribute="bottom" id="I6i-EJ-k0b"/>
+                <constraint firstAttribute="trailing" secondItem="1r1-BJ-2sw" secondAttribute="trailing" id="NZc-V8-clf"/>
+                <constraint firstItem="8Cb-eh-GWO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Rot-Na-koW"/>
+                <constraint firstItem="os5-iK-ZTI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ebb-ip-08X"/>
+                <constraint firstItem="os5-iK-ZTI" firstAttribute="leading" secondItem="rsm-ml-PRH" secondAttribute="trailing" id="ejS-Sm-ol4"/>
+                <constraint firstAttribute="trailing" secondItem="8Cb-eh-GWO" secondAttribute="trailing" id="gzQ-5N-A4r"/>
+                <constraint firstItem="rsm-ml-PRH" firstAttribute="top" secondItem="1r1-BJ-2sw" secondAttribute="bottom" id="jae-Ri-STX"/>
+                <constraint firstItem="1r1-BJ-2sw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pVZ-pj-ZDf"/>
+                <constraint firstAttribute="bottom" secondItem="8Cb-eh-GWO" secondAttribute="bottom" id="vhc-lK-kma"/>
+                <constraint firstItem="1r1-BJ-2sw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yxy-W2-f5v"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="redeemLabel" destination="q3m-aU-4WJ" id="fW9-ml-qKh"/>
+            </connections>
+            <point key="canvasLocation" x="61.5" y="79"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_details_redeem" width="270" height="130"/>
+        <image name="ic_disclosure_arrow" width="15" height="15"/>
+    </resources>
+</document>

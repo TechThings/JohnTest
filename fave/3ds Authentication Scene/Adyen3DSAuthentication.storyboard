@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gx6-qb-UPD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Adyen3DS Authentication View Controller-->
+        <scene sceneID="C1i-WT-IMr">
+            <objects>
+                <viewController storyboardIdentifier="Adyen3DSAuthenticationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gx6-qb-UPD" customClass="Adyen3DSAuthenticationViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l8m-g7-9Cg"/>
+                        <viewControllerLayoutGuide type="bottom" id="cn1-Wt-XeY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BnW-GQ-KJ8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1JV-0k-bwh">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <items>
+                                    <navigationItem id="BeS-iW-aUH">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="F6Q-MW-kVs"/>
+                                    </navigationItem>
+                                </items>
+                                <connections>
+                                    <outlet property="delegate" destination="gx6-qb-UPD" id="sqw-B0-EgT"/>
+                                </connections>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" translatesAutoresizingMaskIntoConstraints="NO" id="zGu-OG-Gwg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="28"/>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66o-dv-9HX" userLabel="WebView Container">
+                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1JV-0k-bwh" secondAttribute="trailing" id="FSb-Xh-RcB"/>
+                            <constraint firstItem="1JV-0k-bwh" firstAttribute="top" secondItem="l8m-g7-9Cg" secondAttribute="bottom" constant="8" id="GNb-G8-rvL"/>
+                            <constraint firstItem="1JV-0k-bwh" firstAttribute="top" secondItem="zGu-OG-Gwg" secondAttribute="bottom" id="Gbv-W7-yNt"/>
+                            <constraint firstItem="cn1-Wt-XeY" firstAttribute="top" secondItem="66o-dv-9HX" secondAttribute="bottom" id="I4i-hw-sf2"/>
+                            <constraint firstItem="zGu-OG-Gwg" firstAttribute="top" secondItem="BnW-GQ-KJ8" secondAttribute="top" id="LRJ-kc-FL0"/>
+                            <constraint firstItem="zGu-OG-Gwg" firstAttribute="leading" secondItem="BnW-GQ-KJ8" secondAttribute="leading" id="NMd-rP-coz"/>
+                            <constraint firstItem="66o-dv-9HX" firstAttribute="leading" secondItem="BnW-GQ-KJ8" secondAttribute="leading" id="ekD-Ze-IT9"/>
+                            <constraint firstItem="1JV-0k-bwh" firstAttribute="leading" secondItem="BnW-GQ-KJ8" secondAttribute="leading" id="fo7-Pz-Hch"/>
+                            <constraint firstItem="66o-dv-9HX" firstAttribute="top" secondItem="1JV-0k-bwh" secondAttribute="bottom" id="h43-tw-VMd"/>
+                            <constraint firstAttribute="trailing" secondItem="zGu-OG-Gwg" secondAttribute="trailing" id="m6i-ZH-aIG"/>
+                            <constraint firstAttribute="trailing" secondItem="66o-dv-9HX" secondAttribute="trailing" id="r8e-CK-Cyi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cancelBarButtonItem" destination="F6Q-MW-kVs" id="tKa-7c-ydn"/>
+                        <outlet property="webViewContainer" destination="66o-dv-9HX" id="hUg-Mo-fSo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e13-Qz-Ufo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224.80000000000001" y="-115.59220389805098"/>
+        </scene>
+    </scenes>
+</document>

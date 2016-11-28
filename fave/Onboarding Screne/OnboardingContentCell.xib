@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="CircularStd-Bold.otf">
+            <string>CircularStd-Bold</string>
+        </mutableArray>
+        <mutableArray key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="OnboardingContentCell" reuseIdentifier="OnboardingContentCell" id="gTV-IL-0wX" customClass="OnboardingContentCell" customModule="fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_launch_1" translatesAutoresizingMaskIntoConstraints="NO" id="68e-bt-IUD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DISCOVER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OsF-sn-jZx">
+                        <rect key="frame" x="20" y="303.5" width="280" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="AjO-dC-esi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="22"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="AjO-dC-esi"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Explore hundreds of restaurants, gyms, spas &amp; more, near you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wws-Iv-Ia3" customClass="KFITLabel">
+                        <rect key="frame" x="20" y="341.5" width="280" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="nSl-Bt-DU5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="nSl-Bt-DU5"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_launch_1" translatesAutoresizingMaskIntoConstraints="NO" id="bH3-gD-41w">
+                        <rect key="frame" x="32" y="50" width="258" height="220"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="68e-bt-IUD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2kK-YF-wGS"/>
+                <constraint firstItem="wws-Iv-Ia3" firstAttribute="top" secondItem="OsF-sn-jZx" secondAttribute="bottom" constant="10" id="CWU-1K-hQ6"/>
+                <constraint firstAttribute="bottom" secondItem="wws-Iv-Ia3" secondAttribute="bottom" constant="65" id="E0O-MW-NkR"/>
+                <constraint firstAttribute="trailing" secondItem="wws-Iv-Ia3" secondAttribute="trailing" constant="20" id="KnW-NG-Cn0"/>
+                <constraint firstAttribute="trailing" secondItem="OsF-sn-jZx" secondAttribute="trailing" constant="20" id="VzT-i6-Cll"/>
+                <constraint firstItem="68e-bt-IUD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bC7-Dk-6ej"/>
+                <constraint firstItem="bH3-gD-41w" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="55" id="cVg-X4-lhH"/>
+                <constraint firstItem="bH3-gD-41w" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-65" id="gl5-3U-zQd"/>
+                <constraint firstAttribute="trailing" secondItem="bH3-gD-41w" secondAttribute="trailing" constant="30" id="o0r-po-G0B"/>
+                <constraint firstItem="OsF-sn-jZx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="oxn-6j-5Am"/>
+                <constraint firstItem="bH3-gD-41w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="32" id="sjC-Eu-8Wr"/>
+                <constraint firstAttribute="bottom" secondItem="68e-bt-IUD" secondAttribute="bottom" id="szJ-hC-mXK"/>
+                <constraint firstItem="wws-Iv-Ia3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="vjY-Om-WrY"/>
+                <constraint firstAttribute="trailing" secondItem="68e-bt-IUD" secondAttribute="trailing" id="vur-at-5nK"/>
+            </constraints>
+            <size key="customSize" width="334" height="427"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="cVg-X4-lhH"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="backgroundImageView" destination="68e-bt-IUD" id="SeA-kf-xEj"/>
+                <outlet property="contentLabel" destination="wws-Iv-Ia3" id="an4-kp-EH1"/>
+                <outlet property="iconImageView" destination="bH3-gD-41w" id="y5W-SW-Y1m"/>
+                <outlet property="titleLabel" destination="OsF-sn-jZx" id="Hy7-Ym-xJu"/>
+            </connections>
+            <point key="canvasLocation" x="211" y="271"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bg_launch_1" width="400" height="600"/>
+        <image name="ic_launch_1" width="280" height="220"/>
+    </resources>
+</document>

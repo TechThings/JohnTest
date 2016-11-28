@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListingOutletView" customModule="Fave" customModuleProvider="target">
+            <connections>
+                <outlet property="currentPriceLabel" destination="lZr-Rx-Ktv" id="NVe-ka-RCw"/>
+                <outlet property="listingNameLabel" destination="IzC-DU-dNd" id="vDu-cS-waa"/>
+                <outlet property="originalPriceLabel" destination="VAh-zk-zcr" id="j1S-Ql-OYV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sj2-XN-LLC">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzC-DU-dNd">
+                            <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Odc-iL-paV">
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ka2-iS-D6l">
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAh-zk-zcr" customClass="KFITLabel">
+                                            <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="20"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.66274509803921566" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="strikeThrough" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZr-Rx-Ktv">
+                                            <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="20"/>
+                                            <color key="textColor" red="0.28235294117647058" green="0.69019607843137254" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="ka2-iS-D6l" firstAttribute="top" secondItem="Odc-iL-paV" secondAttribute="top" id="CP7-sV-zQH"/>
+                                <constraint firstAttribute="bottom" secondItem="ka2-iS-D6l" secondAttribute="bottom" id="bBe-vc-qbQ"/>
+                                <constraint firstItem="ka2-iS-D6l" firstAttribute="leading" secondItem="Odc-iL-paV" secondAttribute="leading" id="wVB-hM-dST"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="IzC-DU-dNd" firstAttribute="leading" secondItem="Sj2-XN-LLC" secondAttribute="leading" constant="15" id="7jN-fM-53O"/>
+                        <constraint firstAttribute="trailing" secondItem="IzC-DU-dNd" secondAttribute="trailing" constant="15" id="NGH-JW-QM2"/>
+                        <constraint firstAttribute="bottom" secondItem="Odc-iL-paV" secondAttribute="bottom" constant="15" id="TJS-Rz-Djy"/>
+                        <constraint firstItem="IzC-DU-dNd" firstAttribute="top" secondItem="Sj2-XN-LLC" secondAttribute="top" constant="15" id="cwn-dS-0bm"/>
+                        <constraint firstItem="Odc-iL-paV" firstAttribute="top" secondItem="IzC-DU-dNd" secondAttribute="bottom" constant="5" id="mlO-85-bQC"/>
+                        <constraint firstAttribute="trailing" secondItem="Odc-iL-paV" secondAttribute="trailing" constant="15" id="nwU-Y5-qXP"/>
+                        <constraint firstItem="Odc-iL-paV" firstAttribute="leading" secondItem="Sj2-XN-LLC" secondAttribute="leading" constant="15" id="q0c-tk-KxV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Sj2-XN-LLC" secondAttribute="bottom" id="E8Z-AS-acq"/>
+                <constraint firstItem="Sj2-XN-LLC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="QmO-W5-tvc"/>
+                <constraint firstItem="Sj2-XN-LLC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZIl-BB-4Di"/>
+                <constraint firstAttribute="trailing" secondItem="Sj2-XN-LLC" secondAttribute="trailing" id="skS-aP-yqR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="252" y="-111"/>
+        </view>
+    </objects>
+</document>

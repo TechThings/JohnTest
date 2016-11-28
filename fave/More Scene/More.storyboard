@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!-- -->
+        <scene sceneID="RGK-9V-GH5">
+            <objects>
+                <viewController storyboardIdentifier="MoreViewController" automaticallyAdjustsScrollViewInsets="NO" id="kpm-Hb-Hj7" customClass="MoreViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="abH-Eg-qde"/>
+                        <viewControllerLayoutGuide type="bottom" id="OD2-Ck-9qS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zph-rT-Px9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="LPV-ZN-xcL">
+                                <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LPV-ZN-xcL" firstAttribute="top" secondItem="abH-Eg-qde" secondAttribute="bottom" id="bNJ-UD-Sht"/>
+                            <constraint firstItem="LPV-ZN-xcL" firstAttribute="top" secondItem="zph-rT-Px9" secondAttribute="topMargin" id="c1E-lg-izC"/>
+                            <constraint firstItem="OD2-Ck-9qS" firstAttribute="top" secondItem="LPV-ZN-xcL" secondAttribute="bottom" id="cIw-6b-DO3"/>
+                            <constraint firstAttribute="trailing" secondItem="LPV-ZN-xcL" secondAttribute="trailing" id="s4b-st-q6Y"/>
+                            <constraint firstItem="LPV-ZN-xcL" firstAttribute="leading" secondItem="zph-rT-Px9" secondAttribute="leading" id="uzN-50-v8M"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="bNJ-UD-Sht"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title=" " id="f7Y-hO-wWg">
+                        <barButtonItem key="backBarButtonItem" title=" " id="oEB-VW-YAK">
+                            <color key="tintColor" red="0.87058824300765991" green="0.12549020349979401" blue="0.41568627953529358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="LPV-ZN-xcL" id="QZN-CX-AgR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xzT-nm-O8p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042" y="-469"/>
+        </scene>
+    </scenes>
+</document>

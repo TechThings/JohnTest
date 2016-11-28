@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ListingOutletViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="ListingOutletViewCell" id="HZH-b6-SnV" customClass="ListingOutletViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HZH-b6-SnV" id="B4a-56-ciS">
+                <frame key="frameInset" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XlG-dn-BgA" customClass="ListingOutletView" customModule="Fave" customModuleProvider="target">
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XlG-dn-BgA" firstAttribute="leading" secondItem="B4a-56-ciS" secondAttribute="leading" id="DZn-EJ-KNW"/>
+                    <constraint firstAttribute="trailing" secondItem="XlG-dn-BgA" secondAttribute="trailing" id="ble-dc-NRw"/>
+                    <constraint firstAttribute="bottom" secondItem="XlG-dn-BgA" secondAttribute="bottom" id="jof-yq-a3J"/>
+                    <constraint firstItem="XlG-dn-BgA" firstAttribute="top" secondItem="B4a-56-ciS" secondAttribute="top" id="oeo-zB-kVV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="listingOutletView" destination="XlG-dn-BgA" id="UGK-Zs-K8I"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

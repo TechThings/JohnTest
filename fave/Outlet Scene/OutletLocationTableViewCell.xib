@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="128" id="nnA-d1-EAN" customClass="OutletLocationTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nnA-d1-EAN" id="ldw-N1-N47">
+                <frame key="frameInset" width="375" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ahe-wr-QaD">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Outlet Address" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hz8-3T-Dhr" customClass="KFITLabel">
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="26" id="y6T-1j-tK9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="y6T-1j-tK9"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Hz8-3T-Dhr" secondAttribute="trailing" constant="8" id="GVL-C5-y13"/>
+                            <constraint firstItem="Hz8-3T-Dhr" firstAttribute="leading" secondItem="Ahe-wr-QaD" secondAttribute="leading" constant="12" id="HCy-Qv-kH6"/>
+                            <constraint firstAttribute="trailing" secondItem="Hz8-3T-Dhr" secondAttribute="trailing" constant="15" id="KxH-Ej-Gck"/>
+                            <constraint firstItem="Hz8-3T-Dhr" firstAttribute="leading" secondItem="Ahe-wr-QaD" secondAttribute="leading" constant="15" id="XId-cg-R5k"/>
+                            <constraint firstAttribute="bottom" secondItem="Hz8-3T-Dhr" secondAttribute="bottom" constant="20" id="eyn-Ha-V7U"/>
+                            <constraint firstItem="Hz8-3T-Dhr" firstAttribute="top" secondItem="Ahe-wr-QaD" secondAttribute="top" constant="15" id="fOi-XB-Dhe"/>
+                            <constraint firstAttribute="bottom" secondItem="Hz8-3T-Dhr" secondAttribute="bottom" constant="8" id="n1j-bU-Y1G"/>
+                            <constraint firstItem="Hz8-3T-Dhr" firstAttribute="top" secondItem="Ahe-wr-QaD" secondAttribute="top" constant="8" id="x42-uh-Ibf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="GVL-C5-y13"/>
+                                <exclude reference="HCy-Qv-kH6"/>
+                                <exclude reference="n1j-bU-Y1G"/>
+                                <exclude reference="x42-uh-Ibf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ixr-BZ-Bnn">
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4x3-l2-wTZ">
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="tintColor" red="0.20000000298023224" green="0.65882354974746704" blue="0.81960785388946533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="15" maxY="0.0"/>
+                                <state key="normal" title="Get direction" image="direction"/>
+                                <connections>
+                                    <action selector="getDirectionButtonDidTap:" destination="nnA-d1-EAN" eventType="touchUpInside" id="qzW-4l-DmO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fu-a5-fZQ">
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="tintColor" red="0.20000000298023224" green="0.65882354974746704" blue="0.81960785388946533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="15" maxY="0.0"/>
+                                <state key="normal" title="Call" image="phone"/>
+                                <connections>
+                                    <action selector="callOutletButtonDidTap:" destination="nnA-d1-EAN" eventType="touchUpInside" id="xP9-mi-Rxz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="5Fu-a5-fZQ" secondAttribute="bottom" id="NnM-ZT-mz9"/>
+                            <constraint firstItem="4x3-l2-wTZ" firstAttribute="top" secondItem="ixr-BZ-Bnn" secondAttribute="top" id="Qy4-UP-I2w"/>
+                            <constraint firstItem="4x3-l2-wTZ" firstAttribute="width" secondItem="5Fu-a5-fZQ" secondAttribute="width" multiplier="1.1:0.9" id="UpW-dS-m0A"/>
+                            <constraint firstItem="4x3-l2-wTZ" firstAttribute="leading" secondItem="ixr-BZ-Bnn" secondAttribute="leading" id="Wr3-gT-dkX"/>
+                            <constraint firstItem="5Fu-a5-fZQ" firstAttribute="leading" secondItem="4x3-l2-wTZ" secondAttribute="trailing" constant="10" id="YH2-ua-2A9"/>
+                            <constraint firstAttribute="height" constant="40" id="ahb-LB-hGy"/>
+                            <constraint firstAttribute="bottom" secondItem="4x3-l2-wTZ" secondAttribute="bottom" id="gvt-SI-85V"/>
+                            <constraint firstItem="5Fu-a5-fZQ" firstAttribute="top" secondItem="ixr-BZ-Bnn" secondAttribute="top" id="nRD-Rk-GLL"/>
+                            <constraint firstAttribute="trailing" secondItem="4x3-l2-wTZ" secondAttribute="trailing" constant="177" id="nSI-Am-fIZ"/>
+                            <constraint firstAttribute="trailing" secondItem="5Fu-a5-fZQ" secondAttribute="trailing" id="zKg-Bp-frS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="nSI-Am-fIZ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ixr-BZ-Bnn" secondAttribute="trailing" constant="15" id="5o5-Og-qJv"/>
+                    <constraint firstItem="ixr-BZ-Bnn" firstAttribute="leading" secondItem="ldw-N1-N47" secondAttribute="leading" constant="15" id="Daj-ib-OTF"/>
+                    <constraint firstAttribute="bottom" secondItem="Ahe-wr-QaD" secondAttribute="bottom" id="HX8-CM-Ar4"/>
+                    <constraint firstAttribute="trailing" secondItem="Ahe-wr-QaD" secondAttribute="trailing" id="Q3Y-GY-ccN"/>
+                    <constraint firstItem="Ahe-wr-QaD" firstAttribute="leading" secondItem="ldw-N1-N47" secondAttribute="leading" id="VDn-fT-QXw"/>
+                    <constraint firstItem="Ahe-wr-QaD" firstAttribute="top" secondItem="ldw-N1-N47" secondAttribute="top" id="ftd-uQ-4nM"/>
+                    <constraint firstItem="ixr-BZ-Bnn" firstAttribute="top" secondItem="Ahe-wr-QaD" secondAttribute="bottom" id="mxZ-7Q-EHd"/>
+                    <constraint firstAttribute="bottom" secondItem="ixr-BZ-Bnn" secondAttribute="bottom" constant="15" id="xVl-UX-SQE"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="HX8-CM-Ar4"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="callButton" destination="5Fu-a5-fZQ" id="FwX-zt-sQP"/>
+                <outlet property="getDirectionButton" destination="4x3-l2-wTZ" id="qRa-PL-fbg"/>
+                <outlet property="outletAddress" destination="Hz8-3T-Dhr" id="z4O-b0-GdN"/>
+            </connections>
+            <point key="canvasLocation" x="700.5" y="367"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="direction" width="13" height="13"/>
+        <image name="phone" width="13" height="13"/>
+    </resources>
+</document>

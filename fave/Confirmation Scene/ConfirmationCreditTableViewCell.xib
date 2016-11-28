@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ConfirmationCreditTableViewCell" id="KGk-i7-Jjw" customClass="ConfirmationCreditTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wo3-XD-hmd" userLabel="Main View">
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ziP-ps-SNn" userLabel="Details View">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBl-iT-gcE" userLabel="Left View">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgM-Tb-01a">
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="0.53134441375732422" green="0.59793782234191895" blue="0.64651364088058472" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="YgM-Tb-01a" secondAttribute="bottom" id="9LB-xg-h1Y"/>
+                                            <constraint firstItem="YgM-Tb-01a" firstAttribute="leading" secondItem="sBl-iT-gcE" secondAttribute="leading" id="IyZ-FV-1v0"/>
+                                            <constraint firstAttribute="trailing" secondItem="YgM-Tb-01a" secondAttribute="trailing" id="Y1Y-dV-bSp"/>
+                                            <constraint firstItem="YgM-Tb-01a" firstAttribute="top" secondItem="sBl-iT-gcE" secondAttribute="top" id="ZPd-0p-XzO"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RM20" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuO-tz-XIC" userLabel="Current Price Label" customClass="KFITLabel">
+                                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="uuO-tz-XIC" firstAttribute="centerY" secondItem="ziP-ps-SNn" secondAttribute="centerY" id="E1C-A1-TkG"/>
+                                    <constraint firstItem="sBl-iT-gcE" firstAttribute="leading" secondItem="ziP-ps-SNn" secondAttribute="leading" id="PR2-Dg-juL"/>
+                                    <constraint firstAttribute="bottom" secondItem="sBl-iT-gcE" secondAttribute="bottom" id="Qcu-Fa-dyz"/>
+                                    <constraint firstItem="sBl-iT-gcE" firstAttribute="top" secondItem="ziP-ps-SNn" secondAttribute="top" id="mJq-od-ZyD"/>
+                                    <constraint firstAttribute="height" constant="43" id="mLo-NP-uyu"/>
+                                    <constraint firstAttribute="trailing" secondItem="uuO-tz-XIC" secondAttribute="trailing" id="utG-tU-BgB"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mLo-NP-uyu"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-cG-HLq" userLabel="Bottom Border View">
+                                <color key="backgroundColor" red="0.83921568629999999" green="0.83921568629999999" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="K1z-Lt-FhL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ziP-ps-SNn" firstAttribute="leading" secondItem="Wo3-XD-hmd" secondAttribute="leading" id="0m7-vI-eUB"/>
+                            <constraint firstItem="ziP-ps-SNn" firstAttribute="bottom" secondItem="Wef-cG-HLq" secondAttribute="top" id="8Dj-pL-9sA"/>
+                            <constraint firstItem="Wef-cG-HLq" firstAttribute="top" secondItem="Wo3-XD-hmd" secondAttribute="top" id="E06-4F-Hfx"/>
+                            <constraint firstItem="Wef-cG-HLq" firstAttribute="leading" secondItem="Wo3-XD-hmd" secondAttribute="leading" id="Gw8-hR-dAb"/>
+                            <constraint firstItem="ziP-ps-SNn" firstAttribute="top" secondItem="Wo3-XD-hmd" secondAttribute="top" id="dFA-sy-mZ4"/>
+                            <constraint firstAttribute="bottom" secondItem="Wef-cG-HLq" secondAttribute="bottom" id="fmL-v6-OgA"/>
+                            <constraint firstAttribute="trailing" secondItem="Wef-cG-HLq" secondAttribute="trailing" id="sa2-Zq-HuA"/>
+                            <constraint firstAttribute="trailing" secondItem="ziP-ps-SNn" secondAttribute="trailing" id="xhd-UZ-NnU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="E06-4F-Hfx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="Wo3-XD-hmd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="7rw-9K-bkW"/>
+                    <constraint firstItem="Wo3-XD-hmd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Cd1-7c-3ec"/>
+                    <constraint firstAttribute="bottom" secondItem="Wo3-XD-hmd" secondAttribute="bottom" id="Fob-Ag-hcT"/>
+                    <constraint firstAttribute="trailing" secondItem="Wo3-XD-hmd" secondAttribute="trailing" constant="15" id="ful-F1-SVY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="bottomBorder" destination="Wef-cG-HLq" id="LT8-QA-0Na"/>
+                <outlet property="creditLabel" destination="uuO-tz-XIC" id="JUg-Hx-Xsf"/>
+                <outlet property="titleLabel" destination="YgM-Tb-01a" id="SEs-TR-qH1"/>
+            </connections>
+            <point key="canvasLocation" x="119" y="113"/>
+        </tableViewCell>
+    </objects>
+</document>

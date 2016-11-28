@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivePromoCountView" customModule="Fave" customModuleProvider="target">
+            <connections>
+                <outlet property="activePromoCountLabel" destination="ZQa-sW-WaH" id="gat-BX-34r"/>
+                <outlet property="activePromoCountViewHieghtConstraint" destination="YJ4-VL-0TB" id="ivX-2j-At2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Iw-cS-ekq">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have 2 active promo codes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQa-sW-WaH">
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="YJ4-VL-0TB"/>
+                        <constraint firstItem="ZQa-sW-WaH" firstAttribute="centerY" secondItem="7Iw-cS-ekq" secondAttribute="centerY" id="j7i-cJ-Cuy"/>
+                        <constraint firstItem="ZQa-sW-WaH" firstAttribute="centerX" secondItem="7Iw-cS-ekq" secondAttribute="centerX" id="sqG-Rh-nnL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7Iw-cS-ekq" secondAttribute="trailing" id="0CF-uk-FaR"/>
+                <constraint firstItem="7Iw-cS-ekq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BNh-cM-Whn"/>
+                <constraint firstItem="7Iw-cS-ekq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CXb-3D-LvX"/>
+            </constraints>
+            <point key="canvasLocation" x="177" y="413"/>
+        </view>
+    </objects>
+</document>

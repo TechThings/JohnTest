@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityHeaderView" customModule="fave" customModuleProvider="target">
+            <connections>
+                <outlet property="contentImage" destination="jEl-3C-k4B" id="gLQ-Sc-5ub"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_image" translatesAutoresizingMaskIntoConstraints="NO" id="jEl-3C-k4B">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="jEl-3C-k4B" secondAttribute="trailing" id="0lm-0V-ViX"/>
+                <constraint firstItem="jEl-3C-k4B" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C4k-lp-gfO"/>
+                <constraint firstAttribute="bottom" secondItem="jEl-3C-k4B" secondAttribute="bottom" id="Fg5-w7-7wT"/>
+                <constraint firstItem="jEl-3C-k4B" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vEa-dQ-G5K"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="default_image" width="320" height="320"/>
+    </resources>
+</document>

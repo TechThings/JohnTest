@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Next Sessions View Controller-->
+        <scene sceneID="EIE-DU-Q8G">
+            <objects>
+                <viewController storyboardIdentifier="NextSessionsViewController" id="71p-Ty-0pL" customClass="NextSessionsViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HcH-Nh-nPo"/>
+                        <viewControllerLayoutGuide type="bottom" id="T6B-Uv-Ng2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JfA-5X-Pgs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="00A-Fz-kZm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.93725490199999995" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.93333333330000001" green="0.93725490199999995" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="71p-Ty-0pL" id="U0s-Qh-UfU"/>
+                                    <outlet property="delegate" destination="71p-Ty-0pL" id="K5G-Jg-B4k"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8980392157" green="0.90196078430000004" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="00A-Fz-kZm" secondAttribute="trailing" id="GLd-Fk-w15"/>
+                            <constraint firstItem="00A-Fz-kZm" firstAttribute="top" secondItem="JfA-5X-Pgs" secondAttribute="top" id="UV9-Kt-NcS"/>
+                            <constraint firstItem="00A-Fz-kZm" firstAttribute="leading" secondItem="JfA-5X-Pgs" secondAttribute="leading" id="Xcv-cx-wCe"/>
+                            <constraint firstItem="T6B-Uv-Ng2" firstAttribute="top" secondItem="00A-Fz-kZm" secondAttribute="bottom" id="YB7-zz-r7h"/>
+                            <constraint firstItem="00A-Fz-kZm" firstAttribute="top" secondItem="HcH-Nh-nPo" secondAttribute="bottom" id="s2w-my-YaM"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="s2w-my-YaM"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="00A-Fz-kZm" id="YVB-ZJ-J9D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jh7-CA-Cpd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201" y="-33"/>
+        </scene>
+    </scenes>
+</document>

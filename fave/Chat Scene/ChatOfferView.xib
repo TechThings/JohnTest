@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Bold.otf">
+            <string>CircularStd-Bold</string>
+        </array>
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatOfferView" customModule="Fave" customModuleProvider="target">
+            <connections>
+                <outlet property="buyButton" destination="9Gf-zw-QjU" id="8hG-wz-IEj"/>
+                <outlet property="companyNameLabel" destination="KwC-w8-r7k" id="lp6-qT-NlK"/>
+                <outlet property="featuredImageView" destination="bwD-Nz-aXW" id="5Sd-ld-BrF"/>
+                <outlet property="featuredImageWidthConstraint" destination="RvP-2H-5Il" id="Mc9-q1-WXz"/>
+                <outlet property="finalPriceLabel" destination="ZDh-re-M06" id="17z-wo-twB"/>
+                <outlet property="listingNameLabel" destination="R0a-Ke-Gxm" id="WDo-dX-Mor"/>
+                <outlet property="offerDetailsStackView" destination="bYN-qY-fKs" id="EbA-j9-j3v"/>
+                <outlet property="offerView" destination="ZEk-O3-Qb6" id="2jK-YQ-CAm"/>
+                <outlet property="originalPriceLabel" destination="2AG-wi-oud" id="m76-Iu-Sgd"/>
+                <outlet property="outletNameLabel" destination="vDC-tf-Tcy" id="kwB-Ht-ijV"/>
+                <outlet property="partnerStackView" destination="wwv-c8-fNy" id="Qr1-87-yoL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEk-O3-Qb6">
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="O8V-Wf-dTQ">
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bwD-Nz-aXW">
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="70" id="RvP-2H-5Il"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="bYN-qY-fKs">
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="AHh-oj-dyh">
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steak Lunch Set (Free Drinky)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0a-Ke-Gxm">
+                                                    <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="lah-W8-yPS" userLabel="Price Stack View">
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RM YY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AG-wi-oud" customClass="KFITLabel">
+                                                            <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="14"/>
+                                                            <color key="textColor" red="0.60000002384185791" green="0.66274511814117432" blue="0.70588237047195435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="strikeThrough" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RM XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDh-re-M06">
+                                                            <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="14"/>
+                                                            <color key="textColor" red="0.28235294119999998" green="0.69019607839999997" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="2AG-wi-oud" firstAttribute="centerY" secondItem="lah-W8-yPS" secondAttribute="centerY" id="eTb-jU-YXK"/>
+                                                        <constraint firstItem="ZDh-re-M06" firstAttribute="centerY" secondItem="lah-W8-yPS" secondAttribute="centerY" id="igA-lC-AyB"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SoB-Og-dC4">
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="wwv-c8-fNy">
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="The Good Batgh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KwC-w8-r7k">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                            <color key="textColor" red="0.60000002384185791" green="0.66274511814117432" blue="0.70588237047195435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Petaling Jaya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDC-tf-Tcy">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                            <color key="textColor" red="0.60000002384185791" green="0.66274511814117432" blue="0.70588237047195435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gf-zw-QjU" customClass="Button" customModule="Fave" customModuleProvider="target">
+                                                    <color key="backgroundColor" red="0.29803921568627451" green="0.68627450980392157" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="32" id="MWS-38-CZB"/>
+                                                        <constraint firstAttribute="width" constant="76" id="Usp-bz-IfI"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="15"/>
+                                                    <inset key="contentEdgeInsets" minX="8" minY="4" maxX="8" maxY="4"/>
+                                                    <state key="normal" title="BUY">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="2"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="defaultTitleKey" value="buy"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="MWS-38-CZB"/>
+                                                        </mask>
+                                                    </variation>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="O8V-Wf-dTQ" secondAttribute="bottom" constant="12" id="8Zi-7l-0hN"/>
+                        <constraint firstItem="O8V-Wf-dTQ" firstAttribute="leading" secondItem="ZEk-O3-Qb6" secondAttribute="leading" constant="12" id="HDV-CO-8a2"/>
+                        <constraint firstAttribute="trailing" secondItem="O8V-Wf-dTQ" secondAttribute="trailing" constant="12" id="Ik8-e5-sau"/>
+                        <constraint firstAttribute="bottom" secondItem="O8V-Wf-dTQ" secondAttribute="bottom" constant="10" id="hZC-XA-6Ft"/>
+                        <constraint firstAttribute="bottom" secondItem="O8V-Wf-dTQ" secondAttribute="bottom" constant="11" id="ntu-23-69c"/>
+                        <constraint firstItem="O8V-Wf-dTQ" firstAttribute="top" secondItem="ZEk-O3-Qb6" secondAttribute="top" constant="5" id="qk0-dm-BGI"/>
+                        <constraint firstAttribute="height" constant="95" id="vhf-EU-ez9"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="vhf-EU-ez9"/>
+                            <exclude reference="8Zi-7l-0hN"/>
+                            <exclude reference="hZC-XA-6Ft"/>
+                        </mask>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qv4-du-z3k" userLabel="Seperator">
+                    <color key="backgroundColor" red="0.60000002384185791" green="0.66274511814117432" blue="0.70588237047195435" alpha="0.30223651960784315" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="26Z-4d-1Uj"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2V-i0-4aa">
+                    <connections>
+                        <action selector="onBuyButtonTap:" destination="-1" eventType="touchUpInside" id="kOK-Hr-MbD"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qv4-du-z3k" secondAttribute="bottom" id="6Uo-GZ-jTJ"/>
+                <constraint firstItem="ZEk-O3-Qb6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EAq-cz-Lis"/>
+                <constraint firstAttribute="trailing" secondItem="ZEk-O3-Qb6" secondAttribute="trailing" id="bk7-ub-jdw"/>
+                <constraint firstAttribute="trailing" secondItem="K2V-i0-4aa" secondAttribute="trailing" id="kNC-mY-lZs"/>
+                <constraint firstItem="qv4-du-z3k" firstAttribute="top" secondItem="ZEk-O3-Qb6" secondAttribute="bottom" id="kqT-me-8rq"/>
+                <constraint firstAttribute="trailing" secondItem="qv4-du-z3k" secondAttribute="trailing" id="qVE-K5-aOf"/>
+                <constraint firstItem="K2V-i0-4aa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rs3-NA-MFj"/>
+                <constraint firstItem="ZEk-O3-Qb6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="twK-6Z-0WV"/>
+                <constraint firstItem="K2V-i0-4aa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wtM-tx-geM"/>
+                <constraint firstItem="qv4-du-z3k" firstAttribute="top" secondItem="K2V-i0-4aa" secondAttribute="bottom" id="xbN-9L-gFS"/>
+                <constraint firstItem="qv4-du-z3k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yqI-Bu-5Uq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="110" y="-257"/>
+        </view>
+    </objects>
+</document>

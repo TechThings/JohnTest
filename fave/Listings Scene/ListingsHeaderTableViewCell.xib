@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="ListingsHeaderTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GxN-ep-pBe" userLabel="Background">
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="cVq-q7-Qcq"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best restaurant offers nearby Best restaurant offers nearby" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="cU7-CM-lrc" customClass="KFITLabel">
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="160" id="0i3-f9-fWY"/>
+                            <constraint firstItem="cVq-q7-Qcq" firstAttribute="top" secondItem="GxN-ep-pBe" secondAttribute="top" id="3Ya-h1-qbc"/>
+                            <constraint firstAttribute="trailing" secondItem="cU7-CM-lrc" secondAttribute="trailing" constant="20" id="Fh4-9e-gTB"/>
+                            <constraint firstItem="cU7-CM-lrc" firstAttribute="top" secondItem="GxN-ep-pBe" secondAttribute="top" constant="75" id="YAB-uV-32L"/>
+                            <constraint firstItem="cVq-q7-Qcq" firstAttribute="height" secondItem="GxN-ep-pBe" secondAttribute="height" id="ZlM-hD-hTm"/>
+                            <constraint firstItem="cU7-CM-lrc" firstAttribute="centerY" secondItem="cVq-q7-Qcq" secondAttribute="centerY" id="fa2-dU-hDW"/>
+                            <constraint firstItem="cU7-CM-lrc" firstAttribute="leading" secondItem="GxN-ep-pBe" secondAttribute="leading" constant="20" id="g4O-Eb-OM5"/>
+                            <constraint firstItem="cVq-q7-Qcq" firstAttribute="leading" secondItem="GxN-ep-pBe" secondAttribute="leading" id="kGd-LT-SDo"/>
+                            <constraint firstAttribute="bottom" secondItem="cVq-q7-Qcq" secondAttribute="bottom" id="uLz-58-BVS"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="160" id="x0I-xo-HQ6"/>
+                            <constraint firstAttribute="trailing" secondItem="cVq-q7-Qcq" secondAttribute="trailing" id="zth-MN-f5B"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0i3-f9-fWY"/>
+                                <exclude reference="x0I-xo-HQ6"/>
+                                <exclude reference="YAB-uV-32L"/>
+                                <exclude reference="ZlM-hD-hTm"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="GxN-ep-pBe" secondAttribute="bottom" id="NEz-pf-dvT"/>
+                    <constraint firstItem="GxN-ep-pBe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fj5-SS-bbW"/>
+                    <constraint firstAttribute="trailing" secondItem="GxN-ep-pBe" secondAttribute="trailing" id="lnV-0z-QZd"/>
+                    <constraint firstItem="GxN-ep-pBe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qzE-zL-ngi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backgroundImageView" destination="cVq-q7-Qcq" id="wPO-yP-zbw"/>
+                <outlet property="descriptionLabel" destination="cU7-CM-lrc" id="mw3-3i-ff2"/>
+            </connections>
+            <point key="canvasLocation" x="225" y="164"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="image-placeholder" width="375" height="223"/>
+    </resources>
+</document>

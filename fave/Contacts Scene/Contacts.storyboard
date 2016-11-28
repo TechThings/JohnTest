@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Bold.otf">
+            <string>CircularStd-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Contacts View Controller-->
+        <scene sceneID="zvB-0u-aSn">
+            <objects>
+                <viewController restorationIdentifier="ContactsViewController" storyboardIdentifier="ContactsViewController" automaticallyAdjustsScrollViewInsets="NO" id="bOn-Zk-KQj" customClass="ContactsViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O7D-6a-mAt"/>
+                        <viewControllerLayoutGuide type="bottom" id="CAJ-DF-YXR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="X6r-eD-Abq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TO0-HT-fcP" customClass="ContactsTableView" customModule="Fave" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                            <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="2op-h0-uDj">
+                                <color key="barTintColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gK0-gQ-wkR">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCA-JN-B1b">
+                                        <color key="backgroundColor" red="0.87058824300765991" green="0.12549020349979401" blue="0.41568627953529358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="R0j-yN-dZ4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="15"/>
+                                        <state key="normal" title="CONTINUE">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="defaultTitleKey" value="add_contacts_enable"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="R0j-yN-dZ4"/>
+                                            </mask>
+                                        </variation>
+                                        <connections>
+                                            <action selector="doneButtonDidTap:" destination="bOn-Zk-KQj" eventType="touchUpInside" id="tSQ-om-a45"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="cCA-JN-B1b" secondAttribute="bottom" id="3aO-ri-h1F"/>
+                                    <constraint firstAttribute="height" constant="50" id="RXY-bc-73g"/>
+                                    <constraint firstItem="cCA-JN-B1b" firstAttribute="leading" secondItem="gK0-gQ-wkR" secondAttribute="leading" id="Ryo-8M-ncC"/>
+                                    <constraint firstAttribute="trailing" secondItem="cCA-JN-B1b" secondAttribute="trailing" id="li1-Iy-B5y"/>
+                                    <constraint firstItem="cCA-JN-B1b" firstAttribute="top" secondItem="gK0-gQ-wkR" secondAttribute="top" id="qOr-Fd-c0p"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gK0-gQ-wkR" firstAttribute="top" secondItem="TO0-HT-fcP" secondAttribute="bottom" id="ArR-1a-PEI"/>
+                            <constraint firstItem="gK0-gQ-wkR" firstAttribute="leading" secondItem="X6r-eD-Abq" secondAttribute="leading" id="FV7-kq-Fe6"/>
+                            <constraint firstAttribute="trailing" secondItem="gK0-gQ-wkR" secondAttribute="trailing" id="FfP-My-F9u"/>
+                            <constraint firstItem="TO0-HT-fcP" firstAttribute="top" secondItem="2op-h0-uDj" secondAttribute="bottom" id="N4b-u8-zRe"/>
+                            <constraint firstAttribute="trailing" secondItem="TO0-HT-fcP" secondAttribute="trailing" id="NCV-Qh-meS"/>
+                            <constraint firstItem="CAJ-DF-YXR" firstAttribute="top" secondItem="TO0-HT-fcP" secondAttribute="bottom" id="PZJ-z0-hdy"/>
+                            <constraint firstAttribute="trailing" secondItem="2op-h0-uDj" secondAttribute="trailing" id="UCn-E4-RWr"/>
+                            <constraint firstItem="2op-h0-uDj" firstAttribute="leading" secondItem="X6r-eD-Abq" secondAttribute="leading" id="VSn-VS-nIH"/>
+                            <constraint firstItem="CAJ-DF-YXR" firstAttribute="top" secondItem="gK0-gQ-wkR" secondAttribute="bottom" id="ejK-nD-2th"/>
+                            <constraint firstItem="CAJ-DF-YXR" firstAttribute="top" secondItem="TO0-HT-fcP" secondAttribute="bottom" id="fG6-c5-tOH"/>
+                            <constraint firstItem="TO0-HT-fcP" firstAttribute="leading" secondItem="X6r-eD-Abq" secondAttribute="leading" id="jcx-ka-IYu"/>
+                            <constraint firstItem="CAJ-DF-YXR" firstAttribute="top" secondItem="gK0-gQ-wkR" secondAttribute="bottom" id="sv5-Y7-5ef"/>
+                            <constraint firstItem="2op-h0-uDj" firstAttribute="top" secondItem="O7D-6a-mAt" secondAttribute="bottom" id="ynP-jU-Jhv"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ArR-1a-PEI"/>
+                                <exclude reference="PZJ-z0-hdy"/>
+                                <exclude reference="ejK-nD-2th"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="buttonBottomConstraint" destination="sv5-Y7-5ef" id="n4B-RQ-UHS"/>
+                        <outlet property="contactsTableView" destination="TO0-HT-fcP" id="WWP-BV-f2M"/>
+                        <outlet property="doneButton" destination="cCA-JN-B1b" id="vXT-8t-avr"/>
+                        <outlet property="floatingView" destination="gK0-gQ-wkR" id="HT5-du-KN0"/>
+                        <outlet property="searchBar" destination="2op-h0-uDj" id="QWa-hG-PvD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VkL-vd-eBP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="241" y="565"/>
+        </scene>
+    </scenes>
+</document>

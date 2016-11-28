@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BroadcastMessageCollectionViewCell" id="tzS-ul-Jyb" customClass="BroadcastMessageCollectionViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sdN-WW-hNL" customClass="View" customModule="Fave" customModuleProvider="target">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You need to upgrade your plan to use broadcasting" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBP-a8-d0C" userLabel="Broadcast Label" customClass="InsetLabel" customModule="Fave" customModuleProvider="target">
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="3Sp-ll-woi"/>
+                                    <constraint firstAttribute="width" constant="200" id="Xxs-4n-hSr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.60000002384185791" green="0.66274511814117432" blue="0.70588237047195435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomInset">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="pBP-a8-d0C" firstAttribute="centerY" secondItem="sdN-WW-hNL" secondAttribute="centerY" id="1Y3-UP-aJm"/>
+                            <constraint firstItem="pBP-a8-d0C" firstAttribute="centerX" secondItem="sdN-WW-hNL" secondAttribute="centerX" id="9TO-m0-foU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="sdN-WW-hNL" firstAttribute="leading" secondItem="tzS-ul-Jyb" secondAttribute="leading" id="AfI-b1-594"/>
+                <constraint firstAttribute="bottom" secondItem="sdN-WW-hNL" secondAttribute="bottom" id="IIC-ij-Ld6"/>
+                <constraint firstItem="sdN-WW-hNL" firstAttribute="top" secondItem="tzS-ul-Jyb" secondAttribute="top" id="vTd-qu-lmY"/>
+                <constraint firstAttribute="trailing" secondItem="sdN-WW-hNL" secondAttribute="trailing" id="vdb-3m-ldU"/>
+            </constraints>
+            <size key="customSize" width="320" height="60"/>
+            <connections>
+                <outlet property="broadcastLabelHeightConstraint" destination="3Sp-ll-woi" id="tec-2f-ogE"/>
+                <outlet property="broadcastLabelWidthConstraint" destination="Xxs-4n-hSr" id="3bV-Mk-2QS"/>
+                <outlet property="broadcastMessageLabel" destination="pBP-a8-d0C" id="pwg-Vr-5Kp"/>
+            </connections>
+            <point key="canvasLocation" x="293" y="340"/>
+        </collectionViewCell>
+    </objects>
+</document>

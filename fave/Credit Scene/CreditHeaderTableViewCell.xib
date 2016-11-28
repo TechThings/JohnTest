@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="180" id="KGk-i7-Jjw" customClass="CreditHeaderTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_credit_header" translatesAutoresizingMaskIntoConstraints="NO" id="cVq-q7-Qcq"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wet-aU-Xle" userLabel="With Credit">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="RM35" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="ipC-tm-sg8">
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits will be deducted automatically on your next purchases" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LkB-br-V3H" customClass="KFITLabel">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LkB-br-V3H" secondAttribute="trailing" constant="20" id="DYK-8Y-dLi"/>
+                            <constraint firstAttribute="trailing" secondItem="ipC-tm-sg8" secondAttribute="trailing" constant="20" id="FEk-ZC-5mu"/>
+                            <constraint firstAttribute="height" constant="160" id="ONg-d8-x7l"/>
+                            <constraint firstItem="LkB-br-V3H" firstAttribute="top" secondItem="ipC-tm-sg8" secondAttribute="bottom" constant="8" id="ZK8-l9-maX"/>
+                            <constraint firstItem="LkB-br-V3H" firstAttribute="leading" secondItem="wet-aU-Xle" secondAttribute="leading" constant="20" id="aQw-Fh-Tjt"/>
+                            <constraint firstItem="ipC-tm-sg8" firstAttribute="centerY" secondItem="wet-aU-Xle" secondAttribute="centerY" constant="-15" id="bAq-5v-i0H"/>
+                            <constraint firstItem="ipC-tm-sg8" firstAttribute="leading" secondItem="wet-aU-Xle" secondAttribute="leading" constant="20" id="cd4-XL-gmf"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="160" id="hdE-gK-bqL"/>
+                            <constraint firstAttribute="bottom" secondItem="LkB-br-V3H" secondAttribute="bottom" constant="23" id="jKN-KG-Cbu"/>
+                            <constraint firstItem="ipC-tm-sg8" firstAttribute="centerX" secondItem="wet-aU-Xle" secondAttribute="centerX" id="xSh-iv-bF6"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ONg-d8-x7l"/>
+                                <exclude reference="hdE-gK-bqL"/>
+                                <exclude reference="xSh-iv-bF6"/>
+                                <exclude reference="ZK8-l9-maX"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GxN-ep-pBe" userLabel="No credit">
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_together_credit" translatesAutoresizingMaskIntoConstraints="NO" id="3rI-f7-mZy">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bfd-Fo-CHO"/>
+                                    <constraint firstAttribute="width" constant="40" id="nAr-TA-ech"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="No credits available" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZU-9Z-zcx">
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="credit_empty_text"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invite your friends below to earn Fave Credits" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cU7-CM-lrc" customClass="KFITLabel">
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="credit_empty_description_text"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="160" id="0i3-f9-fWY"/>
+                            <constraint firstAttribute="bottom" secondItem="3rI-f7-mZy" secondAttribute="bottom" constant="80" id="HBA-Mn-qqb"/>
+                            <constraint firstItem="3ZU-9Z-zcx" firstAttribute="centerX" secondItem="GxN-ep-pBe" secondAttribute="centerX" id="K5X-fb-aqA"/>
+                            <constraint firstItem="3rI-f7-mZy" firstAttribute="centerX" secondItem="GxN-ep-pBe" secondAttribute="centerX" id="MKo-ot-g0x"/>
+                            <constraint firstItem="3rI-f7-mZy" firstAttribute="top" secondItem="GxN-ep-pBe" secondAttribute="top" constant="50" id="PMV-Yp-L1L"/>
+                            <constraint firstItem="cU7-CM-lrc" firstAttribute="leading" secondItem="GxN-ep-pBe" secondAttribute="leading" id="YTG-hG-BG1"/>
+                            <constraint firstItem="cU7-CM-lrc" firstAttribute="top" secondItem="3ZU-9Z-zcx" secondAttribute="bottom" constant="8" id="c08-p6-eO7"/>
+                            <constraint firstItem="3ZU-9Z-zcx" firstAttribute="top" secondItem="3rI-f7-mZy" secondAttribute="bottom" constant="15" id="dBD-cn-QYc"/>
+                            <constraint firstAttribute="bottom" secondItem="cU7-CM-lrc" secondAttribute="bottom" constant="23" id="mDc-mv-6Xh"/>
+                            <constraint firstAttribute="trailing" secondItem="cU7-CM-lrc" secondAttribute="trailing" id="nOs-QH-RYL"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="160" id="x0I-xo-HQ6"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0i3-f9-fWY"/>
+                                <exclude reference="x0I-xo-HQ6"/>
+                                <exclude reference="HBA-Mn-qqb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="GxN-ep-pBe" secondAttribute="bottom" id="NEz-pf-dvT"/>
+                    <constraint firstAttribute="trailing" secondItem="wet-aU-Xle" secondAttribute="trailing" id="Omn-1S-aid"/>
+                    <constraint firstAttribute="trailing" secondItem="cVq-q7-Qcq" secondAttribute="trailing" id="Q8P-lA-D20"/>
+                    <constraint firstAttribute="bottom" secondItem="cVq-q7-Qcq" secondAttribute="bottom" id="Rtz-Kc-iY9"/>
+                    <constraint firstItem="cVq-q7-Qcq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Unr-lN-44T"/>
+                    <constraint firstItem="wet-aU-Xle" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="V5m-Si-I6c"/>
+                    <constraint firstItem="wet-aU-Xle" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Xaz-L8-00b"/>
+                    <constraint firstAttribute="bottom" secondItem="wet-aU-Xle" secondAttribute="bottom" id="faG-nW-wNp"/>
+                    <constraint firstItem="GxN-ep-pBe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fj5-SS-bbW"/>
+                    <constraint firstAttribute="trailing" secondItem="GxN-ep-pBe" secondAttribute="trailing" id="lnV-0z-QZd"/>
+                    <constraint firstItem="GxN-ep-pBe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qzE-zL-ngi"/>
+                    <constraint firstItem="cVq-q7-Qcq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="t9z-nD-KXg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="creditLabel" destination="ipC-tm-sg8" id="D4V-7P-KAf"/>
+                <outlet property="noCreditView" destination="GxN-ep-pBe" id="a9K-Sj-A4H"/>
+                <outlet property="withCreditView" destination="wet-aU-Xle" id="41k-w4-Djw"/>
+            </connections>
+            <point key="canvasLocation" x="225" y="164"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_credit_header" width="320" height="213"/>
+        <image name="ic_together_credit" width="40" height="40"/>
+    </resources>
+</document>

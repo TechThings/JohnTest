@@ -1,0 +1,1914 @@
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: Fave iOS
+ * Release: Working copy
+ * Locale: en, English
+ * Exported by: Michael Cheah
+ * Exported at: Tue, 22 Nov 2016 07:52:55 +0000
+ */
+
+/* loco:57e0fd3614d72543418b4567 */
+"available_text" = "Available";
+
+/* loco:57e0fd3614d72543418b4568 */
+"sold_out_text" = "Sold Out";
+
+/* loco:57e0fd3614d72543418b4569 */
+"sort_by_trending_option" = "Trending";
+
+/* loco:57e0fd3614d72543418b456a */
+"no_activities_available" = "No activities available\nSwipe left or right to view other categories";
+
+/* loco:57e0fd3614d72543418b456b */
+"all" = "All";
+
+/* loco:57e0fd3614d72543418b456c */
+"sort_by_distance_option_for_discovery" = "Nearest Offers";
+
+/* loco:57e0fd3614d72543418b456d */
+"transaction_reserve_for_text" = "Reserve for";
+
+/* loco:57e0fd3614d72543418b456e */
+"transaction_confirm_reservation_description_text" = "%@ will be charged on %@";
+
+/* loco:57e0fd3614d72543418b456f */
+"filter_other_header_text" = "Other";
+
+/* loco:57e0fd3614d72543418b4570 */
+"filter_only_fitpass" = "Show only Fitness Pass activities";
+
+/* loco:57e0fd3614d72543418b4571 */
+"km_text" = "%@ km";
+
+/* loco:57e0fd3614d72543418b4572 */
+"gps_unavailable_text" = "Please enable your location permission to see better results";
+
+/* loco:57e0fd3614d72543418b4573 */
+"gps_unavailable_button_text" = "Enable location";
+
+/* loco:57e0fd3614d72543418b4574 */
+"launch_description_array_1" = "Exercise and relax in your city and save up to 70%% off. From yoga, kickboxing, gym, dance, massages, spas and facials, choose from hundreds of activities daily.";
+
+/* loco:57e0fd3614d72543418b4575 */
+"launch_description_array_2" = "Find an activity near you\nand fit it into your schedule.";
+
+/* loco:57e0fd3614d72543418b4576 */
+"launch_description_array_3" = "Use the smart filters or pick\ntrending activities near you.";
+
+/* loco:57e0fd3614d72543418b4577 */
+"launch_description_array_4" = "Reserve your favourite activity\nwith the tap of a button.";
+
+/* loco:57e0fd3614d72543418b4578 */
+"launch_description_array_5" = "Experience a huge variety\nof activities in your city.";
+
+/* loco:57e0fd3614d72543418b4579 */
+"launch_description_array_6" = "Share your experience\nwith other KFit users.";
+
+/* loco:57e0fd3614d72543418b457a */
+"enable" = "Enable";
+
+/* loco:57e0fd3614d72543418b457c */
+"promo_code_successfully_added" = "Promo code successfully added";
+
+/* loco:57e0fd3614d72543418b457d */
+"enter_promo_code" = "Enter promo code here";
+
+/* loco:57e0fd3614d72543418b457e */
+"promo_code_header_text" = "Apply new promo code below to enjoy savings on your purchases";
+
+/* loco:57e0fd3614d72543418b457f */
+"active_promo_codes_count" = "You have %@ active promo codes";
+
+/* loco:57e0fd3614d72543418b4580 */
+"expires_on" = "Expires on";
+
+/* loco:57e0fd3614d72543418b4581 */
+"amount" = "Amount";
+
+/* loco:57e0fd3614d72543418b4582
+ * Shown in the Promo Code screen when the user does not have any active promo codes */
+"no_active_promo_codes" = "You have no active promo codes";
+
+/* loco:57e0fd3614d72543418b4583
+ * Search bar at the top of Discovery page */
+"my_current_location" = "My current location";
+
+/* loco:57e0fd3614d72543418b4584
+ * Status message for cases where class is booked but payment is not received */
+"schedule_reservation_payment_pending" = "Pending Payment";
+
+/* loco:57e0fd3614d72543418b4585
+ * Status message for cases where class is booked but payment is not received */
+"title_reservation_pending_payment" = "PENDING PAYMENT";
+
+/* loco:57e0fd3614d72543418b4586 */
+"schedule_reservation_payment_pay_now" = "Pay Now";
+
+/* loco:57e0fd3614d72543418b4587 */
+"logout_failed_message" = "Unable to logout, please try again later";
+
+/* loco:57e0fd3614d72543418b4588 */
+"promo_code_first_time_text" = "For first time user only";
+
+/* loco:57e0fd3614d72543418b4589 */
+"promo_code_view_details_button_text" = "View details";
+
+/* loco:57e0fd3614d72543418b458a */
+"promo_code_apply_failed_text" = "Error encountered when applying promo code. Please check your network and retry.";
+
+/* loco:57e0fd3614d72543418b458b
+ * Shown in the Promo Code screen when the user does not have any active promo codes */
+"promo_code_tip" = "Tips: Like us on Facebook to get the latest updates on our promotions";
+
+/* loco:57e0fd3614d72543418b458c
+ * Generic error dialog messages */
+"oops" = "Oops";
+
+/* loco:57e0fd3614d72543418b458d */
+"try_again" = "Try Again";
+
+/* loco:57e0fd3614d72543418b458e */
+"cancel" = "Cancel";
+
+/* loco:57e0fd3614d72543418b458f */
+"generic_error" = "Error(s) occurred while communicating with the server. Please check your network.";
+
+/* loco:57e0fd3614d72543418b4590
+ * Home Screens */
+"fave_count" = "%d faves";
+
+/* loco:57e0fd3614d72543418b4591 */
+"latest_specials" = "Showing %d Latest Specials in %@";
+
+/* loco:57e0fd3614d72543418b4592
+ * Activity Details Screen */
+"info" = "Info";
+
+/* loco:57e0fd3614d72543418b4593 */
+"things_to_know" = "Things to know";
+
+/* loco:57e0fd3614d72543418b4594 */
+"about" = "About";
+
+/* loco:57e0fd3614d72543418b4595 */
+"outlet" = "Redeem offer at";
+
+/* loco:57e0fd3614d72543418b4596 */
+"amenities" = "Amenities";
+
+/* loco:57e0fd3614d72543418b4597 */
+"tips" = "Tips";
+
+/* loco:57e0fd3614d72543418b4598 */
+"location" = "Location";
+
+/* loco:57e0fd3614d72543418b4599 */
+"photos" = "Photos";
+
+/* loco:57e0fd3614d72543418b459a */
+"cancellation_policy" = "Cancellation Policy";
+
+/* loco:57e0fd3614d72543418b459b */
+"slot_count" = "%d slot left";
+
+/* loco:57e0fd3614d72543418b459c */
+"slots_count" = "%d slots left";
+
+/* loco:57e0fd3614d72543418b459d
+ * Nearby Screens */
+"current_location" = "Current Location";
+
+/* loco:57e0fd3614d72543418b459e */
+"nearby_things_to_do" = "%d things to do nearby";
+
+/* loco:57e0fd3614d72543418b459f
+ * Chat Screen */
+"chat_info" = "Info";
+
+/* loco:57e0fd3614d72543418b45a0 */
+"chat_load_fail" = "Failed to load the conversation. Please try again later";
+
+/* loco:57e0fd3614d72543418b45a1 */
+"chat_connecting" = "Connecting...";
+
+/* loco:57e0fd3614d72543418b45a2 */
+"chat_type_something" = "Type something...";
+
+/* loco:57e0fd3614d72543418b45a3
+ * Channel Info Screen */
+"channel_info_everyone_left" = "No one else in the group :(";
+
+/* loco:57e0fd3614d72543418b45a4 */
+"chat_with" = "with";
+
+/* loco:57e0fd3614d72543418b45a5
+ * Offer Screen */
+"promo_description" = "%1$@ promo code applied. You will save %2$@ more on checkout";
+
+/* loco:57e0fd3614d72543418b45a6 */
+"offer_photo_count" = "%d photos";
+
+/* loco:57eb46ee52e1a18a3f8b4568 */
+"chat_start_now_iOS" = "LET'S GO OUT";
+
+/* loco:57eb47e552e1a18f3f8b4567 */
+"chat_invitations" = "You have %@ invitations";
+
+/* loco:57f6337352e1a1f1428b45dc */
+"view" = "View";
+
+/* loco:57f6337352e1a1f1428b45dd
+ * Added all missing localize string */
+"want_to_cancel_purchase" = "Are you sure you want to cancel this purchase?";
+
+/* loco:57f6337352e1a1f1428b45de */
+"received_refund_in_fave_credits" = "You will receive the refund in Fave credits";
+
+/* loco:57f6337352e1a1f1428b45df */
+"chat_get_cachback_for_each_friend" = "It pays to be a good friend. Get %@%@ cashback for each friend who buys an offer from your chat";
+
+/* loco:57f6337352e1a1f1428b45e0 */
+"terms" = "Terms";
+
+/* loco:57f6337352e1a1f1428b45e1 */
+"chat_fave_credit_friends_redeemed_offer" = "1. Cashback is in the form of Fave Credits. \n 2. Credits are only given after your friend has redeemed the offer. \n \n The more friends you invite, more cashback you earn. Sounds fair?";
+
+/* loco:57f6337352e1a1f1428b45e2 */
+"change_status" = "Change status";
+
+/* loco:57f6337352e1a1f1428b45e3 */
+"cancel_before" = "Cancel before";
+
+/* loco:57f6337352e1a1f1428b45e4 */
+"at" = "at";
+
+/* loco:57f6337352e1a1f1428b45e6 */
+"faves" = "Faves";
+
+/* loco:57f6337352e1a1f1428b45e7 */
+"eat" = "Eat";
+
+/* loco:57f6337352e1a1f1428b45e8 */
+"pamper" = "Pamper";
+
+/* loco:57f6337352e1a1f1428b45e9 */
+"fit" = "Fit";
+
+/* loco:57f6337352e1a1f1428b45ea */
+"outlet_have't_phone" = "Looks like this outlet does not have a phone number.";
+
+/* loco:57f6337352e1a1f1428b45eb */
+"name" = "NAME";
+
+/* loco:57f6337352e1a1f1428b45ec */
+"redeem_now" = "Redeem now";
+
+/* loco:57f6337352e1a1f1428b45ed */
+"redeem_on" = "REDEEMED ON";
+
+/* loco:57f6337352e1a1f1428b45ee */
+"cant_redeem_yet" = "Can't redeem yet";
+
+/* loco:57f6337352e1a1f1428b45ef */
+"pax" = "PAX";
+
+/* loco:57f6337352e1a1f1428b45f0 */
+"redeem" = "REDEEM";
+
+/* loco:57f6337352e1a1f1428b45f1 */
+"error_on_phone_validation" = "An error occured while validating the phone number.";
+
+/* loco:57f6354b52e1a161438b456a */
+"decide" = "DECIDE";
+
+/* loco:57ff626e52e1a1f0518b4576 */
+"enable_notifications" = "Enable notifications";
+
+/* loco:57ff626e52e1a1f0518b4577 */
+"enable_notifications_description" = "Don’t miss out! You’ll only be notified about your favourite spots and occasional offers available near you.";
+
+/* loco:57ff626e52e1a1f0518b4578 */
+"turn_on_location_description" = "Turn on your location to see what’s trending nearby and receive offers you might love.";
+
+/* loco:57ff626e52e1a1f0518b4579 */
+"account_setting" = "Account Setting";
+
+/* loco:57ff626e52e1a1f0518b457a */
+"view_your_account_details" = "View your account details";
+
+/* loco:57ff626e52e1a1f0518b457b */
+"credits" = "Credits";
+
+/* loco:57ff626e52e1a1f0518b457c */
+"get_extra_credits" = "Get extra credits";
+
+/* loco:57ff626e52e1a1f0518b457d */
+"add_credit_or_debit_card" = "Add a credit or debit card";
+
+/* loco:57ff626e52e1a1f0518b457e */
+"name_on_card" = "Name on card";
+
+/* loco:57ff626e52e1a1f0518b457f */
+"cvv" = "CVV";
+
+/* loco:57ff626e52e1a1f0518b4580 */
+"send_your_discount_to_friend" = "Send your friends a discount so they can try Fave out and you will earn credits for every friend referred.";
+
+/* loco:57ff626e52e1a1f0518b4581 */
+"credit" = "Credit";
+
+/* loco:57ff626e52e1a1f0518b4582 */
+"failed_to_get_your_balances" = "Failed to get your credit balances. Please try again later.";
+
+/* loco:57ff626e52e1a1f0518b4583 */
+"your_active_promo_codes" = "You have 2 active promo codes";
+
+/* loco:57ff626e52e1a1f0518b4584 */
+"you_almost_there" = "You're almost there!";
+
+/* loco:57ff715652e1a106548b4567 */
+"logout" = "Logout";
+
+/* loco:58008f0152e1a1c4658b4568 */
+"call" = "Call";
+
+/* loco:58008f0152e1a1c4658b4569 */
+"you_not_add_faves" = "You haven't add any faves.\nTap on the heart icon to add them now!";
+
+/* loco:58008f0152e1a1c4658b456a */
+"show_more" = "Show more";
+
+/* loco:58008f0152e1a1c4658b456b */
+"show_less" = "Show less";
+
+/* loco:58008f0152e1a1c4658b456c */
+"no_results_found_for" = "No results found for";
+
+/* loco:58008f0152e1a1c4658b456d */
+"add_place_to_fave" = "Add these place to Fave";
+
+/* loco:58008f0152e1a1c4658b456e */
+"redeem_until_today" = "Redeem from today until %@";
+
+/* loco:58008f0152e1a1c4658b456f */
+"left" = "left";
+
+/* loco:58008f0152e1a1c4658b4570 */
+"filter_is_on" = "filter is ON";
+
+/* loco:58008f0152e1a1c4658b4571 */
+"filter_is_off" = "filter is OFF";
+
+/* loco:58009ef352e1a1ce678b4587 */
+"choose_another_category" = "Choose another category to find more exciting offers";
+
+/* loco:58009ef352e1a1ce678b4588 */
+"receive_full_refund_in_fave_credit" = "Receive full refund in Fave credits if you cancel before";
+
+/* loco:58009ef352e1a1ce678b4589 */
+"select_friends" = "Select friends";
+
+/* loco:58009ef352e1a1ce678b458a */
+"Hey_workout_together" = "Hey, let's workout together!";
+
+/* loco:58009ef352e1a1ce678b458b */
+"there" = "there";
+
+/* loco:58009ef352e1a1ce678b458c */
+"hi" = "Hi";
+
+/* loco:58009ef352e1a1ce678b458d */
+"view_past_purchases" = "View all past purchases";
+
+/* loco:5800afd252e1a10a6a8b456a */
+"no_offers" = "No offers";
+
+/* loco:5804888a52e1a1a0248b4569 */
+"receipt_id" = "Receipt ID";
+
+/* loco:5804888a52e1a1a0248b456a */
+"confirm" = "Confirm";
+
+/* loco:5804888a52e1a1a0248b456b */
+"redeem_from" = "Redeem from";
+
+/* loco:5804888a52e1a1a0248b456c */
+"redeem_at" = "Redeem at";
+
+/* loco:5804888a52e1a1a0248b456d */
+"cancel_this_purchase" = "Cancel this purchase";
+
+/* loco:5804a53452e1a1ad288b4568 */
+"make_sure_only_you_swipe" = "Make sure to swipe only when you are at";
+
+/* loco:5804a53452e1a1ad288b4569 */
+"sub_categories" = "Sub categories";
+
+/* loco:5804a53452e1a1ad288b456a */
+"filter_results" = "Filter results";
+
+/* loco:58086cad52e1a17c048b4569 */
+"offer" = "offer";
+
+/* loco:58086cad52e1a17c048b456a */
+"please_complete_your_payment" = "Please complete your payment before";
+
+/* loco:58086cad52e1a17c048b456b */
+"to_confirm_your_purchase" = "to confirm your purchase";
+
+/* loco:58086cad52e1a17c048b456c */
+"voucher" = "voucher";
+
+/* loco:58086cad52e1a17c048b456d */
+"vouchers" = "vouchers";
+
+/* loco:5808704c52e1a105058b456a */
+"Save_more_on_next_purchase_by_inviting" = "Save more on your next purchase by inviting friends to try Fave.";
+
+/* loco:5808704c52e1a105058b456b */
+"guest" = "Guest";
+
+/* loco:5809d02152e1a1022a8b456a */
+"view_your_receipts" = "View your receipts";
+
+/* loco:5809d02152e1a1022a8b456b */
+"view_all_locations_details" = "View all locations details";
+
+/* loco:5809d02152e1a1022a8b456c */
+"you_must_be_at_right_and_time_to_redeem" = "Make sure you are at the right place, at the right time before redeeming.";
+
+/* loco:5809d02152e1a1022a8b456d */
+"locations" = "locations";
+
+/* loco:5809d02152e1a1022a8b456e */
+"also_redemmable_in" = "Also redemmable in";
+
+/* loco:5809d02152e1a1022a8b456f */
+"more_location" = "more location";
+
+/* loco:5809d02152e1a1022a8b4570 */
+"more_locations" = "more locations";
+
+/* loco:580f20b352e1a1be6e8b4573 */
+"use_this_code_to_redeem" = "Use this code to redeem";
+
+/* loco:580f20b352e1a1be6e8b4574 */
+"expiry_date" = "Expiry date";
+
+/* loco:580f20b352e1a1be6e8b4575 */
+"card_number" = "Card number";
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: Fave Commons
+ * Release: Working copy
+ * Locale: en, English
+ * Exported by: Michael Cheah
+ * Exported at: Tue, 22 Nov 2016 07:52:52 +0000
+ */
+
+/* loco:57dfc1aa14d725455b8b4567 */
+"msg_error_title" = "Something went wrong";
+
+/* loco:57dfc1aa14d725455b8b4568 */
+"msg_loading_please_wait" = "Loading. Please wait…";
+
+/* loco:57dfc1aa14d725455b8b4569 */
+"msg_error_button" = "TRY AGAIN";
+
+/* loco:57dfc1aa14d725455b8b456a */
+"msg_something_wrong" = "Something's not right and we're working on fixing it! Try re-launching the app, or try this again ";
+
+/* loco:57dfc1aa14d725455b8b456b */
+"title_share_via" = "Share via";
+
+/* loco:57dfc1aa14d725455b8b456c */
+"msg_invalid_link" = "Invalid link";
+
+/* loco:57dfc1aa14d725455b8b456d */
+"invalid_deep_linking" = "Sorry, the link you are looking for is not found.";
+
+/* loco:57dfc1aa14d725455b8b456e */
+"today" = "Today";
+
+/* loco:57dfc1aa14d725455b8b456f */
+"empty_offers" = "There's no offer yet";
+
+/* loco:57dfc1aa14d725455b8b4570 */
+"enable_location_title" = "Turn on your location";
+
+/* loco:57dfc1aa14d725455b8b4571 */
+"enable_location_content" = "We are unable to get your location, turn on your location now?";
+
+/* loco:57dfc1aa14d725455b8b4572
+ * Dialog */
+"msg_dialog_cancel" = "Cancel";
+
+/* loco:57dfc1aa14d725455b8b4573 */
+"msg_dialog_ok" = "OK";
+
+/* loco:57dfc1aa14d725455b8b4574 */
+"msg_dialog_yes" = "Yes";
+
+/* loco:57dfc1aa14d725455b8b4575 */
+"msg_dialog_no" = "No";
+
+/* loco:57dfc1aa14d725455b8b4576 */
+"msg_dialog_maybe" = "Maybe";
+
+/* loco:57dfc1aa14d725455b8b4577 */
+"next" = "NEXT";
+
+/* loco:57dfc1aa14d725455b8b4578 */
+"done" = "Done";
+
+/* loco:57dfc1aa14d725455b8b4579 */
+"dialog_exit_message" = "Press BACK again to exit";
+
+/* loco:57dfc1aa14d725455b8b457a
+ * Splash */
+"splash_title_1_text" = "Welcome to Fave!";
+
+/* loco:57dfc1aa14d725455b8b457b */
+"splash_title_2_text" = "Plan";
+
+/* loco:57dfc1aa14d725455b8b457c */
+"splash_title_3_text" = "Save";
+
+/* loco:57dfc1aa14d725455b8b457d */
+"splash_title_4_text" = "Decide";
+
+/* loco:57dfc1aa14d725455b8b457e */
+"splash_title_5_text" = "Discover";
+
+/* loco:57dfc1aa14d725455b8b457f */
+"splash_sign_up_text" = "SIGN UP";
+
+/* loco:57dfc1aa14d725455b8b4580 */
+"splash_skip_text" = "Skip and continue";
+
+/* loco:57dfc1aa14d725455b8b4581
+ * Getting Started */
+"getting_started_title_text" = "You're almost there";
+
+/* loco:57dfc1aa14d725455b8b4582 */
+"getting_started_description_text" = "Complete your profile to access exciting offers in your city.";
+
+/* loco:57dfc1aa14d725455b8b4583 */
+"getting_started_name_text" = "What's your name?";
+
+/* loco:57dfc1aa14d725455b8b4584 */
+"getting_started_email_text" = "What's your email address?";
+
+/* loco:57dfc1aa14d725455b8b4585 */
+"getting_started_auto_fill" = "Auto fill";
+
+/* loco:57dfc1aa14d725455b8b4586 */
+"getting_started_promo_code_text" = "Promo code";
+
+/* loco:57dfc1aa14d725455b8b4587 */
+"getting_started_have_promo_code_text" = "Have a promo code?";
+
+/* loco:57dfc1aa14d725455b8b4588 */
+"getting_started_continue_button_text" = "CONTINUE";
+
+/* loco:57dfc1aa14d725455b8b4589 */
+"getting_started_back_pressed_text" = "You must key in name and email";
+
+/* loco:57dfc1aa14d725455b8b458a */
+"getting_started_authenticate_failed_text" = "Failed to authenticate, please try again";
+
+/* loco:57dfc1aa14d725455b8b458b */
+"getting_started_update_user_failed_text" = "Failed to update profile, please try again";
+
+/* loco:57dfc1aa14d725455b8b458c
+ * Location Permission Prompt */
+"location_permission_prompt_enable_location_text" = "Enable Location";
+
+/* loco:57dfc1aa14d725455b8b458d */
+"location_permission_prompt_description_text" = "Turn on your location to see what's trending nearby and receive offers you might love.";
+
+/* loco:57dfc1aa14d725455b8b458e */
+"location_permission_prompt_not_now_button_text" = "Not now";
+
+/* loco:57dfc1aa14d725455b8b458f */
+"location_permission_prompt_okay_button_text" = "Okay";
+
+/* loco:57dfc1aa14d725455b8b4590
+ * Guest */
+"guest_description_text" = "Create your very own Fave account to update profile details, review purchases, access promo codes, and read our FAQ.";
+
+/* loco:57dfc1aa14d725455b8b4591
+ * Main Tabs */
+"main_tab_home_text" = "HOME";
+
+/* loco:57dfc1aa14d725455b8b4592 */
+"main_tab_nearby_text" = "NEARBY";
+
+/* loco:57dfc1aa14d725455b8b4593 */
+"main_tab_chat_text" = "CHAT";
+
+/* loco:57dfc1aa14d725455b8b4594 */
+"main_tab_my_fave_text" = "MY FAVE";
+
+/* loco:57dfc1aa14d725455b8b4595 */
+"main_tab_more_text" = "MORE";
+
+/* loco:57dfc1aa14d725455b8b4596
+ * Search bar */
+"my_current_location" = "My current location";
+
+/* loco:57dfc1aa14d725455b8b4597 */
+"location_search_change_city_title" = "Change City";
+
+/* loco:57dfc1aa14d725455b8b4598
+ * Home */
+"home_i_want_to_text" = "What do you want to do?";
+
+/* loco:57dfc1aa14d725455b8b4599 */
+"home_with_my_friend_text" = "Select some friends";
+
+/* loco:57dfc1aa14d725455b8b459a */
+"home_at_a_place_text" = "Find an offer";
+
+/* loco:57dfc1aa14d725455b8b459b */
+"home_do_button_text" = "LET'S DO IT!";
+
+/* loco:57dfc1aa14d725455b8b459c */
+"home_welcome_guest_text" = "Welcome to Fave!";
+
+/* loco:57dfc1aa14d725455b8b459d */
+"home_welcome_subtitle_text" = "What do you want to do?";
+
+/* loco:57dfc1aa14d725455b8b459e */
+"home_search_my_fave_text" = "Search for your favourite places";
+
+/* loco:57dfc1aa14d725455b8b459f */
+"home_popular_place_text" = "Popular Fave Places";
+
+/* loco:57dfc1aa14d725455b8b45a0 */
+"home_view_all_button_text" = "View all";
+
+/* loco:57dfc1aa14d725455b8b45a1 */
+"home_add_to_my_fave_button_text" = "Add to My Fave";
+
+/* loco:57dfc1aa14d725455b8b45a2 */
+"home_added_to_my_fave_button_text" = "Added to My Fave";
+
+/* loco:57dfc1aa14d725455b8b45a3 */
+"home_collection_for_you_text" = "Collections for you";
+
+/* loco:57dfc1aa14d725455b8b45a4 */
+"home_more_collection_for_you_text" = "More collections for you";
+
+/* loco:57dfc1aa14d725455b8b45a5 */
+"home_offer_my_fave_text" = "View latest offers from My Fave places";
+
+/* loco:57dfc1aa14d725455b8b45a6 */
+"home_start_chat" = "Do more together with your friends & family on Fave";
+
+/* loco:57dfc1aa14d725455b8b45a7 */
+"home_start_chat_now" = "Start a chat now";
+
+/* loco:57dfc1aa14d725455b8b45a8 */
+"home_invite_friends" = "Invite friends";
+
+/* loco:57dfc1aa14d725455b8b45a9 */
+"home_invite_friends_description" = "Introduce a friend to Fave and get credits along the way. Find out more!";
+
+/* loco:57dfc1aa14d725455b8b45aa */
+"home_send_an_invite_now" = "Send an invite now";
+
+/* loco:57dfc1aa14d725455b8b45ab */
+"home_featured" = "Featured";
+
+/* loco:57dfc1aa14d725455b8b45ac */
+"home_more_offers_for_you" = "More offers for you";
+
+/* loco:57dfc1aa14d725455b8b45ad */
+"home_more_recently_viewed" = "Recently viewed";
+
+/* loco:57dfc1aa14d725455b8b45ae */
+"home_find_more_thing_to_do" = "Or find more things to do";
+
+/* loco:57dfc1aa14d725455b8b45af */
+"nearby_next_session_text" = "Next session";
+
+/* loco:57dfc1aa14d725455b8b45b0 */
+"nearby_sorting_title_text" = "Sort by";
+
+/* loco:57dfc1aa14d725455b8b45b1 */
+"nearby_preference_title_text" = "Select your preferences";
+
+/* loco:57dfc1aa14d725455b8b45b2 */
+"nearby_your_location_text" = "Your location";
+
+/* loco:57dfc1aa14d725455b8b45b3
+ * What To Do */
+"what_to_do_reset_text" = "Reset filter";
+
+/* loco:57dfc1aa14d725455b8b45b4 */
+"what_to_do_empty_category_text" = "Tap on categories to filter";
+
+/* loco:57dfc1aa14d725455b8b45b5
+ * What To Eat */
+"what_to_eat_pax_text" = "How many people";
+
+/* loco:57dfc1aa14d725455b8b45b6 */
+"what_to_eat_empty_preference_text" = "Preferences";
+
+/* loco:57dfc1aa14d725455b8b45b7
+ * Activity Detail */
+"activity_detail_view_more_text" = "View more";
+
+/* loco:57dfc1aa14d725455b8b45b8 */
+"activity_detail_view_less_text" = "View less";
+
+/* loco:57dfc1aa14d725455b8b45b9 */
+"activity_detail_buy_now_button_text" = "BUY NOW";
+
+/* loco:57dfc1aa14d725455b8b45ba */
+"activity_detail_available_date_time_text" = "See available dates & time";
+
+/* loco:57dfc1aa14d725455b8b45bb */
+"activity_detail_buy_button_text" = "BUY";
+
+/* loco:57dfc1aa14d725455b8b45bc */
+"activity_detail_view_more_sessions_button_text" = "View more dates & time slots";
+
+/* loco:57dfc1aa14d725455b8b45bd */
+"activity_detail_about_text" = "ABOUT";
+
+/* loco:57dfc1aa14d725455b8b45be */
+"activity_detail_add_to_chat_text" = "ADD TO CHAT";
+
+/* loco:57dfc1aa14d725455b8b45bf */
+"activity_detail_featured_collection_text" = "Featured in collection";
+
+/* loco:57dfc1aa14d725455b8b45c0 */
+"activity_detail_redeem_offer_text" = "Redeem offer at";
+
+/* loco:57dfc1aa14d725455b8b45c1 */
+"activity_detail_things_to_know_text" = "Things to know";
+
+/* loco:57dfc1aa14d725455b8b45c2 */
+"activity_detail_things_to_know_description_text" = "You can easily redeem from your phone. No printout required. See how";
+
+/* loco:57dfc1aa14d725455b8b45c4 */
+"activity_detail_cancellation_policy_text" = "Cancellation policy";
+
+/* loco:57dfc1aa14d725455b8b45c5 */
+"activity_detail_cancellation_policy_description_text" = "Cancel within the next 7 days and receive a full refund in Fave credits";
+
+/* loco:57dfc1aa14d725455b8b45c6 */
+"activity_detail_promise_text" = "Promise";
+
+/* loco:57dfc1aa14d725455b8b45c7 */
+"activity_detail_cancellation_policy_detail_1_text" = "Unable to make it for an offer?";
+
+/* loco:57dfc1aa14d725455b8b45c8 */
+"activity_detail_cancellation_policy_detail_2_text" = "Voucher expired recently?";
+
+/* loco:57dfc1aa14d725455b8b45c9 */
+"activity_detail_cancellation_policy_detail_3_text" = "Didn't get what was promised?";
+
+/* loco:57dfc1aa14d725455b8b45ca */
+"activity_detail_cancellation_policy_detail_4_text" = "Tell us and we'll make it right for you";
+
+/* loco:57dfc1aa14d725455b8b45cb */
+"activity_detail_view_all_text" = "View all";
+
+/* loco:57dfc1aa14d725455b8b45cc */
+"activity_detail_info_text" = "Info";
+
+/* loco:57dfc1aa14d725455b8b45cd */
+"activity_detail_photos_text" = "Photos";
+
+/* loco:57dfc1aa14d725455b8b45ce */
+"activity_detail_reviews_text" = "Reviews";
+
+/* loco:57dfc1aa14d725455b8b45cf */
+"activity_detail_amenities_text" = "Amenities";
+
+/* loco:57dfc1aa14d725455b8b45d0 */
+"activity_detail_tips_text" = "Tips";
+
+/* loco:57dfc1aa14d725455b8b45d1 */
+"activity_detail_similar_offers_text" = "Similar offers";
+
+/* loco:57dfc1aa14d725455b8b45d2
+ * Partner Detail */
+"partner_detail_offers_text" = "Offers";
+
+/* loco:57dfc1aa14d725455b8b45d3 */
+"partner_detail_empty_offer_text" = "No ongoing offer now, fave the partner to stay updated";
+
+/* loco:57dfc1aa14d725455b8b45d4 */
+"partner_detail_location_text" = "Location";
+
+/* loco:57dfc1aa14d725455b8b45d5 */
+"partner_detail_call_outlet_text" = "Call outlet";
+
+/* loco:57dfc1aa14d725455b8b45d6 */
+"partner_detail_get_direction_text" = "Get directions";
+
+/* loco:57dfc1aa14d725455b8b45d7 */
+"partner_detail_outlet_title_text" = "Select other location to view";
+
+/* loco:57dfc1aa14d725455b8b45d8 */
+"confirmation_title_text" = "Confirm details";
+
+/* loco:57dfc1aa14d725455b8b45d9 */
+"confirmation_redeem_from_text" = "Redeem from";
+
+/* loco:57dfc1aa14d725455b8b45da */
+"confirmation_redeem_on_text" = "Redeem on";
+
+/* loco:57dfc1aa14d725455b8b45db */
+"confirmation_quantity_text" = "Quantity";
+
+/* loco:57dfc1aa14d725455b8b45dc */
+"confirmation_total_price_text" = "Total price";
+
+/* loco:57dfc1aa14d725455b8b45dd */
+"confirmation_credit_used_text" = "Fave credits used";
+
+/* loco:57dfc1aa14d725455b8b45de */
+"confirmation_amount_payable_text" = "Amount payable";
+
+/* loco:57dfc1aa14d725455b8b45df */
+"confirmation_amount_free_text" = "FREE";
+
+/* loco:57dfc1aa14d725455b8b45e0 */
+"confirmation_confirm_button_text" = "CONFIRM PURCHASE";
+
+/* loco:57dfc1aa14d725455b8b45e1 */
+"confirmation_sold_out_button_text" = "SOLD OUT";
+
+/* loco:57dfc1aa14d725455b8b45e2 */
+"confirmation_failed_reserve_text" = "Purchase failed!";
+
+/* loco:57dfc1aa14d725455b8b45e3 */
+"confirmation_promo_code_empty_text" = "Promo code is mandatory";
+
+/* loco:57dfc1aa14d725455b8b45e4 */
+"confirmation_apply_promo_code_success_text" = "Price has been updated!";
+
+/* loco:57dfc1aa14d725455b8b45e5
+ * Purchase Detail */
+"purchase_detail_title_text" = "YOUR PURCHASE";
+
+/* loco:57dfc1aa14d725455b8b45e6
+ * Purchase Detail */
+"purchase_detail_quantity_text" = "Quantity";
+
+/* loco:57dfc1aa14d725455b8b45e7 */
+"purchase_detail_name_text" = "NAME";
+
+/* loco:57dfc1aa14d725455b8b45e8 */
+"purchase_detail_date_text" = "DATE";
+
+/* loco:57dfc1aa14d725455b8b45e9 */
+"purchase_detail_time_text" = "TIME";
+
+/* loco:57dfc1aa14d725455b8b45ea */
+"purchase_detail_location_text" = "LOCATION";
+
+/* loco:57dfc1aa14d725455b8b45eb */
+"purchase_detail_redeem_from_text" = "REDEEM FROM";
+
+/* loco:57dfc1aa14d725455b8b45ec */
+"purchase_detail_swipe_to_redeem_text" = "Swipe to redeem";
+
+/* loco:57dfc1aa14d725455b8b45ed */
+"purchase_detail_cannot_redeem_now" = "Can't redeem yet";
+
+/* loco:57dfc1aa14d725455b8b45ee */
+"purchase_detail_calendar_text" = "Add to calendar";
+
+/* loco:57dfc1aa14d725455b8b45ef */
+"purchase_detail_direction_text" = "Get direction";
+
+/* loco:57dfc1aa14d725455b8b45f0 */
+"purchase_detail_call_text" = "Call outlet";
+
+/* loco:57dfc1aa14d725455b8b45f1 */
+"purchase_detail_cancel_button_text" = "Cancel this purchase";
+
+/* loco:57dfc1aa14d725455b8b45f2 */
+"purchase_detail_cancel_confirm" = "Are you sure you want to cancel this purchase?\nYou will receive the refund in Fave credits";
+
+/* loco:57dfc1aa14d725455b8b45f3 */
+"purchase_detail_cancellation_dialog_title_text" = "Can you tell us why?";
+
+/* loco:57dfc1aa14d725455b8b45f4 */
+"purchase_detail_more_offer_text" = "More offers nearby";
+
+/* loco:57dfc1aa14d725455b8b45f5 */
+"purchase_detail_add_calendar_successful_text" = "Successfully added into calendar";
+
+/* loco:57dfc1aa14d725455b8b45f6 */
+"purchase_detail_add_calendar_failed_text" = "Failed to add into calendar";
+
+/* loco:57dfc1aa14d725455b8b45f7 */
+"purchase_detail_redemption_code_text" = "Redemption Code";
+
+/* loco:57dfc1aa14d725455b8b45f8 */
+"purchase_detail_redeem_on_text" = "Redeemed on";
+
+/* loco:57dfc1aa14d725455b8b45f9 */
+"purchase_detail_for_partner_reference" = "For partner reference";
+
+/* loco:57dfc1aa14d725455b8b45fa */
+"purchase_detail_description" = "This purchase has been";
+
+/* loco:57dfc1aa14d725455b8b45fb */
+"purchase_detail_cannot_connect_server" = "No Internet connection detected";
+
+/* loco:57dfc1aa14d725455b8b45fc */
+"purchase_detail_cannot_connect_server_details" = "Redemption will be captured upon connection. Use partner reference code for verification";
+
+/* loco:57dfc1aa14d725455b8b45fd */
+"purchase_detail_try_again" = "Try again";
+
+/* loco:57dfc1aa14d725455b8b45fe */
+"purchase_detail_first_redeem_congratulation_title" = "Congratulations!";
+
+/* loco:57dfc1aa14d725455b8b45ff */
+"purchase_detail_first_redeem_congratulation_description" = "You've just made your first purchase.\nWe hope you have a great time!";
+
+/* loco:57dfc1aa14d725455b8b4600 */
+"purchase_detail_how_to_redeem" = "How to redeem";
+
+/* loco:57dfc1aa14d725455b8b4601 */
+"purchase_detail_are_you_sure_you_want_to_redeem_now" = "Are you sure you want to redeem now?";
+
+/* loco:57dfc1aa14d725455b8b4603 */
+"purchase_detail_check_nearby" = "Check that you're at the right place before swiping to redeem!";
+
+/* loco:57dfc1aa14d725455b8b4604 */
+"purchase_detail_others_text" = "Others";
+
+/* loco:57dfc1aa14d725455b8b4605
+ * How To Redeem */
+"how_to_redeem_title_text" = "How to redeem?";
+
+/* loco:57dfc1aa14d725455b8b4606 */
+"how_to_redeem_step_1_text" = "Step 1";
+
+/* loco:57dfc1aa14d725455b8b4607 */
+"how_to_redeem_step_2_text" = "Step 2";
+
+/* loco:57dfc1aa14d725455b8b4608 */
+"how_to_redeem_step_3_text" = "Step 3";
+
+/* loco:57dfc1aa14d725455b8b4609 */
+"how_to_redeem_step_1_description_text" = "Approach the shop personnel when you are at the place";
+
+/* loco:57dfc1aa14d725455b8b460a */
+"how_to_redeem_step_2_description_text" = "Show your redemption voucher on your phone";
+
+/* loco:57dfc1aa14d725455b8b460b */
+"how_to_redeem_step_3_description_text" = "Swipe to redeem your voucher";
+
+/* loco:57dfc1aa14d725455b8b460c
+ * More */
+"more_profile_title_text" = "Profile";
+
+/* loco:57dfc1aa14d725455b8b460d */
+"more_payment_title_text" = "Payments";
+
+/* loco:57dfc1aa14d725455b8b460e */
+"more_credit_title_text" = "Fave Credits";
+
+/* loco:57dfc1aa14d725455b8b460f */
+"more_promo_code_title_text" = "Promo Code";
+
+/* loco:57dfc1aa14d725455b8b4610 */
+"more_faq_title_text" = "Help Center";
+
+/* loco:57dfc1aa14d725455b8b4611 */
+"more_about_title_text" = "About Us";
+
+/* loco:57dfc1aa14d725455b8b4612 */
+"more_profile_description_text" = "Update your profile details";
+
+/* loco:57dfc1aa14d725455b8b4613 */
+"more_payment_description_text" = "View your receipts & payment details";
+
+/* loco:57dfc1aa14d725455b8b4614 */
+"more_credit_description_text" = "Invite friends, earn credit";
+
+/* loco:57dfc1aa14d725455b8b4615 */
+"more_promo_code_description_text" = "Get credits";
+
+/* loco:57dfc1aa14d725455b8b4616 */
+"more_faq_description_text" = "Need support?";
+
+/* loco:57dfc1aa14d725455b8b4617 */
+"more_about_description_text" = "Learn more about Fave";
+
+/* loco:57dfc1aa14d725455b8b4618
+ * Review */
+"review_rated_text" = "Rated";
+
+/* loco:57dfc1aa14d725455b8b4619
+ * Past Activities */
+"past_activities_title_text" = "Past purchases";
+
+/* loco:57dfc1aa14d725455b8b461a
+ * Payment Receipt */
+"payment_receipt_payment_method_text" = "PAYMENT METHOD";
+
+/* loco:57dfc1aa14d725455b8b461b */
+"payment_receipt_add_payment_method_text" = "+ Add a payment method";
+
+/* loco:57dfc1aa14d725455b8b461c */
+"payment_receipt_change_text" = "Change";
+
+/* loco:57dfc1aa14d725455b8b461d */
+"payment_receipt_history_text" = "PAYMENT HISTORY";
+
+/* loco:57dfc1aa14d725455b8b461e */
+"payment_receipt_empty_text" = "No payment history";
+
+/* loco:57dfc1aa14d725455b8b461f */
+"receipt_detail_payment_method_text" = "Payment Method";
+
+/* loco:57dfc1aa14d725455b8b4620 */
+"receipt_detail_quantity_text" = "Quantity";
+
+/* loco:57dfc1aa14d725455b8b4621 */
+"receipt_detail_price_text" = "Price";
+
+/* loco:57dfc1aa14d725455b8b4622 */
+"receipt_detail_discount_text" = "Discount";
+
+/* loco:57dfc1aa14d725455b8b4623 */
+"receipt_detail_promo_code_discount_text" = "Promo Code Discount";
+
+/* loco:57dfc1aa14d725455b8b4624 */
+"receipt_detail_fave_credit_used_text" = "Fave Credit used";
+
+/* loco:57dfc1aa14d725455b8b4625 */
+"receipt_detail_total_paid_text" = "Total Paid";
+
+/* loco:57dfc1aa14d725455b8b4626
+ * Payment Method */
+"add_payment_title" = "Add a payment method";
+
+/* loco:57dfc1aa14d725455b8b4627 */
+"add_payment_card_holder_name_text" = "CARD HOLDER NAME";
+
+/* loco:57dfc1aa14d725455b8b4628 */
+"add_payment_card_number_text" = "CARD NUMBER";
+
+/* loco:57dfc1aa14d725455b8b4629 */
+"add_payment_expiration_text" = "EXPIRATION";
+
+/* loco:57dfc1aa14d725455b8b462a */
+"add_payment_cvv_text" = "CVV";
+
+/* loco:57dfc1aa14d725455b8b462b */
+"add_payment_done_text" = "DONE";
+
+/* loco:57dfc1aa14d725455b8b462c */
+"add_payment_others_text" = "Other payment methods";
+
+/* loco:57dfc1aa14d725455b8b462d */
+"add_payment_invalid_cardholder_name_msg" = "Enter The Cardholder's Name";
+
+/* loco:57dfc1aa14d725455b8b462e */
+"add_payment_invalid_card_number_msg" = "Invalid Credit Card Number";
+
+/* loco:57dfc1aa14d725455b8b462f */
+"add_payment_invalid_expiry_date_msg" = "Invalid Expiry Date";
+
+/* loco:57dfc1aa14d725455b8b4630 */
+"add_payment_invalid_cvv_msg" = "Invalid CVV Format";
+
+/* loco:57dfc1aa14d725455b8b4631 */
+"add_payment_successful_msg" = "Successfully added new credit card";
+
+/* loco:57dfc1aa14d725455b8b4632 */
+"add_payment_empty_method_nonce_text" = "Error(s) encountered while communicating with the payment gateway.";
+
+/* loco:57dfc1aa14d725455b8b4633
+ * Tooltips */
+"tooltip_change_your_location" = "You can change your location to get the best offers nearby";
+
+/* loco:57dfc1aa14d725455b8b4634 */
+"tooltip_3_things" = "Tap on the categories to filter the offers below";
+
+/* loco:57dfc1aa14d725455b8b4635 */
+"tooltip_favorite" = "Tap on the icon to add this place to your MyFave";
+
+/* loco:57dfc1aa14d725455b8b4636
+ * Account settings */
+"profile_setting_name_text" = "Name";
+
+/* loco:57dfc1aa14d725455b8b4637 */
+"profile_setting_email_text" = "Email";
+
+/* loco:57dfc1aa14d725455b8b4638 */
+"profile_setting_location_text" = "Location";
+
+/* loco:57dfc1aa14d725455b8b4639 */
+"profile_setting_phone_text" = "Phone";
+
+/* loco:57dfc1aa14d725455b8b463a */
+"profile_setting_gender_text" = "Gender";
+
+/* loco:57dfc1aa14d725455b8b463b */
+"profile_setting_birthday_text" = "Birthday";
+
+/* loco:57dfc1aa14d725455b8b463c */
+"profile_setting_phone_description_text" = "We'll only contact you regarding your purchases and purchases";
+
+/* loco:57dfc1aa14d725455b8b463d */
+"profile_setting_push_notification_text" = "PUSH NOTIFICATIONS";
+
+/* loco:57dfc1aa14d725455b8b463e */
+"profile_setting_push_purchases_text" = "Updates about your purchases";
+
+/* loco:57dfc1aa14d725455b8b463f */
+"profile_setting_push_latest_text" = "Latest recommendations, news & promotions";
+
+/* loco:57dfc1aa14d725455b8b4640 */
+"profile_setting_logout_text" = "Logout";
+
+/* loco:57dfc1aa14d725455b8b4641 */
+"profile_setting_image_upload_title_text" = "Upload image";
+
+/* loco:57dfc1aa14d725455b8b4642 */
+"profile_setting_image_upload_description_text" = "Would you like to upload this image again?";
+
+/* loco:57dfc1aa14d725455b8b4643 */
+"profile_setting_country_code_text" = "Country Code";
+
+/* loco:57dfc1aa14d725455b8b4644 */
+"profile_setting_phone_title_text" = "Enter your phone number";
+
+/* loco:57dfc1aa14d725455b8b4645 */
+"profile_setting_invalid_phone_text" = "Invalid phone number";
+
+/* loco:57dfc1aa14d725455b8b4646 */
+"profile_setting_empty_phone_text" = "Phone number is Mandatory";
+
+/* loco:57dfc1aa14d725455b8b4647 */
+"profile_setting_country_title_text" = "Select your country code";
+
+/* loco:57dfc1aa14d725455b8b4648 */
+"profile_setting_empty_country_text" = "Must select country code";
+
+/* loco:57dfc1aa14d725455b8b4649 */
+"profile_setting_city_title_text" = "Select city";
+
+/* loco:57dfc1aa14d725455b8b464a */
+"profile_setting_gender_title_text" = "Select your gender";
+
+/* loco:57dfc1aa14d725455b8b464b */
+"profile_setting_male_text" = "Male";
+
+/* loco:57dfc1aa14d725455b8b464c */
+"profile_setting_female_text" = "Female";
+
+/* loco:57dfc1aa14d725455b8b464d */
+"profile_setting_not_specify_text" = "Not Specified";
+
+/* loco:57dfc1aa14d725455b8b464e */
+"profile_setting_add_profile_title_text" = "Add photo from";
+
+/* loco:57dfc1aa14d725455b8b464f */
+"profile_setting_gallery_text" = "Gallery";
+
+/* loco:57dfc1aa14d725455b8b4650 */
+"profile_setting_camera_text" = "Camera";
+
+/* loco:57dfc1aa14d725455b8b4651 */
+"profile_setting_update_failed_text" = "Failed to update profile";
+
+/* loco:57dfc1aa14d725455b8b4652 */
+"profile_setting_update_success_text" = "Successfully updated profile";
+
+/* loco:57dfc1aa14d725455b8b4653
+ * Promo Code */
+"promo_code_apply_button_text" = "APPLY";
+
+/* loco:57dfc1aa14d725455b8b4654 */
+"promo_code_successfully_added_text" = "Promo code successfully added";
+
+/* loco:57dfc1aa14d725455b8b4655 */
+"promo_code_input_hint" = "Enter promo code here";
+
+/* loco:57dfc1aa14d725455b8b4656 */
+"promo_code_header_text" = "Apply new promo code below to enjoy savings on your purchases";
+
+/* loco:57dfc1aa14d725455b8b4657 */
+"promo_code_expire_text" = "EXPIRED ON";
+
+/* loco:57dfc1aa14d725455b8b4658 */
+"promo_code_amount_text" = "AMOUNT";
+
+/* loco:57dfc1aa14d725455b8b4659 */
+"promo_code_empty_text" = "You have no active promo codes";
+
+/* loco:57dfc1aa14d725455b8b465a */
+"promo_code_first_time_text" = "For first time user only";
+
+/* loco:57dfc1aa14d725455b8b465b */
+"promo_code_view_details_button_text" = "View details";
+
+/* loco:57dfc1aa14d725455b8b465c
+ * Search Map */
+"search_map_most_faves_text" = "Most Faves";
+
+/* loco:57dfc1aa14d725455b8b465d */
+"search_map_ratings_text" = "Ratings";
+
+/* loco:57dfc1aa14d725455b8b465e */
+"search_map_distance_text" = "Distance";
+
+/* loco:57dfc1aa14d725455b8b465f
+ * Offer */
+"offer_title_text" = "Latest Offers";
+
+/* loco:57dfc1aa14d725455b8b4660
+ * Rating Dialog */
+"rating_title_text" = "RATE YOUR EXPERIENCE";
+
+/* loco:57dfc1aa14d725455b8b4661 */
+"rating_label_text" = "RATING";
+
+/* loco:57dfc1aa14d725455b8b4662 */
+"rating_label_description_text" = "Tap on the rating box below";
+
+/* loco:57dfc1aa14d725455b8b4663 */
+"rating_review_label_text" = "REVIEW";
+
+/* loco:57dfc1aa14d725455b8b4664 */
+"rating_feedback_empty_text" = "Feedback is mandatory.";
+
+/* loco:57dfc1aa14d725455b8b4665 */
+"rating_submit_failed_text" = "Unable to submit your rating, please try again";
+
+/* loco:57dfc1aa14d725455b8b4666 */
+"rating_submit_button_text" = "SUBMIT";
+
+/* loco:57dfc1aa14d725455b8b4667 */
+"rating_submit_success_text" = "Successful rated, please rate again for others";
+
+/* loco:57dfc1aa14d725455b8b4668 */
+"rating_submit_success_last_text" = "Thanks for rating";
+
+/* loco:57dfc1aa14d725455b8b4669 */
+"rating_5_text" = "What did you like about it?";
+
+/* loco:57dfc1aa14d725455b8b466a */
+"rating_4_text" = "How do you feel right now?";
+
+/* loco:57dfc1aa14d725455b8b466b */
+"rating_3_text" = "Any tips for faver?";
+
+/* loco:57dfc1aa14d725455b8b466c */
+"rating_2_text" = "Leave a comment";
+
+/* loco:57dfc1aa14d725455b8b466d */
+"rating_1_text" = "What could it be better?";
+
+/* loco:57dfc1aa14d725455b8b466e
+ * City Selection */
+"city_selection_no_location" = "We are unable to get your location";
+
+/* loco:57dfc1aa14d725455b8b466f */
+"city_selection_enable_location_permission" = "ENABLE LOCATION PERMISSION";
+
+/* loco:57dfc1aa14d725455b8b4670 */
+"city_selection_fallback_instruction" = "Or choose from the cities below to continue";
+
+/* loco:57dfc1aa14d725455b8b4671 */
+"city_selection_permission_for_autodetect" = "Please enable location permission to auto detect you city";
+
+/* loco:57dfc1aa14d725455b8b4672 */
+"city_selection_auto_detect" = "Unable to auto detect you city. Please choose from the list";
+
+/* loco:57dfc1aa14d725455b8b4673
+ * My Faves */
+"my_fave_tab_title_1" = "Faves";
+
+/* loco:57dfc1aa14d725455b8b4674 */
+"my_fave_tab_title_2" = "Purchases";
+
+/* loco:57dfc1aa14d725455b8b4675 */
+"my_fave_no_purchases" = "No Purchases";
+
+/* loco:57dfc1aa14d725455b8b4676 */
+"my_fave_no_purchases_instruction" = "You haven't made any purchases yet. See what's available around you";
+
+/* loco:57dfc1aa14d725455b8b4677 */
+"my_fave_no_purchases_action" = "Go to Nearby";
+
+/* loco:57dfc1aa14d725455b8b4678 */
+"my_fave_favorites_search_text" = "Search for your favourite places";
+
+/* loco:57dfc1aa14d725455b8b4679 */
+"my_fave_no_favorites" = "No Faves yet";
+
+/* loco:57dfc1aa14d725455b8b467a */
+"my_fave_no_favorites_instruction" = "Here are some popular places";
+
+/* loco:57dfc1aa14d725455b8b467b */
+"my_fave_offers_list" = "View latest offers";
+
+/* loco:57dfc1aa14d725455b8b467c */
+"my_fave_date_text" = "Date";
+
+/* loco:57dfc1aa14d725455b8b467d */
+"my_fave_time_text" = "Time";
+
+/* loco:57dfc1aa14d725455b8b467e */
+"my_fave_redeem_from_text" = "Redeem From";
+
+/* loco:57dfc1aa14d725455b8b467f */
+"my_fave_you" = "You";
+
+/* loco:57dfc1aa14d725455b8b4680
+ * Faq */
+"faq_text" = "FAQ and Terms";
+
+/* loco:57dfc1aa14d725455b8b4681 */
+"faq_my_tickets_text" = "My Tickets";
+
+/* loco:57dfc1aa14d725455b8b4682 */
+"faq_start_chat_text" = "Talk To Us";
+
+/* loco:57dfc1aa14d725455b8b4683 */
+"faq_activity_overlay_permission" = "We need the extra permission to allow minimizing the chat window";
+
+/* loco:57dfc1aa14d725455b8b4684
+ * About */
+"about_description_text" = "Fave helps you do more together with your favourite people, in your city. Plan activities, organise with friends, and purchase exciting offers of food, fitness and spa — all from a single, convenient app.";
+
+/* loco:57dfc1aa14d725455b8b4685 */
+"about_like_us_on_facebook_text" = "Like us on Facebook";
+
+/* loco:57dfc1aa14d725455b8b4686 */
+"about_follow_twitter_text" = "Follow us on Twitter";
+
+/* loco:57dfc1aa14d725455b8b4687 */
+"about_follow_instagram_text" = "Follow us on Instagram";
+
+/* loco:57dfc1aa14d725455b8b4688 */
+"about_terms_of_use_text" = "Terms of Use";
+
+/* loco:57dfc1aa14d725455b8b4689 */
+"about_privacy_policy_text" = "Privacy Policy";
+
+/* loco:57dfc1aa14d725455b8b468a */
+"about_open_source_licenses_text" = "Open Source Licenses";
+
+/* loco:57dfc1aa14d725455b8b468b */
+"search_outlet_title_text" = "Search or add your favourite places";
+
+/* loco:57dfc1aa14d725455b8b468c
+ * Search Outlet */
+"search_outlet_add_custom" = "Add these places to Fave";
+
+/* loco:57dfc1aa14d725455b8b468d */
+"sort_by_distance_option" = "Distance";
+
+/* loco:57dfc1aa14d725455b8b468e */
+"sort_by_trending_option" = "Trending";
+
+/* loco:57dfc1aa14d725455b8b468f */
+"sort_by_price_option" = "Price";
+
+/* loco:57dfc1aa14d725455b8b4690 */
+"sort_by_time_option" = "Time";
+
+/* loco:57dfc1aa14d725455b8b4691
+ * Contacts */
+"contact_title_text" = "Contact List";
+
+/* loco:57dfc1aa14d725455b8b4692 */
+"contact_search_hint" = "Search your contacts";
+
+/* loco:57dfc1aa14d725455b8b4693 */
+"contact_permission_denied_text" = "Until you grant the permission, we cannot display the names";
+
+/* loco:57dfc1aa14d725455b8b4694 */
+"contact_friends_text" = "Friends";
+
+/* loco:57dfc1aa14d725455b8b4695 */
+"contact_invite_friends_text" = "Invite Friends";
+
+/* loco:57dfc1aa14d725455b8b4696 */
+"chat_are_you_interested" = "Are you interested?";
+
+/* loco:57dfc1aa14d725455b8b4697 */
+"participation_header" = "Are you going?";
+
+/* loco:57dfc1aa14d725455b8b4698 */
+"chats" = "Chats";
+
+/* loco:57dfc1aa14d725455b8b4699 */
+"chat_info" = "Chat Info";
+
+/* loco:57dfc1aa14d725455b8b469a */
+"info" = "Info";
+
+/* loco:57dfc1aa14d725455b8b469b */
+"chat_with" = "with";
+
+/* loco:57dfc1aa14d725455b8b469c */
+"buy" = "BUY";
+
+/* loco:57dfc1aa14d725455b8b469d */
+"and" = "and";
+
+/* loco:57dfc1aa14d725455b8b469e */
+"add_contacts_disable" = "CHOOSE FRIENDS";
+
+/* loco:57dfc1aa14d725455b8b469f */
+"add_contacts_enable" = "CONTINUE";
+
+/* loco:57dfc1aa14d725455b8b46a0 */
+"chat_everybody_left" = "No one else in the group :(";
+
+/* loco:57dfc1aa14d725455b8b46a1 */
+"getting_started" = "Got it";
+
+/* loco:57dfc1aa14d725455b8b46a2 */
+"chat_onboarding2" = "Chat here to find out.";
+
+/* loco:57dfc1aa14d725455b8b46a3 */
+"chat_onboarding1" = "Who's in? When to meet? \n How do we get there?";
+
+/* loco:57dfc1aa14d725455b8b46a4 */
+"type_something" = "Type something…";
+
+/* loco:57dfc1aa14d725455b8b46a5 */
+"beta" = "BETA";
+
+/* loco:57dfc1aa14d725455b8b46a6
+ * For display */
+"display_status_going" = "Going";
+
+/* loco:57dfc1aa14d725455b8b46a7 */
+"display_status_may_be" = "May be";
+
+/* loco:57dfc1aa14d725455b8b46a8 */
+"display_status_not_going" = "Not Going";
+
+/* loco:57dfc1aa14d725455b8b46a9
+ * For backend */
+"status_going" = "yes";
+
+/* loco:57dfc1aa14d725455b8b46aa */
+"status_may_be" = "maybe";
+
+/* loco:57dfc1aa14d725455b8b46ab */
+"status_not_going" = "no";
+
+/* loco:57dfc1aa14d725455b8b46ac */
+"chat_empty_chat" = "A fun new way to invite friends when you want to go out. Pub crawl tonight or dinner with friends. More is always merrier :)";
+
+/* loco:57dfc1aa14d725455b8b46ad */
+"chat_start_now" = "Let’s go out!";
+
+/* loco:57dfc1aa14d725455b8b46ae */
+"leave_chat" = "Leave this chat";
+
+/* loco:57dfc1aa14d725455b8b46af */
+"are_you_sure" = "Are you sure?";
+
+/* loco:57dfc1aa14d725455b8b46b0 */
+"yes" = "Yes";
+
+/* loco:57dfc1aa14d725455b8b46b1 */
+"cancel" = "Cancel";
+
+/* loco:57dfc1aa14d725455b8b46b2 */
+"invite_more" = "Invite more friends";
+
+/* loco:57dfc1aa14d725455b8b46b3 */
+"chat_do_more" = "Introducing";
+
+/* loco:57dfc1aa14d725455b8b46b4 */
+"chat_plan" = "Fave Chat";
+
+/* loco:57dfc1aa14d725455b8b46b5 */
+"chat_do_more_together" = "Do more together";
+
+/* loco:57dfc1aa14d725455b8b46b6 */
+"chat_plan_to_go_with_friends" = "Plan together with your friends";
+
+/* loco:57dfc1aa14d725455b8b46b7
+ * Social */
+"credit_total_text" = "YOUR TOTAL FAVE CREDIT";
+
+/* loco:57dfc1aa14d725455b8b46b8 */
+"credit_description_text" = "Credits will be deducted automatically\non your next purchases";
+
+/* loco:57dfc1aa14d725455b8b46b9 */
+"credit_empty_text" = "No credits available";
+
+/* loco:57dfc1aa14d725455b8b46ba */
+"credit_empty_description_text" = "Invite your friends below to earn Fave Credits";
+
+/* loco:57dfc1aa14d725455b8b46bb */
+"credit_detail_text" = "Send your friends a discount! Get credits immediately once they use it to redeem their first purchase";
+
+/* loco:57dfc1aa14d725455b8b46bc */
+"credit_earn_more_text" = "Earn more Fave credits";
+
+/* loco:57dfc1aa14d725455b8b46bd */
+"credit_how_it_work_text" = "How does it work?";
+
+/* loco:57dfc1aa14d725455b8b46be */
+"credit_share_code_text" = "Share your referral code";
+
+/* loco:57dfc1aa14d725455b8b46bf */
+"credit_email_title_text" = "Let's workout together with Fave!";
+
+/* loco:57dfc1aa14d725455b8b46c0 */
+"credit_no_whatsapp_text" = "WhatsApp is not installed.";
+
+/* loco:57dfc1aa14d725455b8b46c1 */
+"credit_no_twitter_text" = "Twitter app is not installed.";
+
+/* loco:57dfc1aa14d725455b8b46c2 */
+"credit_no_facebook_text" = "Facebook app is not installed.";
+
+/* loco:57dfc1aa14d725455b8b46c3 */
+"credit_dialog_title_text" = "About Fave Credit";
+
+/* loco:57dfc1aa14d725455b8b46c4 */
+"filter_reset_text" = "Reset";
+
+/* loco:57dfc1aa14d725455b8b46c5 */
+"filter_apply_text" = "Apply";
+
+/* loco:57dfc1aa14d725455b8b46c6 */
+"filter_reset_filter_text" = "Reset filter";
+
+/* loco:57dfc1aa14d725455b8b46c7
+ * Phone Signup */
+"signup_title_text" = "Enter your phone number";
+
+/* loco:57dfc1aa14d725455b8b46c8 */
+"signup_description_text1" = "Please enter your mobile number for us to verify your account. We will send a verification code to this number via SMS.";
+
+/* loco:57dfc1aa14d725455b8b46c9 */
+"signup_description_text2" = "Rest assured we will never share your personal data with anyone. All data is encrypted to protect your privacy.";
+
+/* loco:57dfc1aa14d725455b8b46ca */
+"invalid_number" = "Sorry the number is invalid";
+
+/* loco:57dfc1aa14d725455b8b46cb
+ * Verify PIN */
+"verify_title_text" = "Verify your phone number";
+
+/* loco:57dfc1aa14d725455b8b46cc */
+"verify_description_text" = "Please key in the code sent via SMS within the next five minutes, or you will receive an automated reminder via phone call.";
+
+/* loco:57dfc1aa14d725455b8b46cd */
+"verify_no_sms_text" = "Did not receive the SMS?";
+
+/* loco:57dfc1aa14d725455b8b46ce */
+"verify_send_new_code_text" = "Send new code";
+
+/* loco:57dfc1aa14d725455b8b46cf */
+"verify_failed_text" = "You had entered wrong code";
+
+/* loco:57dfc1aa14d725455b8b46d0 */
+"chat_on_boarding_desc" = "Why go alone? Do you know you can invite friends to join you? Try it out now!";
+
+/* loco:57dfc1aa14d725455b8b46d1 */
+"chat_on_boarding_title" = "Go with friends";
+
+/* loco:57dfc1aa14d725455b8b46d2 */
+"chat_button_on_boarding_action_text" = "OK, got it!";
+
+/* loco:57e0de4514d725b30b8b4569 */
+"nearby_view_all_offer_text" = "View all offers";
+
+/* loco:57e1fff114d7251f458b4569 */
+"msg_dialog_redemption_yes" = "Yes, serve me now";
+
+/* loco:57e20b0c14d725bf4d8b4569 */
+"activity_detail_what_you_get_text" = "What you get";
+
+/* loco:57e3537514d7252b1f8b456c */
+"purchase_detail_check_before_redeem_title" = "Looks like you're about to redeem an offer!";
+
+/* loco:57e3537514d7252b1f8b456d */
+"purchase_detail_check_before_redeem_description" = "Are you at the correct location and all set to be served?";
+
+/* loco:57eb46c552e1a1903f8b4567 */
+"msg_dialog_redemption_no" = "No, I'm not ready to redeem";
+
+/* loco:57eb46c552e1a1903f8b4568 */
+"purchase_detail_check_before_redeem" = "Looks like you're about to redeem an offer! Are you at the correct location and all set to be served?";
+
+/* loco:57eb46c552e1a1903f8b4569
+ * Chat */
+"chat_you_have_invitation" = "You have an invitation";
+
+/* loco:57eccdab52e1a1756f8b4569 */
+"not_available_text" = "NOT AVAILABLE YET";
+
+/* loco:57ed00b352e1a183768b457c */
+"splash_title_6_text" = "Enjoy";
+
+/* loco:57ed35cb52e1a1657b8b4569
+ * Search Outlet */
+"search_hint" = "Search for places, offers and more";
+
+/* loco:57ed35cb52e1a1657b8b456a */
+"search_recent_text" = "Recent Searches";
+
+/* loco:57ed35cb52e1a1657b8b456b */
+"search_empty_recent_text" = "No Recently Searched";
+
+/* loco:57ed35cb52e1a1657b8b456c */
+"search_popular_text" = "Popular Searched";
+
+/* loco:57ed66c752e1a16e108b456b */
+"purchase_detail_invite_more_friends" = "Invite more friends";
+
+/* loco:57edd8fb52e1a1b8188b456b */
+"purchase_detail_chat_description_text" = "Invite friends and get %d﹪ cashback for each friend who buys an offer from your chat.";
+
+/* loco:57f47dd152e1a161148b4567
+ * Chat credit */
+"chat_cashback_text" = "It pays to be a good friend. Get %1$d﹪ cashback for each friend who buys an offer from your chat.";
+
+/* loco:57f47dd152e1a161148b4568 */
+"but_wait" = "But wait!";
+
+/* loco:57f47dd152e1a161148b4569 */
+"chat_cashback_dialog_description" = "1. Cashback is in the form of Fave Credits.\n2. Credits are only given after your friend has redeemed the offer.";
+
+/* loco:57f47dd152e1a161148b456a */
+"chat_cashback_dialog_title" = "Terms";
+
+/* loco:57f47dd152e1a161148b456c */
+"save" = "SAVE";
+
+/* loco:57f47dd152e1a161148b456d */
+"ind_save_90_on_favourite" = "Save up to 90﹪ on your favourite local activities. Hundreds of deals available daily!";
+
+/* loco:57f47dd152e1a161148b456e */
+"enjoy" = "ENJOY";
+
+/* loco:57f47dd152e1a161148b456f */
+"ind_convenient_user_experience" = "A super convenient user experience. Just tap to purchase. No more printouts!";
+
+/* loco:57f47dd152e1a161148b4570 */
+"discover" = "DISCOVER";
+
+/* loco:57f47dd152e1a161148b4571 */
+"ind_find_deals_you_love" = "Easily find the deals you love. Browse by category or explore what\\'s trending around you!";
+
+/* loco:57f47dd152e1a161148b4572 */
+"plan" = "PLAN";
+
+/* loco:57f47dd152e1a161148b4574 */
+"ind_about" = "Fave by Groupon is the better mobile platform from Groupon Indonesia. Enjoy everything you love about Groupon, and more! Fave by Groupon provides a new way to discover deals of up to 90﹪, with easy purchase and redemption minus the printouts. Experiencing your city has never been easier!";
+
+/* loco:57f47dd152e1a161148b4576 */
+"fave_save_70_on_favourite" = "Enjoy more without breaking the bank, save up to 70﹪";
+
+/* loco:57f47dd152e1a161148b4577 */
+"latest_offers_at_your_fingertips" = "Latest offers from your favourite places at your fingertips";
+
+/* loco:57f47dd152e1a161148b4578 */
+"explore_hundreds_on_restaurants" = "Explore hundreds of restaurants, gyms, spas & more, near you";
+
+/* loco:57f4851552e1a193148b4567 */
+"better_mobile_platform_groupon" = "The better mobile platform from Groupon Indonesia, featuring everything you love about Groupon, and more!";
+
+/* loco:57f485a852e1a195148b4567 */
+"organise_activities_with_chat" = "Easily organise activities with chat, just invite from your contacts to start";
+
+/* loco:57f48d7652e1a193148b4569
+ * Groupon Indonesia on boarding */
+"ind_welcome_text" = "WELCOME TO FAVE BY GROUPON!";
+
+/* loco:57f48d7652e1a193148b456a
+ * Fave on boarding */
+"fave_welcome_text" = "Plan activities, organise with friends & enjoy hundreds of offers";
+
+/* loco:57f4a27f52e1a17f168b4567 */
+"fave_about" = "Fave helps you do more together with your favorite people, in your city. Plan activities, organise with friends, and purchase exciting offers of food, fitness and spa - all from a single, convenient app.";
+
+/* loco:57f6334c52e1a1f1428b4569 */
+"activity_detail_also_redeemable_text" = "Also redeemable in";
+
+/* loco:57f6334c52e1a1f1428b456a */
+"activity_detail_view_all_locations_text" = "View all locations";
+
+/* loco:57f6334c52e1a1f1428b456b */
+"activity_detail_all_outlet_title_text" = "This offer is redeemable at these outlets";
+
+/* loco:57f6334c52e1a1f1428b456c */
+"confirmation_more_than_3_title_text" = "Purchasing multiple vouchers?";
+
+/* loco:57f6334c52e1a1f1428b456d */
+"confirmation_more_than_3_description_text" = "Remember, you can only redeem all these vouchers at once. To redeem vouchers separately, simply purchase them in separate transactions.";
+
+/* loco:57f6334c52e1a1f1428b456e */
+"purchase_detail_amount_paid_text" = "Amount Paid";
+
+/* loco:57f6334c52e1a1f1428b456f */
+"purchase_detail_pending_amount_text" = "Amount Pending";
+
+/* loco:57f6334c52e1a1f1428b4571 */
+"purchase_detail_payment_pending_title_text" = "Payment Pending";
+
+/* loco:57f6334c52e1a1f1428b4572 */
+"purchase_detail_pay_now_text" = "PAY NOW";
+
+/* loco:57f6334c52e1a1f1428b4573 */
+"purchase_detail_view_all_location_detail_text" = "View all locations' detail";
+
+/* loco:57f6334c52e1a1f1428b4574 */
+"purchase_detail_enjoy_session_text" = "Successfully redeemed!";
+
+/* loco:57f6334c52e1a1f1428b4575 */
+"purchase_detail_available_outlets_text" = "Available in";
+
+/* loco:57f6334c52e1a1f1428b4576 */
+"purchase_detail_cancelled" = "This purchase has been cancelled";
+
+/* loco:57f6334c52e1a1f1428b4577 */
+"purchase_detail_expired" = "This purchase no longer valid";
+
+/* loco:57f6334c52e1a1f1428b4578 */
+"check_right_time_and_place_to_redeem" = "Check that you're at the right place, at the right time before redeeming";
+
+/* loco:57f6334c52e1a1f1428b4579 */
+"display_status_may_be_going" = "Maybe going";
+
+/* loco:57f6334c52e1a1f1428b457a */
+"purchase_detail_check_before_redeem_description_outlet" = "Select an outlet";
+
+/* loco:57f6334c52e1a1f1428b457b
+ * Added all missing localize string */
+"purchase_cancelled" = "This purchase has been cancelled";
+
+/* loco:57f6334c52e1a1f1428b457c */
+"cancelled" = "Cancelled";
+
+/* loco:57f6334c52e1a1f1428b457d */
+"purchase_cancelled_by_partner" = "This purchase has been cancelled by partner";
+
+/* loco:57f6334c52e1a1f1428b457e */
+"expired" = "Expired";
+
+/* loco:57f6334c52e1a1f1428b457f */
+"purchase_expired" = "This purchase has expired";
+
+/* loco:57f6334c52e1a1f1428b4580 */
+"sure_want_to_leave" = "Are you sure you want to leave?";
+
+/* loco:57f6334c52e1a1f1428b4581 */
+"plan_with_friends" = "Plan together with your friends here";
+
+/* loco:57f6334c52e1a1f1428b4582 */
+"date" = "Date";
+
+/* loco:57f6334c52e1a1f1428b4583 */
+"error" = "Error";
+
+/* loco:57f6334c52e1a1f1428b4584 */
+"error_fetching_results" = "Error fetching results for container";
+
+/* loco:57f6334c52e1a1f1428b4585 */
+"let_do_it" = "LET'S DO IT";
+
+/* loco:57f6334c52e1a1f1428b4586 */
+"choose_some_friend" = "Choose some friends";
+
+/* loco:57f6334c52e1a1f1428b4587 */
+"find_place_offer_to_go" = "Find a place/offer to go to";
+
+/* loco:57f6334c52e1a1f1428b4588 */
+"no_WhatsApp_available" = "No WhatsApp available";
+
+/* loco:57f6334c52e1a1f1428b4589 */
+"dont_have_WhatsApp_setup" = "You don't have WhatsApp setup in this device.";
+
+/* loco:57f6334c52e1a1f1428b458a */
+"no_facebook_available" = "No Facebook available";
+
+/* loco:57f6334c52e1a1f1428b458b */
+"dont_have_facebook_setup" = "You don't have Facebook setup in this device.";
+
+/* loco:57f6334c52e1a1f1428b458c */
+"cannot_send_sms" = "Cannot send SMS";
+
+/* loco:57f6334c52e1a1f1428b458d */
+"unavailable_to_send_sms" = "Your device doesn't have the ability to send SMS.";
+
+/* loco:57f6334c52e1a1f1428b458e */
+"friends" = "FRIENDS";
+
+/* loco:57f6334c52e1a1f1428b458f */
+"offers_available" = "offers available";
+
+/* loco:57f6334c52e1a1f1428b4590 */
+"unknown_error" = "Unknown Error";
+
+/* loco:57f6334c52e1a1f1428b4591 */
+"open_in_maps" = "Open in Maps";
+
+/* loco:57f6334c52e1a1f1428b4592 */
+"open_in_google_map" = "Open in Google Maps";
+
+/* loco:57f6334c52e1a1f1428b4593 */
+"open_in_waze" = "Open in Waze";
+
+/* loco:57f6334c52e1a1f1428b4594 */
+"retry" = "RETRY";
+
+/* loco:57f6334c52e1a1f1428b4595 */
+"couldnt_obtain_location" = "We couldn't obtain your location";
+
+/* loco:57f6334c52e1a1f1428b4596 */
+"view_in_list" = "View in list";
+
+/* loco:57f6334c52e1a1f1428b4597 */
+"view_in_map" = "View in map";
+
+/* loco:57f6334c52e1a1f1428b4598 */
+"search_favorite_place" = "Search your favorite places";
+
+/* loco:57f6334c52e1a1f1428b4599 */
+"take_photo" = "Take photo";
+
+/* loco:57f6334c52e1a1f1428b459a */
+"choose_photo" = "Choose Photo";
+
+/* loco:57f6334c52e1a1f1428b459b */
+"learn_more" = "Learn More";
+
+/* loco:57f6334c52e1a1f1428b459c */
+"request_list_activity_title" = "My tickets";
+
+/* loco:57fb326e52e1a142418b4569 */
+"purchase_detail_view_payment_detail_text" = "View payment details";
+
+/* loco:57fbb21b52e1a169588b456a */
+"purchase_detail_payment_failed_title_text" = "Payment Failed";
+
+/* loco:580dbaf052e1a1de458b456b */
+"enter_cvc_title" = "Enter the CVC for Visa ···%1$s";
+
+/* loco:580dbaf052e1a1de458b456c */
+"enter_cvc_description" = "It’s the 3–4 digit code on the back of your card";
+
+/* loco:580dbaf052e1a1de458b456d */
+"confirm" = "Confirm";
+
+/* loco:5811a5fa52e1a1073a8b4569 */
+"nearby_search_location_title_text" = "Show me offers around";
+
+/* loco:5811c26b52e1a1023d8b4569 */
+"search" = "Search";
+
+/* loco:5811cb4052e1a1953e8b4567 */
+"search_location_input_hint" = "Search a location";
+
+/* loco:5811dd1152e1a1a7408b4569 */
+"purchase_detail_scan_barcode_text" = "Scan the barcode for tracking";
+
+/* loco:581af9bc52e1a1d4038b457b */
+"search_recommendation_initial_title_1_text" = "No sure what to search for?\n";
+
+/* loco:581af9bc52e1a1d4038b457c */
+"search_recommendation_initial_title_2_text" = "Explore our Collections";
+
+/* loco:581af9bc52e1a1d4038b457d */
+"search_recommendation_empty_title_text" = "Want to explore our Collections instead?";
+
+/* loco:581c5e8b52e1a16b348b4571 */
+"purchase_detail_payment_processing_title_text" = "Processing Your Payment";
+
+/* loco:581c5e8b52e1a16b348b4572 */
+"purchase_detail_payment_processing_description_text" = "Your payment is being processed.\nPlease check again later.";
+
+/* loco:581c5e8b52e1a16b348b4573 */
+"refresh" = "REFRESH";
+
+/* loco:582451a152e1a1ad618b456a */
+"purchase_detail_payment_failed" = "Your payment could not be processed.\nPlease try again.";
+
+/* loco:58245ef452e1a13b638b456c */
+"use_my_location_text" = "Use my current location";
+
+/* loco:58314dc252e1a1ea318b4567 */
+"add_payment_verification_charges_warning" = "For your security, we will make a verification transaction. It will be reversed automatically, and you will not be charged this amount.";
+
+/* loco:5833f89752e1a10a678b4569 */
+"fave" = "fave";

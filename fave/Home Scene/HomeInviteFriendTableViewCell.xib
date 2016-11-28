@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="290" id="KGk-i7-Jjw" customClass="HomeInviteFriendTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="290"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="328" height="289"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksd-kI-emn">
+                        <subviews>
+                            <view contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="247" translatesAutoresizingMaskIntoConstraints="NO" id="2cm-Hl-g4T">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invite friends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbP-tm-SR2">
+                                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                        <color key="textColor" red="0.22546875476837158" green="0.22546195983886719" blue="0.22546583414077759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="home_invite_friends"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="kbP-tm-SR2" firstAttribute="leading" secondItem="2cm-Hl-g4T" secondAttribute="leading" constant="15" id="4k6-16-1Dm"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="N1M-7v-dkM"/>
+                                    <constraint firstAttribute="bottom" secondItem="kbP-tm-SR2" secondAttribute="bottom" constant="10" id="hKh-zD-MDr"/>
+                                    <constraint firstAttribute="height" constant="50" id="qj4-Om-Wtk"/>
+                                    <constraint firstItem="kbP-tm-SR2" firstAttribute="top" secondItem="2cm-Hl-g4T" secondAttribute="top" constant="10" id="yYz-lV-ntH"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="N1M-7v-dkM"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_promo_code_header" translatesAutoresizingMaskIntoConstraints="NO" id="r0L-Rt-1qN">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="6TB-Ho-bm2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Save more on your next purchase by inviting friends to try Fave." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lzs-fw-pLf" customClass="KFITLabel">
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Save_more_on_next_purchase_by_inviting"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Send an invite now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0JG-Yx-yNF">
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                <color key="textColor" red="0.86274509803921573" green="0.14901960784313725" blue="0.41960784313725491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="home_send_an_invite_now"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mia-wW-Xcm">
+                                <connections>
+                                    <action selector="openCreditButtonDidTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="vGj-Pp-zws"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0JG-Yx-yNF" secondAttribute="trailing" constant="15" id="5kH-Uc-Cel"/>
+                            <constraint firstItem="r0L-Rt-1qN" firstAttribute="leading" secondItem="ksd-kI-emn" secondAttribute="leading" constant="15" id="BUh-KD-cs2"/>
+                            <constraint firstItem="Mia-wW-Xcm" firstAttribute="centerY" secondItem="ksd-kI-emn" secondAttribute="centerY" id="L6D-Se-4W8"/>
+                            <constraint firstItem="Mia-wW-Xcm" firstAttribute="width" secondItem="ksd-kI-emn" secondAttribute="width" id="LUs-Fb-34b"/>
+                            <constraint firstItem="2cm-Hl-g4T" firstAttribute="leading" secondItem="ksd-kI-emn" secondAttribute="leading" id="M1S-EK-jEa"/>
+                            <constraint firstItem="r0L-Rt-1qN" firstAttribute="top" secondItem="2cm-Hl-g4T" secondAttribute="bottom" id="MKN-X6-UgS"/>
+                            <constraint firstAttribute="bottom" secondItem="0JG-Yx-yNF" secondAttribute="bottom" constant="20" id="P0f-ik-9cq"/>
+                            <constraint firstItem="0JG-Yx-yNF" firstAttribute="top" secondItem="Lzs-fw-pLf" secondAttribute="bottom" constant="10" id="PSF-qL-aWF"/>
+                            <constraint firstAttribute="trailing" secondItem="2cm-Hl-g4T" secondAttribute="trailing" id="aZQ-wh-9Qr"/>
+                            <constraint firstItem="2cm-Hl-g4T" firstAttribute="top" secondItem="ksd-kI-emn" secondAttribute="top" id="jTh-6i-Afz"/>
+                            <constraint firstAttribute="trailing" secondItem="r0L-Rt-1qN" secondAttribute="trailing" constant="15" id="lWz-3s-KxF"/>
+                            <constraint firstItem="Mia-wW-Xcm" firstAttribute="centerX" secondItem="ksd-kI-emn" secondAttribute="centerX" id="nPY-zP-Jel"/>
+                            <constraint firstItem="Lzs-fw-pLf" firstAttribute="leading" secondItem="ksd-kI-emn" secondAttribute="leading" constant="15" id="nuF-7t-UCr"/>
+                            <constraint firstItem="Lzs-fw-pLf" firstAttribute="top" secondItem="r0L-Rt-1qN" secondAttribute="bottom" constant="10" id="ox4-92-3Iv"/>
+                            <constraint firstItem="0JG-Yx-yNF" firstAttribute="leading" secondItem="ksd-kI-emn" secondAttribute="leading" constant="15" id="qWO-9k-N38"/>
+                            <constraint firstItem="Mia-wW-Xcm" firstAttribute="height" secondItem="ksd-kI-emn" secondAttribute="height" id="xf5-CB-G7q"/>
+                            <constraint firstAttribute="trailing" secondItem="Lzs-fw-pLf" secondAttribute="trailing" constant="15" id="yMe-c3-V61"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ksd-kI-emn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="KKQ-Rt-qQf"/>
+                    <constraint firstAttribute="bottom" secondItem="ksd-kI-emn" secondAttribute="bottom" id="Skv-SG-iZ2"/>
+                    <constraint firstItem="ksd-kI-emn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vn1-IH-2kA"/>
+                    <constraint firstAttribute="trailing" secondItem="ksd-kI-emn" secondAttribute="trailing" id="z98-Ll-HfY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="Lzs-fw-pLf" id="cny-BZ-vOe"/>
+            </connections>
+            <point key="canvasLocation" x="222" y="329.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_promo_code_header" width="320" height="160"/>
+    </resources>
+</document>

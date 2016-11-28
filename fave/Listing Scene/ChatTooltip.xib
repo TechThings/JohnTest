@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChatTooltipView" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go with friends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GO9-GG-Zr5">
+                    <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="chat_on_boarding_title"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you know you can invite friends to join you? Try it out now!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObE-iE-ODh">
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="chat_on_boarding_desc"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5O-3W-h04">
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <state key="normal" title="Ok, got it"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="defaultTitleKey" value="chat_button_on_boarding_action_text"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="gotItButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZRF-b1-Gob"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GO9-GG-Zr5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="25Z-8h-8KK"/>
+                <constraint firstItem="GO9-GG-Zr5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="18" id="LK8-tN-MyL"/>
+                <constraint firstAttribute="trailing" secondItem="ObE-iE-ODh" secondAttribute="trailing" constant="18" id="YHD-Y3-nWk"/>
+                <constraint firstAttribute="bottom" secondItem="j5O-3W-h04" secondAttribute="bottom" constant="25" id="azZ-sz-Xwz"/>
+                <constraint firstItem="j5O-3W-h04" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bSy-Do-an9"/>
+                <constraint firstItem="ObE-iE-ODh" firstAttribute="top" secondItem="GO9-GG-Zr5" secondAttribute="bottom" constant="7" id="bXb-tN-DLi"/>
+                <constraint firstItem="ObE-iE-ODh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="hog-b0-S7j"/>
+                <constraint firstItem="ObE-iE-ODh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rMw-qQ-gxq"/>
+                <constraint firstItem="j5O-3W-h04" firstAttribute="top" secondItem="ObE-iE-ODh" secondAttribute="bottom" constant="10" id="tiP-d0-KXm"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="azZ-sz-Xwz"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="gotItButton" destination="j5O-3W-h04" id="iQb-gS-UOF"/>
+            </connections>
+        </view>
+    </objects>
+</document>

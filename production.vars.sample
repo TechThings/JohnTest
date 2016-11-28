@@ -1,0 +1,5 @@
+# For Building With Gradlew
+export KEYCHAIN_PASSWORD=password
+export KEY_PASSWORD=password
+export DEVELOPER_KEY_PASSWORD=password
+export FASTLANE_PASSWORD=password

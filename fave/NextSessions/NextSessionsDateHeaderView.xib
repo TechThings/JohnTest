@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aYD-XQ-pGc" customClass="NextSessionsDateHeaderView" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="405" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vmM-Re-E2t">
+                    <rect key="frame" x="0.0" y="0.0" width="405" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OH6-gI-pHB">
+                    <rect key="frame" x="10" y="0.0" width="395" height="49"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.66274509800000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KeW-sN-jzG">
+                    <rect key="frame" x="0.0" y="49" width="405" height="1"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93725490199999995" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="GnW-5P-FIU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="KeW-sN-jzG" firstAttribute="leading" secondItem="aYD-XQ-pGc" secondAttribute="leading" id="2pw-dd-DEf"/>
+                <constraint firstItem="OH6-gI-pHB" firstAttribute="leading" secondItem="aYD-XQ-pGc" secondAttribute="leading" constant="10" id="7Gl-bO-08y"/>
+                <constraint firstAttribute="trailing" secondItem="vmM-Re-E2t" secondAttribute="trailing" id="EqS-CR-qrK"/>
+                <constraint firstAttribute="bottom" secondItem="vmM-Re-E2t" secondAttribute="bottom" id="Glb-4c-8Nx"/>
+                <constraint firstItem="vmM-Re-E2t" firstAttribute="leading" secondItem="aYD-XQ-pGc" secondAttribute="leading" id="bop-yZ-xFW"/>
+                <constraint firstItem="vmM-Re-E2t" firstAttribute="top" secondItem="aYD-XQ-pGc" secondAttribute="top" id="isu-h3-Zns"/>
+                <constraint firstAttribute="trailing" secondItem="OH6-gI-pHB" secondAttribute="trailing" id="lbX-rI-beH"/>
+                <constraint firstItem="KeW-sN-jzG" firstAttribute="top" secondItem="OH6-gI-pHB" secondAttribute="bottom" id="nii-jH-gPk"/>
+                <constraint firstAttribute="bottom" secondItem="KeW-sN-jzG" secondAttribute="bottom" id="qx9-ZR-Kc1"/>
+                <constraint firstItem="OH6-gI-pHB" firstAttribute="top" secondItem="aYD-XQ-pGc" secondAttribute="top" id="uPX-d4-mtb"/>
+                <constraint firstAttribute="trailing" secondItem="KeW-sN-jzG" secondAttribute="trailing" id="xHo-H8-hAc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="OH6-gI-pHB" id="Fmn-Yt-GPq"/>
+                <outlet property="separatorHeight" destination="GnW-5P-FIU" id="EbV-Xs-Uuw"/>
+            </connections>
+            <point key="canvasLocation" x="56.5" y="131"/>
+        </view>
+    </objects>
+</document>

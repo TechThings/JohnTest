@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="Hfm-RT-nLU" customClass="RedeemedReservationViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hfm-RT-nLU" id="azD-HH-8tb">
+                <frame key="frameInset" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" restorationIdentifier="RedeemedReservationView" translatesAutoresizingMaskIntoConstraints="NO" id="aTb-lz-LBV" customClass="RedeemedReservationView" customModule="Fave" customModuleProvider="target">
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aTb-lz-LBV" firstAttribute="top" secondItem="azD-HH-8tb" secondAttribute="top" id="3Qx-5v-bTz"/>
+                    <constraint firstAttribute="bottom" secondItem="aTb-lz-LBV" secondAttribute="bottom" id="HcZ-s0-bUJ"/>
+                    <constraint firstAttribute="trailing" secondItem="aTb-lz-LBV" secondAttribute="trailing" id="RH5-Hg-DFD"/>
+                    <constraint firstItem="aTb-lz-LBV" firstAttribute="leading" secondItem="azD-HH-8tb" secondAttribute="leading" id="c1K-VU-9Rb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="redeemedReservationView" destination="aTb-lz-LBV" id="lHe-0H-E0d"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

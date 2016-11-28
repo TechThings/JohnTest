@@ -1,0 +1,9 @@
+app_identifier "com.kfit.fave" # The bundle identifier of your app
+apple_id "dev@kfit.com" # Your Apple email address
+team_id "PG45JKQWC8"
+
+for_platform :ios do
+	for_lane :gat do
+		app_identifier "com.kfit.fave.dev" # The bundle identifier of your app
+	end
+end

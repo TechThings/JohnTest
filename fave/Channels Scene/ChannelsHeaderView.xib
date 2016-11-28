@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Bold.otf">
+            <string>CircularStd-Bold</string>
+        </array>
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChannelsHeaderView" customModule="Fave" customModuleProvider="target">
+            <connections>
+                <outlet property="subTitleLable" destination="iwc-rF-xW0" id="Gel-rI-NGz"/>
+                <outlet property="titleLable" destination="cSq-pV-Ryl" id="U9R-dt-8az"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="484" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="irT-Mb-D2j" userLabel="Content View">
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_chat_header" translatesAutoresizingMaskIntoConstraints="NO" id="X4O-8L-s4A">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="160" id="jUN-0I-aSc"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qrh-z4-665">
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do more together" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSq-pV-Ryl">
+                                    <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="23"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="chat_do_more_together"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan together with your friends here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwc-rF-xW0">
+                                    <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="plan_with_friends"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="iwc-rF-xW0" firstAttribute="top" secondItem="cSq-pV-Ryl" secondAttribute="bottom" constant="3" id="JXC-2I-VR6"/>
+                                <constraint firstAttribute="trailing" secondItem="cSq-pV-Ryl" secondAttribute="trailing" id="VHe-MA-ai6"/>
+                                <constraint firstItem="cSq-pV-Ryl" firstAttribute="leading" secondItem="Qrh-z4-665" secondAttribute="leading" id="WlN-N7-OaN"/>
+                                <constraint firstAttribute="bottom" secondItem="iwc-rF-xW0" secondAttribute="bottom" id="a0l-OA-l7b"/>
+                                <constraint firstAttribute="trailing" secondItem="iwc-rF-xW0" secondAttribute="trailing" id="dPm-F5-ie9"/>
+                                <constraint firstItem="cSq-pV-Ryl" firstAttribute="top" secondItem="Qrh-z4-665" secondAttribute="top" id="gQS-5u-rfz"/>
+                                <constraint firstItem="iwc-rF-xW0" firstAttribute="leading" secondItem="Qrh-z4-665" secondAttribute="leading" id="mMe-E5-vet"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="X4O-8L-s4A" secondAttribute="trailing" id="EGu-iI-hpP"/>
+                        <constraint firstItem="X4O-8L-s4A" firstAttribute="leading" secondItem="irT-Mb-D2j" secondAttribute="leading" id="WjL-qS-6ON"/>
+                        <constraint firstItem="X4O-8L-s4A" firstAttribute="top" secondItem="irT-Mb-D2j" secondAttribute="top" id="WqS-pT-g1M"/>
+                        <constraint firstItem="Qrh-z4-665" firstAttribute="leading" secondItem="irT-Mb-D2j" secondAttribute="leading" constant="15" id="bDO-EM-fcV"/>
+                        <constraint firstAttribute="trailing" secondItem="Qrh-z4-665" secondAttribute="trailing" constant="15" id="eeu-Y8-O8l"/>
+                        <constraint firstAttribute="bottom" secondItem="Qrh-z4-665" secondAttribute="bottom" constant="20" id="z6W-3B-V7q"/>
+                        <constraint firstAttribute="bottom" secondItem="X4O-8L-s4A" secondAttribute="bottom" id="z8F-MB-NgS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="irT-Mb-D2j" secondAttribute="bottom" id="Foo-mq-5gB"/>
+                <constraint firstAttribute="trailing" secondItem="irT-Mb-D2j" secondAttribute="trailing" id="SxY-hL-IMy"/>
+                <constraint firstItem="irT-Mb-D2j" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cmt-jy-ZmL"/>
+                <constraint firstItem="irT-Mb-D2j" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fPP-M7-CVI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137" y="426"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_chat_header" width="480" height="240"/>
+    </resources>
+</document>

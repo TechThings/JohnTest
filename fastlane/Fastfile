@@ -1,0 +1,194 @@
+opt_out_usage	
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "1.104.0"
+
+default_platform :ios
+
+
+platform :ios do
+  before_all do
+    get_version_number
+    get_build_number
+    
+    # Setup the name of our temporary Keychain under CI Environment
+    ENV['KEYCHAIN_NAME'] = "TempKeychain.keychain"
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan(scheme: "fave")
+  end
+
+  desc "Deploy Production Build"
+  lane :production do
+    output_path = "build"
+
+    # Set the IPA Filename. The format is:
+    # FAVE-Production-(Marketing Version Name)-(Build Number)-(Short Git Commit Hash).ipa
+    hash = get_git_commit_hash
+    ipaFilename = "FAVE-Production-" + lane_context[SharedValues::VERSION_NUMBER] + "-" + lane_context[SharedValues::BUILD_NUMBER] + "-" + hash + ".ipa"
+
+    # Setup Signing
+    import_certificates
+    sigh(
+      app_identifier: "com.kfit.fave",
+      adhoc:false,
+      skip_certificate_verification: true, # Skip Cert Validation for now since otherwise it will fail with a Member level access
+      output_path: output_path
+    )
+
+    # use the UID of the newly created provisioning profile
+    ENV["PROFILE_UUID"] = lane_context[SharedValues::SIGH_UDID]
+
+    cocoapods
+    gym(
+      scheme: "fave",
+      export_method: "app-store",
+      clean: true,
+      output_directory: "build",
+      output_name: ipaFilename
+    )
+    pilot(
+      ipa: lane_context[SharedValues::IPA_OUTPUT_PATH],
+      changelog: "global_release_note.txt",
+      skip_submission: true,
+      skip_waiting_for_build_processing: true
+    )
+  end
+
+  desc "Deploy Staging Build"
+  lane :staging do
+    output_path = "build"
+
+    # Set the IPA Filename. The format is:
+    # FAVE-Staging-AdHoc-(Marketing Version Name)-(Build Number)-(Short Git Commit Hash).ipa
+    hash = get_git_commit_hash
+    ipaFilename = "Fave-Staging-AdHoc-" + lane_context[SharedValues::VERSION_NUMBER] + "-" + lane_context[SharedValues::BUILD_NUMBER] + "-" + hash + ".ipa"
+    
+    # Setup Signing
+    import_certificates
+    sigh(
+      app_identifier: "com.kfit.fave.dev",
+      adhoc:true,
+      skip_certificate_verification: true, # Skip Cert Validation for now since otherwise it will fail with a Member level access
+      output_path: output_path
+    )
+
+    # use the UID of the newly created provisioning profile
+    ENV["PROFILE_UUID"] = lane_context[SharedValues::SIGH_UDID]
+
+    cocoapods
+    gym(
+      scheme: "fave debug",
+      export_method: "ad-hoc",
+      clean: true,
+      output_directory: "build",
+      output_name: ipaFilename
+    )
+    crashlytics(
+      crashlytics_path: "Crashlytics.framework",
+      api_token: "0420589ce41501f20cfb29f09dbae9d69bddcb65",
+      build_secret: "0753d60674c50482de7c4a9c41e336888b76501a362cfc99c48a86f666059879",
+      ipa_path: lane_context[SharedValues::IPA_OUTPUT_PATH],
+      notes_path: "global_release_note.txt",
+      groups: "fave-global-testing",
+      debug: false
+    )
+  end
+
+  desc "Deploy GAT Build"
+  lane :gat do
+    output_path = "build"
+
+    # Set the IPA Filename. The format is:
+    # FAVE-Staging-AppStore-(Marketing Version Name)-(Build Number)-(Short Git Commit Hash).ipa
+    hash = get_git_commit_hash
+    ipaFilename = "FAVE-Staging-AppStore-" + lane_context[SharedValues::VERSION_NUMBER] + "-" + lane_context[SharedValues::BUILD_NUMBER] + "-" + hash + ".ipa"
+    
+    # Setup Signing
+    import_certificates
+    sigh(
+      app_identifier: "com.kfit.fave.dev",
+      adhoc:false,
+      skip_certificate_verification: true, # Skip Cert Validation for now since otherwise it will fail with a Member level access
+      output_path: output_path
+    )
+
+    # use the UID of the newly created provisioning profile
+    ENV["PROFILE_UUID"] = lane_context[SharedValues::SIGH_UDID]
+
+    cocoapods
+    gym(
+      scheme: "fave debug",
+      export_method: "app-store",
+      clean: true,
+      output_directory: "build",
+      output_name: ipaFilename
+    )
+    pilot(
+      ipa: lane_context[SharedValues::IPA_OUTPUT_PATH],
+      changelog: "global_release_note.txt",
+      skip_submission: true,
+      skip_waiting_for_build_processing: true
+    )
+  end
+
+  after_all do |lane|
+    # This block is called, only if the executed lane was successful
+    if lane == :production || lane == :staging || lane == :gat
+      delete_certificates
+    end
+  end
+
+  error do |lane, exception|
+    # This block is called in case of exceptions
+    if lane == :production || lane == :staging || lane == :gat
+      delete_certificates
+    end
+  end
+end
+
+### CUSTOM METHODS ###
+
+def get_git_commit_hash
+  hash = sh "git rev-parse --short HEAD"
+  hash.strip
+end
+
+def import_certificates
+  # Uncomment the following line if you only want to use locally stored certificate
+  # return unless Helper.is_ci?
+
+  create_keychain(
+    name: ENV["KEYCHAIN_NAME"],
+    default_keychain: false,
+    unlock: true,
+    timeout: 1800, # Lock Keychain after 20 minutes. Extend this if build time takes longer.
+    lock_after_timeout: true,
+    lock_when_sleeps: false, # Don't lock the keychain in case we go for coffee in the middle of a build :)
+    password: ENV["KEYCHAIN_PASSWORD"]
+  )
+
+  import_certificate(
+    certificate_path: "fastlane/certificates/kfit_ios_distribution.p12",
+    certificate_password: ENV['KEY_PASSWORD'],
+    keychain_name: ENV["KEYCHAIN_NAME"]
+  )
+
+  import_certificate(
+    certificate_path: "fastlane/certificates/dev_at_kfit_dot_com_ios_developer.p12",
+    certificate_password: ENV['DEVELOPER_KEY_PASSWORD'],
+    keychain_name: ENV["KEYCHAIN_NAME"]
+  )
+end
+
+def delete_certificates
+  # Uncomment the following line if you only want to use locally stored certificate
+  # return unless Helper.is_ci?
+
+  delete_keychain(
+    name: ENV["KEYCHAIN_NAME"]
+  )
+end

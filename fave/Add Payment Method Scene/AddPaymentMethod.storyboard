@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add Payment Method View Controller-->
+        <scene sceneID="fIx-Su-Jqp">
+            <objects>
+                <viewController restorationIdentifier="AddPaymentMethodViewController" storyboardIdentifier="AddPaymentMethodViewController" automaticallyAdjustsScrollViewInsets="NO" id="rTd-vy-iv4" customClass="AddPaymentMethodViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sKx-6L-Ffy"/>
+                        <viewControllerLayoutGuide type="bottom" id="PV4-RE-ma7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="end-hZ-PVu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Oc-Ns-Qh2" customClass="AddPaymentMethodTableView" customModule="Fave" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PV4-RE-ma7" firstAttribute="top" secondItem="8Oc-Ns-Qh2" secondAttribute="bottom" id="NcQ-T3-tnb"/>
+                            <constraint firstItem="8Oc-Ns-Qh2" firstAttribute="top" secondItem="sKx-6L-Ffy" secondAttribute="bottom" id="Rez-5i-21z"/>
+                            <constraint firstItem="8Oc-Ns-Qh2" firstAttribute="leading" secondItem="end-hZ-PVu" secondAttribute="leading" id="U76-yO-hBd"/>
+                            <constraint firstAttribute="trailing" secondItem="8Oc-Ns-Qh2" secondAttribute="trailing" id="iHL-UV-xP7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addPaymentMethodTableView" destination="8Oc-Ns-Qh2" id="bUn-3u-i6u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aHH-ig-Tlu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-465" y="61"/>
+        </scene>
+    </scenes>
+</document>

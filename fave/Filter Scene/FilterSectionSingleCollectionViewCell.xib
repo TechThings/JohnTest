@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FilterSectionSingleCollectionViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="105" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="105" height="56"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JB-Rz-y3o">
+                        <rect key="frame" x="0.0" y="0.0" width="104" height="56"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="8JB-Rz-y3o" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1eW-Bb-8vg"/>
+                <constraint firstItem="8JB-Rz-y3o" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Cag-js-z0M"/>
+                <constraint firstAttribute="bottom" secondItem="8JB-Rz-y3o" secondAttribute="bottom" id="JGc-ry-vrS"/>
+                <constraint firstAttribute="trailing" secondItem="8JB-Rz-y3o" secondAttribute="trailing" constant="1" id="djS-jy-dXX"/>
+            </constraints>
+            <size key="customSize" width="105" height="56"/>
+            <connections>
+                <outlet property="button" destination="8JB-Rz-y3o" id="eY5-XX-SAR"/>
+            </connections>
+            <point key="canvasLocation" x="211.5" y="162"/>
+        </collectionViewCell>
+    </objects>
+</document>

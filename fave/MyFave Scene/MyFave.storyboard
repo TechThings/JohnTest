@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Fave View Controller-->
+        <scene sceneID="HPe-67-eHW">
+            <objects>
+                <viewController storyboardIdentifier="MyFaveViewController" automaticallyAdjustsScrollViewInsets="NO" id="yaC-G1-jxB" customClass="MyFaveViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z3f-yU-2gc"/>
+                        <viewControllerLayoutGuide type="bottom" id="J5l-O9-8vS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rpp-8M-cUh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y6x-8q-8SB">
+                        <barButtonItem key="backBarButtonItem" title=" " id="SdP-Nh-RPM"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="kLw-0W-Y2e" kind="custom" identifier="mx_page_0" customClass="MXPageSegue" id="JM4-Ts-u7Z"/>
+                        <segue destination="09b-wJ-w5S" kind="custom" identifier="mx_page_1" customClass="MXPageSegue" id="Od7-PD-WCv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FEN-Sf-RbP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-166" y="328"/>
+        </scene>
+        <!-- -->
+        <scene sceneID="Taf-YB-Oef">
+            <objects>
+                <viewController storyboardIdentifier="MyFaveCurrentReservationViewController" id="kLw-0W-Y2e" customClass="MyFaveCurrentReservationViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IJe-2o-NOS"/>
+                        <viewControllerLayoutGuide type="bottom" id="MSv-FR-zxt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uof-5E-wbv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hkK-TQ-K1S">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="kLw-0W-Y2e" id="HN9-FX-LHm"/>
+                                    <outlet property="delegate" destination="kLw-0W-Y2e" id="pYe-Yi-aux"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hkK-TQ-K1S" firstAttribute="top" secondItem="IJe-2o-NOS" secondAttribute="bottom" id="88G-XA-C6z"/>
+                            <constraint firstItem="hkK-TQ-K1S" firstAttribute="leading" secondItem="uof-5E-wbv" secondAttribute="leading" id="E9L-CL-DOo"/>
+                            <constraint firstAttribute="trailing" secondItem="hkK-TQ-K1S" secondAttribute="trailing" id="IQ3-hQ-XaY"/>
+                            <constraint firstItem="MSv-FR-zxt" firstAttribute="top" secondItem="hkK-TQ-K1S" secondAttribute="bottom" id="mt5-6c-kce"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title=" " id="ub3-yU-e1c">
+                        <barButtonItem key="backBarButtonItem" title=" " id="2Yh-VA-1m1"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="tableView" destination="hkK-TQ-K1S" id="ZNI-jT-Zu2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ExI-NJ-LSR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926" y="30"/>
+        </scene>
+        <!--Past purchases-->
+        <scene sceneID="0GF-mv-auS">
+            <objects>
+                <viewController storyboardIdentifier="MyFavePastReservationViewController" automaticallyAdjustsScrollViewInsets="NO" id="BOl-PQ-uyO" customClass="MyFavePastReservationViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DEv-Ef-WaD"/>
+                        <viewControllerLayoutGuide type="bottom" id="RMv-nE-CyE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="McY-EG-WBp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="N2h-lx-at4">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BOl-PQ-uyO" id="Zca-Ax-cA7"/>
+                                    <outlet property="delegate" destination="BOl-PQ-uyO" id="C4r-af-ni7"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N2h-lx-at4" firstAttribute="leading" secondItem="McY-EG-WBp" secondAttribute="leading" id="37V-eM-h5S"/>
+                            <constraint firstAttribute="trailing" secondItem="N2h-lx-at4" secondAttribute="trailing" id="63P-lC-3Vy"/>
+                            <constraint firstItem="N2h-lx-at4" firstAttribute="top" secondItem="DEv-Ef-WaD" secondAttribute="bottom" id="hsc-Br-xBU"/>
+                            <constraint firstItem="RMv-nE-CyE" firstAttribute="top" secondItem="N2h-lx-at4" secondAttribute="bottom" id="oCb-Qa-ZTw"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" title="Past purchases" id="uMK-Ch-PIh">
+                        <barButtonItem key="backBarButtonItem" title=" " id="mIb-Qg-1UW"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="tableView" destination="N2h-lx-at4" id="efk-Qb-fzl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTG-rT-fUQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1639" y="29"/>
+        </scene>
+        <!--My Fave Fave Outlet View Controller-->
+        <scene sceneID="HAS-D0-fzB">
+            <objects>
+                <viewController storyboardIdentifier="MyFaveFaveOutletViewController" id="09b-wJ-w5S" customClass="MyFaveFaveOutletViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wg2-Br-R5D"/>
+                        <viewControllerLayoutGuide type="bottom" id="BZ2-bj-sTX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VQx-p1-Vcb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ifb-Je-qz1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="09b-wJ-w5S" id="iVR-5u-X2g"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ifb-Je-qz1" firstAttribute="leading" secondItem="VQx-p1-Vcb" secondAttribute="leading" id="U0s-6r-O50"/>
+                            <constraint firstAttribute="trailing" secondItem="ifb-Je-qz1" secondAttribute="trailing" id="UMN-Tv-MUJ"/>
+                            <constraint firstItem="BZ2-bj-sTX" firstAttribute="top" secondItem="ifb-Je-qz1" secondAttribute="bottom" id="m2F-0K-wBO"/>
+                            <constraint firstItem="ifb-Je-qz1" firstAttribute="top" secondItem="VQx-p1-Vcb" secondAttribute="top" id="weI-2q-WtV"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="tableView" destination="ifb-Je-qz1" id="biN-7x-All"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3zc-g4-D2J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="925.60000000000002" y="644.52773613193403"/>
+        </scene>
+    </scenes>
+</document>

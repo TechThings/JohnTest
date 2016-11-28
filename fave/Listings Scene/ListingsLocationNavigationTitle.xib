@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ListingsLocationNavigationTitle" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="arE-C2-gZ4">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1z-6S-e4a">
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="S0y-94-A1F">
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2YL-Rt-FoI">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.66274509800000003" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="nearby_your_location_text"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="UKg-t3-HHx">
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Petaling Jaya" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5l-7I-tL0">
+                                                    <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ui-arrow-down" translatesAutoresizingMaskIntoConstraints="NO" id="9Ub-1M-BMX">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="12" id="N5V-eV-HcI"/>
+                                                        <constraint firstAttribute="width" constant="12" id="cKM-BP-8iH"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="N5V-eV-HcI"/>
+                                                            <exclude reference="cKM-BP-8iH"/>
+                                                        </mask>
+                                                    </variation>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9Ub-1M-BMX" firstAttribute="top" secondItem="UKg-t3-HHx" secondAttribute="top" constant="4" id="AKX-E2-HCs"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="AKX-E2-HCs"/>
+                                                </mask>
+                                            </variation>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="33" id="j0u-2B-gRB"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="j0u-2B-gRB"/>
+                                        </mask>
+                                    </variation>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="S0y-94-A1F" secondAttribute="trailing" id="3XR-cD-UXU"/>
+                                <constraint firstItem="S0y-94-A1F" firstAttribute="leading" secondItem="S1z-6S-e4a" secondAttribute="leading" id="AW5-Mv-4LX"/>
+                                <constraint firstItem="S0y-94-A1F" firstAttribute="top" secondItem="S1z-6S-e4a" secondAttribute="top" id="Dcu-gK-Qjo"/>
+                                <constraint firstItem="S0y-94-A1F" firstAttribute="centerY" secondItem="S1z-6S-e4a" secondAttribute="centerY" id="HaH-V5-cVb"/>
+                                <constraint firstItem="S0y-94-A1F" firstAttribute="centerX" secondItem="S1z-6S-e4a" secondAttribute="centerX" id="L98-ao-fWm"/>
+                                <constraint firstAttribute="bottom" secondItem="S0y-94-A1F" secondAttribute="bottom" id="dl4-E8-6GK"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="3XR-cD-UXU"/>
+                                    <exclude reference="AW5-Mv-4LX"/>
+                                    <exclude reference="Dcu-gK-Qjo"/>
+                                    <exclude reference="dl4-E8-6GK"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4n-7g-MzT">
+                            <connections>
+                                <action selector="titleOverlayButtonDidTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="VKu-TZ-gAn"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="S1z-6S-e4a" firstAttribute="leading" secondItem="arE-C2-gZ4" secondAttribute="leading" id="27j-Ml-uSB"/>
+                        <constraint firstItem="S1z-6S-e4a" firstAttribute="centerY" secondItem="arE-C2-gZ4" secondAttribute="centerY" id="2Ek-DY-ksw"/>
+                        <constraint firstItem="u4n-7g-MzT" firstAttribute="top" secondItem="arE-C2-gZ4" secondAttribute="top" constant="20" id="57a-K7-5cV"/>
+                        <constraint firstAttribute="bottom" secondItem="u4n-7g-MzT" secondAttribute="bottom" id="5Ng-Wm-lrz"/>
+                        <constraint firstItem="S1z-6S-e4a" firstAttribute="bottom" secondItem="u4n-7g-MzT" secondAttribute="bottom" id="JS2-8k-s8I"/>
+                        <constraint firstItem="u4n-7g-MzT" firstAttribute="leading" secondItem="arE-C2-gZ4" secondAttribute="leading" id="SLy-p1-BLh"/>
+                        <constraint firstItem="S1z-6S-e4a" firstAttribute="centerX" secondItem="arE-C2-gZ4" secondAttribute="centerX" id="d8R-dM-ZR5"/>
+                        <constraint firstAttribute="trailing" secondItem="u4n-7g-MzT" secondAttribute="trailing" id="dpf-68-Cf1"/>
+                        <constraint firstItem="S1z-6S-e4a" firstAttribute="top" secondItem="arE-C2-gZ4" secondAttribute="top" id="fry-x6-fRf"/>
+                        <constraint firstAttribute="bottom" secondItem="S1z-6S-e4a" secondAttribute="bottom" id="j5N-vE-vYj"/>
+                        <constraint firstItem="S1z-6S-e4a" firstAttribute="top" secondItem="arE-C2-gZ4" secondAttribute="top" constant="20" id="jZI-s4-tEQ"/>
+                        <constraint firstAttribute="trailing" secondItem="S1z-6S-e4a" secondAttribute="trailing" id="xEU-B9-dYl"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="2Ek-DY-ksw"/>
+                            <exclude reference="j5N-vE-vYj"/>
+                            <exclude reference="jZI-s4-tEQ"/>
+                        </mask>
+                    </variation>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIy-k5-r4E">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="pH0-Te-oHU"/>
+                        <constraint firstAttribute="height" constant="50" id="z5r-Rp-A3a"/>
+                    </constraints>
+                    <color key="tintColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="ic_location"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="z5r-Rp-A3a"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="didTapCurrentLocationButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="Nc5-cj-Aqe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDW-SO-Cly">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="GBD-eN-2pA"/>
+                        <constraint firstAttribute="width" constant="50" id="RwG-oi-dpP"/>
+                    </constraints>
+                    <color key="tintColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="GBD-eN-2pA"/>
+                        </mask>
+                    </variation>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cyn-l6-17c">
+                    <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="NLo-dT-bd3"/>
+                        <constraint firstAttribute="height" constant="1" id="tGQ-Um-cpp"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="tGQ-Um-cpp"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Cyn-l6-17c" secondAttribute="bottom" id="1g6-Z8-cQb"/>
+                <constraint firstItem="tIy-k5-r4E" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="8nh-pg-YS1"/>
+                <constraint firstItem="tIy-k5-r4E" firstAttribute="leading" secondItem="arE-C2-gZ4" secondAttribute="trailing" id="BzM-o1-bRZ"/>
+                <constraint firstItem="Cyn-l6-17c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Eih-f2-h1f"/>
+                <constraint firstItem="arE-C2-gZ4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Gpe-A9-eb2"/>
+                <constraint firstItem="QDW-SO-Cly" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JWo-tc-9KO"/>
+                <constraint firstItem="arE-C2-gZ4" firstAttribute="leading" secondItem="QDW-SO-Cly" secondAttribute="trailing" id="Sqg-gF-kG3"/>
+                <constraint firstItem="tIy-k5-r4E" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="WHT-Re-B3y"/>
+                <constraint firstItem="QDW-SO-Cly" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Xn6-pD-Ad2"/>
+                <constraint firstItem="arE-C2-gZ4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="bsJ-IW-rHa"/>
+                <constraint firstAttribute="bottom" secondItem="QDW-SO-Cly" secondAttribute="bottom" id="dd5-i0-pE7"/>
+                <constraint firstAttribute="bottom" secondItem="tIy-k5-r4E" secondAttribute="bottom" id="g0Q-yV-xVc"/>
+                <constraint firstAttribute="trailing" secondItem="Cyn-l6-17c" secondAttribute="trailing" id="lH8-OV-jp1"/>
+                <constraint firstAttribute="bottom" secondItem="arE-C2-gZ4" secondAttribute="bottom" id="vb3-OB-66r"/>
+                <constraint firstAttribute="trailing" secondItem="tIy-k5-r4E" secondAttribute="trailing" id="vqr-LT-3UN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Gpe-A9-eb2"/>
+                    <exclude reference="WHT-Re-B3y"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="locationNameLabel" destination="D5l-7I-tL0" id="pHB-mb-2nc"/>
+                <outlet property="titleOverlayButton" destination="u4n-7g-MzT" id="43Y-Qf-mgY"/>
+            </connections>
+            <point key="canvasLocation" x="167.5" y="71"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_location" width="21" height="21"/>
+        <image name="ui-arrow-down" width="12" height="9"/>
+    </resources>
+</document>

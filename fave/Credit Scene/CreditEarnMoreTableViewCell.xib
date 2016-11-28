@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CreditEarnMoreTableViewCell" rowHeight="152" id="VbC-7F-MJd" customClass="CreditEarnMoreTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VbC-7F-MJd" id="zM7-3Z-v2T">
+                <frame key="frameInset" width="459" height="179.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Earn more Fave Credits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIe-pr-gyU">
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="credit_earn_more_text"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="Send your friends a discount so they can try Fave out and you will earn credits for every friend referred." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YrM-rc-DuR" customClass="KFITLabel">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="send_your_discount_to_friend"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyK-CF-0Y8">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="reo-iI-QLl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="How does it work?">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="workButtonDidTap:" destination="VbC-7F-MJd" eventType="touchUpInside" id="BD3-B1-gLT"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pIe-pr-gyU" firstAttribute="top" secondItem="zM7-3Z-v2T" secondAttribute="top" constant="20" id="3tl-Ct-L3S"/>
+                    <constraint firstItem="VyK-CF-0Y8" firstAttribute="leading" secondItem="zM7-3Z-v2T" secondAttribute="leadingMargin" id="Egl-ut-0FJ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YrM-rc-DuR" secondAttribute="trailing" constant="20" id="FV3-vB-hPR"/>
+                    <constraint firstItem="YrM-rc-DuR" firstAttribute="centerY" secondItem="zM7-3Z-v2T" secondAttribute="centerY" constant="-12" id="G8b-Th-Lmv"/>
+                    <constraint firstItem="YrM-rc-DuR" firstAttribute="top" secondItem="pIe-pr-gyU" secondAttribute="bottom" constant="5" id="GkD-wV-gZ7"/>
+                    <constraint firstItem="VyK-CF-0Y8" firstAttribute="top" secondItem="YrM-rc-DuR" secondAttribute="bottom" constant="15" id="IRj-65-8ef"/>
+                    <constraint firstItem="YrM-rc-DuR" firstAttribute="centerX" secondItem="zM7-3Z-v2T" secondAttribute="centerX" id="Kk1-ok-Yor"/>
+                    <constraint firstItem="YrM-rc-DuR" firstAttribute="leading" secondItem="zM7-3Z-v2T" secondAttribute="leadingMargin" constant="20" id="QoC-hn-L6H"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="VyK-CF-0Y8" secondAttribute="trailing" id="UJ6-MV-Rk7"/>
+                    <constraint firstItem="pIe-pr-gyU" firstAttribute="top" secondItem="zM7-3Z-v2T" secondAttribute="topMargin" constant="15" id="Vm3-9H-qrB"/>
+                    <constraint firstItem="VyK-CF-0Y8" firstAttribute="top" secondItem="YrM-rc-DuR" secondAttribute="bottom" constant="15" id="Wfs-Zk-Wuc"/>
+                    <constraint firstAttribute="bottom" secondItem="VyK-CF-0Y8" secondAttribute="bottom" constant="25" id="hTW-hg-uGp"/>
+                    <constraint firstItem="YrM-rc-DuR" firstAttribute="top" secondItem="pIe-pr-gyU" secondAttribute="bottom" constant="10" id="iai-mg-Pxy"/>
+                    <constraint firstItem="pIe-pr-gyU" firstAttribute="centerX" secondItem="zM7-3Z-v2T" secondAttribute="centerX" id="lr9-Hu-3xr"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="G8b-Th-Lmv"/>
+                        <exclude reference="GkD-wV-gZ7"/>
+                        <exclude reference="Vm3-9H-qrB"/>
+                        <exclude reference="IRj-65-8ef"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="YrM-rc-DuR" id="oH5-Vo-4Mz"/>
+                <outlet property="titleLabel" destination="pIe-pr-gyU" id="juk-bh-JEN"/>
+                <outlet property="workButton" destination="VyK-CF-0Y8" id="2Xo-m1-hT6"/>
+            </connections>
+            <point key="canvasLocation" x="292.5" y="154"/>
+        </tableViewCell>
+    </objects>
+</document>

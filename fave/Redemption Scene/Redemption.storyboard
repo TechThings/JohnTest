@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1LI-lg-knA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Redemption View Controller-->
+        <scene sceneID="NMB-mX-XL1">
+            <objects>
+                <viewController restorationIdentifier="RedemptionViewController" storyboardIdentifier="RedemptionViewController" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="1LI-lg-knA" customClass="RedemptionViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lkj-fn-Rzf"/>
+                        <viewControllerLayoutGuide type="bottom" id="f6R-hg-ikd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aqi-UD-zcc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tQU-Bz-mBZ">
+                                <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yga-YS-d4G">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wzU-mD-vzt" customClass="RedeemMultipleOutletView" customModule="Fave" customModuleProvider="target">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="5je-qU-sj9"/>
+                                    <constraint firstAttribute="width" constant="240" id="YA0-hF-eux"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f6R-hg-ikd" firstAttribute="top" secondItem="tQU-Bz-mBZ" secondAttribute="bottom" id="3nF-DA-nKM"/>
+                            <constraint firstAttribute="trailing" secondItem="tQU-Bz-mBZ" secondAttribute="trailing" id="5Sa-WJ-oAt"/>
+                            <constraint firstItem="wzU-mD-vzt" firstAttribute="centerX" secondItem="aqi-UD-zcc" secondAttribute="centerX" id="AHs-HQ-4e8"/>
+                            <constraint firstAttribute="trailing" secondItem="Yga-YS-d4G" secondAttribute="trailing" id="NJn-zu-q43"/>
+                            <constraint firstItem="wzU-mD-vzt" firstAttribute="centerY" secondItem="aqi-UD-zcc" secondAttribute="centerY" id="cML-aW-Atl"/>
+                            <constraint firstItem="Yga-YS-d4G" firstAttribute="top" secondItem="aqi-UD-zcc" secondAttribute="top" id="hZT-JH-ukq"/>
+                            <constraint firstItem="Yga-YS-d4G" firstAttribute="leading" secondItem="aqi-UD-zcc" secondAttribute="leading" id="hz6-fA-9uH"/>
+                            <constraint firstItem="tQU-Bz-mBZ" firstAttribute="leading" secondItem="aqi-UD-zcc" secondAttribute="leading" id="iWu-Ka-16L"/>
+                            <constraint firstItem="f6R-hg-ikd" firstAttribute="top" secondItem="Yga-YS-d4G" secondAttribute="bottom" id="rV1-fD-1sk"/>
+                            <constraint firstItem="tQU-Bz-mBZ" firstAttribute="top" secondItem="aqi-UD-zcc" secondAttribute="top" id="xUf-6b-ES2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gyx-0L-4zR">
+                        <barButtonItem key="backBarButtonItem" title=" " id="mRp-sM-Ujq"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1000"/>
+                    <connections>
+                        <outlet property="opacityView" destination="Yga-YS-d4G" id="Pcu-qX-BVW"/>
+                        <outlet property="redeemMultipleOutlet" destination="wzU-mD-vzt" id="13Q-LK-dVf"/>
+                        <outlet property="redeemMultipleOutletHeight" destination="5je-qU-sj9" id="AoA-0v-C79"/>
+                        <outlet property="redeemMultipleOutletWidth" destination="YA0-hF-eux" id="eaN-el-xTr"/>
+                        <outlet property="tableView" destination="tQU-Bz-mBZ" id="YZz-VI-4hH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NJ6-Va-Yde" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="472" y="1442.8785607196403"/>
+        </scene>
+    </scenes>
+</document>

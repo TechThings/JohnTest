@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListingsCollectionView" customModule="Fave" customModuleProvider="target">
+            <connections>
+                <outlet property="offerCountLabel" destination="Jwl-Ha-k5k" id="f27-fx-PkN"/>
+                <outlet property="openListingsCollectionButton" destination="WMU-8M-Dtd" id="ekC-Yi-4Gg"/>
+                <outlet property="photoImageView" destination="LWf-nd-nbx" id="lrq-u8-CxY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="181"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9GA-Kq-Ddn" userLabel="Content View">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="176"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LWf-nd-nbx">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="176"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="180" id="1bj-Jd-C8m"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="1bj-Jd-C8m"/>
+                                </mask>
+                            </variation>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMU-8M-Dtd">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="176"/>
+                            <connections>
+                                <action selector="openListingsCollectionButtonDidTab:" destination="-1" eventType="touchUpInside" id="aog-H1-9M5"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_collections_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="MBv-Vu-PAg">
+                            <rect key="frame" x="0.0" y="126" width="600" height="50"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="kof-lk-mb4">
+                            <rect key="frame" x="265" y="147" width="70" height="16"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_collections_offers" translatesAutoresizingMaskIntoConstraints="NO" id="YAp-n7-xgU">
+                                    <rect key="frame" x="0.0" y="0.0" width="16" height="16"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="16" id="Etp-cB-cIM"/>
+                                        <constraint firstAttribute="height" constant="16" id="GcS-vC-NfQ"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X offers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jwl-Ha-k5k">
+                                    <rect key="frame" x="19" y="0.0" width="51" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="WMU-8M-Dtd" firstAttribute="leading" secondItem="9GA-Kq-Ddn" secondAttribute="leading" id="0Rn-o2-qWs"/>
+                        <constraint firstAttribute="trailing" secondItem="WMU-8M-Dtd" secondAttribute="trailing" id="2nC-5W-aaV"/>
+                        <constraint firstItem="LWf-nd-nbx" firstAttribute="top" secondItem="9GA-Kq-Ddn" secondAttribute="top" id="3sN-Sn-aCE"/>
+                        <constraint firstItem="MBv-Vu-PAg" firstAttribute="leading" secondItem="WMU-8M-Dtd" secondAttribute="leading" id="3zD-Ne-KO4"/>
+                        <constraint firstItem="WMU-8M-Dtd" firstAttribute="centerY" secondItem="9GA-Kq-Ddn" secondAttribute="centerY" id="Anf-CF-U2B"/>
+                        <constraint firstItem="WMU-8M-Dtd" firstAttribute="width" secondItem="9GA-Kq-Ddn" secondAttribute="width" id="BAO-0u-ZtT"/>
+                        <constraint firstItem="LWf-nd-nbx" firstAttribute="leading" secondItem="9GA-Kq-Ddn" secondAttribute="leading" id="ETz-oA-z4Y"/>
+                        <constraint firstItem="MBv-Vu-PAg" firstAttribute="trailing" secondItem="WMU-8M-Dtd" secondAttribute="trailing" id="SDN-5B-dlz"/>
+                        <constraint firstAttribute="trailing" secondItem="LWf-nd-nbx" secondAttribute="trailing" id="VqQ-PL-WBF"/>
+                        <constraint firstItem="WMU-8M-Dtd" firstAttribute="top" secondItem="9GA-Kq-Ddn" secondAttribute="top" id="Wzc-op-NgW"/>
+                        <constraint firstItem="WMU-8M-Dtd" firstAttribute="centerX" secondItem="9GA-Kq-Ddn" secondAttribute="centerX" id="YtX-0N-MDt"/>
+                        <constraint firstAttribute="bottom" secondItem="kof-lk-mb4" secondAttribute="bottom" constant="13" id="byO-V2-arC"/>
+                        <constraint firstItem="WMU-8M-Dtd" firstAttribute="top" secondItem="9GA-Kq-Ddn" secondAttribute="top" id="d1f-Lw-27R"/>
+                        <constraint firstAttribute="height" constant="180" id="ikq-lZ-v0u"/>
+                        <constraint firstItem="MBv-Vu-PAg" firstAttribute="bottom" secondItem="WMU-8M-Dtd" secondAttribute="bottom" id="os9-eY-xhs"/>
+                        <constraint firstAttribute="bottom" secondItem="WMU-8M-Dtd" secondAttribute="bottom" id="pof-6I-DqT"/>
+                        <constraint firstItem="kof-lk-mb4" firstAttribute="centerX" secondItem="9GA-Kq-Ddn" secondAttribute="centerX" id="ubV-Vj-nif"/>
+                        <constraint firstItem="WMU-8M-Dtd" firstAttribute="height" secondItem="9GA-Kq-Ddn" secondAttribute="height" id="vLR-ns-7JL"/>
+                        <constraint firstAttribute="bottom" secondItem="LWf-nd-nbx" secondAttribute="bottom" id="zp4-1Q-836"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ikq-lZ-v0u"/>
+                            <exclude reference="Anf-CF-U2B"/>
+                            <exclude reference="BAO-0u-ZtT"/>
+                            <exclude reference="YtX-0N-MDt"/>
+                            <exclude reference="vLR-ns-7JL"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9GA-Kq-Ddn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="J0j-bo-leQ"/>
+                <constraint firstItem="9GA-Kq-Ddn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="J1b-Dg-rUv"/>
+                <constraint firstAttribute="trailing" secondItem="9GA-Kq-Ddn" secondAttribute="trailing" id="fgC-c1-GSd"/>
+                <constraint firstAttribute="bottom" secondItem="9GA-Kq-Ddn" secondAttribute="bottom" id="fgE-Yk-QLh"/>
+                <constraint firstAttribute="bottom" secondItem="9GA-Kq-Ddn" secondAttribute="bottom" constant="5" id="kdI-X4-rDt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="fgE-Yk-QLh"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="334" y="332.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_collections_gradient" width="2" height="50"/>
+        <image name="ic_collections_offers" width="24" height="24"/>
+    </resources>
+</document>

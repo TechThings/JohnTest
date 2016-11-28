@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="35" id="2pm-9g-vww" userLabel="UserEditableDetailTableViewCell" customClass="UserBirthdayTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="45"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2pm-9g-vww" id="IaN-rV-f9J">
+                <frame key="frameInset" width="343" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wlz-8T-JhU">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIRTHDAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ul7-LD-9XA">
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" red="0.60000002379999995" green="0.66274511810000003" blue="0.70588237050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="profile_setting_birthday_text"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWm-qg-zON">
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maH-cS-GBP">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="J7t-XL-nxQ"/>
+                                </constraints>
+                                <color key="tintColor" red="0.20000000000000001" green="0.6588235294" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="ic_edit"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="maH-cS-GBP" secondAttribute="trailing" constant="5" id="BP9-Ek-7E4"/>
+                            <constraint firstItem="OWm-qg-zON" firstAttribute="leading" secondItem="Wlz-8T-JhU" secondAttribute="leading" constant="110" id="FPR-3L-3TQ"/>
+                            <constraint firstItem="ul7-LD-9XA" firstAttribute="centerY" secondItem="Wlz-8T-JhU" secondAttribute="centerY" id="KM1-p4-zUU"/>
+                            <constraint firstItem="maH-cS-GBP" firstAttribute="top" secondItem="Wlz-8T-JhU" secondAttribute="top" id="QT5-Lj-cfe"/>
+                            <constraint firstAttribute="bottom" secondItem="maH-cS-GBP" secondAttribute="bottom" id="XGc-AS-15f"/>
+                            <constraint firstItem="OWm-qg-zON" firstAttribute="centerY" secondItem="Wlz-8T-JhU" secondAttribute="centerY" id="gR2-M6-AUF"/>
+                            <constraint firstItem="ul7-LD-9XA" firstAttribute="leading" secondItem="Wlz-8T-JhU" secondAttribute="leading" constant="16" id="xvS-dO-xVG"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88i-vd-Jc4" userLabel="Hacked Separator">
+                        <color key="backgroundColor" red="0.94509804249999996" green="0.94901961089999998" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="3aG-0P-wxm"/>
+                            <constraint firstAttribute="height" constant="1" id="cSG-So-Osa"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="cSG-So-Osa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Wlz-8T-JhU" secondAttribute="bottom" id="2tz-UB-ago"/>
+                    <constraint firstItem="88i-vd-Jc4" firstAttribute="top" secondItem="Wlz-8T-JhU" secondAttribute="bottom" id="55d-NQ-x30"/>
+                    <constraint firstItem="88i-vd-Jc4" firstAttribute="leading" secondItem="IaN-rV-f9J" secondAttribute="leading" constant="15" id="KLz-ho-Lrs"/>
+                    <constraint firstAttribute="trailing" secondItem="Wlz-8T-JhU" secondAttribute="trailing" id="Qgs-aT-mZS"/>
+                    <constraint firstItem="Wlz-8T-JhU" firstAttribute="top" secondItem="IaN-rV-f9J" secondAttribute="top" id="VSk-bp-Oyd"/>
+                    <constraint firstItem="Wlz-8T-JhU" firstAttribute="leading" secondItem="IaN-rV-f9J" secondAttribute="leading" id="Wdy-Zx-VEu"/>
+                    <constraint firstAttribute="trailing" secondItem="88i-vd-Jc4" secondAttribute="trailing" id="eOQ-oh-uOZ"/>
+                    <constraint firstAttribute="bottom" secondItem="88i-vd-Jc4" secondAttribute="bottom" id="lOx-HV-T4g"/>
+                    <constraint firstItem="maH-cS-GBP" firstAttribute="centerY" secondItem="IaN-rV-f9J" secondAttribute="centerY" id="rdO-cJ-ScD"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="2tz-UB-ago"/>
+                        <exclude reference="rdO-cJ-ScD"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailsLabel" destination="OWm-qg-zON" id="i3W-32-WXw"/>
+                <outlet property="editButton" destination="maH-cS-GBP" id="6O2-oK-q7P"/>
+            </connections>
+            <point key="canvasLocation" x="137.5" y="267.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_edit" width="20" height="20"/>
+    </resources>
+</document>

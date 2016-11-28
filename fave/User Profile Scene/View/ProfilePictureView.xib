@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfilePictureView" customModule="Fave" customModuleProvider="target">
+            <connections>
+                <outlet property="avatarOverlayButton" destination="5QP-VU-NJi" id="31O-05-C8G"/>
+                <outlet property="avatarView" destination="Nkh-NA-Pt6" id="l9w-uN-Rbv"/>
+                <outlet property="icCameraImageView" destination="Qbc-ez-NUb" id="ngR-pm-y2p"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="87" height="82"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fm5-iJ-fua" userLabel="ContentView">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ofz-Fk-hVr">
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nkh-NA-Pt6" customClass="AvatarView" customModule="Fave" customModuleProvider="target"/>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_avatar_camera" translatesAutoresizingMaskIntoConstraints="NO" id="Qbc-ez-NUb">
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="30" id="jcd-d0-JHV"/>
+                                        <constraint firstAttribute="height" constant="30" id="udk-bB-u3d"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QP-VU-NJi">
+                                    <frame key="frameInset" width="87" height="82"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <connections>
+                                        <action selector="didTapAvatarOverlayButton:" destination="-1" eventType="touchUpInside" id="nSP-es-VyF"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Nkh-NA-Pt6" firstAttribute="top" secondItem="Ofz-Fk-hVr" secondAttribute="top" id="3Qn-BQ-bse"/>
+                                <constraint firstAttribute="trailing" secondItem="Nkh-NA-Pt6" secondAttribute="trailing" id="3Tq-Dc-bVY"/>
+                                <constraint firstAttribute="bottom" secondItem="Qbc-ez-NUb" secondAttribute="bottom" id="6U9-Uc-91S"/>
+                                <constraint firstItem="Nkh-NA-Pt6" firstAttribute="leading" secondItem="Ofz-Fk-hVr" secondAttribute="leading" id="8Oi-J6-XXQ"/>
+                                <constraint firstAttribute="trailing" secondItem="Qbc-ez-NUb" secondAttribute="trailing" id="R2O-Qa-ATW"/>
+                                <constraint firstAttribute="bottom" secondItem="Nkh-NA-Pt6" secondAttribute="bottom" id="Uea-k2-n3m"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Ofz-Fk-hVr" firstAttribute="leading" secondItem="Fm5-iJ-fua" secondAttribute="leading" id="84L-ud-DEO"/>
+                        <constraint firstItem="Ofz-Fk-hVr" firstAttribute="top" secondItem="Fm5-iJ-fua" secondAttribute="top" id="Q5w-GK-ekT"/>
+                        <constraint firstAttribute="trailing" secondItem="Ofz-Fk-hVr" secondAttribute="trailing" id="TxD-yV-GVj"/>
+                        <constraint firstAttribute="bottom" secondItem="Ofz-Fk-hVr" secondAttribute="bottom" id="V6z-Ls-VUA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Fm5-iJ-fua" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="D8m-p6-hzR"/>
+                <constraint firstAttribute="trailing" secondItem="Fm5-iJ-fua" secondAttribute="trailing" id="X1D-KR-dSo"/>
+                <constraint firstItem="Fm5-iJ-fua" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="d49-p9-eiD"/>
+                <constraint firstAttribute="bottom" secondItem="Fm5-iJ-fua" secondAttribute="bottom" id="zZA-0D-ZV7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-325.5" y="3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_avatar_camera" width="30" height="30"/>
+    </resources>
+</document>

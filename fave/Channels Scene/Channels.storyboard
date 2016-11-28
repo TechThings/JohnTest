@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2Rt-RO-Ge6">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Channels View Controller-->
+        <scene sceneID="t8v-yQ-Uld">
+            <objects>
+                <viewController storyboardIdentifier="ChannelsViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2Rt-RO-Ge6" customClass="ChannelsViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Tx-WH-8Jg"/>
+                        <viewControllerLayoutGuide type="bottom" id="V1a-vF-mSp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EIO-46-QSt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rTn-yT-eXU" customClass="ChannelsTableView" customModule="Fave" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDe-j1-jdx">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41P-X9-Jnk">
+                                        <state key="normal" image="add">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="createChannelButtonDidTap:" destination="2Rt-RO-Ge6" eventType="touchUpInside" id="a53-1f-YIU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.8627451062" green="0.14901961389999999" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="41P-X9-Jnk" firstAttribute="centerY" secondItem="xDe-j1-jdx" secondAttribute="centerY" id="5ro-0r-7cz"/>
+                                    <constraint firstItem="41P-X9-Jnk" firstAttribute="height" secondItem="xDe-j1-jdx" secondAttribute="height" id="MKZ-Ok-EPb"/>
+                                    <constraint firstItem="41P-X9-Jnk" firstAttribute="centerX" secondItem="xDe-j1-jdx" secondAttribute="centerX" id="TY0-dR-7AI"/>
+                                    <constraint firstItem="41P-X9-Jnk" firstAttribute="centerY" secondItem="xDe-j1-jdx" secondAttribute="centerY" id="gAj-k3-yMg"/>
+                                    <constraint firstItem="41P-X9-Jnk" firstAttribute="width" secondItem="xDe-j1-jdx" secondAttribute="width" id="mBe-vv-4fl"/>
+                                    <constraint firstAttribute="width" constant="50" id="o61-04-Vec"/>
+                                    <constraint firstAttribute="height" constant="50" id="vxL-ei-pGp"/>
+                                </constraints>
+                            </view>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1YX-uD-ALB"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xDe-j1-jdx" secondAttribute="trailing" constant="20" id="1fU-k5-226"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xDe-j1-jdx" secondAttribute="trailing" constant="20" id="9J2-WI-DeN"/>
+                            <constraint firstItem="1YX-uD-ALB" firstAttribute="top" secondItem="EIO-46-QSt" secondAttribute="top" id="CAC-HL-WH1"/>
+                            <constraint firstItem="rTn-yT-eXU" firstAttribute="centerX" secondItem="EIO-46-QSt" secondAttribute="centerX" id="Ov9-Py-HF4"/>
+                            <constraint firstItem="V1a-vF-mSp" firstAttribute="top" secondItem="1YX-uD-ALB" secondAttribute="bottom" id="T1z-tb-b4t"/>
+                            <constraint firstItem="1YX-uD-ALB" firstAttribute="leading" secondItem="EIO-46-QSt" secondAttribute="leading" id="Tde-XA-aKj"/>
+                            <constraint firstItem="rTn-yT-eXU" firstAttribute="top" secondItem="EIO-46-QSt" secondAttribute="top" id="aF4-cb-4Aq"/>
+                            <constraint firstAttribute="trailing" secondItem="rTn-yT-eXU" secondAttribute="trailing" id="cEB-E0-z6A"/>
+                            <constraint firstItem="V1a-vF-mSp" firstAttribute="top" secondItem="rTn-yT-eXU" secondAttribute="bottom" id="cis-Bo-JB8"/>
+                            <constraint firstItem="rTn-yT-eXU" firstAttribute="width" secondItem="EIO-46-QSt" secondAttribute="width" id="eMc-zV-9X1"/>
+                            <constraint firstItem="rTn-yT-eXU" firstAttribute="leading" secondItem="EIO-46-QSt" secondAttribute="leading" id="gsU-Em-zej"/>
+                            <constraint firstAttribute="trailing" secondItem="1YX-uD-ALB" secondAttribute="trailing" id="lFy-B9-eQx"/>
+                            <constraint firstItem="rTn-yT-eXU" firstAttribute="height" secondItem="EIO-46-QSt" secondAttribute="height" id="qwl-3Z-DHs"/>
+                            <constraint firstItem="rTn-yT-eXU" firstAttribute="centerY" secondItem="EIO-46-QSt" secondAttribute="centerY" id="tl6-sH-wN8"/>
+                            <constraint firstItem="V1a-vF-mSp" firstAttribute="top" secondItem="xDe-j1-jdx" secondAttribute="bottom" constant="20" id="wcw-EC-OdU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Ov9-Py-HF4"/>
+                                <exclude reference="eMc-zV-9X1"/>
+                                <exclude reference="qwl-3Z-DHs"/>
+                                <exclude reference="tl6-sH-wN8"/>
+                                <exclude reference="9J2-WI-DeN"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="uSk-Kr-OxP">
+                        <barButtonItem key="backBarButtonItem" title=" " id="1O1-YQ-ovD"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="channelsTableView" destination="rTn-yT-eXU" id="Ped-rq-D4Q"/>
+                        <outlet property="createChannelButton" destination="41P-X9-Jnk" id="EGQ-61-3mu"/>
+                        <outlet property="createChannelButtonContainerView" destination="xDe-j1-jdx" id="dJv-gp-b9u"/>
+                        <outlet property="emptyChannelsViewControllerContainerView" destination="1YX-uD-ALB" id="KVm-Ta-dkK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hcB-i4-Y4i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="465" y="430"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add" width="48" height="48"/>
+    </resources>
+</document>

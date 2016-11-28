@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KFITStepper">
+            <connections>
+                <outlet property="countLabel" destination="wij-D6-xI1" id="thi-tD-MOe"/>
+                <outlet property="decrementButton" destination="aJh-0s-Dgf" id="U0l-xh-eGQ"/>
+                <outlet property="incrementButton" destination="Cz9-Ez-Pdd" id="mQ2-v6-Au1"/>
+                <outlet property="messageLabel" destination="fuZ-tg-FSa" id="ue1-bI-UQM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="112" height="84"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wij-D6-xI1" userLabel="Count Label">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="UHc-Lp-y98"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJh-0s-Dgf" userLabel="Decrement Button">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="95v-aY-rlN"/>
+                        <constraint firstAttribute="width" constant="40" id="NBR-Jt-QV7"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="3"/>
+                    <state key="normal" image="ic_stepper_minus">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="decrementButtonDidTapped:" destination="-1" eventType="touchUpInside" id="HPe-L8-Z6Q"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cz9-Ez-Pdd" userLabel="Increment Button">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="CKX-9l-PaN"/>
+                        <constraint firstAttribute="height" constant="40" id="Or3-ta-1Hy"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="4"/>
+                    <state key="normal" image="ic_stepper_plus">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="incrementButtonDidTapped:" destination="-1" eventType="touchUpInside" id="8C3-rQ-sJQ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuZ-tg-FSa" userLabel="Message Label">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Cz9-Ez-Pdd" firstAttribute="leading" secondItem="wij-D6-xI1" secondAttribute="trailing" constant="5" id="7FO-94-riS"/>
+                <constraint firstItem="fuZ-tg-FSa" firstAttribute="top" secondItem="wij-D6-xI1" secondAttribute="bottom" constant="8" id="8Zj-NE-Irh"/>
+                <constraint firstItem="wij-D6-xI1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="WmT-xv-0eZ"/>
+                <constraint firstItem="fuZ-tg-FSa" firstAttribute="centerX" secondItem="wij-D6-xI1" secondAttribute="centerX" id="bns-xo-71o"/>
+                <constraint firstItem="aJh-0s-Dgf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="eu3-6a-Klj"/>
+                <constraint firstAttribute="trailing" secondItem="Cz9-Ez-Pdd" secondAttribute="trailing" id="iH5-Xx-pcY"/>
+                <constraint firstItem="Cz9-Ez-Pdd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qeP-wq-dht"/>
+                <constraint firstItem="wij-D6-xI1" firstAttribute="leading" secondItem="aJh-0s-Dgf" secondAttribute="trailing" constant="5" id="udi-Xe-yvk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="128" y="383"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_stepper_minus" width="42" height="42"/>
+        <image name="ic_stepper_plus" width="16" height="16"/>
+    </resources>
+</document>

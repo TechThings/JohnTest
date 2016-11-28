@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Bold.otf">
+            <string>CircularStd-Bold</string>
+        </array>
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="HomeHeaderTableViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomeHeaderTableViewCell" rowHeight="250" id="Bzt-EA-vFd" customClass="HomeHeaderTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bzt-EA-vFd" id="V8N-oQ-mv2">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="299"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_my_fave_header" translatesAutoresizingMaskIntoConstraints="NO" id="h0q-3s-MKG">
+                        <rect key="frame" x="0.0" y="0.0" width="408" height="299"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_home_headerCell" translatesAutoresizingMaskIntoConstraints="NO" id="BSs-fh-oXC">
+                        <rect key="frame" x="20" y="42" width="66" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="66" id="Fn1-bv-Coc"/>
+                            <constraint firstAttribute="height" constant="36" id="rhh-DK-Gu4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you want to do?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJx-sz-iEA">
+                        <rect key="frame" x="15" y="200" width="378" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="4T2-Xo-vwm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="18"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4T2-Xo-vwm"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Fave!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fk3-9P-Igu">
+                        <rect key="frame" x="15" y="162" width="378" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="Tmh-9i-EKa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="26"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Tmh-9i-EKa"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAg-ab-ZcM">
+                        <rect key="frame" x="276" y="42" width="117" height="36"/>
+                        <color key="backgroundColor" red="0.87058823529999996" green="0.12549019610000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="WLF-Dv-KAD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="1 purchase" image="ic_notifications">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="defaultTitleKey" value="promo_code_view_details_button_text"/>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="didTapActionButton:" destination="Bzt-EA-vFd" eventType="touchUpInside" id="Bdn-si-087"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42t-vQ-KyL">
+                        <rect key="frame" x="15" y="238" width="378" height="46"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="46" id="leF-Vf-own"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="Search for places, offers and more" image="ic_search">
+                            <color key="titleColor" red="0.59999999999999998" green="0.66274509803921566" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="didTapSearchButton:" destination="Bzt-EA-vFd" eventType="touchUpInside" id="iuX-2U-86L"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cJx-sz-iEA" firstAttribute="leading" secondItem="V8N-oQ-mv2" secondAttribute="leading" constant="15" id="0uD-O4-Q5U"/>
+                    <constraint firstAttribute="trailing" secondItem="cJx-sz-iEA" secondAttribute="trailing" constant="15" id="2dP-Hl-dAQ"/>
+                    <constraint firstItem="fk3-9P-Igu" firstAttribute="leading" secondItem="V8N-oQ-mv2" secondAttribute="leading" constant="15" id="4M4-cI-O90"/>
+                    <constraint firstAttribute="trailing" secondItem="42t-vQ-KyL" secondAttribute="trailing" constant="15" id="9OS-Ly-zMy"/>
+                    <constraint firstItem="h0q-3s-MKG" firstAttribute="leading" secondItem="V8N-oQ-mv2" secondAttribute="leading" id="B7E-5b-DfZ"/>
+                    <constraint firstItem="BSs-fh-oXC" firstAttribute="leading" secondItem="V8N-oQ-mv2" secondAttribute="leading" constant="20" id="CoD-KH-T7k"/>
+                    <constraint firstItem="h0q-3s-MKG" firstAttribute="top" secondItem="V8N-oQ-mv2" secondAttribute="top" id="FQP-yb-e1Y"/>
+                    <constraint firstAttribute="trailing" secondItem="fAg-ab-ZcM" secondAttribute="trailing" constant="15" id="FVe-2i-QLm"/>
+                    <constraint firstItem="cJx-sz-iEA" firstAttribute="top" secondItem="fk3-9P-Igu" secondAttribute="bottom" constant="5" id="JjW-Z3-ckv"/>
+                    <constraint firstItem="42t-vQ-KyL" firstAttribute="leading" secondItem="V8N-oQ-mv2" secondAttribute="leading" constant="15" id="Pe3-FN-SL5"/>
+                    <constraint firstItem="fAg-ab-ZcM" firstAttribute="centerY" secondItem="BSs-fh-oXC" secondAttribute="centerY" id="aAV-ru-du7"/>
+                    <constraint firstAttribute="trailing" secondItem="fk3-9P-Igu" secondAttribute="trailing" constant="15" id="aIz-tg-rUq"/>
+                    <constraint firstAttribute="bottom" secondItem="42t-vQ-KyL" secondAttribute="bottom" constant="15" id="dgi-GK-Mwa"/>
+                    <constraint firstAttribute="trailing" secondItem="h0q-3s-MKG" secondAttribute="trailing" id="dom-Fs-faM"/>
+                    <constraint firstAttribute="bottom" secondItem="h0q-3s-MKG" secondAttribute="bottom" id="p5x-Vm-uG5"/>
+                    <constraint firstItem="42t-vQ-KyL" firstAttribute="top" secondItem="cJx-sz-iEA" secondAttribute="bottom" constant="15" id="tPn-qb-Gul"/>
+                    <constraint firstItem="BSs-fh-oXC" firstAttribute="top" secondItem="V8N-oQ-mv2" secondAttribute="top" constant="42" id="vJd-Ch-3VS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="actionButton" destination="fAg-ab-ZcM" id="XS5-yc-j3O"/>
+                <outlet property="appImageView" destination="BSs-fh-oXC" id="fBq-ag-oQT"/>
+                <outlet property="backgroundImage" destination="h0q-3s-MKG" id="0tq-iV-weS"/>
+                <outlet property="messageLabel" destination="cJx-sz-iEA" id="wVr-dc-a6N"/>
+                <outlet property="searchButton" destination="42t-vQ-KyL" id="fFK-my-4yf"/>
+                <outlet property="welcomeLabel" destination="fk3-9P-Igu" id="WjF-IQ-v3G"/>
+            </connections>
+            <point key="canvasLocation" x="-259" y="-110"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_my_fave_header" width="320" height="160"/>
+        <image name="ic_home_headerCell" width="400" height="600"/>
+        <image name="ic_notifications" width="16" height="16"/>
+        <image name="ic_search" width="22" height="22"/>
+    </resources>
+</document>

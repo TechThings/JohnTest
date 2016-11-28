@@ -1,0 +1,262 @@
+PODS:
+  - AdyenCheckout (0.0.2)
+  - Alamofire (3.5.0)
+  - Alexandria/Core (1.2.0)
+  - AMPopTip (1.3.0)
+  - AppsFlyerFramework (4.5.5)
+  - Braintree (4.7.1):
+    - Braintree/Card (= 4.7.1)
+    - Braintree/Core (= 4.7.1)
+    - Braintree/PayPal (= 4.7.1)
+    - Braintree/UI (= 4.7.1)
+  - Braintree/Card (4.7.1):
+    - Braintree/Core
+  - Braintree/Core (4.7.1)
+  - Braintree/PayPal (4.7.1):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.7.1):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.7.1):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.7.1)
+  - Braintree/UI (4.7.1):
+    - Braintree/Card
+    - Braintree/Core
+  - Branch (0.12.14):
+    - Branch/Core (= 0.12.14)
+    - Branch/without-IDFA (= 0.12.14)
+  - Branch/Core (0.12.14)
+  - Branch/without-IDFA (0.12.14)
+  - CircleProgressView (1.0.11)
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - CreditCardValidator (0.2)
+  - DACircularProgress (2.3.1)
+  - DateTools (1.7.0)
+  - DeviceKit (0.3.4)
+  - Fabric (1.6.11)
+  - Firebase/Core (3.8.0):
+    - FirebaseAnalytics (= 3.5.1)
+    - FirebaseCore (= 3.4.4)
+  - Firebase/Messaging (3.8.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.1)
+  - FirebaseAnalytics (3.5.1):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.4.4):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.8)
+  - FirebaseMessaging (1.2.1):
+    - FirebaseAnalytics (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleMaps (2.1.0):
+    - GoogleMaps/Maps (= 2.1.0)
+  - GoogleMaps/Base (2.1.0)
+  - GoogleMaps/Maps (2.1.0):
+    - GoogleMaps/Base (= 2.1.0)
+  - GooglePlacePicker (2.1.0):
+    - GoogleMaps (= 2.1.0)
+    - GooglePlaces (= 2.1.0)
+  - GooglePlaces (2.1.0):
+    - GoogleMaps/Base (= 2.1.0)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/Defines (2.1.0)
+  - GoogleToolboxForMac/Logger (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - GoogleToolboxForMac/NSData+zlib (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - HMSegmentedControl (1.5.3)
+  - IDMPhotoBrowser (1.9.1):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Kingfisher (2.6.0)
+  - KTCenterFlowLayout (1.3.1)
+  - Localytics (4.1.0)
+  - MidtransCoreKit (1.0.8)
+  - MidtransKit (1.0.8):
+    - MidtransCoreKit (~> 1.0.8)
+    - MidtransKit/UI (= 1.0.8)
+  - MidtransKit/UI (1.0.8):
+    - MidtransCoreKit (~> 1.0.8)
+  - MoEngage-iOS-SDK (3.1.0)
+  - MXPagerView (0.1.4)
+  - MXParallaxHeader (0.6.0)
+  - MXSegmentedPager (3.2.0):
+    - HMSegmentedControl (= 1.5.3)
+    - MXPagerView (= 0.1.4)
+    - MXParallaxHeader (= 0.6.0)
+  - PhoneNumberKit (0.8.5):
+    - PhoneNumberKit/PhoneNumberKitCore (= 0.8.5)
+    - PhoneNumberKit/UIKit (= 0.8.5)
+  - PhoneNumberKit/PhoneNumberKitCore (0.8.5)
+  - PhoneNumberKit/UIKit (0.8.5):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - PolyglotLocalization (0.4.0)
+  - pop (1.0.9)
+  - RSKImageCropper (1.5.1)
+  - RxCocoa (2.6.0):
+    - RxSwift (~> 2.5)
+  - RxDataSources (0.9):
+    - RxCocoa (~> 2.2)
+    - RxSwift (~> 2.2)
+  - RxOptional (2.0.0):
+    - RxCocoa (~> 2.0)
+    - RxSwift (~> 2.0)
+  - RxSwift (2.6.0)
+  - RxSwiftExt (1.2):
+    - RxSwift (~> 2.4)
+  - RxViewModel (3.1.3):
+    - RxSwift (~> 2.5)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SendBirdSDK (2.2.13)
+  - SwiftLoader (0.2.5)
+  - SwiftOverlays (2.0.1)
+  - Validator (1.2.1)
+  - ZDCChat (1.3.2.1):
+    - ZDCChat/API (= 1.3.2.1)
+    - ZDCChat/Localization (= 1.3.2.1)
+    - ZDCChat/UI (= 1.3.2.1)
+  - ZDCChat/API (1.3.2.1)
+  - ZDCChat/Localization (1.3.2.1)
+  - ZDCChat/UI (1.3.2.1):
+    - ZDCChat/API
+  - ZendeskSDK (1.7.5.1):
+    - ZendeskSDK/Providers (= 1.7.5.1)
+    - ZendeskSDK/UI (= 1.7.5.1)
+  - ZendeskSDK/Providers (1.7.5.1)
+  - ZendeskSDK/UI (1.7.5.1):
+    - ZendeskSDK/Providers
+
+DEPENDENCIES:
+  - AdyenCheckout (= 0.0.2)
+  - Alamofire (= 3.5.0)
+  - Alexandria/Core (from `git@github.com:ovenbits/Alexandria.git`, branch `swift2.3`)
+  - AMPopTip (= 1.3.0)
+  - AppsFlyerFramework (= 4.5.5)
+  - Braintree (= 4.7.1)
+  - Branch (= 0.12.14)
+  - CircleProgressView (= 1.0.11)
+  - Crashlytics (= 3.8.3)
+  - CreditCardValidator (= 0.2.0)
+  - DateTools (= 1.7.0)
+  - DeviceKit (= 0.3.4)
+  - Fabric (= 1.6.11)
+  - Firebase/Core (= 3.8.0)
+  - Firebase/Messaging (= 3.8.0)
+  - GoogleMaps (= 2.1.0)
+  - GooglePlacePicker (= 2.1.0)
+  - GooglePlaces (= 2.1.0)
+  - IDMPhotoBrowser (= 1.9.1)
+  - JSQMessagesViewController (= 7.3.4)
+  - Kingfisher (= 2.6.0)
+  - KTCenterFlowLayout (= 1.3.1)
+  - Localytics (= 4.1.0)
+  - MidtransKit (= 1.0.8)
+  - MoEngage-iOS-SDK (= 3.1.0)
+  - MXSegmentedPager (= 3.2.0)
+  - PhoneNumberKit (~> 0.8)
+  - PolyglotLocalization (= 0.4.0)
+  - RSKImageCropper (= 1.5.1)
+  - RxCocoa (= 2.6.0)
+  - RxDataSources (= 0.9)
+  - RxOptional (= 2.0.0)
+  - RxSwift (= 2.6.0)
+  - RxSwiftExt (= 1.2)
+  - RxViewModel (= 3.1.3)
+  - SendBirdSDK (= 2.2.13)
+  - SwiftLoader (= 0.2.5)
+  - SwiftOverlays (= 2.0.1)
+  - Validator (= 1.2.1)
+  - ZDCChat (= 1.3.2.1)
+  - ZendeskSDK (= 1.7.5.1)
+
+EXTERNAL SOURCES:
+  Alexandria:
+    :branch: swift2.3
+    :git: git@github.com:ovenbits/Alexandria.git
+
+CHECKOUT OPTIONS:
+  Alexandria:
+    :commit: 09efb731e5c2a70dca6546e30e0d42f1d80d17a6
+    :git: git@github.com:ovenbits/Alexandria.git
+
+SPEC CHECKSUMS:
+  AdyenCheckout: 9c03cc536803df50755692891bb965611efc16d9
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  Alexandria: adf65bc04ad49194bec3eae2ee743432ac129c73
+  AMPopTip: b810a33c120feacafce170cc9ddcaa8ce3a8389d
+  AppsFlyerFramework: 5044801531dea6091d906764812571394584320b
+  Braintree: c57bcb7983412530ea6d71cee4b99a4ba316c4ef
+  Branch: 5ee800cf8cf72e0ed3360793348ef36f557456d3
+  CircleProgressView: 3e7e26454ad9a93e310fe9cd612af6d779deb0c1
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  CreditCardValidator: 23532b5c4f721dbb1c2faf16b529df9569715a5a
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  DeviceKit: b414b210c225ae19b77a47e64cb04f187c1c4f9a
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  Firebase: fdbecadb7b5cbef2774852d4fa659b9daf11f2af
+  FirebaseAnalytics: 6e58fc9b397664369ac7617fb0ba93fab6ba7b5b
+  FirebaseCore: d0ed25f27b6f9158eccc439f1be6f92e81207e28
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  FirebaseMessaging: acf66347e43c5637c697060c3001d25c809a4131
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleMaps: 06589b9a38097bce0cd6e90f0fd9b5e4b4a9344c
+  GooglePlacePicker: a2228b447d10008bcb765a6a081f415e8599e5d4
+  GooglePlaces: 16e96266483b8010e9f275399403647978523c86
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  HMSegmentedControl: 7c6145afb50f26cec5f3243082f6f12b9f41318f
+  IDMPhotoBrowser: 35e8ba559a88f2a8be4ae04d7fd424665344ba06
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Kingfisher: d84c5fd176ea86cc7b8aac65fd55feda6f70f130
+  KTCenterFlowLayout: 6e02b50ab2bd865025ae82fe266ed13b6d9eaf97
+  Localytics: 6b567857273ffa9b76bb6e4c4e11c5f6f2b15a86
+  MidtransCoreKit: 7cbd6ad1721c16197fbf37ab8875205cd4a0cd2f
+  MidtransKit: f570c3a41deff1754f1d43f194fba7ed05b38fd2
+  MoEngage-iOS-SDK: 8c33707284c60d7f1432c8f927e7af0283bca64e
+  MXPagerView: 8798126c2e629695474eb16cbe1a6da6e0b02915
+  MXParallaxHeader: 2997592b8349baf8557ae0e4346f6b17e141de39
+  MXSegmentedPager: f529de7ac9ee78c1ab727e4cae9483779ca5d4c7
+  PhoneNumberKit: 5668a7af19d2e566d92831a632ee80f5047eff75
+  PolyglotLocalization: 5e55cbbbc1685c88945c359b7521293a3b300f86
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  RSKImageCropper: edd65fedb3734332818deb139906d6b7f54b8a44
+  RxCocoa: 89ab00d5753502520227940e3a0e0a0413683c6b
+  RxDataSources: e169bba94a7be584df7c1e1487fa56edc8753ae6
+  RxOptional: b77fb47a0190213cf8a37c7a2b7fda28160b4563
+  RxSwift: 77f3a0b15324baa7a1c9bfa9f199648a82424e26
+  RxSwiftExt: f26dd04453d68193124d98684261c6721b5e141a
+  RxViewModel: d2a8f05c008b932131f590f34f4afba4b0948f9a
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SendBirdSDK: 1b9e2abee26d2c54a577d58b1cca5de0aeba7cd7
+  SwiftLoader: 12d7a6f661f5e9a2c9a72003e7dd6162f4ff0cc4
+  SwiftOverlays: 317afbb3eeb7f9d8545b1e6592500c89aadb6d8f
+  Validator: f293822c1bd99dc9c54b275ffffae306a87c7849
+  ZDCChat: 307dca4b10abe5c133ccc0c7355fbb36d4207ce5
+  ZendeskSDK: aa23cc8e1ff59e5ec2ea5840d4f4eb3c5679c93d
+
+PODFILE CHECKSUM: 1405617e8421f915edb40c1746bcdbc054607011
+
+COCOAPODS: 1.1.1

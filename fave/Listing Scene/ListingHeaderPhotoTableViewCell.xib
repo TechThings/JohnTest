@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="200" id="YPw-0g-7fu" customClass="ListingHeaderPhotoTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YPw-0g-7fu" id="C0V-mk-B5f">
+                <rect key="frame" x="0.0" y="0.0" width="326" height="199"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="1pS-cI-uRf">
+                        <rect key="frame" x="0.0" y="0.0" width="326" height="199"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Xj-Em-l7h">
+                        <rect key="frame" x="204" y="154" width="107" height="30"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_details_photo_white" translatesAutoresizingMaskIntoConstraints="NO" id="PVa-r4-qKF">
+                                <rect key="frame" x="8" y="8" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14" id="VNW-UY-FZA"/>
+                                    <constraint firstAttribute="height" constant="14" id="t3j-RX-JIe"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XX photos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NY-fl-W1f">
+                                <rect key="frame" x="30" y="6.5" width="65" height="18"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7NY-fl-W1f" secondAttribute="trailing" constant="12" id="MG5-FC-8m7"/>
+                            <constraint firstItem="7NY-fl-W1f" firstAttribute="centerY" secondItem="4Xj-Em-l7h" secondAttribute="centerY" id="Qlr-Sb-USQ"/>
+                            <constraint firstItem="7NY-fl-W1f" firstAttribute="leading" secondItem="PVa-r4-qKF" secondAttribute="trailing" constant="8" id="T7m-IG-a2U"/>
+                            <constraint firstAttribute="height" constant="30" id="qtq-lN-DA4"/>
+                            <constraint firstItem="PVa-r4-qKF" firstAttribute="centerY" secondItem="4Xj-Em-l7h" secondAttribute="centerY" id="saU-4P-fRv"/>
+                            <constraint firstItem="PVa-r4-qKF" firstAttribute="leading" secondItem="4Xj-Em-l7h" secondAttribute="leading" constant="8" id="vve-K2-Z3K"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhF-YF-RpD">
+                        <rect key="frame" x="0.0" y="0.0" width="326" height="199"/>
+                        <connections>
+                            <action selector="headerImageButtonTapped:" destination="YPw-0g-7fu" eventType="touchUpInside" id="SHg-Ni-z4A"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="MhF-YF-RpD" secondAttribute="trailing" id="Abf-QT-WHD"/>
+                    <constraint firstAttribute="trailing" secondItem="4Xj-Em-l7h" secondAttribute="trailing" constant="15" id="Auz-H3-Xev"/>
+                    <constraint firstAttribute="bottom" secondItem="4Xj-Em-l7h" secondAttribute="bottom" constant="15" id="CEV-I8-H5O"/>
+                    <constraint firstAttribute="bottom" secondItem="MhF-YF-RpD" secondAttribute="bottom" id="MsT-nP-LUT"/>
+                    <constraint firstItem="MhF-YF-RpD" firstAttribute="leading" secondItem="C0V-mk-B5f" secondAttribute="leading" id="NfT-9H-G8f"/>
+                    <constraint firstAttribute="bottom" secondItem="1pS-cI-uRf" secondAttribute="bottom" id="ZNU-w8-VJ4"/>
+                    <constraint firstItem="MhF-YF-RpD" firstAttribute="top" secondItem="C0V-mk-B5f" secondAttribute="top" id="fWM-PG-21B"/>
+                    <constraint firstItem="1pS-cI-uRf" firstAttribute="top" secondItem="C0V-mk-B5f" secondAttribute="top" id="hZV-wy-dux"/>
+                    <constraint firstAttribute="trailing" secondItem="1pS-cI-uRf" secondAttribute="trailing" id="pgH-Aw-th8"/>
+                    <constraint firstItem="1pS-cI-uRf" firstAttribute="leading" secondItem="C0V-mk-B5f" secondAttribute="leading" id="yyA-N9-nBc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="photo" destination="1pS-cI-uRf" id="w6i-el-LrQ"/>
+                <outlet property="photoCountLabel" destination="7NY-fl-W1f" id="dl3-eT-SJN"/>
+                <outlet property="photoCountView" destination="4Xj-Em-l7h" id="gfh-0H-2MT"/>
+            </connections>
+            <point key="canvasLocation" x="126" y="200"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_details_photo_white" width="21" height="21"/>
+        <image name="image-placeholder" width="375" height="223"/>
+    </resources>
+</document>

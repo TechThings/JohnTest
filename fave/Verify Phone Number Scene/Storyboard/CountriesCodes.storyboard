@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Choose your country code-->
+        <scene sceneID="4Xz-EC-wmI">
+            <objects>
+                <viewController storyboardIdentifier="CountriesCodesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="j7k-be-ji9" customClass="CountriesCodesViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W5U-Sc-wLa"/>
+                        <viewControllerLayoutGuide type="bottom" id="lX2-Zj-MRq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cIl-Vf-WVU">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="Search country" translatesAutoresizingMaskIntoConstraints="NO" id="7oS-vb-gjA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DPe-fU-r3h" customClass="CountriesCodesTableView" customModule="Fave" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="600" height="492"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7oS-vb-gjA" firstAttribute="top" secondItem="W5U-Sc-wLa" secondAttribute="bottom" id="0l5-eS-BBp"/>
+                            <constraint firstAttribute="trailing" secondItem="7oS-vb-gjA" secondAttribute="trailing" id="G2n-2c-Fpq"/>
+                            <constraint firstAttribute="trailing" secondItem="DPe-fU-r3h" secondAttribute="trailing" id="G4i-EV-Vco"/>
+                            <constraint firstItem="DPe-fU-r3h" firstAttribute="top" secondItem="W5U-Sc-wLa" secondAttribute="bottom" id="ZcO-O0-5f3"/>
+                            <constraint firstItem="DPe-fU-r3h" firstAttribute="top" secondItem="7oS-vb-gjA" secondAttribute="bottom" id="hPl-ei-Dmk"/>
+                            <constraint firstItem="7oS-vb-gjA" firstAttribute="leading" secondItem="cIl-Vf-WVU" secondAttribute="leading" id="ik3-vQ-lFi"/>
+                            <constraint firstItem="DPe-fU-r3h" firstAttribute="leading" secondItem="cIl-Vf-WVU" secondAttribute="leading" id="sLS-8x-Nig"/>
+                            <constraint firstItem="lX2-Zj-MRq" firstAttribute="top" secondItem="DPe-fU-r3h" secondAttribute="bottom" id="wgX-xg-yv2"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ZcO-O0-5f3"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Choose your country code" id="bPJ-JK-xyw">
+                        <barButtonItem key="backBarButtonItem" title=" " id="1VM-cg-nJ8"/>
+                        <barButtonItem key="rightBarButtonItem" image="close_icon" id="GhI-NB-PZx">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="doneButtonDidTap:" destination="j7k-be-ji9" id="tZj-U3-Dvq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <outlet property="countriesCodesTableView" destination="DPe-fU-r3h" id="ppF-60-ZkK"/>
+                        <outlet property="searchBar" destination="7oS-vb-gjA" id="ZXg-EP-1d4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tr8-iA-0pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127" y="216"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close_icon" width="23" height="21"/>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="UserProfileHeaderTableViewCell" rowHeight="141" id="iC3-iY-bVn" customClass="UserProfileHeaderTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iC3-iY-bVn" id="Qda-hr-yMX">
+                <frame key="frameInset" width="390" height="140.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TU0-Cw-ApD">
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_my_fave_header" translatesAutoresizingMaskIntoConstraints="NO" id="BAt-Hc-2Io"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wIE-4O-iEa" customClass="ProfilePictureView" customModule="Fave" customModuleProvider="target">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Wvz-Lh-rtO"/>
+                                    <constraint firstAttribute="height" constant="80" id="YLS-CM-NlT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BAt-Hc-2Io" firstAttribute="leading" secondItem="TU0-Cw-ApD" secondAttribute="leading" id="3Zu-V1-hWG"/>
+                            <constraint firstItem="wIE-4O-iEa" firstAttribute="centerY" secondItem="TU0-Cw-ApD" secondAttribute="centerY" id="5fZ-38-T51"/>
+                            <constraint firstAttribute="trailing" secondItem="BAt-Hc-2Io" secondAttribute="trailing" id="7Av-jK-IhT"/>
+                            <constraint firstAttribute="bottom" secondItem="BAt-Hc-2Io" secondAttribute="bottom" id="JiE-oL-bkd"/>
+                            <constraint firstItem="BAt-Hc-2Io" firstAttribute="top" secondItem="TU0-Cw-ApD" secondAttribute="top" id="VK5-rU-P0N"/>
+                            <constraint firstItem="wIE-4O-iEa" firstAttribute="centerX" secondItem="TU0-Cw-ApD" secondAttribute="centerX" id="hYI-Te-4vE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TU0-Cw-ApD" firstAttribute="leading" secondItem="Qda-hr-yMX" secondAttribute="leading" id="4b8-Rm-cre"/>
+                    <constraint firstAttribute="bottom" secondItem="TU0-Cw-ApD" secondAttribute="bottom" id="LLB-Q2-fBm"/>
+                    <constraint firstAttribute="trailing" secondItem="TU0-Cw-ApD" secondAttribute="trailing" id="ayr-Eg-I3c"/>
+                    <constraint firstItem="TU0-Cw-ApD" firstAttribute="top" secondItem="Qda-hr-yMX" secondAttribute="top" id="rPC-gm-pYM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="profilePictureView" destination="wIE-4O-iEa" id="9qF-fE-iz3"/>
+            </connections>
+            <point key="canvasLocation" x="467" y="273.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_my_fave_header" width="320" height="160"/>
+    </resources>
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="Rhg-2I-gGl" customClass="ListingNextSessionTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rhg-2I-gGl" id="Ysh-yi-GUC">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eC0-lI-HS1">
+                        <rect key="frame" x="15" y="0.0" width="307" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="jgS-Ss-CBd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="15"/>
+                        <state key="normal" title="View more dates &amp; time slots">
+                            <color key="titleColor" red="0.20000000000000001" green="0.6588235294" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eC0-lI-HS1" firstAttribute="leading" secondItem="Ysh-yi-GUC" secondAttribute="leading" constant="15" id="5aV-B3-JBr"/>
+                    <constraint firstItem="eC0-lI-HS1" firstAttribute="top" secondItem="Ysh-yi-GUC" secondAttribute="top" id="gdo-nI-bBA"/>
+                    <constraint firstAttribute="trailing" secondItem="eC0-lI-HS1" secondAttribute="trailing" id="rOK-7c-KAo"/>
+                    <constraint firstAttribute="bottom" secondItem="eC0-lI-HS1" secondAttribute="bottom" id="sZZ-ti-Q2C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="seeMoreButton" destination="eC0-lI-HS1" id="bVY-IJ-Hig"/>
+            </connections>
+            <point key="canvasLocation" x="221" y="111"/>
+        </tableViewCell>
+    </objects>
+</document>

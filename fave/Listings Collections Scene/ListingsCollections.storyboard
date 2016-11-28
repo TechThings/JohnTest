@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Collections for you-->
+        <scene sceneID="Hcp-Gz-Rfk">
+            <objects>
+                <viewController storyboardIdentifier="ListingsCollectionsViewController" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bop-Ch-Rx2" customClass="ListingsCollectionsViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jhK-VP-nGx"/>
+                        <viewControllerLayoutGuide type="bottom" id="PTs-3c-tiR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kEz-aK-LK7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wex-wK-vgx" customClass="ListingsCollectionsTableView" customModule="Fave" customModuleProvider="target">
+                                <frame key="frameInset" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wex-wK-vgx" firstAttribute="top" secondItem="jhK-VP-nGx" secondAttribute="bottom" id="Mew-1b-p54"/>
+                            <constraint firstItem="wex-wK-vgx" firstAttribute="centerX" secondItem="kEz-aK-LK7" secondAttribute="centerX" id="Ss9-px-zBQ"/>
+                            <constraint firstItem="wex-wK-vgx" firstAttribute="width" secondItem="kEz-aK-LK7" secondAttribute="width" id="fg2-Hu-a1k"/>
+                            <constraint firstAttribute="trailing" secondItem="wex-wK-vgx" secondAttribute="trailing" id="jrT-Mb-gdV"/>
+                            <constraint firstItem="PTs-3c-tiR" firstAttribute="top" secondItem="wex-wK-vgx" secondAttribute="bottom" id="mZQ-ZR-g3P"/>
+                            <constraint firstItem="wex-wK-vgx" firstAttribute="height" secondItem="kEz-aK-LK7" secondAttribute="height" id="pp8-vc-OFi"/>
+                            <constraint firstItem="wex-wK-vgx" firstAttribute="leading" secondItem="kEz-aK-LK7" secondAttribute="leading" id="qbO-mh-ykM"/>
+                            <constraint firstItem="wex-wK-vgx" firstAttribute="centerY" secondItem="kEz-aK-LK7" secondAttribute="centerY" id="vOQ-DE-Bf3"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Mew-1b-p54"/>
+                                <exclude reference="jrT-Mb-gdV"/>
+                                <exclude reference="qbO-mh-ykM"/>
+                                <exclude reference="mZQ-ZR-g3P"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Collections for you" id="oBp-k8-5ar">
+                        <barButtonItem key="backBarButtonItem" title=" " id="yuU-rz-oFS"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="titleKey" value="home_collection_for_you_text"/>
+                        </userDefinedRuntimeAttributes>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="listingsCollectionsTableView" destination="wex-wK-vgx" id="QeN-FP-N9U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kPW-WD-NfB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="634" y="9"/>
+        </scene>
+    </scenes>
+</document>

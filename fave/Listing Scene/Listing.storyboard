@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Bold.otf">
+            <string>CircularStd-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Listing View Controller-->
+        <scene sceneID="5bY-0e-MaL">
+            <objects>
+                <viewController storyboardIdentifier="ListingViewController" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="rPU-2i-SMI" customClass="ListingViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8GE-xm-KsM"/>
+                        <viewControllerLayoutGuide type="bottom" id="3X5-It-T98"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LrX-JD-2Fu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Brn-TD-9ch">
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="rPU-2i-SMI" id="qeg-Ws-vKa"/>
+                                    <outlet property="delegate" destination="rPU-2i-SMI" id="2O7-Oz-NBh"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bW7-Fe-5It" userLabel="Floating buttons">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Xh2-MU-0rh">
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xqj-4u-604" userLabel="Chat Button" customClass="Button" customModule="Fave" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.23137255012989044" green="0.66274511814117432" blue="0.81176471710205078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="14"/>
+                                                <inset key="titleEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="7" maxY="0.0"/>
+                                                <state key="normal" title="CHAT" image="ic_chat_icon"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="chatDidTap:" destination="rPU-2i-SMI" eventType="touchUpInside" id="y7V-02-YX4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTy-K7-ARn" userLabel="Book Button" customClass="Button" customModule="Fave" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.2823529541" green="0.69019609689999994" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="14"/>
+                                                <state key="normal" title="BUY NOW">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <state key="disabled" title="SOLD OUT"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buyNowDidTap:" destination="rPU-2i-SMI" eventType="touchUpInside" id="faz-Mb-6OJ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="oTy-K7-ARn" firstAttribute="width" secondItem="Xqj-4u-604" secondAttribute="width" multiplier="16:9" id="AHP-e3-23K"/>
+                                            <constraint firstAttribute="height" constant="62" id="nW3-wr-CHl"/>
+                                        </constraints>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="nW3-wr-CHl"/>
+                                            </mask>
+                                        </variation>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Xh2-MU-0rh" firstAttribute="top" secondItem="bW7-Fe-5It" secondAttribute="top" id="0Bp-To-0Gl"/>
+                                    <constraint firstAttribute="height" constant="62" id="3EX-LX-jdB"/>
+                                    <constraint firstItem="Xh2-MU-0rh" firstAttribute="leading" secondItem="bW7-Fe-5It" secondAttribute="leading" id="DJM-TV-OTy"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xh2-MU-0rh" secondAttribute="trailing" id="UJc-94-NKN"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xh2-MU-0rh" secondAttribute="bottom" id="n0a-Da-H27"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bW7-Fe-5It" secondAttribute="trailing" id="3qN-Iy-fi8"/>
+                            <constraint firstItem="Brn-TD-9ch" firstAttribute="height" secondItem="LrX-JD-2Fu" secondAttribute="height" id="6LE-Qq-QDJ"/>
+                            <constraint firstItem="Brn-TD-9ch" firstAttribute="top" secondItem="LrX-JD-2Fu" secondAttribute="top" id="9dD-BR-DUH"/>
+                            <constraint firstAttribute="bottom" secondItem="Brn-TD-9ch" secondAttribute="bottom" id="N9O-jU-V9r"/>
+                            <constraint firstItem="Brn-TD-9ch" firstAttribute="width" secondItem="LrX-JD-2Fu" secondAttribute="width" id="Nvf-PA-b1O"/>
+                            <constraint firstItem="Brn-TD-9ch" firstAttribute="centerX" secondItem="LrX-JD-2Fu" secondAttribute="centerX" id="RI7-0q-UCo"/>
+                            <constraint firstItem="Brn-TD-9ch" firstAttribute="leading" secondItem="LrX-JD-2Fu" secondAttribute="leading" id="S2W-Fb-2Nw"/>
+                            <constraint firstItem="3X5-It-T98" firstAttribute="top" secondItem="bW7-Fe-5It" secondAttribute="bottom" id="S3p-Xs-L9g"/>
+                            <constraint firstItem="3X5-It-T98" firstAttribute="top" secondItem="Brn-TD-9ch" secondAttribute="bottom" id="T1y-qi-rCR"/>
+                            <constraint firstItem="3X5-It-T98" firstAttribute="top" secondItem="bW7-Fe-5It" secondAttribute="bottom" id="f6A-CW-mtq"/>
+                            <constraint firstItem="bW7-Fe-5It" firstAttribute="bottom" secondItem="3X5-It-T98" secondAttribute="top" id="lb7-zq-W2T"/>
+                            <constraint firstAttribute="trailing" secondItem="Brn-TD-9ch" secondAttribute="trailing" id="nII-1w-3Fj"/>
+                            <constraint firstItem="bW7-Fe-5It" firstAttribute="leading" secondItem="LrX-JD-2Fu" secondAttribute="leading" id="sQl-UA-UN6"/>
+                            <constraint firstItem="3X5-It-T98" firstAttribute="top" secondItem="Brn-TD-9ch" secondAttribute="bottom" id="sSg-h7-6IE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6LE-Qq-QDJ"/>
+                                <exclude reference="Nvf-PA-b1O"/>
+                                <exclude reference="RI7-0q-UCo"/>
+                                <exclude reference="lb7-zq-W2T"/>
+                                <exclude reference="T1y-qi-rCR"/>
+                                <exclude reference="f6A-CW-mtq"/>
+                                <exclude reference="sSg-h7-6IE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Gwg-zX-1zo">
+                        <barButtonItem key="backBarButtonItem" title=" " id="54i-zR-bVI"/>
+                        <barButtonItem key="rightBarButtonItem" image="icon-share" id="m5c-PI-a3b">
+                            <connections>
+                                <action selector="didTapShareBarButton:" destination="rPU-2i-SMI" id="fMC-Y1-Tch"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="buyNowButton" destination="oTy-K7-ARn" id="ozZ-Fl-pEw"/>
+                        <outlet property="chatButton" destination="Xqj-4u-604" id="191-lG-vpB"/>
+                        <outlet property="floatingButtonsView" destination="bW7-Fe-5It" id="B88-ot-7rI"/>
+                        <outlet property="tableView" destination="Brn-TD-9ch" id="C4b-bg-Xdn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Slb-pO-Lvf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-190" y="-312"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_chat_icon" width="16" height="14"/>
+        <image name="icon-share" width="19" height="19"/>
+    </resources>
+</document>

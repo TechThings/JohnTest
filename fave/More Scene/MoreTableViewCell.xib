@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MoreTableViewCell" rowHeight="64" id="9ot-fm-F05" userLabel="MoreTableViewCell" customClass="MoreTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9ot-fm-F05" id="6RI-Ig-fga">
+                <frame key="frameInset" width="287" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="drs-Cv-sCl">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="mWs-Sc-NQz"/>
+                            <constraint firstAttribute="width" constant="40" id="weB-dE-3vu"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account Setting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdf-cC-9vg">
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="account_setting"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDf-SY-Lre">
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.28826257586479187" green="0.26195979118347168" blue="0.29982671141624451" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="lDf-SY-Lre" secondAttribute="trailing" constant="5" id="1Kw-BD-rfV"/>
+                    <constraint firstItem="Pdf-cC-9vg" firstAttribute="top" secondItem="6RI-Ig-fga" secondAttribute="top" constant="13" id="5DH-J8-VvJ"/>
+                    <constraint firstAttribute="trailing" secondItem="Pdf-cC-9vg" secondAttribute="trailing" id="8aG-xz-GJb"/>
+                    <constraint firstAttribute="bottom" secondItem="lDf-SY-Lre" secondAttribute="bottom" constant="10" id="8mt-iS-vpd"/>
+                    <constraint firstItem="drs-Cv-sCl" firstAttribute="leading" secondItem="6RI-Ig-fga" secondAttribute="leading" constant="15" id="Irl-QO-dlE"/>
+                    <constraint firstAttribute="bottom" secondItem="drs-Cv-sCl" secondAttribute="bottom" constant="11.5" id="MmG-xc-kXw"/>
+                    <constraint firstItem="lDf-SY-Lre" firstAttribute="leading" secondItem="drs-Cv-sCl" secondAttribute="trailing" constant="13" id="kNR-zt-qkk"/>
+                    <constraint firstItem="Pdf-cC-9vg" firstAttribute="leading" secondItem="drs-Cv-sCl" secondAttribute="trailing" constant="13" id="kda-Fk-NkC"/>
+                    <constraint firstItem="drs-Cv-sCl" firstAttribute="top" secondItem="6RI-Ig-fga" secondAttribute="top" constant="12" id="mNE-4D-cxi"/>
+                    <constraint firstItem="lDf-SY-Lre" firstAttribute="top" secondItem="Pdf-cC-9vg" secondAttribute="bottom" constant="3" id="o1O-pt-kMr"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="8mt-iS-vpd"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailLabel" destination="lDf-SY-Lre" id="FuL-Eq-xzw"/>
+                <outlet property="iconImageView" destination="drs-Cv-sCl" id="5Mt-fi-Bdb"/>
+                <outlet property="titleLabel" destination="Pdf-cC-9vg" id="ny3-FD-1ru"/>
+            </connections>
+            <point key="canvasLocation" x="302" y="321"/>
+        </tableViewCell>
+    </objects>
+</document>

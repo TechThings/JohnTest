@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chat info-->
+        <scene sceneID="1Zx-0D-44L">
+            <objects>
+                <viewController storyboardIdentifier="ChannelInfoViewController" automaticallyAdjustsScrollViewInsets="NO" id="6vv-Ow-tZF" customClass="ChannelInfoViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kYK-QM-GcL"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Nk-9o-xxk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xQI-3J-4rY" userLabel="Root View">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nWw-0i-jYm">
+                                <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="6vv-Ow-tZF" id="y6i-i2-POO"/>
+                                    <outlet property="delegate" destination="6vv-Ow-tZF" id="muA-Uz-cRy"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nWw-0i-jYm" firstAttribute="top" secondItem="kYK-QM-GcL" secondAttribute="bottom" id="2wv-8P-Dse"/>
+                            <constraint firstItem="nWw-0i-jYm" firstAttribute="leading" secondItem="xQI-3J-4rY" secondAttribute="leading" id="nOL-aZ-CIB"/>
+                            <constraint firstAttribute="trailing" secondItem="nWw-0i-jYm" secondAttribute="trailing" id="q7f-Fy-FCW"/>
+                            <constraint firstItem="4Nk-9o-xxk" firstAttribute="top" secondItem="nWw-0i-jYm" secondAttribute="bottom" id="zJP-F9-m7p"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Chat info" id="wjQ-ZW-mug">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Zf3-oM-LjP"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="tableView" destination="nWw-0i-jYm" id="40K-HS-bXc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7CV-6R-hQ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17" y="64"/>
+        </scene>
+    </scenes>
+</document>

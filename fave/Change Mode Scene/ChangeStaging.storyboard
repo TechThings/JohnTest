@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Change Staging View Controller-->
+        <scene sceneID="jN4-Jg-p0x">
+            <objects>
+                <viewController storyboardIdentifier="ChangeStagingViewController" id="NFF-HB-Na6" customClass="ChangeStagingViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I1b-3O-TS8"/>
+                        <viewControllerLayoutGuide type="bottom" id="oLb-JH-QyZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iFa-i1-A87">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="tCv-mN-mNG">
+                                <frame key="frameInset" minY="64" width="320" height="416"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="NFF-HB-Na6" id="hTE-Wx-yQ1"/>
+                                    <outlet property="delegate" destination="NFF-HB-Na6" id="34K-Lp-tbA"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R3A-YD-W2o">
+                                <frame key="frameInset" width="320" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Select Staging" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JxA-ta-iq5">
+                                        <frame key="frameInset" minX="113" minY="23" width="94" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HI2-Wp-mdQ">
+                                        <frame key="frameInset" minX="260" width="60" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="ImV-xB-uSX"/>
+                                        </constraints>
+                                        <state key="normal" image="close_icon"/>
+                                        <connections>
+                                            <action selector="dismissButtonDidTap:" destination="NFF-HB-Na6" eventType="touchUpInside" id="QCk-ef-7gx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HI2-Wp-mdQ" secondAttribute="trailing" id="QaG-jd-fUC"/>
+                                    <constraint firstItem="HI2-Wp-mdQ" firstAttribute="top" secondItem="R3A-YD-W2o" secondAttribute="top" id="Qvp-W5-eOC"/>
+                                    <constraint firstAttribute="height" constant="64" id="Seg-Sm-YGC"/>
+                                    <constraint firstItem="HI2-Wp-mdQ" firstAttribute="leading" secondItem="R3A-YD-W2o" secondAttribute="leading" id="Unf-9b-lHl"/>
+                                    <constraint firstItem="JxA-ta-iq5" firstAttribute="centerY" secondItem="R3A-YD-W2o" secondAttribute="centerY" id="fxK-Fe-qj5"/>
+                                    <constraint firstItem="JxA-ta-iq5" firstAttribute="centerX" secondItem="R3A-YD-W2o" secondAttribute="centerX" id="hQ4-mC-ZG6"/>
+                                    <constraint firstAttribute="bottom" secondItem="HI2-Wp-mdQ" secondAttribute="bottom" id="lcO-Vg-Dto"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Unf-9b-lHl"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tCv-mN-mNG" firstAttribute="top" secondItem="R3A-YD-W2o" secondAttribute="bottom" id="57z-Wh-jbr"/>
+                            <constraint firstItem="R3A-YD-W2o" firstAttribute="top" secondItem="iFa-i1-A87" secondAttribute="top" id="5zB-l2-CGI"/>
+                            <constraint firstItem="R3A-YD-W2o" firstAttribute="leading" secondItem="iFa-i1-A87" secondAttribute="leading" id="GlN-P9-2mC"/>
+                            <constraint firstItem="tCv-mN-mNG" firstAttribute="leading" secondItem="iFa-i1-A87" secondAttribute="leading" id="JFQ-mc-X97"/>
+                            <constraint firstAttribute="trailing" secondItem="tCv-mN-mNG" secondAttribute="trailing" id="QmO-Nw-jNb"/>
+                            <constraint firstAttribute="trailing" secondItem="R3A-YD-W2o" secondAttribute="trailing" id="g1w-Jj-sdk"/>
+                            <constraint firstItem="oLb-JH-QyZ" firstAttribute="top" secondItem="tCv-mN-mNG" secondAttribute="bottom" id="swA-9u-drb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="tCv-mN-mNG" id="rWE-8q-wgX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m2q-S5-l1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="202" y="189"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close_icon" width="23" height="21"/>
+    </resources>
+</document>

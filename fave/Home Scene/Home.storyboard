@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!-- -->
+        <scene sceneID="7hB-XA-fSa">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sJh-Xt-rHG" customClass="HomeViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JMH-VZ-9eL"/>
+                        <viewControllerLayoutGuide type="bottom" id="H3Z-Y6-fT8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FlT-iO-hxc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Q2k-Qj-jYq" customClass="HomeTableView" customModule="Fave" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Q2k-Qj-jYq" firstAttribute="leading" secondItem="FlT-iO-hxc" secondAttribute="leading" id="J9s-nY-6WJ"/>
+                            <constraint firstItem="Q2k-Qj-jYq" firstAttribute="top" secondItem="JMH-VZ-9eL" secondAttribute="bottom" id="etz-z4-24G"/>
+                            <constraint firstItem="H3Z-Y6-fT8" firstAttribute="top" secondItem="Q2k-Qj-jYq" secondAttribute="bottom" id="fWi-b6-EcE"/>
+                            <constraint firstAttribute="trailing" secondItem="Q2k-Qj-jYq" secondAttribute="trailing" id="pv7-88-oFz"/>
+                            <constraint firstItem="Q2k-Qj-jYq" firstAttribute="top" secondItem="FlT-iO-hxc" secondAttribute="top" id="xFa-3p-wdS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="etz-z4-24G"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title=" " id="jNE-d4-6lo">
+                        <barButtonItem key="backBarButtonItem" title=" " id="5v0-Ru-o4J"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="Q2k-Qj-jYq" id="6Cr-9q-bZc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g6J-gY-0M9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-278" y="82"/>
+        </scene>
+    </scenes>
+</document>

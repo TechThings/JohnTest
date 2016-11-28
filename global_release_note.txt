@@ -1,0 +1,10 @@
+Fave Global Release Note
+========================
+* User can update their profile
+* Ability to book multiple slots for an offer
+* Showing all the available slots for an offer for the next seven days
+* Showing all the listings collections
+* Showing listings collections carousel at the bottom of the listings collection screen
+* Showing the payment history
+* Deeplinking
+* Bug fixes and stability improvements

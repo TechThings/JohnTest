@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CancelReservationView" customModule="Fave" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="2ah-e5-jGQ" id="e13-RG-l2H"/>
+                <outlet property="cancelLabel" destination="z7b-Td-Hq1" id="5oi-KH-ipU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="180"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RzO-yN-QNS">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Hd-w9-j0k">
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cancellation policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNV-Ec-PMY">
+                                    <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="cancellation_policy"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="yNV-Ec-PMY" firstAttribute="centerY" secondItem="3Hd-w9-j0k" secondAttribute="centerY" id="EwR-7v-EaJ"/>
+                                <constraint firstAttribute="height" constant="51" id="Fxb-xk-aj9"/>
+                                <constraint firstItem="yNV-Ec-PMY" firstAttribute="leading" secondItem="3Hd-w9-j0k" secondAttribute="leading" constant="15" id="RqM-qO-GEE"/>
+                                <constraint firstAttribute="trailing" secondItem="yNV-Ec-PMY" secondAttribute="trailing" constant="15" id="rEM-xw-TVa"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZP-vO-Qn3">
+                            <color key="backgroundColor" red="0.8784313725490196" green="0.90196078431372551" blue="0.92941176470588238" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cancellation label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7b-Td-Hq1">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ah-e5-jGQ">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="WVJ-ON-JTm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Cancel this purchase"/>
+                            <connections>
+                                <action selector="cancelButtonDidTab:" destination="-1" eventType="touchUpInside" id="jF6-7J-sy8"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="z7b-Td-Hq1" secondAttribute="trailing" constant="15" id="5x9-Sr-ZXN"/>
+                        <constraint firstItem="3Hd-w9-j0k" firstAttribute="leading" secondItem="RzO-yN-QNS" secondAttribute="leading" id="7dr-1V-bc9"/>
+                        <constraint firstItem="z7b-Td-Hq1" firstAttribute="top" secondItem="3Hd-w9-j0k" secondAttribute="bottom" constant="15" id="KIJ-dA-EO9"/>
+                        <constraint firstItem="2ah-e5-jGQ" firstAttribute="top" secondItem="z7b-Td-Hq1" secondAttribute="bottom" constant="15" id="MXq-gt-JoD"/>
+                        <constraint firstItem="sZP-vO-Qn3" firstAttribute="bottom" secondItem="3Hd-w9-j0k" secondAttribute="bottom" id="Pg3-La-iMM"/>
+                        <constraint firstAttribute="trailing" secondItem="2ah-e5-jGQ" secondAttribute="trailing" constant="15" id="S0T-Uv-jJZ"/>
+                        <constraint firstItem="3Hd-w9-j0k" firstAttribute="top" secondItem="RzO-yN-QNS" secondAttribute="top" id="XTp-ni-3vk"/>
+                        <constraint firstItem="sZP-vO-Qn3" firstAttribute="leading" secondItem="RzO-yN-QNS" secondAttribute="leading" id="alZ-8X-GAe"/>
+                        <constraint firstItem="z7b-Td-Hq1" firstAttribute="leading" secondItem="RzO-yN-QNS" secondAttribute="leading" constant="15" id="bpw-gD-1L9"/>
+                        <constraint firstAttribute="bottom" secondItem="2ah-e5-jGQ" secondAttribute="bottom" constant="15" id="hfs-L5-Qzt"/>
+                        <constraint firstAttribute="trailing" secondItem="3Hd-w9-j0k" secondAttribute="trailing" id="pho-Hg-EPH"/>
+                        <constraint firstItem="2ah-e5-jGQ" firstAttribute="leading" secondItem="RzO-yN-QNS" secondAttribute="leading" constant="15" id="ptr-P2-CQ7"/>
+                        <constraint firstAttribute="trailing" secondItem="sZP-vO-Qn3" secondAttribute="trailing" id="q6M-V9-BS5"/>
+                        <constraint firstItem="sZP-vO-Qn3" firstAttribute="top" secondItem="RzO-yN-QNS" secondAttribute="top" constant="50" id="qC8-HA-dRa"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="RzO-yN-QNS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ce3-9B-I2o"/>
+                <constraint firstAttribute="bottom" secondItem="RzO-yN-QNS" secondAttribute="bottom" id="fbE-MO-D5D"/>
+                <constraint firstAttribute="trailing" secondItem="RzO-yN-QNS" secondAttribute="trailing" id="shZ-LS-i2B"/>
+                <constraint firstItem="RzO-yN-QNS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wEy-yo-MjV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="265" y="125"/>
+        </view>
+    </objects>
+</document>

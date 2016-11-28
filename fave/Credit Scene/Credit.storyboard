@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="WPa-At-NKQ">
+            <objects>
+                <viewController storyboardIdentifier="CreditViewController" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="ZON-CH-U0d" customClass="CreditViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cHg-fq-tfe"/>
+                        <viewControllerLayoutGuide type="bottom" id="1ce-mC-7LE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KYe-kS-9HG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OyS-wv-Z8c">
+                                <color key="backgroundColor" red="0.95075207948684692" green="0.95072358846664429" blue="0.95073974132537842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ZON-CH-U0d" id="tlE-yK-cp7"/>
+                                    <outlet property="delegate" destination="ZON-CH-U0d" id="hab-vV-5bI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OyS-wv-Z8c" firstAttribute="top" secondItem="KYe-kS-9HG" secondAttribute="top" id="44s-3R-aB8"/>
+                            <constraint firstAttribute="trailing" secondItem="OyS-wv-Z8c" secondAttribute="trailing" id="9rQ-tE-g5N"/>
+                            <constraint firstItem="OyS-wv-Z8c" firstAttribute="top" secondItem="cHg-fq-tfe" secondAttribute="bottom" id="CJb-rb-HCz"/>
+                            <constraint firstItem="OyS-wv-Z8c" firstAttribute="top" secondItem="KYe-kS-9HG" secondAttribute="top" id="QSk-B1-LlA"/>
+                            <constraint firstItem="OyS-wv-Z8c" firstAttribute="leading" secondItem="KYe-kS-9HG" secondAttribute="leading" id="Qzc-EI-s4k"/>
+                            <constraint firstItem="1ce-mC-7LE" firstAttribute="top" secondItem="OyS-wv-Z8c" secondAttribute="bottom" id="S8C-bj-kJh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="44s-3R-aB8"/>
+                                <exclude reference="QSk-B1-LlA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="jPE-yh-Hhu"/>
+                    <connections>
+                        <outlet property="tableView" destination="OyS-wv-Z8c" id="LwP-6P-wgq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uaC-XE-1rv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-129" y="-347"/>
+        </scene>
+    </scenes>
+</document>

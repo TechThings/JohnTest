@@ -1,0 +1,6 @@
+framework module Alexandria {
+  umbrella header "Alexandria-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ListingCollectionTableViewCell" rowHeight="246" id="qsw-Dr-8X0" customClass="ListingCollectionTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="764" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qsw-Dr-8X0" id="Wd1-Hh-DNa">
+                <rect key="frame" x="0.0" y="0.0" width="764" height="299.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Qw-kc-n4q">
+                        <rect key="frame" x="0.0" y="0.0" width="764" height="180"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="5mY-V3-Sqr"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="bNW-ao-2cs"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="srL-Tt-cRk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="bNW-ao-2cs"/>
+                                <exclude reference="srL-Tt-cRk"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azL-Xl-g6l" userLabel="Separator">
+                        <rect key="frame" x="0.0" y="285" width="764" height="15"/>
+                        <color key="backgroundColor" red="0.94509804249999996" green="0.94901961089999998" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="pWS-Ln-dYk"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Yoga Specials: April Edition" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZa-Vq-d1e">
+                        <rect key="frame" x="15" y="193" width="734" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="4An-dN-pDh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="22"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4An-dN-pDh"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Lorem ipsum dolor sit amet, consectetur adip isicing elit." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oad-oG-Vr8" customClass="KFITLabel">
+                        <rect key="frame" x="20" y="226" width="724" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gZa-Vq-d1e" secondAttribute="trailing" constant="15" id="C0T-1y-9S8"/>
+                    <constraint firstAttribute="trailing" secondItem="7Qw-kc-n4q" secondAttribute="trailing" id="GcW-aW-pB1"/>
+                    <constraint firstItem="Oad-oG-Vr8" firstAttribute="top" secondItem="gZa-Vq-d1e" secondAttribute="bottom" constant="5" id="KmF-ki-OaJ"/>
+                    <constraint firstAttribute="trailing" secondItem="Oad-oG-Vr8" secondAttribute="trailing" constant="20" id="MYN-E7-uDW"/>
+                    <constraint firstItem="azL-Xl-g6l" firstAttribute="top" secondItem="Oad-oG-Vr8" secondAttribute="bottom" constant="18" id="NSC-Ug-UDt"/>
+                    <constraint firstItem="7Qw-kc-n4q" firstAttribute="leading" secondItem="Wd1-Hh-DNa" secondAttribute="leading" id="Uyd-s6-VBJ"/>
+                    <constraint firstItem="Oad-oG-Vr8" firstAttribute="leading" secondItem="Wd1-Hh-DNa" secondAttribute="leading" constant="20" id="cit-Pe-GTU"/>
+                    <constraint firstItem="gZa-Vq-d1e" firstAttribute="top" secondItem="7Qw-kc-n4q" secondAttribute="bottom" constant="13" id="k1k-fk-WUe"/>
+                    <constraint firstItem="azL-Xl-g6l" firstAttribute="leading" secondItem="Wd1-Hh-DNa" secondAttribute="leading" id="koi-6X-Ww0"/>
+                    <constraint firstItem="7Qw-kc-n4q" firstAttribute="top" secondItem="Wd1-Hh-DNa" secondAttribute="top" id="o4s-wV-7OV"/>
+                    <constraint firstAttribute="bottom" secondItem="azL-Xl-g6l" secondAttribute="bottom" id="t5D-uv-y1h"/>
+                    <constraint firstAttribute="trailing" secondItem="azL-Xl-g6l" secondAttribute="trailing" id="vFX-Vj-aW2"/>
+                    <constraint firstItem="gZa-Vq-d1e" firstAttribute="leading" secondItem="Wd1-Hh-DNa" secondAttribute="leading" constant="15" id="zSq-oG-BMO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="collectionDescription" destination="Oad-oG-Vr8" id="DZh-ix-ELF"/>
+                <outlet property="collectionImage" destination="7Qw-kc-n4q" id="fxd-3U-XXJ"/>
+                <outlet property="name" destination="gZa-Vq-d1e" id="KTe-QK-YK9"/>
+            </connections>
+            <point key="canvasLocation" x="462" y="325"/>
+        </tableViewCell>
+    </objects>
+</document>

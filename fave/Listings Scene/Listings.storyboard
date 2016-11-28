@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Listings View Controller-->
+        <scene sceneID="h92-q7-Qfl">
+            <objects>
+                <viewController storyboardIdentifier="ListingsViewController" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="hHN-yy-vht" customClass="ListingsViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zVB-R6-mqr"/>
+                        <viewControllerLayoutGuide type="bottom" id="5LZ-44-NmP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D5J-GH-iwH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ynf-dL-1Rk" customClass="ListingsTableView" customModule="Fave" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.95075207948684692" green="0.95072358846664429" blue="0.95073974132537842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ynf-dL-1Rk" firstAttribute="top" secondItem="D5J-GH-iwH" secondAttribute="top" id="1Y8-CV-xll"/>
+                            <constraint firstItem="ynf-dL-1Rk" firstAttribute="top" secondItem="D5J-GH-iwH" secondAttribute="top" id="34u-bi-EhC"/>
+                            <constraint firstItem="5LZ-44-NmP" firstAttribute="top" secondItem="ynf-dL-1Rk" secondAttribute="bottom" id="3GE-Py-PKb"/>
+                            <constraint firstItem="ynf-dL-1Rk" firstAttribute="top" secondItem="D5J-GH-iwH" secondAttribute="top" id="6CG-GI-jZl"/>
+                            <constraint firstItem="ynf-dL-1Rk" firstAttribute="top" secondItem="zVB-R6-mqr" secondAttribute="bottom" id="DDY-aj-g70"/>
+                            <constraint firstItem="ynf-dL-1Rk" firstAttribute="top" secondItem="D5J-GH-iwH" secondAttribute="top" id="KEl-3o-7Se"/>
+                            <constraint firstItem="ynf-dL-1Rk" firstAttribute="top" secondItem="zVB-R6-mqr" secondAttribute="bottom" id="MEh-VT-zdx"/>
+                            <constraint firstItem="ynf-dL-1Rk" firstAttribute="top" secondItem="D5J-GH-iwH" secondAttribute="top" id="RUo-AI-5Ji"/>
+                            <constraint firstItem="ynf-dL-1Rk" firstAttribute="top" secondItem="zVB-R6-mqr" secondAttribute="bottom" id="TbF-A7-Pwr"/>
+                            <constraint firstItem="ynf-dL-1Rk" firstAttribute="leading" secondItem="D5J-GH-iwH" secondAttribute="leading" id="oQl-MR-2fE"/>
+                            <constraint firstAttribute="trailing" secondItem="ynf-dL-1Rk" secondAttribute="trailing" id="pTo-0F-TtA"/>
+                            <constraint firstItem="5LZ-44-NmP" firstAttribute="top" secondItem="ynf-dL-1Rk" secondAttribute="bottom" id="yNz-g6-pgN"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="34u-bi-EhC"/>
+                                <exclude reference="6CG-GI-jZl"/>
+                                <exclude reference="DDY-aj-g70"/>
+                                <exclude reference="MEh-VT-zdx"/>
+                                <exclude reference="RUo-AI-5Ji"/>
+                                <exclude reference="TbF-A7-Pwr"/>
+                                <exclude reference="yNz-g6-pgN"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="KMm-pE-OWW">
+                        <barButtonItem key="backBarButtonItem" title=" " id="YZO-di-Wxg"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="ynf-dL-1Rk" id="Wqj-G6-rbH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J8K-v6-uqK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-170.40000000000001" y="-294.60269865067471"/>
+        </scene>
+    </scenes>
+</document>

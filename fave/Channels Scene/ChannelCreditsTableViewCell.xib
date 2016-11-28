@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChannelCreditsTableViewCell" id="a4D-Ke-B3Z" customClass="ChannelCreditsTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="108"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a4D-Ke-B3Z" id="tng-BO-ynI">
+                <frame key="frameInset" width="425" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-6F-hHW">
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7v-qX-UMH">
+                                <connections>
+                                    <action selector="learnMoreButtonTapped:" destination="a4D-Ke-B3Z" eventType="touchUpInside" id="dZk-Im-M4e"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get 5% cashback when you buy offers for your friends in chat. Limited time only." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9W-mc-NIZ">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.41960784313725491" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_chat_cashback" translatesAutoresizingMaskIntoConstraints="NO" id="TgQ-Un-ZAw">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Hmv-oZ-03c"/>
+                                    <constraint firstAttribute="height" constant="60" id="TDV-1i-pbw"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76470588240000004" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="TgQ-Un-ZAw" firstAttribute="leading" secondItem="ZcQ-6F-hHW" secondAttribute="leading" constant="15" id="D0G-Dl-gWE"/>
+                            <constraint firstItem="TgQ-Un-ZAw" firstAttribute="top" secondItem="ZcQ-6F-hHW" secondAttribute="top" constant="15" id="FXP-4j-0dM"/>
+                            <constraint firstAttribute="bottom" secondItem="m9W-mc-NIZ" secondAttribute="bottom" constant="15" id="JVa-41-dv4"/>
+                            <constraint firstItem="m9W-mc-NIZ" firstAttribute="leading" secondItem="TgQ-Un-ZAw" secondAttribute="trailing" constant="15" id="OTH-cR-fvZ"/>
+                            <constraint firstAttribute="trailing" secondItem="m9W-mc-NIZ" secondAttribute="trailing" constant="15" id="Ph1-Jw-eBm"/>
+                            <constraint firstAttribute="bottom" secondItem="H7v-qX-UMH" secondAttribute="bottom" id="gWr-Rx-qGv"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="ghk-4U-fDM"/>
+                            <constraint firstItem="H7v-qX-UMH" firstAttribute="top" secondItem="ZcQ-6F-hHW" secondAttribute="top" id="kXz-68-hW3"/>
+                            <constraint firstAttribute="trailing" secondItem="H7v-qX-UMH" secondAttribute="trailing" id="p9G-OR-aKp"/>
+                            <constraint firstItem="m9W-mc-NIZ" firstAttribute="top" secondItem="ZcQ-6F-hHW" secondAttribute="top" constant="15" id="pSY-fo-ZIZ"/>
+                            <constraint firstItem="H7v-qX-UMH" firstAttribute="leading" secondItem="TgQ-Un-ZAw" secondAttribute="trailing" constant="8" id="yTx-i3-VTr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.76470588240000004" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ZcQ-6F-hHW" secondAttribute="bottom" id="6zO-Ru-wCf"/>
+                    <constraint firstItem="ZcQ-6F-hHW" firstAttribute="leading" secondItem="tng-BO-ynI" secondAttribute="leading" id="MzL-ey-24p"/>
+                    <constraint firstAttribute="trailing" secondItem="ZcQ-6F-hHW" secondAttribute="trailing" id="RA3-4I-3H2"/>
+                    <constraint firstItem="ZcQ-6F-hHW" firstAttribute="top" secondItem="tng-BO-ynI" secondAttribute="top" id="fUP-CX-Wek"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="creditsLabel" destination="m9W-mc-NIZ" id="kXN-8i-5H1"/>
+            </connections>
+            <point key="canvasLocation" x="460.5" y="104"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_chat_cashback" width="50" height="60"/>
+    </resources>
+</document>

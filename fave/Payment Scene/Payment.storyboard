@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Payment-->
+        <scene sceneID="IVc-3M-XT3">
+            <objects>
+                <viewController storyboardIdentifier="PaymentViewController" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="wrD-2G-z8m" customClass="PaymentViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eCn-fO-Tqr"/>
+                        <viewControllerLayoutGuide type="bottom" id="fDk-MA-3U7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2LQ-cw-olt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="i8L-O5-CkR">
+                                <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="wrD-2G-z8m" id="etk-Vl-23H"/>
+                                    <outlet property="delegate" destination="wrD-2G-z8m" id="jhp-BB-Dwz"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i8L-O5-CkR" firstAttribute="top" secondItem="eCn-fO-Tqr" secondAttribute="bottom" id="3KG-nV-oi0"/>
+                            <constraint firstItem="fDk-MA-3U7" firstAttribute="top" secondItem="i8L-O5-CkR" secondAttribute="bottom" id="7aF-xA-PSR"/>
+                            <constraint firstItem="i8L-O5-CkR" firstAttribute="height" secondItem="2LQ-cw-olt" secondAttribute="height" id="A1u-dP-gUS"/>
+                            <constraint firstAttribute="trailing" secondItem="i8L-O5-CkR" secondAttribute="trailing" id="DDY-Y7-qpv"/>
+                            <constraint firstItem="fDk-MA-3U7" firstAttribute="top" secondItem="i8L-O5-CkR" secondAttribute="bottom" id="KMq-Jg-Kdy"/>
+                            <constraint firstItem="i8L-O5-CkR" firstAttribute="centerY" secondItem="2LQ-cw-olt" secondAttribute="centerY" id="PEQ-Su-o01"/>
+                            <constraint firstItem="i8L-O5-CkR" firstAttribute="width" secondItem="2LQ-cw-olt" secondAttribute="width" id="Qlz-zh-1XO"/>
+                            <constraint firstItem="i8L-O5-CkR" firstAttribute="centerX" secondItem="2LQ-cw-olt" secondAttribute="centerX" id="Rrz-Ln-AGv"/>
+                            <constraint firstItem="i8L-O5-CkR" firstAttribute="leading" secondItem="2LQ-cw-olt" secondAttribute="leading" id="dUR-CC-8nj"/>
+                            <constraint firstItem="i8L-O5-CkR" firstAttribute="leading" secondItem="2LQ-cw-olt" secondAttribute="leadingMargin" id="fbj-vQ-5RG"/>
+                            <constraint firstItem="i8L-O5-CkR" firstAttribute="leading" secondItem="2LQ-cw-olt" secondAttribute="leading" id="fbm-5O-8ib"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i8L-O5-CkR" secondAttribute="trailing" id="fzT-Dk-Dxf"/>
+                            <constraint firstAttribute="trailing" secondItem="i8L-O5-CkR" secondAttribute="trailing" id="pTH-JC-yGg"/>
+                            <constraint firstItem="i8L-O5-CkR" firstAttribute="top" secondItem="eCn-fO-Tqr" secondAttribute="bottom" id="zd9-26-GOb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="A1u-dP-gUS"/>
+                                <exclude reference="PEQ-Su-o01"/>
+                                <exclude reference="Qlz-zh-1XO"/>
+                                <exclude reference="Rrz-Ln-AGv"/>
+                                <exclude reference="dUR-CC-8nj"/>
+                                <exclude reference="fbj-vQ-5RG"/>
+                                <exclude reference="fzT-Dk-Dxf"/>
+                                <exclude reference="pTH-JC-yGg"/>
+                                <exclude reference="zd9-26-GOb"/>
+                                <exclude reference="KMq-Jg-Kdy"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Payment" id="043-Kq-jmk">
+                        <barButtonItem key="backBarButtonItem" title=" " id="vfY-VN-ezP">
+                            <color key="tintColor" red="0.87058824300765991" green="0.12549020349979401" blue="0.41568627953529358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="i8L-O5-CkR" id="RdS-ug-wcn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2BG-5N-frU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1258" y="-46"/>
+        </scene>
+    </scenes>
+</document>

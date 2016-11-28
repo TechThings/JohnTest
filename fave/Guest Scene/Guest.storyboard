@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Bold.otf">
+            <string>CircularStd-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Guest-->
+        <scene sceneID="Z3s-t2-ipO">
+            <objects>
+                <viewController restorationIdentifier="GuestViewController" storyboardIdentifier="GuestViewController" title="Guest" automaticallyAdjustsScrollViewInsets="NO" id="Smy-Fo-f3q" customClass="GuestViewController" customModule="Fave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kA2-iw-33o"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wln-oH-cs7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kdn-vL-IJI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ejd-TX-Umx">
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_more_empty" translatesAutoresizingMaskIntoConstraints="NO" id="0Sn-xU-Nh4"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CMV-6Q-dhx">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create your very own Fave account to update profile details, review purchases, access promo codes and read our FAQ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36Y-Qu-xdU" customClass="KFITLabel">
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNi-XZ-joj" customClass="Button" customModule="Fave" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.87058824300765991" green="0.12549020349979401" blue="0.41568627953529358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="176" id="SVg-IS-wit"/>
+                                                    <constraint firstAttribute="height" constant="46" id="ucL-E5-pSK"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="16"/>
+                                                <state key="normal" title="CONTINUE">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="continueButtonDidTap:" destination="Smy-Fo-f3q" eventType="touchUpInside" id="TCc-xL-Bh6"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="36Y-Qu-xdU" firstAttribute="leading" secondItem="CMV-6Q-dhx" secondAttribute="leading" constant="20" id="2Tq-fP-u14"/>
+                                            <constraint firstItem="jNi-XZ-joj" firstAttribute="centerX" secondItem="CMV-6Q-dhx" secondAttribute="centerX" id="HXC-Gy-lon"/>
+                                            <constraint firstAttribute="trailing" secondItem="36Y-Qu-xdU" secondAttribute="trailing" constant="20" id="j1K-M1-HmV"/>
+                                            <constraint firstItem="36Y-Qu-xdU" firstAttribute="top" secondItem="CMV-6Q-dhx" secondAttribute="top" constant="20" id="ltB-FA-gna"/>
+                                            <constraint firstAttribute="bottom" secondItem="jNi-XZ-joj" secondAttribute="bottom" constant="20" id="vVx-SJ-9Al"/>
+                                            <constraint firstItem="jNi-XZ-joj" firstAttribute="top" secondItem="36Y-Qu-xdU" secondAttribute="bottom" constant="18" id="vhg-lp-xrL"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0Sn-xU-Nh4" secondAttribute="trailing" id="1hD-y4-98B"/>
+                                    <constraint firstItem="CMV-6Q-dhx" firstAttribute="leading" secondItem="Ejd-TX-Umx" secondAttribute="leading" constant="15" id="3lw-Af-RRX"/>
+                                    <constraint firstItem="0Sn-xU-Nh4" firstAttribute="leading" secondItem="Ejd-TX-Umx" secondAttribute="leading" id="79W-DH-33g"/>
+                                    <constraint firstItem="0Sn-xU-Nh4" firstAttribute="top" secondItem="Ejd-TX-Umx" secondAttribute="top" id="GJf-Wl-fwV"/>
+                                    <constraint firstAttribute="bottom" secondItem="CMV-6Q-dhx" secondAttribute="bottom" constant="15" id="H5e-Aq-efV"/>
+                                    <constraint firstAttribute="bottom" secondItem="0Sn-xU-Nh4" secondAttribute="bottom" id="bEe-9A-6G8"/>
+                                    <constraint firstAttribute="trailing" secondItem="CMV-6Q-dhx" secondAttribute="trailing" constant="15" id="pD9-HI-cPI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509804248809814" green="0.94901961088180542" blue="0.9529411792755127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wln-oH-cs7" firstAttribute="top" secondItem="Ejd-TX-Umx" secondAttribute="bottom" id="9hd-TV-Z4k"/>
+                            <constraint firstItem="Ejd-TX-Umx" firstAttribute="leading" secondItem="kdn-vL-IJI" secondAttribute="leading" id="BV0-Vl-KRf"/>
+                            <constraint firstAttribute="trailing" secondItem="Ejd-TX-Umx" secondAttribute="trailing" id="cpF-kB-8vJ"/>
+                            <constraint firstItem="Ejd-TX-Umx" firstAttribute="top" secondItem="kA2-iw-33o" secondAttribute="bottom" id="ndZ-Kt-2pq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="More" id="0OO-RP-S9l">
+                        <barButtonItem key="backBarButtonItem" title=" " id="ssK-Sy-cYz"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="continueButton" destination="jNi-XZ-joj" id="T1u-J9-Ifs"/>
+                        <outlet property="textLabel" destination="36Y-Qu-xdU" id="9bQ-FK-QwS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DlY-Y0-4ti" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="59" y="92"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_more_empty" width="440" height="710"/>
+    </resources>
+</document>

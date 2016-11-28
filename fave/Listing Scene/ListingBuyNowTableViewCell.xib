@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="78" id="Wy8-3b-9tV" customClass="ListingBuyNowTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wy8-3b-9tV" id="52r-A4-CgQ">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fFO-wl-F9T">
+                        <rect key="frame" x="15" y="15" width="325.5" height="27"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="251" text="Redeem from today until 20 Jul 2016" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UU7-Kp-xmL">
+                                <rect key="frame" x="0.0" y="4.5" width="252" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="261" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="X Slots Left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30n-SQ-vPz" customClass="KFITBoxedLabel">
+                                <rect key="frame" x="260" y="6.5" width="65.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.93762326240539551" green="0.0" blue="0.18844246864318848" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.93762326240539551" green="0.0" blue="0.18844246864318848" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fFO-wl-F9T" secondAttribute="trailing" constant="15" id="5cm-14-gXo"/>
+                    <constraint firstAttribute="bottom" secondItem="fFO-wl-F9T" secondAttribute="bottom" constant="15" id="HFa-ap-ecC"/>
+                    <constraint firstItem="fFO-wl-F9T" firstAttribute="leading" secondItem="52r-A4-CgQ" secondAttribute="leading" constant="15" id="X75-bA-wHe"/>
+                    <constraint firstItem="fFO-wl-F9T" firstAttribute="top" secondItem="52r-A4-CgQ" secondAttribute="top" constant="15" id="tw5-Cj-gdK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="slotsLeftLabel" destination="30n-SQ-vPz" id="LEj-j4-ZQ2"/>
+                <outlet property="timeLabel" destination="UU7-Kp-xmL" id="RP8-8K-5yC"/>
+            </connections>
+            <point key="canvasLocation" x="226.5" y="111"/>
+        </tableViewCell>
+    </objects>
+</document>

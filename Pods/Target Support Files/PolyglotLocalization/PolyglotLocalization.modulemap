@@ -1,0 +1,6 @@
+framework module PolyglotLocalization {
+  umbrella header "PolyglotLocalization-umbrella.h"
+
+  export *
+  module * { export * }
+}

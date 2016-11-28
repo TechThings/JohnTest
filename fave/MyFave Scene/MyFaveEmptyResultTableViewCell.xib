@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="345" id="ob7-8c-qmg" customClass="MyFaveEmptyResultTableViewCell" customModule="Fave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="345"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ob7-8c-qmg" id="cQT-kl-1iB">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="344.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_emoji_error" translatesAutoresizingMaskIntoConstraints="NO" id="Brh-3p-cyq">
+                        <rect key="frame" x="128" y="110" width="64" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="GB4-pC-at1"/>
+                            <constraint firstAttribute="width" constant="64" id="W0P-Xm-3p3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Faves yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Sp-Nd-p4p">
+                        <rect key="frame" x="10" y="200" width="300" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="1wD-5J-l8C"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="my_fave_no_favorites"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Faves yet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mzb-6Y-5mv" customClass="KFITLabel">
+                        <rect key="frame" x="30" y="228.5" width="260" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="RwM-MO-J7D"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.60000002379999995" green="0.66274511810000003" blue="0.70588237050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="my_fave_no_favorites"/>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="RwM-MO-J7D"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.94509803921568625" green="0.94901960784313721" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="mzb-6Y-5mv" secondAttribute="trailing" constant="30" id="1eO-a8-wAr"/>
+                    <constraint firstItem="9Sp-Nd-p4p" firstAttribute="leading" secondItem="cQT-kl-1iB" secondAttribute="leading" constant="10" id="EIN-o7-VAu"/>
+                    <constraint firstItem="mzb-6Y-5mv" firstAttribute="leading" secondItem="cQT-kl-1iB" secondAttribute="leading" constant="30" id="WPf-GE-5cr"/>
+                    <constraint firstItem="9Sp-Nd-p4p" firstAttribute="top" secondItem="Brh-3p-cyq" secondAttribute="bottom" constant="15" id="cMj-Ne-UsG"/>
+                    <constraint firstItem="Brh-3p-cyq" firstAttribute="top" secondItem="cQT-kl-1iB" secondAttribute="top" constant="15" id="cTd-m6-AvQ"/>
+                    <constraint firstItem="Brh-3p-cyq" firstAttribute="centerY" secondItem="cQT-kl-1iB" secondAttribute="centerY" constant="-25" id="oRR-MZ-gkV"/>
+                    <constraint firstItem="mzb-6Y-5mv" firstAttribute="top" secondItem="9Sp-Nd-p4p" secondAttribute="bottom" constant="7.5" id="ufs-oh-3ec"/>
+                    <constraint firstAttribute="trailing" secondItem="9Sp-Nd-p4p" secondAttribute="trailing" constant="10" id="xkD-22-YPG"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="cTd-m6-AvQ"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="Brh-3p-cyq" firstAttribute="centerX" secondItem="ob7-8c-qmg" secondAttribute="centerX" id="bH9-Pj-yu6"/>
+            </constraints>
+            <connections>
+                <outlet property="detailsLabel" destination="mzb-6Y-5mv" id="dn8-Dv-rWs"/>
+                <outlet property="messageLabel" destination="9Sp-Nd-p4p" id="PlK-80-oX4"/>
+            </connections>
+            <point key="canvasLocation" x="181" y="82.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_emoji_error" width="105" height="105"/>
+    </resources>
+</document>
